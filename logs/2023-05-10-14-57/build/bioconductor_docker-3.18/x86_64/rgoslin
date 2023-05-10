@@ -1,0 +1,173 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''rgoslin'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'rgoslin'
+also installing the dependencies ‘generics’, ‘tidyselect’, ‘dplyr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/generics_0.1.3.tar.gz'
+Content type 'application/x-gzip' length 172201 bytes (168 KB)
+==================================================
+downloaded 168 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyselect_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 101498 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dplyr_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 1083348 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/rgoslin_1.5.0.tar.gz'
+Content type 'application/x-gzip' length 643865 bytes (628 KB)
+==================================================
+downloaded 628 KB
+
+* installing *source* package ‘generics’ ...
+** package ‘generics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *source* package ‘tidyselect’ ...
+** package ‘tidyselect’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *source* package ‘dplyr’ ...
+** package ‘dplyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chop.cpp -o chop.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c filter.cpp -o filter.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c funs.cpp -o funs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c group_by.cpp -o group_by.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c group_data.cpp -o group_data.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c imports.cpp -o imports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mask.cpp -o mask.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mutate.cpp -o mutate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c slice.cpp -o slice.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c summarise.cpp -o summarise.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o dplyr.so chop.o filter.o funs.o group_by.o group_data.o imports.o init.o mask.o mutate.o slice.o summarise.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-dplyr/00new/dplyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dplyr’ as ‘dplyr_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dplyr)
+* installing *source* package ‘rgoslin’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+The name of the shared library to be created is: rgoslin.so
+make[1]: Entering directory '/tmp/RtmpNE4bLH/R.INSTALLf7f3d782b46/rgoslin/src/cppgoslin'
+rm -f "cppgoslin/parser/KnownGrammars.h"
+rm -f "src/domain/LipidClasses.cpp"
+rm -f "cppgoslin/domain/ClassesEnum.h"
+rm -f cppgoslin/domain/*.o
+rm -f cppgoslin/parser/*.o
+rm -f cppgoslin/tests/*.o
+rm -f libcppGoslin.so
+rm -f *Test
+rm -f writeGrammarsHeader
+rm -f writeLipidEnums
+rm -f libcppGoslin.a
+make[1]: Leaving directory '/tmp/RtmpNE4bLH/R.INSTALLf7f3d782b46/rgoslin/src/cppgoslin'
+make[1]: Entering directory '/tmp/RtmpNE4bLH/R.INSTALLf7f3d782b46/rgoslin/src/cppgoslin'
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I . -o writeGrammarsHeader writeGrammarsHeader.cpp && "./writeGrammarsHeader" "cppgoslin/parser/KnownGrammars.h"
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I . -o writeLipidEnums writeLipidEnums.cpp src/domain/StringFunctions.cpp src/parser/SumFormulaParserEventHandler.cpp src/parser/ParserClasses.cpp && "./writeLipidEnums" "src/domain/LipidClasses.cpp"
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/Adduct.o -c src/domain/Adduct.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidMolecularSpecies.o -c src/domain/LipidMolecularSpecies.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidSnPosition.o -c src/domain/LipidSnPosition.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidStructureDefined.o -c src/domain/LipidStructureDefined.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/FattyAcid.o -c src/domain/FattyAcid.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidAdduct.o -c src/domain/LipidAdduct.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidSpecies.o -c src/domain/LipidSpecies.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidFullStructure.o -c src/domain/LipidFullStructure.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidCompleteStructure.o -c src/domain/LipidCompleteStructure.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidSpeciesInfo.o -c src/domain/LipidSpeciesInfo.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/StringFunctions.o -c src/domain/StringFunctions.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidClasses.o -c src/domain/LipidClasses.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/DoubleBonds.o -c src/domain/DoubleBonds.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/FunctionalGroup.o -c src/domain/FunctionalGroup.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/Headgroup.o -c src/domain/Headgroup.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/Cycle.o -c src/domain/Cycle.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/GenericDatastructures.o -c src/domain/GenericDatastructures.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/ParserClasses.o -c src/parser/ParserClasses.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/KnownParsers.o -c src/parser/KnownParsers.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/GoslinParserEventHandler.o -c src/parser/GoslinParserEventHandler.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/LipidMapsParserEventHandler.o -c src/parser/LipidMapsParserEventHandler.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/SwissLipidsParserEventHandler.o -c src/parser/SwissLipidsParserEventHandler.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/HmdbParserEventHandler.o -c src/parser/HmdbParserEventHandler.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/SumFormulaParserEventHandler.o -c src/parser/SumFormulaParserEventHandler.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/SumFormulaParser.o -c src/parser/SumFormulaParser.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/ShorthandParserEventHandler.o -c src/parser/ShorthandParserEventHandler.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/FattyAcidParserEventHandler.o -c src/parser/FattyAcidParserEventHandler.cpp
+g++ -std=gnu++11 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/LipidBaseParserEventHandler.o -c src/parser/LipidBaseParserEventHandler.cpp
+ar rcs libcppGoslin.a src/domain/Adduct.o src/domain/LipidMolecularSpecies.o src/domain/LipidSnPosition.o src/domain/LipidStructureDefined.o src/domain/FattyAcid.o src/domain/LipidAdduct.o src/domain/LipidSpecies.o src/domain/LipidFullStructure.o src/domain/LipidCompleteStructure.o src/domain/LipidSpeciesInfo.o src/domain/StringFunctions.o src/domain/LipidClasses.o src/domain/DoubleBonds.o src/domain/FunctionalGroup.o src/domain/Headgroup.o src/domain/Cycle.o src/domain/GenericDatastructures.o src/parser/ParserClasses.o src/parser/KnownParsers.o src/parser/GoslinParserEventHandler.o src/parser/LipidMapsParserEventHandler.o src/parser/SwissLipidsParserEventHandler.o src/parser/HmdbParserEventHandler.o src/parser/SumFormulaParserEventHandler.o src/parser/SumFormulaParser.o src/parser/ShorthandParserEventHandler.o src/parser/FattyAcidParserEventHandler.o src/parser/LipidBaseParserEventHandler.o
+make[1]: Leaving directory '/tmp/RtmpNE4bLH/R.INSTALLf7f3d782b46/rgoslin/src/cppgoslin'
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I"." -I"./cppgoslin" -I"./cppgoslin/cppgoslin" -I"./cppgoslin/cppgoslin/domain" -I"./cppgoslin/cppgoslin/parser" -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I"." -I"./cppgoslin" -I"./cppgoslin/cppgoslin" -I"./cppgoslin/cppgoslin/domain" -I"./cppgoslin/cppgoslin/parser" -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgoslin.cpp -o rgoslin.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rgoslin.so RcppExports.o rgoslin.o cppgoslin/libcppGoslin.a -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rgoslin/00new/rgoslin/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rgoslin’ as ‘rgoslin_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rgoslin)
+
+The downloaded source packages are in
+	‘/tmp/RtmppiHWEX/downloaded_packages’
+Old packages: 'evaluate', 'httpuv', 'httr', 'httr2', 'waldo', 'class',
+  'KernSmooth', 'MASS', 'nnet'
+
+real	2m44.662s
+user	2m34.282s
+sys	0m9.790s
