@@ -1338,18 +1338,15 @@
         "rtracklayer"
     ],
     "cyanoFilter": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "cytoKernel": [],
     "CytoML": [
-        "flowWorkspace",
         "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
-        "flowWorkspace",
         "ggcyto"
     ],
     "dada2": [
@@ -1384,8 +1381,7 @@
         "rtracklayer"
     ],
     "ddPCRclust": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "debCAM": [],
     "DECIPHER": [],
@@ -1911,24 +1907,16 @@
         "SingleCellExperiment"
     ],
     "flowCut": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
-    "flowDensity": [
-        "flowWorkspace"
-    ],
+    "flowDensity": [],
     "flowGate": [
-        "flowWorkspace",
         "ggcyto"
     ],
-    "flowStats": [
-        "flowWorkspace"
-    ],
+    "flowStats": [],
     "flowVS": [
-        "flowStats",
-        "flowWorkspace"
+        "flowStats"
     ],
-    "flowWorkspace": [],
     "FRASER": [
         "AnnotationDbi",
         "BSgenome",
@@ -2176,9 +2164,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [
-        "flowWorkspace"
-    ],
+    "ggcyto": [],
     "ggmanh": [
         "SeqArray"
     ],
@@ -2581,9 +2567,7 @@
         "rtracklayer"
     ],
     "IMMAN": [],
-    "ImmuneSpaceR": [
-        "flowWorkspace"
-    ],
+    "ImmuneSpaceR": [],
     "InPAS": [
         "AnnotationDbi",
         "BSgenome",
@@ -3598,9 +3582,7 @@
         "AnnotationHub",
         "KEGGREST"
     ],
-    "openCyto": [
-        "flowWorkspace"
-    ],
+    "openCyto": [],
     "openPrimeR": [
         "DECIPHER"
     ],
@@ -3757,9 +3739,7 @@
         "oligo",
         "oligoClasses"
     ],
-    "PeacoQC": [
-        "flowWorkspace"
-    ],
+    "PeacoQC": [],
     "periodicDNA": [
         "BSgenome",
         "GenomicAlignments",
