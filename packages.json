@@ -2621,7 +2621,6 @@
         "GenomicRanges",
         "IRanges",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra",
         "XVector"
     ],
@@ -6987,7 +6986,6 @@
         "GenomicRanges",
         "IRanges",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MultiAssayExperiment",
         "QFeatures",
         "S4Arrays",
@@ -6996,9 +6994,7 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "MetaboCoreUtils": [
-        "MsCoreUtils"
-    ],
+    "MetaboCoreUtils": [],
     "metabolomicsWorkbenchR": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -7087,7 +7083,6 @@
     "metaSeq": [],
     "MetCirc": [
         "IRanges",
-        "MsCoreUtils",
         "Spectra"
     ],
     "methimpute": [
@@ -7870,30 +7865,24 @@
     ],
     "MsBackendMassbank": [
         "IRanges",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendMgf": [
         "IRanges",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendMsp": [
         "IRanges",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendRawFileReader": [
         "IRanges",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendSql": [
         "IRanges",
-        "MsCoreUtils",
         "Spectra"
     ],
-    "MsCoreUtils": [],
     "MsDataHub": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -7910,7 +7899,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "MsCoreUtils",
         "MultiAssayExperiment",
         "QFeatures",
         "S4Arrays",
@@ -7924,7 +7912,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "MsCoreUtils",
         "S4Arrays",
         "SparseArray",
         "SummarizedExperiment",
@@ -7945,7 +7932,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "MsCoreUtils",
         "MultiAssayExperiment",
         "QFeatures",
         "S4Arrays",
@@ -7959,7 +7945,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "MsCoreUtils",
         "MsExperiment",
         "MultiAssayExperiment",
         "QFeatures",
@@ -9540,7 +9525,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "MsCoreUtils",
         "MultiAssayExperiment",
         "QFeatures",
         "S4Arrays",
@@ -9616,7 +9600,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "MsCoreUtils",
         "MultiAssayExperiment",
         "S4Arrays",
         "SparseArray",
@@ -9628,7 +9611,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "MsCoreUtils",
         "S4Arrays",
         "SparseArray",
         "SummarizedExperiment",
@@ -11327,7 +11309,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "MsCoreUtils",
         "MultiAssayExperiment",
         "QFeatures",
         "S4Arrays",
@@ -12264,8 +12245,7 @@
         "rtracklayer"
     ],
     "Spectra": [
-        "IRanges",
-        "MsCoreUtils"
+        "IRanges"
     ],
     "SpectralTAD": [
         "Biostrings",
