@@ -1,0 +1,32 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''apComplex'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'apComplex'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+Warning: dependency ‘org.Sc.sgd.db’ is not available
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/apComplex_2.67.0.tar.gz'
+Content type 'application/x-gzip' length 642311 bytes (627 KB)
+==================================================
+downloaded 627 KB
+
+ERROR: dependency ‘org.Sc.sgd.db’ is not available for package ‘apComplex’
+* removing ‘/tmp/tmp/built/apComplex’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9qrBV4/downloaded_packages’
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+Old packages: 'class', 'KernSmooth', 'MASS', 'nnet'
+Warning message:
+In install.packages(...) :
+  installation of package ‘apComplex’ had non-zero exit status
+
+real	0m8.353s
+user	0m3.661s
+sys	0m0.353s
