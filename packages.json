@@ -2043,8 +2043,7 @@
         "rtracklayer"
     ],
     "cyanoFilter": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "cytoKernel": [
         "GenomeInfoDb",
@@ -2052,13 +2051,11 @@
         "SummarizedExperiment"
     ],
     "CytoML": [
-        "flowWorkspace",
         "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
-        "flowWorkspace",
         "ggcyto"
     ],
     "dada2": [
@@ -2105,8 +2102,7 @@
         "rtracklayer"
     ],
     "ddPCRclust": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "debCAM": [
         "GenomeInfoDb",
@@ -2925,24 +2921,16 @@
         "SummarizedExperiment"
     ],
     "flowCut": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
-    "flowDensity": [
-        "flowWorkspace"
-    ],
+    "flowDensity": [],
     "flowGate": [
-        "flowWorkspace",
         "ggcyto"
     ],
-    "flowStats": [
-        "flowWorkspace"
-    ],
+    "flowStats": [],
     "flowVS": [
-        "flowStats",
-        "flowWorkspace"
+        "flowStats"
     ],
-    "flowWorkspace": [],
     "FRASER": [
         "AnnotationDbi",
         "BSgenome",
@@ -3362,9 +3350,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [
-        "flowWorkspace"
-    ],
+    "ggcyto": [],
     "ggmanh": [
         "Biostrings",
         "GenomeInfoDb",
@@ -4005,9 +3991,7 @@
         "Biostrings",
         "GenomeInfoDb"
     ],
-    "ImmuneSpaceR": [
-        "flowWorkspace"
-    ],
+    "ImmuneSpaceR": [],
     "InPAS": [
         "AnnotationDbi",
         "BSgenome",
@@ -5655,9 +5639,7 @@
         "KEGGREST",
         "SummarizedExperiment"
     ],
-    "openCyto": [
-        "flowWorkspace"
-    ],
+    "openCyto": [],
     "openPrimeR": [
         "Biostrings",
         "DECIPHER",
@@ -5898,9 +5880,7 @@
         "oligo",
         "oligoClasses"
     ],
-    "PeacoQC": [
-        "flowWorkspace"
-    ],
+    "PeacoQC": [],
     "pepStat": [
         "GenomeInfoDb",
         "GenomicRanges"
