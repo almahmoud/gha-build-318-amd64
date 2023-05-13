@@ -1,0 +1,48 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RBioinf'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'RBioinf'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/RBioinf_1.61.0.tar.gz'
+Content type 'application/x-gzip' length 3600087 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+* installing *source* package ‘RBioinf’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rinit.c -o Rinit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rand.c -o rand.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RBioinf.so Rinit.o rand.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RBioinf/00new/RBioinf/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RBioinf’ as ‘RBioinf_1.61.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RBioinf)
+
+The downloaded source packages are in
+	‘/tmp/RtmprKq4Qf/downloaded_packages’
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+Old packages: 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m12.024s
+user	0m8.385s
+sys	0m0.743s
