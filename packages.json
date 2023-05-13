@@ -2204,7 +2204,6 @@
     "cyanoFilter": [
         "DelayedArray",
         "flowDensity",
-        "flowViz",
         "flowWorkspace"
     ],
     "cytoKernel": [
@@ -2215,7 +2214,6 @@
     ],
     "CytoML": [
         "DelayedArray",
-        "flowViz",
         "flowWorkspace",
         "ggcyto",
         "openCyto"
@@ -2275,7 +2273,6 @@
     "ddPCRclust": [
         "DelayedArray",
         "flowDensity",
-        "flowViz",
         "flowWorkspace"
     ],
     "debCAM": [
@@ -3171,23 +3168,18 @@
         "SummarizedExperiment"
     ],
     "flowBin": [
-        "flowFP",
-        "flowViz"
+        "flowFP"
     ],
     "flowCut": [
         "DelayedArray",
         "flowDensity",
-        "flowViz",
         "flowWorkspace"
     ],
     "flowDensity": [
         "DelayedArray",
-        "flowViz",
         "flowWorkspace"
     ],
-    "flowFP": [
-        "flowViz"
-    ],
+    "flowFP": [],
     "flowGate": [
         "DelayedArray",
         "flowWorkspace",
@@ -3197,17 +3189,12 @@
     "FlowSOM": [],
     "flowStats": [
         "DelayedArray",
-        "flowViz",
         "flowWorkspace"
     ],
-    "flowTrans": [
-        "flowViz"
-    ],
-    "flowViz": [],
+    "flowTrans": [],
     "flowVS": [
         "DelayedArray",
         "flowStats",
-        "flowViz",
         "flowWorkspace"
     ],
     "flowWorkspace": [
@@ -3307,8 +3294,7 @@
         "KEGGREST"
     ],
     "GateFinder": [
-        "flowFP",
-        "flowViz"
+        "flowFP"
     ],
     "GBScleanR": [
         "Biostrings",
@@ -6151,7 +6137,6 @@
     ],
     "openCyto": [
         "DelayedArray",
-        "flowViz",
         "flowWorkspace"
     ],
     "openPrimeR": [
