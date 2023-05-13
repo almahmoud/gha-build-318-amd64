@@ -1,0 +1,84 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CytoPipeline'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'CytoPipeline'
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+also installing the dependency ‘diagram’
+
+trying URL 'https://cloud.r-project.org/src/contrib/diagram_1.6.5.tar.gz'
+Content type 'application/x-gzip' length 536872 bytes (524 KB)
+==================================================
+downloaded 524 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/CytoPipeline_1.1.0.tar.gz'
+Content type 'application/x-gzip' length 3165161 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+* installing *source* package ‘diagram’ ...
+** package ‘diagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *source* package ‘CytoPipeline’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CytoPipeline’ as ‘CytoPipeline_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CytoPipeline)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLGloKT/downloaded_packages’
+Warning: unable to access index for repository https://bioconductor.org/packages/3.18/data/annotation/src/contrib:
+  cannot open URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/PACKAGES'
+Old packages: 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m27.222s
+user	0m21.504s
+sys	0m1.840s
+* installing *source* package ‘diffviewer’ ...
+** package ‘diffviewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diffviewer’ as ‘diffviewer_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diffviewer)
