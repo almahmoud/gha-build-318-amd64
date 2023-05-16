@@ -1,0 +1,92 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''spqn'\'', INSTALL_opts = '\''--build'\'', update = TRUE, dependencies=TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'spqn'
+also installing the dependencies ‘ggridges’, ‘spqnData’
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggridges_0.5.4.tar.gz'
+Content type 'application/x-gzip' length 2218793 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/spqnData_1.13.0.tar.gz'
+Content type 'application/x-gzip' length 10665278 bytes (10.2 MB)
+==================================================
+downloaded 10.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/spqn_1.13.0.tar.gz'
+Content type 'application/x-gzip' length 2831953 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+* installing *source* package ‘ggridges’ ...
+** package ‘ggridges’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggridges’ as ‘ggridges_0.5.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggridges)
+* installing *source* package ‘spqnData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spqnData’ as ‘spqnData_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spqnData)
+* installing *source* package ‘spqn’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spqn’ as ‘spqn_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spqn)
+
+The downloaded source packages are in
+	‘/tmp/RtmpJGHgxu/downloaded_packages’
+Old packages: 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m52.582s
+user	0m45.787s
+sys	0m3.628s
+* installing *source* package ‘spqnData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spqnData’ as ‘spqnData_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spqnData)
