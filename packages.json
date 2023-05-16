@@ -1,7 +1,6 @@
 {
     "a4": [
         "AnnotationDbi",
-        "KEGGREST",
         "a4Base",
         "annaffy",
         "annotate",
@@ -9,7 +8,6 @@
     ],
     "a4Base": [
         "AnnotationDbi",
-        "KEGGREST",
         "annaffy",
         "annotate",
         "genefilter"
@@ -21,20 +19,17 @@
     ],
     "ADAM": [
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "ADAMgui": [
         "ADAM",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "adductomicsR": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "ADImpute": [
         "GenomicRanges",
@@ -42,8 +37,7 @@
         "SummarizedExperiment"
     ],
     "adSplit": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "AffiXcan": [
         "GenomicRanges",
@@ -53,7 +47,6 @@
     "AGDEX": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "aggregateBioVar": [
@@ -69,7 +62,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -88,7 +80,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -102,7 +93,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -126,34 +116,27 @@
         "bamsignals"
     ],
     "annaffy": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "annmap": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "annotate",
         "genefilter"
     ],
     "annotate": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
-    "AnnotationDbi": [
-        "KEGGREST"
-    ],
+    "AnnotationDbi": [],
     "AnnotationFilter": [
         "GenomicRanges"
     ],
     "AnnotationForge": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "AnnotationHub": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "AnnotationHubData": [
         "AnnotationDbi",
@@ -162,7 +145,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -176,7 +158,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -190,7 +171,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -209,7 +189,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "GenomicScores",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -223,8 +202,7 @@
         "oligoClasses"
     ],
     "artMS": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "ASICS": [
         "GenomicRanges",
@@ -248,7 +226,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -261,7 +238,6 @@
         "AnnotationHub",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -271,7 +247,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -285,7 +260,6 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -293,7 +267,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "annotate"
     ],
@@ -313,7 +286,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -326,7 +298,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -376,7 +347,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -387,8 +357,7 @@
     "bcSeq": [],
     "beadarray": [
         "AnnotationDbi",
-        "GenomicRanges",
-        "KEGGREST"
+        "GenomicRanges"
     ],
     "BEARscc": [
         "GenomicRanges",
@@ -409,7 +378,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -417,13 +385,11 @@
     ],
     "BgeeDB": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "BicARE": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "BiFET": [
@@ -437,7 +403,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -450,7 +415,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
@@ -458,15 +422,13 @@
     ],
     "biocGraph": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "geneplotter"
     ],
     "BiocHubsShiny": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "BiocOncoTK": [
         "AnnotationDbi",
@@ -475,7 +437,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "Rsamtools",
         "SummarizedExperiment",
@@ -485,28 +446,22 @@
     "BioCor": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "BiocSet": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "biomaRt": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "BioNAR": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "BioNet": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "BioNetStat": [
         "AnnotationDbi",
-        "KEGGREST",
         "pathview"
     ],
     "biosigner": [
@@ -527,7 +482,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -539,7 +493,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -553,12 +506,10 @@
     "blima": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "beadarray"
     ],
     "BLMA": [
         "AnnotationDbi",
-        "KEGGREST",
         "PADOG",
         "ROntoTools"
     ],
@@ -567,7 +518,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "BOBaFIT": [
@@ -577,7 +527,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -601,7 +550,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -619,7 +567,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -669,7 +616,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -687,7 +633,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -704,7 +649,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -732,7 +676,6 @@
         "GenomicRanges",
         "Gviz",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -753,7 +696,6 @@
         "GenomicRanges",
         "Gviz",
         "InteractionSet",
-        "KEGGREST",
         "MultiAssayExperiment",
         "Rsamtools",
         "SummarizedExperiment",
@@ -767,7 +709,6 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -779,7 +720,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -791,7 +731,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -800,7 +739,6 @@
     "Category": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -810,7 +748,6 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -820,7 +757,6 @@
         "GenomicDataCommons",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "RTCGAToolbox",
         "RaggedExperiment",
@@ -837,7 +773,6 @@
         "AnnotationDbi",
         "BiocSet",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment"
@@ -848,7 +783,6 @@
         "GenomicDataCommons",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "RTCGAToolbox",
         "RaggedExperiment",
@@ -864,7 +798,6 @@
         "DOSE",
         "ExperimentHub",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot",
         "graphite"
@@ -875,13 +808,11 @@
         "SummarizedExperiment"
     ],
     "ccmap": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "CCPROMISE": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "PROMISE",
         "annotate"
     ],
@@ -910,7 +841,6 @@
     ],
     "cellity": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "CellTrails": [
@@ -922,7 +852,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -930,7 +859,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -941,7 +869,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "clusterProfiler",
         "enrichplot"
@@ -967,7 +894,6 @@
     "cghMCR": [
         "AnnotationDbi",
         "CNTools",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -984,7 +910,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1012,7 +937,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1024,7 +948,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1041,7 +964,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1058,7 +980,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "GreyListChIP",
-        "KEGGREST",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -1075,7 +996,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1110,7 +1030,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1119,7 +1038,6 @@
     "chromPlot": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "biomaRt"
     ],
     "chromstaR": [
@@ -1135,7 +1053,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -1144,7 +1061,6 @@
     ],
     "CHRONOS": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "cicero": [
@@ -1155,7 +1071,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1172,7 +1087,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rbowtie2",
         "Rhisat2",
         "Rsamtools",
@@ -1185,7 +1099,6 @@
     "ClassifyR": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -1205,7 +1118,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1225,7 +1137,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "enrichplot"
     ],
     "clustifyr": [
@@ -1252,7 +1163,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1260,7 +1170,6 @@
     ],
     "CNTools": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -1275,7 +1184,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1303,7 +1211,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1311,8 +1218,7 @@
         "rtracklayer"
     ],
     "CoCiteStats": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "COCOA": [
         "BSgenome",
@@ -1326,7 +1232,6 @@
     ],
     "codelink": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "CODEX": [
@@ -1339,7 +1244,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1353,7 +1257,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1375,7 +1278,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1391,7 +1293,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1406,7 +1307,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1426,7 +1326,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -1443,7 +1342,6 @@
     "consICA": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "topGO"
     ],
@@ -1454,7 +1352,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1467,7 +1364,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1484,7 +1380,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1514,13 +1409,11 @@
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
         "biomaRt"
     ],
     "cosmosR": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "CoverageView": [
@@ -1532,7 +1425,6 @@
     ],
     "covRNA": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -1542,7 +1434,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1582,7 +1473,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -1595,15 +1485,13 @@
         "GenomicRanges"
     ],
     "csdR": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "CSSQ": [
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1611,8 +1499,7 @@
     ],
     "cTRAP": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "cummeRbund": [
         "AnnotationDbi",
@@ -1622,7 +1509,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1633,8 +1519,7 @@
     ],
     "customCMPdb": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "customProDB": [
         "AnnotationDbi",
@@ -1642,7 +1527,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1666,7 +1550,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -1682,7 +1565,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1701,7 +1583,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1713,7 +1594,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1738,7 +1618,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1750,7 +1629,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1768,7 +1646,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1784,7 +1661,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1806,7 +1682,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1867,7 +1742,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "bamsignals",
@@ -1883,7 +1757,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1892,8 +1765,7 @@
     ],
     "DOSE": [
         "AnnotationDbi",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "doubletrouble": [
         "GenomicAlignments",
@@ -1910,7 +1782,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "UniProt.ws",
@@ -1928,7 +1799,6 @@
         "DESeq2",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "quantiseqr"
     ],
@@ -1942,7 +1812,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -1962,7 +1831,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "MultiAssayExperiment",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1979,7 +1847,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -1994,7 +1861,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -2011,8 +1877,7 @@
     "enrichplot": [
         "AnnotationDbi",
         "DOSE",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "ensembldb": [
         "AnnotationDbi",
@@ -2020,7 +1885,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2032,7 +1896,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2049,7 +1912,6 @@
     "epigenomix": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "beadarray"
@@ -2064,7 +1926,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2086,7 +1947,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Modstrings",
         "Rsamtools",
         "Structstrings",
@@ -2102,7 +1962,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2118,7 +1977,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2133,7 +1991,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2147,7 +2004,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2165,7 +2021,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2182,7 +2037,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rbowtie2",
         "Rsamtools",
         "ShortRead",
@@ -2201,7 +2055,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "UCell",
@@ -2209,7 +2062,6 @@
     ],
     "esetVis": [
         "AnnotationDbi",
-        "KEGGREST",
         "MLP"
     ],
     "eudysbiome": [
@@ -2227,7 +2079,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SGSeq",
         "SummarizedExperiment",
@@ -2239,7 +2090,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -2256,8 +2106,7 @@
     ],
     "ExperimentHub": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "ExperimentHubData": [
         "AnnotationDbi",
@@ -2268,7 +2117,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2284,7 +2132,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2295,13 +2142,11 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
     "fastLiquidAssociation": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "FastqCleaner": [
         "GenomicAlignments",
@@ -2329,7 +2174,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2340,9 +2184,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "FELLA": [
-        "KEGGREST"
-    ],
+    "FELLA": [],
     "FilterFFPE": [
         "GenomicRanges",
         "Rsamtools"
@@ -2352,7 +2194,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2371,7 +2212,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OUTRIDER",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2389,7 +2229,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -2409,7 +2248,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2423,7 +2261,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2431,8 +2268,7 @@
         "rtracklayer"
     ],
     "gage": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GBScleanR": [
         "GenomicRanges",
@@ -2463,7 +2299,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2476,12 +2311,10 @@
     ],
     "genefilter": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "genefu": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "GeneGeneInteR": [
@@ -2490,13 +2323,11 @@
     ],
     "GeneMeta": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "geneplotter": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "GeneRegionScan": [],
@@ -2516,7 +2347,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2529,14 +2359,12 @@
         "AnnotationDbi",
         "DESeq2",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "geneXtendeR": [
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -2571,7 +2399,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2583,7 +2410,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2599,7 +2425,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2614,7 +2439,6 @@
         "GenomicRanges",
         "Gviz",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2630,7 +2454,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2645,8 +2468,7 @@
     "GenomicScores": [
         "AnnotationDbi",
         "AnnotationHub",
-        "GenomicRanges",
-        "KEGGREST"
+        "GenomicRanges"
     ],
     "GenomicSuperSignature": [
         "GenomicRanges",
@@ -2669,7 +2491,6 @@
     "gep2pep": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "getDEE2": [
@@ -2683,7 +2504,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2711,7 +2531,6 @@
     "GISPA": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -2723,7 +2542,6 @@
     "glmSparseNet": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "biomaRt"
@@ -2731,13 +2549,11 @@
     "GlobalAncova": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "globaltest"
     ],
     "globaltest": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "gmapR": [
@@ -2746,7 +2562,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2759,7 +2574,6 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -2768,7 +2582,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2783,35 +2596,29 @@
     ],
     "GOexpress": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "GOfuncR": [
         "AnnotationDbi",
-        "GenomicRanges",
-        "KEGGREST"
+        "GenomicRanges"
     ],
     "GOpro": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "goProfiles": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GOSemSim": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "goseq": [
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2819,7 +2626,6 @@
     ],
     "GOSim": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "topGO"
     ],
@@ -2827,14 +2633,12 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot",
         "goProfiles"
     ],
     "goSTAG": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "GOstats": [
@@ -2842,7 +2646,6 @@
         "AnnotationForge",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -2856,21 +2659,18 @@
         "rtracklayer"
     ],
     "goTools": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GRaNIE": [
         "AnnotationDbi",
         "DESeq2",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "biomaRt",
         "topGO"
     ],
     "graphite": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GraphPAC": [
         "iPAC"
@@ -2896,7 +2696,6 @@
     ],
     "GSEABase": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "GSReg": [
@@ -2904,7 +2703,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2913,7 +2711,6 @@
     "GSRI": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -2921,7 +2718,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -2939,7 +2735,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2952,7 +2747,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2965,7 +2759,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2981,7 +2774,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2994,7 +2786,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3004,7 +2795,6 @@
     "GWENA": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "h5vc": [
@@ -3042,7 +2832,6 @@
         "GenomicRanges",
         "Gviz",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3070,7 +2859,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3080,7 +2868,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -3108,8 +2895,7 @@
     "hpar": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "HumanTranscriptomeCompendium": [
         "GenomicRanges",
@@ -3138,7 +2924,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -3158,7 +2943,6 @@
     ],
     "idiogram": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "idpr": [],
@@ -3179,7 +2963,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3192,7 +2975,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "IVAS",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3205,7 +2987,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3219,7 +3000,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3240,7 +3020,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3259,13 +3038,11 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "InterCellar": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "InterMineR": [
@@ -3287,8 +3064,7 @@
     "ipdDb": [
         "AnnotationDbi",
         "AnnotationHub",
-        "GenomicRanges",
-        "KEGGREST"
+        "GenomicRanges"
     ],
     "iSEE": [
         "GenomicRanges",
@@ -3314,7 +3090,6 @@
     ],
     "isobar": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "ITALICS": [
@@ -3328,7 +3103,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3344,7 +3118,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3361,7 +3134,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3371,18 +3143,14 @@
     ],
     "kebabs": [],
     "KEGGlincs": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "keggorthology": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
-    "KEGGREST": [],
     "LACE": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "biomaRt"
     ],
@@ -3401,7 +3169,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3430,14 +3197,12 @@
         "SummarizedExperiment"
     ],
     "LRBaseDbi": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "LRcell": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "LymphoSeq": [
         "msa"
@@ -3450,14 +3215,12 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "macat": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "made4": [
@@ -3470,7 +3233,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3482,7 +3244,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "RnBeads",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3502,7 +3263,6 @@
         "DOSE",
         "ExperimentHub",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot",
         "pathview"
@@ -3513,7 +3273,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TRESS",
@@ -3546,7 +3305,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3566,7 +3324,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -3592,8 +3349,7 @@
         "SummarizedExperiment"
     ],
     "MCbiclust": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "mCSEA": [
         "AnnotationDbi",
@@ -3603,7 +3359,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3626,7 +3381,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "MultiDataSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3655,15 +3409,13 @@
         "universalmotif"
     ],
     "MeSHDbi": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "meshes": [
         "AnnotationDbi",
         "AnnotationHub",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "MeSHDbi",
         "enrichplot"
     ],
@@ -3671,14 +3423,12 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "MeSHDbi",
         "annotate",
         "genefilter"
     ],
     "MesKit": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "MetaboAnnotation": [
         "AnnotationFilter",
@@ -3701,7 +3451,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MWASTools",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3726,7 +3475,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -3747,7 +3495,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "sesame"
     ],
@@ -3757,7 +3504,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -3773,7 +3519,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -3792,7 +3537,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -3809,7 +3553,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -3848,7 +3591,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3862,7 +3604,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -3874,7 +3615,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -3886,12 +3626,10 @@
     ],
     "MGFM": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "MGFR": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "biomaRt"
     ],
@@ -3916,7 +3654,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -3941,7 +3678,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -3972,12 +3708,10 @@
         "rtracklayer"
     ],
     "MiRaGE": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "mirIntegrator": [
         "AnnotationDbi",
-        "KEGGREST",
         "ROntoTools"
     ],
     "miRLAB": [
@@ -3987,7 +3721,6 @@
         "GOstats",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "TCGAbiolinks",
         "annotate",
@@ -3995,19 +3728,16 @@
         "genefilter"
     ],
     "miRNAmeConverter": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "miRNAtap": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "missMethyl": [
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -4029,7 +3759,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4040,14 +3769,12 @@
     "MLInterfaces": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "annotate",
         "genefilter"
     ],
     "MLP": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "MMDiff2": [
         "BSgenome",
@@ -4058,8 +3785,7 @@
         "rtracklayer"
     ],
     "MODA": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "Modstrings": [
         "GenomicRanges"
@@ -4067,7 +3793,6 @@
     "mogsa": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "graphite"
@@ -4083,7 +3808,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -4110,7 +3834,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -4123,7 +3846,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -4133,7 +3855,6 @@
     "MouseFM": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "biomaRt"
     ],
     "mpra": [
@@ -4151,8 +3872,7 @@
     "MsDataHub": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "MsExperiment": [
         "AnnotationFilter",
@@ -4212,7 +3932,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4231,12 +3950,10 @@
     ],
     "multiGSEA": [
         "AnnotationDbi",
-        "KEGGREST",
         "graphite"
     ],
     "multiMiR": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "MultimodalExperiment": [
         "GenomicRanges",
@@ -4249,7 +3966,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4262,7 +3978,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4276,7 +3991,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4285,7 +3999,6 @@
     ],
     "MWASTools": [
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "mygene": [
@@ -4293,7 +4006,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4305,7 +4017,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4317,7 +4028,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "bsseq",
@@ -4326,14 +4036,12 @@
     "NanoStringNCTools": [],
     "nanotatoR": [
         "AnnotationDbi",
-        "GenomicRanges",
-        "KEGGREST"
+        "GenomicRanges"
     ],
     "NBAMSeq": [
         "AnnotationDbi",
         "DESeq2",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "annotate",
         "genefilter"
@@ -4360,8 +4068,7 @@
         "SummarizedExperiment"
     ],
     "netboost": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "netDx": [
         "GenomicRanges",
@@ -4369,12 +4076,10 @@
         "SummarizedExperiment"
     ],
     "netOmics": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "NetSAM": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "ngsReports": [],
@@ -4383,7 +4088,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4400,7 +4104,6 @@
     "npGSEA": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "nucleR": [
@@ -4432,7 +4135,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4453,7 +4155,6 @@
     "OmaDB": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "topGO"
     ],
     "omicade4": [
@@ -4488,14 +4189,12 @@
     ],
     "OncoScore": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "ontoProc": [
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "openPrimeR": [
@@ -4509,7 +4208,6 @@
     ],
     "oposSOM": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "oppar": [
@@ -4517,7 +4215,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -4536,7 +4233,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4548,7 +4244,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4559,7 +4254,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4578,7 +4272,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4597,8 +4290,7 @@
         "SummarizedExperiment"
     ],
     "PADOG": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "pageRank": [
         "AnnotationDbi",
@@ -4606,7 +4298,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -4620,7 +4311,6 @@
     ],
     "pairkat": [
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "panelcn.mops": [
@@ -4634,7 +4324,6 @@
         "DOSE",
         "GOSemSim",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "clusterProfiler",
         "enrichplot"
@@ -4647,12 +4336,10 @@
         "rtracklayer"
     ],
     "pathRender": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "pathview": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "pcaExplorer": [
         "AnnotationDbi",
@@ -4662,7 +4349,6 @@
         "GOstats",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -4673,7 +4359,6 @@
         "AnnotationDbi",
         "CoreGx",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "biomaRt",
@@ -4700,7 +4385,6 @@
         "AnnotationDbi",
         "DESeq2",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "PharmacoGx": [
@@ -4724,7 +4408,6 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter"
@@ -4738,7 +4421,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "OmaDB",
         "topGO"
     ],
@@ -4756,7 +4438,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
@@ -4770,7 +4451,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "PICS",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4798,7 +4478,6 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -4833,7 +4512,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "ontoProc"
     ],
@@ -4846,7 +4524,6 @@
     ],
     "PPInfer": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "pqsfinder": [
@@ -4861,7 +4538,6 @@
     ],
     "PREDA": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "primirTSS": [
@@ -4875,7 +4551,6 @@
         "GenomicRanges",
         "GenomicScores",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -4892,7 +4567,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4903,7 +4577,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4925,7 +4598,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -4939,7 +4611,6 @@
     "PROMISE": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "ProteoDisco": [
@@ -4948,7 +4619,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4958,7 +4628,6 @@
     ],
     "ProteoMM": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "PSMatch": [
@@ -4974,7 +4643,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4989,7 +4657,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5018,7 +4685,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -5046,7 +4712,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -5068,7 +4733,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -5083,7 +4747,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5107,7 +4770,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -5133,7 +4795,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt"
@@ -5146,7 +4807,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "GenomicScores",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5167,14 +4827,12 @@
     ],
     "Rcpi": [
         "AnnotationDbi",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "ReactomePA": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "enrichplot",
         "graphite"
     ],
@@ -5192,7 +4850,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5213,7 +4870,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5228,7 +4884,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5262,7 +4917,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5278,7 +4932,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -5291,7 +4944,6 @@
     "RepViz": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "biomaRt"
     ],
@@ -5306,7 +4958,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MutationalPatterns",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5319,7 +4970,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "rfPred": [
@@ -5347,7 +4997,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5359,7 +5008,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5371,7 +5019,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5383,7 +5030,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SGSeq",
         "SummarizedExperiment",
@@ -5397,7 +5043,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "ORFik",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5410,7 +5055,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5423,7 +5067,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5455,7 +5098,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5478,7 +5120,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5499,7 +5140,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5514,7 +5154,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5529,7 +5168,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Modstrings",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5547,7 +5185,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Modstrings",
         "RNAmodR",
         "Rsamtools",
@@ -5566,7 +5203,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Modstrings",
         "RNAmodR",
         "Rsamtools",
@@ -5585,7 +5221,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Modstrings",
         "RNAmodR",
         "Rsamtools",
@@ -5605,7 +5240,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -5631,9 +5265,7 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "ROntoTools": [
-        "KEGGREST"
-    ],
+    "ROntoTools": [],
     "ropls": [
         "GenomicRanges",
         "MultiAssayExperiment",
@@ -5649,7 +5281,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -5669,8 +5300,7 @@
     "rRDP": [],
     "rrvgo": [
         "AnnotationDbi",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "Rsamtools": [
         "GenomicRanges"
@@ -5692,7 +5322,6 @@
         "GenomicDataCommons",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "RaggedExperiment",
         "Rsamtools",
@@ -5723,14 +5352,12 @@
         "SummarizedExperiment"
     ],
     "rTRM": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "rTRMui": [
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "MotifDb",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5742,8 +5369,7 @@
         "SummarizedExperiment"
     ],
     "safe": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "SAIGEgds": [
         "GenomicRanges",
@@ -5751,7 +5377,6 @@
     ],
     "sampleClassifier": [
         "AnnotationDbi",
-        "KEGGREST",
         "MGFM",
         "MGFR",
         "annotate",
@@ -5770,7 +5395,6 @@
     "SBGNview": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "pathview"
     ],
@@ -5788,7 +5412,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -5800,7 +5423,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -5827,7 +5449,6 @@
         "Cepo",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -5884,7 +5505,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotatr",
@@ -5912,7 +5532,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5958,7 +5577,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "ShortRead",
@@ -5986,7 +5604,6 @@
         "GOstats",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "MeSHDbi",
         "ReactomePA",
         "SingleCellExperiment",
@@ -6002,7 +5619,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -6029,7 +5645,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "bamsignals",
@@ -6043,7 +5658,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "HiLDA",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6052,13 +5666,11 @@
     "SELEX": [],
     "SemDist": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "seq2pathway": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "biomaRt"
     ],
     "SeqArray": [
@@ -6073,7 +5685,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6088,7 +5699,6 @@
         "AnnotationDbi",
         "DESeq2",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "biomaRt"
     ],
@@ -6106,8 +5716,7 @@
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "GenomicRanges",
-        "KEGGREST"
+        "GenomicRanges"
     ],
     "SeqVarTools": [
         "GenomicRanges",
@@ -6118,7 +5727,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "sevenC": [
@@ -6136,7 +5744,6 @@
         "GOstats",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "annotate",
         "genefilter"
@@ -6146,7 +5753,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6157,7 +5763,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -6172,7 +5777,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -6198,7 +5802,6 @@
     "SigCheck": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "MLInterfaces",
         "SummarizedExperiment",
         "annotate",
@@ -6219,7 +5822,6 @@
         "GOSemSim",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "annotate",
         "clusterProfiler",
@@ -6231,7 +5833,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6246,7 +5847,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -6263,7 +5863,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6272,7 +5871,6 @@
     ],
     "SIM": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "globaltest"
     ],
@@ -6282,8 +5880,7 @@
     ],
     "simplifyEnrichment": [
         "AnnotationDbi",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "single": [
         "GenomicAlignments",
@@ -6302,7 +5899,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "QuasR",
         "Rsamtools",
         "ShortRead",
@@ -6325,7 +5921,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6335,7 +5930,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -6352,7 +5946,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6370,7 +5963,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6393,7 +5985,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6438,7 +6029,6 @@
         "GenomicRanges",
         "Gviz",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -6460,7 +6050,6 @@
     ],
     "SpidermiR": [
         "AnnotationDbi",
-        "KEGGREST",
         "miRNAtap"
     ],
     "spiky": [
@@ -6478,7 +6067,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -6494,7 +6082,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6503,7 +6090,6 @@
     "splineTimeR": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "SPLINTER": [
@@ -6514,7 +6100,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6551,7 +6136,6 @@
     ],
     "StarBioTrek": [
         "AnnotationDbi",
-        "KEGGREST",
         "SpidermiR",
         "graphite",
         "miRNAtap"
@@ -6583,7 +6167,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6591,8 +6174,7 @@
         "rtracklayer"
     ],
     "SubCellBarCode": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "SummarizedBenchmark": [
         "GenomicRanges",
@@ -6607,7 +6189,6 @@
     ],
     "surfaltr": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt",
         "msa"
     ],
@@ -6621,7 +6202,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "StructuralVariantAnnotation",
         "SummarizedExperiment",
@@ -6635,7 +6215,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "StructuralVariantAnnotation",
         "SummarizedExperiment",
@@ -6648,12 +6227,10 @@
         "DOSE",
         "GOSemSim",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment"
     ],
     "SWATH2stats": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "switchde": [
@@ -6698,7 +6275,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6710,7 +6286,6 @@
     "TCGAbiolinks": [
         "AnnotationDbi",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "biomaRt"
     ],
@@ -6720,7 +6295,6 @@
         "GenomicDataCommons",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "RaggedExperiment",
         "Rsamtools",
@@ -6736,7 +6310,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicRanges",
-        "KEGGREST",
         "TDbasedUFE",
         "enrichplot"
     ],
@@ -6744,7 +6317,6 @@
         "AnnotationDbi",
         "DESeq2",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "apeglm",
         "biomaRt"
@@ -6759,7 +6331,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "ontoProc",
         "restfulSE"
@@ -6774,7 +6345,6 @@
         "GenomicDataCommons",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "RaggedExperiment",
         "Rsamtools",
@@ -6792,7 +6362,6 @@
         "CNEr",
         "GenomicAlignments",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -6803,7 +6372,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6816,7 +6384,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "ORFik",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6827,7 +6394,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "annotate"
     ],
@@ -6846,7 +6412,6 @@
     ],
     "tigre": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "TimiRGeN": [
@@ -6854,7 +6419,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "biomaRt",
@@ -6862,14 +6426,12 @@
         "enrichplot"
     ],
     "TIN": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "TissueEnrich": [
         "AnnotationDbi",
         "GSEABase",
         "GenomicRanges",
-        "KEGGREST",
         "SummarizedExperiment",
         "annotate"
     ],
@@ -6879,7 +6441,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6892,7 +6453,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6904,7 +6464,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -6924,15 +6483,13 @@
         "AnnotationDbi",
         "ClassifyR",
         "GenomicRanges",
-        "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "annotate",
         "genefilter"
     ],
     "topGO": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "ToxicoGx": [
         "CoreGx",
@@ -6953,7 +6510,6 @@
         "GenomicRanges",
         "Gviz",
         "InteractionSet",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6969,7 +6525,6 @@
     ],
     "transcriptogramer": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt",
         "topGO"
     ],
@@ -6978,7 +6533,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -6995,9 +6549,7 @@
     "transite": [
         "GenomicRanges"
     ],
-    "transomics2cytoscape": [
-        "KEGGREST"
-    ],
+    "transomics2cytoscape": [],
     "TransView": [
         "GenomicRanges"
     ],
@@ -7029,7 +6581,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7075,7 +6626,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7088,7 +6638,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7108,7 +6657,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Organism.dplyr",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7124,7 +6672,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rbowtie2",
         "Rsamtools",
         "ShortRead",
@@ -7142,7 +6689,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Gviz",
-        "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7153,8 +6699,7 @@
         "rtracklayer"
     ],
     "UniProt.ws": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "Uniquorn": [
         "AnnotationDbi",
@@ -7162,7 +6707,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7190,7 +6734,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7212,7 +6755,6 @@
         "GenomicRanges",
         "GenomicScores",
         "Gviz",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7228,7 +6770,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7237,14 +6778,12 @@
     ],
     "VegaMC": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "ViSEAGO": [
         "AnnotationDbi",
         "AnnotationForge",
         "GOSemSim",
-        "KEGGREST",
         "biomaRt",
         "topGO"
     ],
@@ -7253,7 +6792,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "VplotR": [
@@ -7274,7 +6812,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7292,7 +6829,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7316,7 +6852,6 @@
     "XDE": [
         "AnnotationDbi",
         "GeneMeta",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -7345,7 +6880,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicRanges",
-        "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
