@@ -13,7 +13,7 @@
 ## Failed (1)
 | Package                                                                                            | Status   | BBS Status                                                          | Log                                                                                         | Known Error                  |
 |----------------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------|
-| [M3Drop](https://github.com/almahmoud/gha-build-318-amd64/actions/runs/4993665304/jobs/8944676699) | Failed   | [OK](https://bioconductor.org/checkResults/3.18/bioc-LATEST/M3Drop) | [Build Log](https://github.com/almahmoud/gha-build-318-amd64/blob/1bd9aae/lists/failed/M3Drop) | Failed R dependency: 'rstan' |
+| [M3Drop](https://github.com/almahmoud/gha-build-318-amd64/actions/runs/4993665304/jobs/8944676699) | Failed   | [OK](https://bioconductor.org/checkResults/3.18/bioc-LATEST/M3Drop) | [Build Log](https://github.com/almahmoud/gha-build-318-amd64/blob/cf7cd42/lists/failed/M3Drop) | Failed R dependency: 'rstan' |
 
 ## Unclaimed (933)
 | Package                                                                                                | Status    | Blocked By                                                                                                                                                                                                                                                                                                                                    |
