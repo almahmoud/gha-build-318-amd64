@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''macat'\'', INSTALL_opts = '\''--build'\'', update = TRUE, dependencies=TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'macat'
+also installing the dependency ‘stjudem’
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/stjudem_1.41.0.tar.gz'
+Content type 'application/x-gzip' length 28928124 bytes (27.6 MB)
+==================================================
+downloaded 27.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/macat_1.75.0.tar.gz'
+Content type 'application/x-gzip' length 1021661 bytes (997 KB)
+==================================================
+downloaded 997 KB
+
+* installing *source* package ‘stjudem’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘stjudem’ as ‘stjudem_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stjudem)
+* installing *source* package ‘macat’ ...
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘macat’ as ‘macat_1.75.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (macat)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDtkyWT/downloaded_packages’
+Old packages: 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m22.249s
+user	0m18.732s
+sys	0m1.817s
+* installing *source* package ‘stjudem’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘stjudem’ as ‘stjudem_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stjudem)
