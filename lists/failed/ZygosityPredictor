@@ -1,0 +1,26 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ZygosityPredictor'\'', INSTALL_opts = '\''--build'\'', update = TRUE, dependencies=TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'ZygosityPredictor'
+Warning: dependency ‘datastructures’ is not available
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/ZygosityPredictor_1.1.0.tar.gz'
+Content type 'application/x-gzip' length 649802 bytes (634 KB)
+==================================================
+downloaded 634 KB
+
+ERROR: dependency ‘datastructures’ is not available for package ‘ZygosityPredictor’
+* removing ‘/tmp/tmp/built/ZygosityPredictor’
+
+The downloaded source packages are in
+	‘/tmp/RtmpRLrdi1/downloaded_packages’
+Old packages: 'deldir', 'class', 'KernSmooth', 'MASS', 'nnet'
+Warning message:
+In install.packages(...) :
+  installation of package ‘ZygosityPredictor’ had non-zero exit status
+
+real	0m7.282s
+user	0m4.195s
+sys	0m0.389s
