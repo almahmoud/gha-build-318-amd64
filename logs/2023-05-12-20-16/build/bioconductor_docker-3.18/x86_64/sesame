@@ -143,32 +143,32 @@ configure: creating ./config.status
 config.status: creating src/Makefile
 ** libs
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile init.o mapclip.o mapget.o smooth.o thin.o 
-make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Entering directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapclip.c -o mapclip.o
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapget.c -o mapget.o
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c smooth.c -o smooth.o
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c thin.c -o thin.o
-make[1]: Leaving directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 "/usr/local/lib/R/bin/R" CMD SHLIB -o maps.so init.o mapclip.o mapget.o smooth.o thin.o 
-make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Entering directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o maps.so init.o mapclip.o mapget.o smooth.o thin.o -L/usr/local/lib/R/lib -lR
-make[1]: Leaving directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile Gmake
-make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Entering directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/local/include -L/usr/local/lib  Gmake.c   -o Gmake
-make[1]: Leaving directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile Lmake
-make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Entering directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/local/include -L/usr/local/lib  Lmake.c   -o Lmake
-make[1]: Leaving directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile world2.line
-make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Entering directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 Converting world to world2
 mawk -f ./convert.awk < world.line > world2.line
-make[1]: Leaving directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.L state.L usa.L nz.L world.L world2.L italy.L france.L state.vbm.L state.carto.L lakes.L
-make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Entering directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 ./Lmake 0 s b county.line county.linestats ../inst/mapdata/county.L
 ./Lmake 0 s b state.line state.linestats ../inst/mapdata/state.L
 ./Lmake 0 s b usa.line usa.linestats ../inst/mapdata/usa.L
@@ -180,9 +180,9 @@ make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
 ./Lmake 0 p b state.vbm.line state.vbm.linestats ../inst/mapdata/state.vbm.L
 ./Lmake 0 p b state.carto.line state.carto.linestats ../inst/mapdata/state.carto.L
 ./Lmake 0 s b lakes.line lakes.linestats ../inst/mapdata/lakes.L
-make[1]: Leaving directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.G state.G usa.G nz.G world.G world2.G italy.G france.G state.vbm.G state.carto.G lakes.G
-make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Entering directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 ./Gmake b county.gon county.gonstats ../inst/mapdata/county.G ../inst/mapdata/county.L
 ./Gmake b state.gon state.gonstats ../inst/mapdata/state.G ../inst/mapdata/state.L
 ./Gmake b usa.gon usa.gonstats ../inst/mapdata/usa.G ../inst/mapdata/usa.L
@@ -194,10 +194,10 @@ make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
 ./Gmake b state.vbm.gon state.vbm.gonstats ../inst/mapdata/state.vbm.G ../inst/mapdata/state.vbm.L
 ./Gmake b state.carto.gon state.carto.gonstats ../inst/mapdata/state.carto.G ../inst/mapdata/state.carto.L
 ./Gmake b lakes.gon lakes.gonstats ../inst/mapdata/lakes.G ../inst/mapdata/lakes.L
-make[1]: Leaving directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.N state.N usa.N nz.N world.N world2.N italy.N france.N state.vbm.N state.carto.N lakes.N
-make[1]: Entering directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
-make[1]: Leaving directory '/tmp/RtmpVJ20Vy/R.INSTALLfd574f70920/maps/src'
+make[1]: Entering directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
+make[1]: Leaving directory '/tmp/RtmpJeLXBM/R.INSTALLfd558eeab5e/maps/src'
 installing to /tmp/tmp/built/00LOCK-maps/00new/maps/libs
 ** R
 ** data
@@ -563,9 +563,9 @@ packaged installation of ‘sesame’ as ‘sesame_1.19.3_R_x86_64-pc-linux-gnu.
 * DONE (sesame)
 
 The downloaded source packages are in
-	‘/tmp/RtmpPr1390/downloaded_packages’
+	‘/tmp/RtmpaK9YZw/downloaded_packages’
 Old packages: 'class', 'KernSmooth', 'MASS', 'nnet'
 
-real	5m7.377s
-user	4m47.680s
-sys	0m24.334s
+real	5m8.217s
+user	4m44.973s
+sys	0m24.840s
