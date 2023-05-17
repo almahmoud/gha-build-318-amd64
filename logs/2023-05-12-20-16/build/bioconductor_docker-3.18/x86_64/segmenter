@@ -1,0 +1,77 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''segmenter'\'', INSTALL_opts = '\''--build'\'', update = TRUE, dependencies=TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'segmenter'
+also installing the dependencies ‘chromhmmData’, ‘TxDb.Hsapiens.UCSC.hg18.knownGene’
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/chromhmmData_0.99.2.tar.gz'
+Content type 'application/x-gzip' length 13083256 bytes (12.5 MB)
+==================================================
+downloaded 12.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg18.knownGene_3.2.2.tar.gz'
+Content type 'application/x-gzip' length 16032792 bytes (15.3 MB)
+==================================================
+downloaded 15.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/segmenter_1.7.0.tar.gz'
+Content type 'application/x-gzip' length 4118472 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+* installing *source* package ‘chromhmmData’ ...
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘chromhmmData’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘chromhmmData’ as ‘chromhmmData_0.99.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chromhmmData)
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg18.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg18.knownGene’ as ‘TxDb.Hsapiens.UCSC.hg18.knownGene_3.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg18.knownGene)
+* installing *source* package ‘segmenter’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘segmenter’ as ‘segmenter_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (segmenter)
+
+The downloaded source packages are in
+	‘/tmp/RtmpAheBTd/downloaded_packages’
+Old packages: 'deldir', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	2m0.086s
+user	1m50.935s
+sys	0m5.976s
