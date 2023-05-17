@@ -1,0 +1,161 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GOstats'\'', INSTALL_opts = '\''--build'\'', update = TRUE, dependencies=TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'GOstats'
+also installing the dependencies ‘multtest’, ‘SparseM’
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/multtest_2.57.0.tar.gz'
+Content type 'application/x-gzip' length 1294467 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/SparseM_1.81.tar.gz'
+Content type 'application/x-gzip' length 735100 bytes (717 KB)
+==================================================
+downloaded 717 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/GOstats_2.67.0.tar.gz'
+Content type 'application/x-gzip' length 2902006 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+* installing *source* package ‘multtest’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rpack.c -o Rpack.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c VScount.c -o VScount.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c block_sampling_fixed.c -o block_sampling_fixed.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bootloop.c -o bootloop.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mt.c -o mt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pairt_sampling.c -o pairt_sampling.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pairt_sampling_fixed.c -o pairt_sampling_fixed.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c random.c -o random.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampling.c -o sampling.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampling_fixed.c -o sampling_fixed.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stat_func.c -o stat_func.o
+stat_func.c: In function ‘read_infile’:
+stat_func.c:703:3: warning: ignoring return value of ‘fscanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  703 |   fscanf(fh, "%s", pdata->name);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+stat_func.c:705:5: warning: ignoring return value of ‘fscanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  705 |     fscanf(fh, "%d", pdata->L+j);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+stat_func.c:710:5: warning: ignoring return value of ‘fscanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  710 |     fscanf(fh, "%s", pdata->id[i]);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+stat_func.c:714:7: warning: ignoring return value of ‘fscanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  714 |       fscanf(fh, "%lg",&ftemp);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stat_order.c -o stat_order.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o multtest.so Rpack.o VScount.o block_sampling_fixed.o bootloop.o mt.o pairt_sampling.o pairt_sampling_fixed.o random.o sampling.o sampling_fixed.o stat_func.o stat_order.o -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-multtest/00new/multtest/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘multtest’ as ‘multtest_2.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multtest)
+* installing *source* package ‘SparseM’ ...
+** package ‘SparseM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gfortran  -fpic  -g -O2  -c bckslv.f -o bckslv.o
+gfortran  -fpic  -g -O2  -c chol.f -o chol.o
+gfortran  -fpic  -g -O2  -c chol2csr.f -o chol2csr.o
+gfortran  -fpic  -g -O2  -c cholesky.f -o cholesky.o
+cholesky.f:2948:72:
+
+ 2948 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2982:72:
+
+ 2982 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3299:72:
+
+ 3299 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3356:72:
+
+ 3356 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3430:72:
+
+ 3430 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c csr.f -o csr.o
+gfortran  -fpic  -g -O2  -c extract.f -o extract.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c sparskit.f -o sparskit.o
+gfortran  -fpic  -g -O2  -c subscr.f -o subscr.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SparseM.so bckslv.o chol.o chol2csr.o cholesky.o csr.o extract.o init.o sparskit.o subscr.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-SparseM/00new/SparseM/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘norm’ from package ‘base’ in package ‘SparseM’
+Creating a new generic function for ‘backsolve’ in package ‘SparseM’
+Creating a generic function for ‘forwardsolve’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘model.response’ from package ‘stats’ in package ‘SparseM’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.81_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *source* package ‘GOstats’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationForge’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationForge’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationForge’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GOstats’ as ‘GOstats_2.67.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GOstats)
+
+The downloaded source packages are in
+	‘/tmp/RtmpC963ok/downloaded_packages’
+Old packages: 'RBGL', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m40.547s
+user	0m34.945s
+sys	0m2.798s
