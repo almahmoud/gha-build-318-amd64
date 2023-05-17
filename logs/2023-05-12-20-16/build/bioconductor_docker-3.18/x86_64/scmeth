@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''scmeth'\'', INSTALL_opts = '\''--build'\'', update = TRUE, dependencies=TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'scmeth'
+also installing the dependency ‘ggthemes’
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggthemes_4.2.4.tar.gz'
+Content type 'application/x-gzip' length 444642 bytes (434 KB)
+==================================================
+downloaded 434 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/scmeth_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 787216 bytes (768 KB)
+==================================================
+downloaded 768 KB
+
+* installing *source* package ‘ggthemes’ ...
+** package ‘ggthemes’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggthemes’ as ‘ggthemes_4.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggthemes)
+* installing *source* package ‘scmeth’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scmeth’ as ‘scmeth_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scmeth)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFoMyGs/downloaded_packages’
+Old packages: 'beachmat', 'deldir', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	1m8.156s
+user	1m0.080s
+sys	0m3.435s
