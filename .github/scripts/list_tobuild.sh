@@ -26,7 +26,7 @@ if [ ! -s tobuild.txt ]; then
                 if [ -s /tmp/resetpkgs ]; then
                     mkdir -p logs/$(cat runstarttime)/retries
                     set -x
-                    cat /tmp/resetpkgs | xargs -i bash -c 'pkgcounter=0; retrypath="logs/$(cat runstarttime)/retries/{}"; if [ -f "$retrypath" ]; then pkgcounter=$(<$retrypath); fi; pkgcounter=$((pkgcounter+1)); echo $pkgcounter > "$retrypath"; if [ $pkgcounter -lt 3 ]; then rm {}; fi'
+                    cat /tmp/resetpkgs | xargs -i bash -c 'pkg=$(echo {} | awk -F\'/\' \'{print $1}\'); pkgcounter=0; retrypath="logs/$(cat runstarttime)/retries/$pkg"; if [ -f "$retrypath" ]; then pkgcounter=$(<$retrypath); fi; pkgcounter=$((pkgcounter+1)); mkdir -p $(dirname $retrypath); echo $pkgcounter > "$retrypath"; if [ $pkgcounter -lt 3 ]; then rm {}; fi'
                     git add lists
                     git add logs
                 fi
