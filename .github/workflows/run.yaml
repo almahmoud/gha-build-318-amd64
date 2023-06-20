@@ -123,13 +123,6 @@ jobs:
         with:
           verbose: true
 
-      - name: Maximize build space
-        uses: easimon/maximize-build-space@v6
-        with:
-          root-reserve-mb: 71680
-          swap-size-mb: 1024
-          overprovision-lvm: true
-
       - uses: actions/checkout@v3
 
       - name: Free space check
@@ -281,8 +274,6 @@ jobs:
           rm -rf $repodir/${{ steps.versions.outputs.library }}
           cd /
           tar -xvf /tmp/image/${{ matrix.pkg }}.tar && rm /tmp/image/${{ matrix.pkg }}.tar
-          #cp -r tmp / || true
-          #cp -r ${{ steps.versions.outputs.library }} $(dirname /${{ steps.versions.outputs.library }})/ || true
           cd $repodir
           rm -rf image
           if (ls /tmp/tars | grep -q "^${{matrix.pkg}}_"); then exit 0; else exit 1; fi
