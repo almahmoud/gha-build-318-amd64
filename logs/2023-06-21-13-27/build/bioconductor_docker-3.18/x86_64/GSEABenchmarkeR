@@ -1,0 +1,76 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GSEABenchmarkeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.0 (2023-04-21)
+Installing package(s) 'GSEABenchmarkeR'
+Warning: dependency ‘GSE62944’ is not available
+also installing the dependencies ‘KEGGandMetacoreDzPathwaysGEO’, ‘KEGGdzPathwaysGEO’
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/KEGGandMetacoreDzPathwaysGEO_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 103362864 bytes (98.6 MB)
+==================================================
+downloaded 98.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/KEGGdzPathwaysGEO_1.39.0.tar.gz'
+Content type 'application/x-gzip' length 314643321 bytes (300.1 MB)
+==================================================
+downloaded 300.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/GSEABenchmarkeR_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 569958 bytes (556 KB)
+==================================================
+downloaded 556 KB
+
+* installing *source* package ‘KEGGandMetacoreDzPathwaysGEO’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGandMetacoreDzPathwaysGEO’ as ‘KEGGandMetacoreDzPathwaysGEO_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGandMetacoreDzPathwaysGEO)
+* installing *source* package ‘KEGGdzPathwaysGEO’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGdzPathwaysGEO’ as ‘KEGGdzPathwaysGEO_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGdzPathwaysGEO)
+* installing *source* package ‘GSEABenchmarkeR’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSEABenchmarkeR’ as ‘GSEABenchmarkeR_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSEABenchmarkeR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpt6b0e9/downloaded_packages’
+Old packages: 'sp', 'class', 'KernSmooth', 'MASS', 'Matrix', 'nnet'
+
+real	1m43.852s
+user	1m14.118s
+sys	0m5.948s
