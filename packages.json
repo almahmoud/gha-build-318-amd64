@@ -87,7 +87,6 @@
         "DropletUtils",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "MultiAssayExperiment",
         "Rsamtools",
@@ -109,19 +108,15 @@
         "scuttle"
     ],
     "alabaster.mae": [
-        "HDF5Array",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
     ],
-    "alabaster.matrix": [
-        "HDF5Array"
-    ],
+    "alabaster.matrix": [],
     "alabaster.ranges": [],
     "alabaster.sce": [
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "alabaster.matrix",
@@ -129,14 +124,12 @@
         "alabaster.se"
     ],
     "alabaster.se": [
-        "HDF5Array",
         "SummarizedExperiment",
         "alabaster.matrix",
         "alabaster.ranges"
     ],
     "alabaster.spatial": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -153,7 +146,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -188,7 +180,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "HDF5Array",
         "KEGGREST",
         "MultiAssayExperiment",
         "SummarizedExperiment"
@@ -312,7 +303,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicScores",
-        "HDF5Array",
         "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
@@ -360,7 +350,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicScores",
-        "HDF5Array",
         "InteractionSet",
         "KEGGREST",
         "Rsamtools",
@@ -501,7 +490,6 @@
     "BASiCStan": [
         "BASiCS",
         "BiocSingular",
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -665,7 +653,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "MultiAssayExperiment",
         "Rsamtools",
@@ -849,7 +836,6 @@
     "bsseq": [
         "BSgenome",
         "GenomicAlignments",
-        "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
         "beachmat",
@@ -1142,7 +1128,6 @@
     "Cepo": [
         "AnnotationDbi",
         "GSEABase",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1187,9 +1172,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "chihaya": [
-        "HDF5Array"
-    ],
+    "chihaya": [],
     "chimeraviz": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -1453,7 +1436,6 @@
     "clusterExperiment": [
         "AnnotationDbi",
         "BiocSingular",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1575,7 +1557,6 @@
     "COCOA": [
         "BSgenome",
         "GenomicAlignments",
-        "HDF5Array",
         "MIRA",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1709,7 +1690,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1748,7 +1728,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1968,7 +1947,6 @@
     ],
     "CTSV": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -2026,7 +2004,6 @@
     ],
     "cytomapper": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -2045,7 +2022,6 @@
     ],
     "cytoviewer": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -2142,7 +2118,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2194,7 +2169,6 @@
     ],
     "DelayedTensor": [
         "BiocSingular",
-        "HDF5Array",
         "beachmat"
     ],
     "DELocal": [
@@ -2276,7 +2250,6 @@
     ],
     "DESpace": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -2412,7 +2385,6 @@
     ],
     "DRIMSeq": [],
     "DropletUtils": [
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -2519,7 +2491,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2603,7 +2574,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Gviz",
-        "HDF5Array",
         "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
@@ -2735,7 +2705,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -2745,7 +2714,6 @@
     ],
     "escheR": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -2816,7 +2784,6 @@
     ],
     "ExperimentSubset": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -2938,7 +2905,6 @@
         "DropletUtils",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "MultiAssayExperiment",
         "OrganismDbi",
@@ -2982,7 +2948,6 @@
         "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "OUTRIDER",
         "Rsamtools",
@@ -2999,7 +2964,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3240,7 +3204,6 @@
     "GenomicScores": [
         "AnnotationDbi",
         "AnnotationHub",
-        "HDF5Array",
         "KEGGREST"
     ],
     "GenomicSuperSignature": [
@@ -3296,7 +3259,6 @@
     ],
     "ggspavis": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -3322,7 +3284,6 @@
         "SummarizedExperiment"
     ],
     "glmGamPoi": [
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat"
@@ -3540,7 +3501,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "GSEABase",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -3623,7 +3583,6 @@
     "h5vc": [
         "Rsamtools"
     ],
-    "HDF5Array": [],
     "heatmaps": [],
     "hermes": [
         "AnnotationDbi",
@@ -3826,7 +3785,6 @@
     ],
     "imcRtools": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -3844,7 +3802,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "OrganismDbi",
         "Pigengene",
@@ -4088,7 +4045,6 @@
     ],
     "lisaClust": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -4099,7 +4055,6 @@
     "loci2path": [],
     "LOLA": [],
     "LoomExperiment": [
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -4162,7 +4117,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "RnBeads",
         "Rsamtools",
@@ -4205,7 +4159,6 @@
     ],
     "mariner": [
         "GenomicAlignments",
-        "HDF5Array",
         "InteractionSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4314,7 +4267,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Gviz",
-        "HDF5Array",
         "KEGGREST",
         "MultiDataSet",
         "Rsamtools",
@@ -4454,7 +4406,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4470,7 +4421,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4490,7 +4440,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4508,7 +4457,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4572,7 +4520,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4679,7 +4626,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4706,7 +4652,6 @@
     "MIRA": [
         "BSgenome",
         "GenomicAlignments",
-        "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
         "beachmat",
@@ -4747,7 +4692,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4810,9 +4754,7 @@
         "KEGGREST"
     ],
     "Modstrings": [],
-    "MOFA2": [
-        "HDF5Array"
-    ],
+    "MOFA2": [],
     "mogsa": [
         "AnnotationDbi",
         "GSEABase",
@@ -4823,7 +4765,6 @@
     ],
     "MoleculeExperiment": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -5124,7 +5065,6 @@
         "GenomicFeatures",
         "GenomicScores",
         "Gviz",
-        "HDF5Array",
         "InteractionSet",
         "KEGGREST",
         "Rsamtools",
@@ -5146,7 +5086,6 @@
         "BSgenome",
         "BiocSingular",
         "GenomicAlignments",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5207,7 +5146,6 @@
     "netSmooth": [
         "AnnotationDbi",
         "BiocSingular",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -5228,7 +5166,6 @@
         "GSEABase",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5244,7 +5181,6 @@
     "ngsReports": [],
     "nnSVG": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -5299,7 +5235,6 @@
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "RUVSeq",
         "Rsamtools",
@@ -5396,7 +5331,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -5762,7 +5696,6 @@
         "GenomicFeatures",
         "GenomicScores",
         "Gviz",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5957,7 +5890,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6048,7 +5980,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicScores",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6113,7 +6044,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6208,7 +6138,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6561,7 +6490,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6790,7 +6718,6 @@
     ],
     "scCB2": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -6800,7 +6727,6 @@
         "AnnotationDbi",
         "Cepo",
         "GSEABase",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -6852,7 +6778,6 @@
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SingleCellExperiment",
@@ -6909,7 +6834,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6970,7 +6894,6 @@
         "AnnotationDbi",
         "DropletUtils",
         "GenomicAlignments",
-        "HDF5Array",
         "KEGGREST",
         "MultiAssayExperiment",
         "Rsamtools",
@@ -7251,7 +7174,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7266,7 +7188,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7307,7 +7228,6 @@
         "ExperimentHub",
         "GOSemSim",
         "GSEABase",
-        "HDF5Array",
         "KEGGREST",
         "SummarizedExperiment",
         "annotate",
@@ -7334,7 +7254,6 @@
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SingleCellExperiment",
@@ -7374,7 +7293,6 @@
     ],
     "simpleSeg": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -7415,7 +7333,6 @@
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "MAST",
         "ResidualMatrix",
@@ -7556,7 +7473,6 @@
     "Spaniel": [
         "BiocSingular",
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -7580,7 +7496,6 @@
     ],
     "spaSim": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -7592,7 +7507,6 @@
     ],
     "spatialDE": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -7605,7 +7519,6 @@
     ],
     "SpatialExperiment": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -7613,7 +7526,6 @@
     ],
     "SpatialFeatureExperiment": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -7670,7 +7582,6 @@
     ],
     "SPIAT": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -7680,7 +7591,6 @@
     ],
     "spicyR": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -7711,7 +7621,6 @@
         "BSgenome",
         "ExperimentHub",
         "GenomicAlignments",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7756,7 +7665,6 @@
     ],
     "SpotClean": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -7802,7 +7710,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "RUVSeq",
         "Rsamtools",
@@ -7828,7 +7735,6 @@
     ],
     "stJoincount": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -7977,7 +7883,6 @@
         "DESeq2",
         "GSEABase",
         "GSVA",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8162,7 +8067,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "HDF5Array",
         "KEGGREST",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8243,7 +8147,6 @@
         "rtracklayer"
     ],
     "transformGamPoi": [
-        "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -8489,7 +8392,6 @@
         "GenomicFeatures",
         "GenomicScores",
         "Gviz",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
@@ -8563,7 +8465,6 @@
     ],
     "Voyager": [
         "DropletUtils",
-        "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SpatialFeatureExperiment",
@@ -8674,7 +8575,6 @@
         "AnnotationDbi",
         "GenomicAlignments",
         "GenomicFeatures",
-        "HDF5Array",
         "KEGGREST",
         "Rsamtools",
         "SummarizedExperiment",
