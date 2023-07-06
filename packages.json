@@ -20,9 +20,7 @@
     "ADImpute": [
         "SingleCellExperiment"
     ],
-    "AffiXcan": [
-        "MultiAssayExperiment"
-    ],
+    "AffiXcan": [],
     "AGDEX": [],
     "aggregateBioVar": [
         "SingleCellExperiment"
@@ -45,7 +43,6 @@
         "DropletUtils",
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "SingleCellExperiment",
         "SpatialExperiment",
         "VariantAnnotation",
@@ -62,7 +59,6 @@
         "rtracklayer"
     ],
     "alabaster.mae": [
-        "MultiAssayExperiment",
         "alabaster.se"
     ],
     "alabaster.sce": [
@@ -98,8 +94,7 @@
         "rtracklayer"
     ],
     "AMARETTO": [
-        "ExperimentHub",
-        "MultiAssayExperiment"
+        "ExperimentHub"
     ],
     "amplican": [
         "GenomicAlignments",
@@ -107,7 +102,6 @@
     ],
     "Anaquin": [],
     "ANCOMBC": [
-        "MultiAssayExperiment",
         "SingleCellExperiment",
         "TreeSummarizedExperiment",
         "mia",
@@ -167,7 +161,6 @@
         "rtracklayer"
     ],
     "ASICS": [
-        "MultiAssayExperiment",
         "MultiDataSet",
         "ropls"
     ],
@@ -214,9 +207,7 @@
         "GOstats"
     ],
     "AUCell": [],
-    "autonomics": [
-        "MultiAssayExperiment"
-    ],
+    "autonomics": [],
     "awst": [],
     "BaalChIP": [
         "GenomicAlignments"
@@ -309,7 +300,6 @@
         "ALDEx2",
         "ANCOMBC",
         "MAST",
-        "MultiAssayExperiment",
         "SingleCellExperiment",
         "TreeSummarizedExperiment",
         "mia",
@@ -353,7 +343,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "rtracklayer"
     ],
     "BioCor": [],
@@ -361,7 +350,6 @@
     "BioNAR": [],
     "BioNetStat": [],
     "biosigner": [
-        "MultiAssayExperiment",
         "MultiDataSet",
         "ropls"
     ],
@@ -500,7 +488,6 @@
         "GenomicFiles",
         "GenomicInteractions",
         "Gviz",
-        "MultiAssayExperiment",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb",
@@ -509,7 +496,6 @@
     "CAMERA": [
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -542,7 +528,6 @@
     "cbaf": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "RTCGAToolbox",
         "RaggedExperiment",
         "TCGAutils",
@@ -556,7 +541,6 @@
     "cBioPortalData": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "RTCGAToolbox",
         "RaggedExperiment",
         "TCGAutils",
@@ -779,9 +763,7 @@
         "scran",
         "scuttle"
     ],
-    "ClassifyR": [
-        "MultiAssayExperiment"
-    ],
+    "ClassifyR": [],
     "cleanUpdTSeq": [
         "BSgenome",
         "GenomicAlignments",
@@ -969,11 +951,8 @@
         "regioneR",
         "rtracklayer"
     ],
-    "CoreGx": [
-        "MultiAssayExperiment"
-    ],
+    "CoreGx": [],
     "corral": [
-        "MultiAssayExperiment",
         "SingleCellExperiment"
     ],
     "coseq": [
@@ -986,7 +965,6 @@
     "cosmiq": [
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -1345,7 +1323,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Gviz",
-        "MultiAssayExperiment",
         "TCGAbiolinks",
         "VariantAnnotation",
         "biovizBase",
@@ -1500,9 +1477,7 @@
     ],
     "esetVis": [],
     "eudysbiome": [],
-    "evaluomeR": [
-        "MultiAssayExperiment"
-    ],
+    "evaluomeR": [],
     "EventPointer": [
         "BSgenome",
         "GenomicAlignments",
@@ -1595,7 +1570,6 @@
     "FindIT2": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "rtracklayer"
     ],
     "fishpond": [
@@ -1605,7 +1579,6 @@
         "CAMERA",
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -1614,7 +1587,6 @@
         "DropletUtils",
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "OrganismDbi",
         "SingleCellExperiment",
         "VariantAnnotation",
@@ -1683,25 +1655,20 @@
     ],
     "gDR": [
         "CoreGx",
-        "MultiAssayExperiment",
         "PharmacoGx",
         "gDRcore",
         "gDRimport",
         "gDRutils"
     ],
     "gDRcore": [
-        "MultiAssayExperiment",
         "gDRutils"
     ],
     "gDRimport": [
         "CoreGx",
-        "MultiAssayExperiment",
         "PharmacoGx",
         "gDRutils"
     ],
-    "gDRutils": [
-        "MultiAssayExperiment"
-    ],
+    "gDRutils": [],
     "GDSArray": [],
     "gemma.R": [],
     "geneAttribution": [
@@ -1807,9 +1774,7 @@
     "glmGamPoi": [
         "SingleCellExperiment"
     ],
-    "glmSparseNet": [
-        "MultiAssayExperiment"
-    ],
+    "glmSparseNet": [],
     "GlobalAncova": [],
     "gmapR": [
         "BSgenome",
@@ -1829,9 +1794,7 @@
     ],
     "GNET2": [],
     "GOexpress": [],
-    "GOpro": [
-        "MultiAssayExperiment"
-    ],
+    "GOpro": [],
     "goseq": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -1924,9 +1887,7 @@
     ],
     "GWENA": [],
     "h5vc": [],
-    "hermes": [
-        "MultiAssayExperiment"
-    ],
+    "hermes": [],
     "hiAnnotator": [
         "BSgenome",
         "GenomicAlignments",
@@ -1961,9 +1922,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "hipathia": [
-        "MultiAssayExperiment"
-    ],
+    "hipathia": [],
     "HIPPO": [
         "SingleCellExperiment"
     ],
@@ -2074,7 +2033,6 @@
     ],
     "InTAD": [
         "GenomicAlignments",
-        "MultiAssayExperiment",
         "rtracklayer"
     ],
     "intansv": [
@@ -2102,7 +2060,6 @@
         "CAMERA",
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -2173,12 +2130,9 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "LinkHD": [
-        "MultiAssayExperiment"
-    ],
+    "LinkHD": [],
     "lionessR": [],
     "lipidr": [
-        "MultiAssayExperiment",
         "MultiDataSet",
         "ropls"
     ],
@@ -2193,7 +2147,6 @@
         "CAMERA",
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -2256,7 +2209,6 @@
         "CAMERA",
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -2362,11 +2314,9 @@
         "Category"
     ],
     "MetaboAnnotation": [
-        "MultiAssayExperiment",
         "QFeatures"
     ],
     "metabolomicsWorkbenchR": [
-        "MultiAssayExperiment",
         "struct"
     ],
     "MetaboSignal": [
@@ -2387,7 +2337,6 @@
         "CAMERA",
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -2478,7 +2427,6 @@
         "rtracklayer"
     ],
     "mia": [
-        "MultiAssayExperiment",
         "SingleCellExperiment",
         "TreeSummarizedExperiment",
         "scater",
@@ -2489,7 +2437,6 @@
         "TreeSummarizedExperiment"
     ],
     "miaViz": [
-        "MultiAssayExperiment",
         "SingleCellExperiment",
         "TreeSummarizedExperiment",
         "mia",
@@ -2500,7 +2447,6 @@
     "microbiomeMarker": [
         "ALDEx2",
         "ANCOMBC",
-        "MultiAssayExperiment",
         "SingleCellExperiment",
         "TreeSummarizedExperiment",
         "mia",
@@ -2517,9 +2463,7 @@
         "SingleCellExperiment",
         "TreeSummarizedExperiment"
     ],
-    "midasHLA": [
-        "MultiAssayExperiment"
-    ],
+    "midasHLA": [],
     "miloR": [
         "SingleCellExperiment"
     ],
@@ -2570,9 +2514,7 @@
         "minfi",
         "rtracklayer"
     ],
-    "missRows": [
-        "MultiAssayExperiment"
-    ],
+    "missRows": [],
     "mitoClone2": [
         "BSgenome",
         "GenomicAlignments",
@@ -2592,7 +2534,6 @@
     "MobilityTransformR": [
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -2603,9 +2544,7 @@
         "SpatialExperiment",
         "scuttle"
     ],
-    "MOMA": [
-        "MultiAssayExperiment"
-    ],
+    "MOMA": [],
     "monaLisa": [
         "BSgenome",
         "CNEr",
@@ -2645,7 +2584,6 @@
         "ExperimentHub"
     ],
     "MsExperiment": [
-        "MultiAssayExperiment",
         "QFeatures"
     ],
     "MsFeatures": [],
@@ -2672,21 +2610,16 @@
         "sva"
     ],
     "msqrob2": [
-        "MultiAssayExperiment",
         "QFeatures"
     ],
     "MsQuality": [
         "MsExperiment",
-        "MultiAssayExperiment",
         "QFeatures"
     ],
     "MuData": [
-        "MultiAssayExperiment",
         "SingleCellExperiment"
     ],
-    "MultiAssayExperiment": [],
     "MultiBaC": [
-        "MultiAssayExperiment",
         "MultiDataSet",
         "ropls"
     ],
@@ -2708,9 +2641,7 @@
     "multiHiCcompare": [
         "HiCcompare"
     ],
-    "MultimodalExperiment": [
-        "MultiAssayExperiment"
-    ],
+    "MultimodalExperiment": [],
     "mumosa": [
         "SingleCellExperiment",
         "batchelor",
@@ -2781,7 +2712,6 @@
     "ncGTW": [
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -2795,9 +2725,7 @@
         "SingleCellExperiment"
     ],
     "NetActivity": [],
-    "netDx": [
-        "MultiAssayExperiment"
-    ],
+    "netDx": [],
     "NetSAM": [],
     "netSmooth": [
         "SingleCellExperiment",
@@ -2877,7 +2805,6 @@
         "ALDEx2"
     ],
     "omicsPrint": [
-        "MultiAssayExperiment",
         "RaggedExperiment"
     ],
     "omicsViewer": [],
@@ -2931,9 +2858,7 @@
     "PAA": [
         "sva"
     ],
-    "padma": [
-        "MultiAssayExperiment"
-    ],
+    "padma": [],
     "pageRank": [
         "BSgenome",
         "CNEr",
@@ -2966,7 +2891,6 @@
     "PCAtools": [],
     "PDATK": [
         "CoreGx",
-        "MultiAssayExperiment",
         "genefu"
     ],
     "pdInfoBuilder": [
@@ -2986,11 +2910,9 @@
     ],
     "phantasus": [],
     "PharmacoGx": [
-        "CoreGx",
-        "MultiAssayExperiment"
+        "CoreGx"
     ],
     "phenomis": [
-        "MultiAssayExperiment",
         "MultiDataSet",
         "ropls"
     ],
@@ -3145,7 +3067,6 @@
         "rtracklayer"
     ],
     "PSMatch": [
-        "MultiAssayExperiment",
         "QFeatures"
     ],
     "psygenet2r": [
@@ -3173,9 +3094,7 @@
         "rtracklayer"
     ],
     "QDNAseq": [],
-    "QFeatures": [
-        "MultiAssayExperiment"
-    ],
+    "QFeatures": [],
     "qmtools": [],
     "qpgraph": [
         "GenomicAlignments",
@@ -3234,8 +3153,7 @@
         "rtracklayer"
     ],
     "RadioGx": [
-        "CoreGx",
-        "MultiAssayExperiment"
+        "CoreGx"
     ],
     "RaggedExperiment": [],
     "ramwas": [
@@ -3443,7 +3361,6 @@
     "Risa": [
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures",
         "xcms"
     ],
@@ -3567,7 +3484,6 @@
     "ROCpAI": [],
     "RolDE": [],
     "ropls": [
-        "MultiAssayExperiment",
         "MultiDataSet"
     ],
     "Rqc": [
@@ -3582,7 +3498,6 @@
         "rtracklayer"
     ],
     "rqt": [
-        "MultiAssayExperiment",
         "MultiDataSet",
         "ropls"
     ],
@@ -3595,7 +3510,6 @@
     "RTCGAToolbox": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "RaggedExperiment",
         "TCGAutils",
         "rtracklayer"
@@ -3769,14 +3683,12 @@
         "rtracklayer"
     ],
     "scp": [
-        "MultiAssayExperiment",
         "QFeatures",
         "SingleCellExperiment"
     ],
     "scPipe": [
         "DropletUtils",
         "GenomicAlignments",
-        "MultiAssayExperiment",
         "SingleCellExperiment",
         "rtracklayer",
         "scuttle"
@@ -4333,7 +4245,6 @@
     "TCGAutils": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "RaggedExperiment",
         "rtracklayer"
     ],
@@ -4356,7 +4267,6 @@
     "terraTCGAdata": [
         "GenomicAlignments",
         "GenomicFeatures",
-        "MultiAssayExperiment",
         "RaggedExperiment",
         "TCGAutils",
         "rtracklayer"
@@ -4389,7 +4299,6 @@
     "tilingArray": [],
     "TimiRGeN": [
         "DOSE",
-        "MultiAssayExperiment",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -4415,12 +4324,10 @@
     "TOAST": [],
     "tomoda": [],
     "TOP": [
-        "ClassifyR",
-        "MultiAssayExperiment"
+        "ClassifyR"
     ],
     "ToxicoGx": [
-        "CoreGx",
-        "MultiAssayExperiment"
+        "CoreGx"
     ],
     "tracktables": [],
     "trackViewer": [
@@ -4622,9 +4529,7 @@
     "VplotR": [
         "GenomicAlignments"
     ],
-    "vsclust": [
-        "MultiAssayExperiment"
-    ],
+    "vsclust": [],
     "vtpnet": [
         "BSgenome",
         "GenomicAlignments",
@@ -4675,18 +4580,14 @@
     "xcms": [
         "MsExperiment",
         "MsFeatures",
-        "MultiAssayExperiment",
         "QFeatures"
     ],
-    "xcore": [
-        "MultiAssayExperiment"
-    ],
+    "xcore": [],
     "XDE": [
         "GeneMeta"
     ],
     "Xeva": [
         "CoreGx",
-        "MultiAssayExperiment",
         "PharmacoGx"
     ],
     "XNAString": [
