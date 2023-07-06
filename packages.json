@@ -37,7 +37,6 @@
         "VariantAnnotation",
         "alabaster.mae",
         "alabaster.sce",
-        "alabaster.se",
         "alabaster.spatial",
         "alabaster.vcf",
         "rtracklayer",
@@ -47,18 +46,12 @@
         "GenomicAlignments",
         "rtracklayer"
     ],
-    "alabaster.mae": [
-        "alabaster.se"
-    ],
-    "alabaster.sce": [
-        "alabaster.se"
-    ],
-    "alabaster.se": [],
+    "alabaster.mae": [],
+    "alabaster.sce": [],
     "alabaster.spatial": [
         "DropletUtils",
         "SpatialExperiment",
         "alabaster.sce",
-        "alabaster.se",
         "scuttle"
     ],
     "alabaster.vcf": [
@@ -66,7 +59,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "VariantAnnotation",
-        "alabaster.se",
         "rtracklayer"
     ],
     "AllelicImbalance": [
