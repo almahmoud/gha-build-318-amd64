@@ -97,6 +97,7 @@ jobs:
 
       - name: Use AWS CLI to copy
         id: s3copy
+        shell: bash
         run: |
           mkdir -p ~/.aws
           echo "$S3_CREDS" > ~/.aws/credentials
@@ -108,6 +109,8 @@ jobs:
               rclone purge $PURGEDIR -vvvvv 2>&1 | tee /tmp/purge
               while grep -q "Deleted" /tmp/purge; do rclone purge $PURGEDIR -vvvvv 2>&1 | tee /tmp/purge; done
           }
+          
+          export -f purge_all
 
           # Purge libraries
           purge_all js2:/gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/libraries
