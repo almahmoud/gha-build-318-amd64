@@ -120,7 +120,7 @@ jobs:
           # Purge all but latest 3 run binaries
           ls -d logs/*/ | sort -n | sed "s#logs#js2:/gha-build/$(cat containername)/$(cat arch)#" | head -n -3 > /tmp/purgelist
           cat /tmp/purgelist
-          cat /tmp/purgelist | xargs -i -r purge_all {}
+          cat /tmp/purgelist | xargs -i -r bash -c 'purge_all {}'
           
           aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 sync --delete $SRCBUCK $DSTBUCK --exclude "PACKAGES*" 2>&1 | tee /tmp/synclog
 
