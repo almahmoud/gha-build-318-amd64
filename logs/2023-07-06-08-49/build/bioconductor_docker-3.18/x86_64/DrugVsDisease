@@ -1,0 +1,137 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''DrugVsDisease'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'DrugVsDisease'
+also installing the dependencies ‘DrugVsDiseasedata’, ‘cMap2data’, ‘hgu133a.db’, ‘hgu133a2.db’, ‘hgu133plus2.db’
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/DrugVsDiseasedata_1.37.0.tar.gz'
+Content type 'application/x-gzip' length 4200708 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/cMap2data_1.37.0.tar.gz'
+Content type 'application/x-gzip' length 29198706 bytes (27.8 MB)
+==================================================
+downloaded 27.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/hgu133a.db_3.13.0.tar.gz'
+Content type 'application/x-gzip' length 950927 bytes (928 KB)
+==================================================
+downloaded 928 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/hgu133a2.db_3.13.0.tar.gz'
+Content type 'application/x-gzip' length 948410 bytes (926 KB)
+==================================================
+downloaded 926 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/hgu133plus2.db_3.13.0.tar.gz'
+Content type 'application/x-gzip' length 2240377 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/DrugVsDisease_2.43.0.tar.gz'
+Content type 'application/x-gzip' length 1823972 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+* installing *source* package ‘DrugVsDiseasedata’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DrugVsDiseasedata’ as ‘DrugVsDiseasedata_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DrugVsDiseasedata)
+* installing *source* package ‘cMap2data’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cMap2data’ as ‘cMap2data_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cMap2data)
+* installing *source* package ‘hgu133a.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hgu133a.db’ as ‘hgu133a.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu133a.db)
+* installing *source* package ‘hgu133a2.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hgu133a2.db’ as ‘hgu133a2.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu133a2.db)
+* installing *source* package ‘hgu133plus2.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hgu133plus2.db’ as ‘hgu133plus2.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu133plus2.db)
+* installing *source* package ‘DrugVsDisease’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DrugVsDisease’ as ‘DrugVsDisease_2.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DrugVsDisease)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSUic2G/downloaded_packages’
+Old packages: 'cpp11', 'processx', 'Rcpp', 'rmarkdown', 'shiny', 'testthat',
+  'usethis', 'xml2'
+
+real	1m38.692s
+user	1m33.596s
+sys	0m5.218s
