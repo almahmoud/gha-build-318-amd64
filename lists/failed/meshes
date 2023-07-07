@@ -1,0 +1,52 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''meshes'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'meshes'
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/meshes_1.27.0.tar.gz'
+Content type 'application/x-gzip' length 944096 bytes (921 KB)
+==================================================
+downloaded 921 KB
+
+* installing *source* package ‘meshes’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: download failed
+  web resource path: ‘https://annotationhub.bioconductor.org/fetch/118333’
+  local file path: ‘/root/.cache/R/AnnotationHub/9049279963_118333’
+  reason: Internal Server Error (HTTP 500).
+Warning: bfcadd() failed; resource removed
+  rid: BFC3
+  fpath: ‘https://annotationhub.bioconductor.org/fetch/118333’
+  reason: download failed
+Warning: download failed
+  hub path: ‘https://annotationhub.bioconductor.org/fetch/118333’
+  cache resource: ‘AH111587 : 118333’
+  reason: bfcadd() failed; see warnings()
+Error: .onLoad failed in loadNamespace() for 'HPO.db', details:
+  call: NULL
+  error: failed to load resource
+  name: AH111587
+  title: Human Phenotype Ontology database
+  reason: 1 resources failed to download
+Execution halted
+ERROR: lazy loading failed for package ‘meshes’
+* removing ‘/tmp/tmp/built/meshes’
+
+The downloaded source packages are in
+	‘/tmp/RtmpeD30Z5/downloaded_packages’
+Old packages: 'cpp11', 'processx', 'Rcpp', 'rmarkdown', 'shiny', 'testthat',
+  'usethis', 'xml2'
+Warning message:
+In install.packages(...) :
+  installation of package ‘meshes’ had non-zero exit status
+
+real	0m22.142s
+user	0m17.673s
+sys	0m1.544s
