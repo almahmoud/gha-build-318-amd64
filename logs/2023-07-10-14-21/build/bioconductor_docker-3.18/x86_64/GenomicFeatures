@@ -1,0 +1,413 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GenomicFeatures'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'GenomicFeatures'
+also installing the dependencies ‘timechange’, ‘lubridate’, ‘RMariaDB’, ‘org.Mm.eg.db’, ‘BSgenome.Celegans.UCSC.ce11’, ‘BSgenome.Dmelanogaster.UCSC.dm3’, ‘mirbase.db’, ‘FDb.UCSC.tRNAs’, ‘TxDb.Celegans.UCSC.ce11.ensGene’, ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts’, ‘TxDb.Hsapiens.UCSC.hg38.knownGene’, ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’, ‘markdown’
+
+trying URL 'https://cloud.r-project.org/src/contrib/timechange_0.2.0.tar.gz'
+Content type 'application/x-gzip' length 102806 bytes (100 KB)
+==================================================
+downloaded 100 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lubridate_1.9.2.tar.gz'
+Content type 'application/x-gzip' length 427200 bytes (417 KB)
+==================================================
+downloaded 417 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RMariaDB_1.2.2.tar.gz'
+Content type 'application/x-gzip' length 905003 bytes (883 KB)
+==================================================
+downloaded 883 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/org.Mm.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 78182157 bytes (74.6 MB)
+==================================================
+downloaded 74.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/BSgenome.Celegans.UCSC.ce11_1.4.2.tar.gz'
+Content type 'application/x-gzip' length 23652392 bytes (22.6 MB)
+==================================================
+downloaded 22.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/BSgenome.Dmelanogaster.UCSC.dm3_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 38546795 bytes (36.8 MB)
+==================================================
+downloaded 36.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/mirbase.db_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 5485434 bytes (5.2 MB)
+==================================================
+downloaded 5.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/FDb.UCSC.tRNAs_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 75354 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/TxDb.Celegans.UCSC.ce11.ensGene_3.15.0.tar.gz'
+Content type 'application/x-gzip' length 9710396 bytes (9.3 MB)
+==================================================
+downloaded 9.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts_3.2.2.tar.gz'
+Content type 'application/x-gzip' length 2139452 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg38.knownGene_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 46645731 bytes (44.5 MB)
+==================================================
+downloaded 44.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP144.GRCh38_0.99.20.tar.gz'
+Content type 'application/x-gzip' length 898581361 bytes (857.0 MB)
+==================================================
+downloaded 857.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/markdown_1.7.tar.gz'
+Content type 'application/x-gzip' length 107936 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/GenomicFeatures_1.53.1.tar.gz'
+Content type 'application/x-gzip' length 1179200 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+* installing *source* package ‘timechange’ ...
+** package ‘timechange’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c common.cpp -o common.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c get.cpp -o get.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parse.c -o parse.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c round.cpp -o round.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tzone.cpp -o tzone.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c update.cpp -o update.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_fixed.cc -o cctz/src/time_zone_fixed.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_if.cc -o cctz/src/time_zone_if.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_impl.cc -o cctz/src/time_zone_impl.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_info.cc -o cctz/src/time_zone_info.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_libc.cc -o cctz/src/time_zone_libc.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_lookup.cc -o cctz/src/time_zone_lookup.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_posix.cc -o cctz/src/time_zone_posix.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/zone_info_source.cc -o cctz/src/zone_info_source.o
+ar rcs libcctz.a ./cctz/src/time_zone_fixed.o ./cctz/src/time_zone_if.o ./cctz/src/time_zone_impl.o ./cctz/src/time_zone_info.o ./cctz/src/time_zone_libc.o ./cctz/src/time_zone_lookup.o ./cctz/src/time_zone_posix.o ./cctz/src/zone_info_source.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o timechange.so common.o cpp11.o get.o parse.o round.o tzone.o update.o -L. -lcctz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-timechange/00new/timechange/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *source* package ‘org.Mm.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Mm.eg.db’ as ‘org.Mm.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Mm.eg.db)
+* installing *source* package ‘BSgenome.Celegans.UCSC.ce11’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Celegans.UCSC.ce11’ as ‘BSgenome.Celegans.UCSC.ce11_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Celegans.UCSC.ce11)
+* installing *source* package ‘BSgenome.Dmelanogaster.UCSC.dm3’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Dmelanogaster.UCSC.dm3’ as ‘BSgenome.Dmelanogaster.UCSC.dm3_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Dmelanogaster.UCSC.dm3)
+* installing *source* package ‘mirbase.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mirbase.db’ as ‘mirbase.db_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mirbase.db)
+* installing *source* package ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’ as ‘SNPlocs.Hsapiens.dbSNP144.GRCh38_0.99.20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SNPlocs.Hsapiens.dbSNP144.GRCh38)
+* installing *source* package ‘markdown’ ...
+** package ‘markdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *source* package ‘GenomicFeatures’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenomicFeatures’ as ‘GenomicFeatures_1.53.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicFeatures)
+* installing *source* package ‘lubridate’ ...
+** package ‘lubridate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c datetime.c -o datetime.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c period.c -o period.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tparse.c -o tparse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lubridate.so datetime.o init.o period.o tparse.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-lubridate/00new/lubridate/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *source* package ‘FDb.UCSC.tRNAs’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FDb.UCSC.tRNAs’ as ‘FDb.UCSC.tRNAs_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FDb.UCSC.tRNAs)
+* installing *source* package ‘TxDb.Celegans.UCSC.ce11.ensGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Celegans.UCSC.ce11.ensGene’ as ‘TxDb.Celegans.UCSC.ce11.ensGene_3.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Celegans.UCSC.ce11.ensGene)
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+Warning in utils::tar(filepath, curPkg, compression = "gzip", compression_level = 9L,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts/extdata/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts.sqlite’
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts’ as ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts_3.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts)
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ as ‘TxDb.Hsapiens.UCSC.hg38.knownGene_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg38.knownGene)
+* installing *source* package ‘RMariaDB’ ...
+** package ‘RMariaDB’ successfully unpacked and MD5 sums checked
+** using staged installation
+Using mysql_config
+Found mysql_config cflags and libs!
+Using PKG_CFLAGS=-I/usr/include/mysql 
+Using PKG_LIBS=-L/usr/lib/x86_64-linux-gnu -lmysqlclient -lzstd -lssl -lcrypto -lresolv -lm
+Using PKG_PLOGR=
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DbConnection.cpp -o DbConnection.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DbResult.cpp -o DbResult.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MariaBinding.cpp -o MariaBinding.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MariaResult.cpp -o MariaResult.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MariaResultImpl.cpp -o MariaResultImpl.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MariaResultPrep.cpp -o MariaResultPrep.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MariaResultSimple.cpp -o MariaResultSimple.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MariaRow.cpp -o MariaRow.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MariaTypes.cpp -o MariaTypes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MariaUtils.cpp -o MariaUtils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c connection.cpp -o connection.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c driver.cpp -o driver.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql  -Ivendor -DRCPP_DEFAULT_INCLUDE_CALL=false -DRCPP_USING_UTF8_ERROR_STRING -DBOOST_NO_AUTO_PTR  -I'/tmp/tmp/built/plogr/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c result.cpp -o result.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RMariaDB.so DbConnection.o DbResult.o MariaBinding.o MariaResult.o MariaResultImpl.o MariaResultPrep.o MariaResultSimple.o MariaRow.o MariaTypes.o MariaUtils.o RcppExports.o connection.o driver.o result.o -L/usr/lib/x86_64-linux-gnu -lmysqlclient -lzstd -lssl -lcrypto -lresolv -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RMariaDB/00new/RMariaDB/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RMariaDB’ as ‘RMariaDB_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RMariaDB)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjRJJ6f/downloaded_packages’
+Old packages: 'pkgload', 'rstudioapi', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	12m3.030s
+user	11m21.231s
+sys	0m26.690s
+* installing *source* package ‘BSgenome.Celegans.UCSC.ce11’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Celegans.UCSC.ce11’ as ‘BSgenome.Celegans.UCSC.ce11_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Celegans.UCSC.ce11)
+* installing *source* package ‘FDb.UCSC.tRNAs’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FDb.UCSC.tRNAs’ as ‘FDb.UCSC.tRNAs_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FDb.UCSC.tRNAs)
+* installing *source* package ‘TxDb.Celegans.UCSC.ce11.ensGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Celegans.UCSC.ce11.ensGene’ as ‘TxDb.Celegans.UCSC.ce11.ensGene_3.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Celegans.UCSC.ce11.ensGene)
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+Warning in utils::tar(filepath, curPkg, compression = "gzip", compression_level = 9L,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts/extdata/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts.sqlite’
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts’ as ‘TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts_3.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts)
