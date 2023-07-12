@@ -1,0 +1,1324 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CEMiTool'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'CEMiTool'
+also installing the dependencies ‘Matrix’, ‘htmlTable’, ‘Formula’, ‘xts’, ‘SparseM’, ‘MatrixModels’, ‘timechange’, ‘coda’, ‘dynamicTreeCut’, ‘Hmisc’, ‘ggpp’, ‘confintr’, ‘polynom’, ‘quantreg’, ‘lmodel2’, ‘splus2R’, ‘lubridate’, ‘statnet.common’, ‘WGCNA’, ‘ggpmisc’, ‘ggthemes’, ‘sna’, ‘pracma’, ‘intergraph’, ‘network’, ‘ggdendro’, ‘fastcluster’
+
+trying URL 'https://cloud.r-project.org/src/contrib/Matrix_1.6-0.tar.gz'
+Content type 'application/x-gzip' length 2058479 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/htmlTable_2.4.1.tar.gz'
+Content type 'application/x-gzip' length 439117 bytes (428 KB)
+==================================================
+downloaded 428 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Formula_1.2-5.tar.gz'
+Content type 'application/x-gzip' length 128259 bytes (125 KB)
+==================================================
+downloaded 125 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/xts_0.13.1.tar.gz'
+Content type 'application/x-gzip' length 456115 bytes (445 KB)
+==================================================
+downloaded 445 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/SparseM_1.81.tar.gz'
+Content type 'application/x-gzip' length 735100 bytes (717 KB)
+==================================================
+downloaded 717 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/MatrixModels_0.5-2.tar.gz'
+Content type 'application/x-gzip' length 24659 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/timechange_0.2.0.tar.gz'
+Content type 'application/x-gzip' length 102806 bytes (100 KB)
+==================================================
+downloaded 100 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/coda_0.19-4.tar.gz'
+Content type 'application/x-gzip' length 74239 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dynamicTreeCut_1.63-1.tar.gz'
+Content type 'application/x-gzip' length 24027 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Hmisc_5.1-0.tar.gz'
+Content type 'application/x-gzip' length 863573 bytes (843 KB)
+==================================================
+downloaded 843 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggpp_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 2197437 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/confintr_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 68819 bytes (67 KB)
+==================================================
+downloaded 67 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/polynom_1.4-1.tar.gz'
+Content type 'application/x-gzip' length 334803 bytes (326 KB)
+==================================================
+downloaded 326 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/quantreg_5.95.tar.gz'
+Content type 'application/x-gzip' length 1026027 bytes (1001 KB)
+==================================================
+downloaded 1001 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lmodel2_1.7-3.tar.gz'
+Content type 'application/x-gzip' length 317733 bytes (310 KB)
+==================================================
+downloaded 310 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/splus2R_1.3-3.tar.gz'
+Content type 'application/x-gzip' length 37536 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lubridate_1.9.2.tar.gz'
+Content type 'application/x-gzip' length 427200 bytes (417 KB)
+==================================================
+downloaded 417 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/statnet.common_4.9.0.tar.gz'
+Content type 'application/x-gzip' length 339323 bytes (331 KB)
+==================================================
+downloaded 331 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/WGCNA_1.72-1.tar.gz'
+Content type 'application/x-gzip' length 1172219 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggpmisc_0.5.3.tar.gz'
+Content type 'application/x-gzip' length 1186697 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggthemes_4.2.4.tar.gz'
+Content type 'application/x-gzip' length 444642 bytes (434 KB)
+==================================================
+downloaded 434 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sna_2.7-1.tar.gz'
+Content type 'application/x-gzip' length 302093 bytes (295 KB)
+==================================================
+downloaded 295 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pracma_2.4.2.tar.gz'
+Content type 'application/x-gzip' length 399611 bytes (390 KB)
+==================================================
+downloaded 390 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/intergraph_2.0-2.tar.gz'
+Content type 'application/x-gzip' length 75202 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/network_1.18.1.tar.gz'
+Content type 'application/x-gzip' length 503993 bytes (492 KB)
+==================================================
+downloaded 492 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggdendro_0.1.23.tar.gz'
+Content type 'application/x-gzip' length 101832 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/fastcluster_1.2.3.tar.gz'
+Content type 'application/x-gzip' length 207483 bytes (202 KB)
+==================================================
+downloaded 202 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/CEMiTool_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 5706617 bytes (5.4 MB)
+==================================================
+downloaded 5.4 MB
+
+* installing *source* package ‘Matrix’ ...
+** package ‘Matrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CHMfactor.c -o CHMfactor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Csparse.c -o Csparse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Mutils.c -o Mutils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chm_common.c -o chm_common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cs.c -o cs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cs_utils.c -o cs_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dense.c -o dense.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgCMatrix.c -o dgCMatrix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgeMatrix.c -o dgeMatrix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c factorizations.c -o factorizations.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kappa.c -o kappa.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sparseVector.c -o sparseVector.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c abIndex.c -o abIndex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c packedMatrix.c -o packedMatrix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c products.c -o products.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c unpackedMatrix.c -o unpackedMatrix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sparse.c -o sparse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subscript.c -o subscript.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER -I./SuiteSparse_config -DUSE_FC_LEN_T  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c validity.c -o validity.o
+make[1]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/CHOLMOD'
+( cd Lib ; make clean )
+make[2]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/CHOLMOD/Lib'
+make[2]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/CHOLMOD/Lib'
+make[1]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/CHOLMOD'
+make[1]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/COLAMD'
+( cd Source ; make clean )
+make[2]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/COLAMD/Source'
+make[2]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/COLAMD/Source'
+make[1]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/COLAMD'
+make[1]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/AMD'
+( cd Source ; make clean )
+make[2]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/AMD/Source'
+make[2]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/AMD/Source'
+make[1]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/AMD'
+make[1]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/SuiteSparse_config'
+make[1]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/SuiteSparse_config'
+make[1]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/CHOLMOD'
+( cd Lib ; make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile )
+make[2]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/CHOLMOD/Lib'
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_aat.c -o cholmod_aat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_add.c -o cholmod_add.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_band.c -o cholmod_band.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_change_factor.c -o cholmod_change_factor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_common.c -o cholmod_common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_complex.c -o cholmod_complex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_copy.c -o cholmod_copy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_dense.c -o cholmod_dense.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_error.c -o cholmod_error.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_factor.c -o cholmod_factor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_memory.c -o cholmod_memory.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_sparse.c -o cholmod_sparse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_transpose.c -o cholmod_transpose.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_triplet.c -o cholmod_triplet.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Core/cholmod_version.c -o cholmod_version.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Check/cholmod_check.c -o cholmod_check.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Check/cholmod_read.c -o cholmod_read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Check/cholmod_write.c -o cholmod_write.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_amd.c -o cholmod_amd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_analyze.c -o cholmod_analyze.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_colamd.c -o cholmod_colamd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_etree.c -o cholmod_etree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_factorize.c -o cholmod_factorize.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_postorder.c -o cholmod_postorder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_rcond.c -o cholmod_rcond.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_resymbol.c -o cholmod_resymbol.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_rowcolcounts.c -o cholmod_rowcolcounts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_rowfac.c -o cholmod_rowfac.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_solve.c -o cholmod_solve.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Cholesky/cholmod_spsolve.c -o cholmod_spsolve.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_drop.c -o cholmod_drop.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_horzcat.c -o cholmod_horzcat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_norm.c -o cholmod_norm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_scale.c -o cholmod_scale.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_sdmult.c -o cholmod_sdmult.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_ssmult.c -o cholmod_ssmult.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_submatrix.c -o cholmod_submatrix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_vertcat.c -o cholmod_vertcat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../MatrixOps/cholmod_symmetry.c -o cholmod_symmetry.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Modify/cholmod_rowadd.c -o cholmod_rowadd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Modify/cholmod_rowdel.c -o cholmod_rowdel.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Modify/cholmod_updown.c -o cholmod_updown.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Supernodal/cholmod_super_numeric.c -o cholmod_super_numeric.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Supernodal/cholmod_super_solve.c -o cholmod_super_solve.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ../Supernodal/cholmod_super_symbolic.c -o cholmod_super_symbolic.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_aat.c -o cholmod_l_aat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_add.c -o cholmod_l_add.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_band.c -o cholmod_l_band.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_change_factor.c -o cholmod_l_change_factor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_common.c -o cholmod_l_common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_complex.c -o cholmod_l_complex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_copy.c -o cholmod_l_copy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_dense.c -o cholmod_l_dense.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_error.c -o cholmod_l_error.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_factor.c -o cholmod_l_factor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_memory.c -o cholmod_l_memory.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_sparse.c -o cholmod_l_sparse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_transpose.c -o cholmod_l_transpose.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_triplet.c -o cholmod_l_triplet.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Core/cholmod_version.c -o cholmod_l_version.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Check/cholmod_check.c -o cholmod_l_check.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Check/cholmod_read.c -o cholmod_l_read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Check/cholmod_write.c -o cholmod_l_write.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_amd.c -o cholmod_l_amd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_analyze.c -o cholmod_l_analyze.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_colamd.c -o cholmod_l_colamd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_etree.c -o cholmod_l_etree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_factorize.c -o cholmod_l_factorize.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_postorder.c -o cholmod_l_postorder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_rcond.c -o cholmod_l_rcond.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_resymbol.c -o cholmod_l_resymbol.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_rowcolcounts.c -o cholmod_l_rowcolcounts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_rowfac.c -o cholmod_l_rowfac.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_solve.c -o cholmod_l_solve.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Cholesky/cholmod_spsolve.c -o cholmod_l_spsolve.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_drop.c -o cholmod_l_drop.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_horzcat.c -o cholmod_l_horzcat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_norm.c -o cholmod_l_norm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_scale.c -o cholmod_l_scale.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_sdmult.c -o cholmod_l_sdmult.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_ssmult.c -o cholmod_l_ssmult.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_submatrix.c -o cholmod_l_submatrix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_vertcat.c -o cholmod_l_vertcat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../MatrixOps/cholmod_symmetry.c -o cholmod_l_symmetry.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Modify/cholmod_rowadd.c -o cholmod_l_rowadd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Modify/cholmod_rowdel.c -o cholmod_l_rowdel.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Modify/cholmod_updown.c -o cholmod_l_updown.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Supernodal/cholmod_super_numeric.c -o cholmod_l_super_numeric.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Supernodal/cholmod_super_solve.c -o cholmod_l_super_solve.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../../AMD/Include -I../../AMD/Source -I../../COLAMD/Include -I../Include -I../../SuiteSparse_config -DNPARTITION -DNPRINT  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -DDLONG -c  ../Supernodal/cholmod_super_symbolic.c -o cholmod_l_super_symbolic.o
+ar -rucs ../../CHOLMOD.a cholmod_aat.o cholmod_add.o cholmod_band.o cholmod_change_factor.o cholmod_common.o cholmod_complex.o cholmod_copy.o cholmod_dense.o cholmod_error.o cholmod_factor.o cholmod_memory.o cholmod_sparse.o cholmod_transpose.o cholmod_triplet.o cholmod_version.o cholmod_check.o cholmod_read.o cholmod_write.o cholmod_amd.o cholmod_analyze.o cholmod_colamd.o cholmod_etree.o cholmod_factorize.o cholmod_postorder.o cholmod_rcond.o cholmod_resymbol.o cholmod_rowcolcounts.o cholmod_rowfac.o cholmod_solve.o cholmod_spsolve.o cholmod_drop.o cholmod_horzcat.o cholmod_norm.o cholmod_scale.o cholmod_sdmult.o cholmod_ssmult.o cholmod_submatrix.o cholmod_vertcat.o cholmod_symmetry.o cholmod_rowadd.o cholmod_rowdel.o cholmod_updown.o cholmod_super_numeric.o cholmod_super_solve.o cholmod_super_symbolic.o  cholmod_l_aat.o cholmod_l_add.o cholmod_l_band.o cholmod_l_change_factor.o cholmod_l_common.o cholmod_l_complex.o cholmod_l_copy.o cholmod_l_dense.o cholmod_l_error.o cholmod_l_factor.o cholmod_l_memory.o cholmod_l_sparse.o cholmod_l_transpose.o cholmod_l_triplet.o cholmod_l_version.o cholmod_l_check.o cholmod_l_read.o cholmod_l_write.o cholmod_l_amd.o cholmod_l_analyze.o cholmod_l_colamd.o cholmod_l_etree.o cholmod_l_factorize.o cholmod_l_postorder.o cholmod_l_rcond.o cholmod_l_resymbol.o cholmod_l_rowcolcounts.o cholmod_l_rowfac.o cholmod_l_solve.o cholmod_l_spsolve.o cholmod_l_drop.o cholmod_l_horzcat.o cholmod_l_norm.o cholmod_l_scale.o cholmod_l_sdmult.o cholmod_l_ssmult.o cholmod_l_submatrix.o cholmod_l_vertcat.o cholmod_l_symmetry.o cholmod_l_rowadd.o cholmod_l_rowdel.o cholmod_l_updown.o cholmod_l_super_numeric.o cholmod_l_super_solve.o cholmod_l_super_symbolic.o 
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/CHOLMOD/Lib'
+make[1]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/CHOLMOD'
+make[1]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/COLAMD'
+( cd Source ; make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile lib )
+make[2]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/COLAMD/Source'
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colamd.c -o colamd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c colamd.c -o colamd_l.o
+ar -rucs ../../COLAMD.a colamd.o colamd_l.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/COLAMD/Source'
+make[1]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/COLAMD'
+make[1]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/AMD'
+( cd Source ; make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile lib )
+make[2]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/AMD/Source'
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_aat.c -o amd_i_aat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_aat.c -o amd_l_aat.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_1.c -o amd_i_1.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_1.c -o amd_l_1.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_2.c -o amd_i_2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_2.c -o amd_l_2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_postorder.c -o amd_i_postorder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_postorder.c -o amd_l_postorder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_post_tree.c -o amd_i_post_tree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_post_tree.c -o amd_l_post_tree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_defaults.c -o amd_i_defaults.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_defaults.c -o amd_l_defaults.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_order.c -o amd_i_order.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_order.c -o amd_l_order.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_control.c -o amd_i_control.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_control.c -o amd_l_control.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_info.c -o amd_i_info.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_info.c -o amd_l_info.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_valid.c -o amd_i_valid.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_valid.c -o amd_l_valid.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_preprocess.c -o amd_i_preprocess.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_preprocess.c -o amd_l_preprocess.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDINT -c amd_dump.c -o amd_i_dump.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../Include -I../../SuiteSparse_config  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I../Include -DDLONG -c amd_dump.c -o amd_l_dump.o
+ar -rucs ../../AMD.a amd_i_aat.o amd_l_aat.o amd_i_1.o amd_l_1.o amd_i_2.o amd_l_2.o amd_i_postorder.o amd_l_postorder.o amd_i_post_tree.o amd_l_post_tree.o amd_i_defaults.o amd_l_defaults.o amd_i_order.o amd_l_order.o amd_i_control.o amd_l_control.o amd_i_info.o amd_l_info.o amd_i_valid.o amd_l_valid.o amd_i_preprocess.o amd_l_preprocess.o amd_i_dump.o amd_l_dump.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/AMD/Source'
+make[1]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/AMD'
+make[1]: Entering directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/SuiteSparse_config'
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DNTIMER  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SuiteSparse_config.c -o SuiteSparse_config.o
+ar -rucs ../SuiteSparse_config.a SuiteSparse_config.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[1]: Leaving directory '/tmp/Rtmp5lXhDE/R.INSTALL9026638713/Matrix/src/SuiteSparse_config'
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Matrix.so CHMfactor.o Csparse.o init.o Mutils.o chm_common.o cs.o cs_utils.o dense.o dgCMatrix.o dgeMatrix.o factorizations.o kappa.o sparseVector.o abIndex.o packedMatrix.o products.o unpackedMatrix.o sparse.o subscript.o validity.o CHOLMOD.a COLAMD.a AMD.a SuiteSparse_config.a -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Matrix/00new/Matrix/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘zapsmall’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘unname’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘drop’ from package ‘base’ in package ‘Matrix’
+in method for ‘coerce’ with signature ‘"matrix.csc","dgCMatrix"’: no definition for class “matrix.csc”
+in method for ‘coerce’ with signature ‘"matrix.csr","dgRMatrix"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"matrix.coo","dgTMatrix"’: no definition for class “matrix.coo”
+in method for ‘coerce’ with signature ‘"matrix.csr","dgCMatrix"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"matrix.coo","dgCMatrix"’: no definition for class “matrix.coo”
+in method for ‘coerce’ with signature ‘"matrix.csc","CsparseMatrix"’: no definition for class “matrix.csc”
+in method for ‘coerce’ with signature ‘"matrix.csc","RsparseMatrix"’: no definition for class “matrix.csc”
+in method for ‘coerce’ with signature ‘"matrix.csc","TsparseMatrix"’: no definition for class “matrix.csc”
+in method for ‘coerce’ with signature ‘"matrix.csr","CsparseMatrix"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"matrix.csr","RsparseMatrix"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"matrix.csr","TsparseMatrix"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"matrix.coo","CsparseMatrix"’: no definition for class “matrix.coo”
+in method for ‘coerce’ with signature ‘"matrix.coo","RsparseMatrix"’: no definition for class “matrix.coo”
+in method for ‘coerce’ with signature ‘"matrix.coo","TsparseMatrix"’: no definition for class “matrix.coo”
+in method for ‘coerce’ with signature ‘"matrix.csc","sparseMatrix"’: no definition for class “matrix.csc”
+in method for ‘coerce’ with signature ‘"matrix.csr","sparseMatrix"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"matrix.coo","sparseMatrix"’: no definition for class “matrix.coo”
+in method for ‘coerce’ with signature ‘"matrix.csc","Matrix"’: no definition for class “matrix.csc”
+in method for ‘coerce’ with signature ‘"matrix.csr","Matrix"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"matrix.coo","Matrix"’: no definition for class “matrix.coo”
+in method for ‘coerce’ with signature ‘"dgCMatrix","matrix.csc"’: no definition for class “matrix.csc”
+in method for ‘coerce’ with signature ‘"dgRMatrix","matrix.csr"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"dgTMatrix","matrix.coo"’: no definition for class “matrix.coo”
+in method for ‘coerce’ with signature ‘"Matrix","matrix.csc"’: no definition for class “matrix.csc”
+in method for ‘coerce’ with signature ‘"Matrix","matrix.csr"’: no definition for class “matrix.csr”
+in method for ‘coerce’ with signature ‘"Matrix","matrix.coo"’: no definition for class “matrix.coo”
+Creating a generic function for ‘chol2inv’ from ‘base’ in package ‘Matrix’
+    (from the saved implicit definition)
+Creating a generic function for ‘chol2inv’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘colSums’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘colMeans’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘rowSums’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘rowMeans’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘crossprod’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘tcrossprod’ from package ‘base’ in package ‘Matrix’
+in method for ‘coerce’ with signature ‘"graphAM","TsparseMatrix"’: no definition for class “graphAM”
+in method for ‘coerce’ with signature ‘"graphNEL","TsparseMatrix"’: no definition for class “graphNEL”
+in method for ‘coerce’ with signature ‘"graph","CsparseMatrix"’: no definition for class “graph”
+in method for ‘coerce’ with signature ‘"graph","RsparseMatrix"’: no definition for class “graph”
+in method for ‘coerce’ with signature ‘"graph","TsparseMatrix"’: no definition for class “graph”
+in method for ‘coerce’ with signature ‘"graph","sparseMatrix"’: no definition for class “graph”
+in method for ‘coerce’ with signature ‘"graph","Matrix"’: no definition for class “graph”
+in method for ‘coerce’ with signature ‘"TsparseMatrix","graphNEL"’: no definition for class “graphNEL”
+in method for ‘coerce’ with signature ‘"Matrix","graphNEL"’: no definition for class “graphNEL”
+in method for ‘coerce’ with signature ‘"Matrix","graph"’: no definition for class “graph”
+Creating a generic function for ‘norm’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘cov2cor’ from package ‘stats’ in package ‘Matrix’
+Creating a generic function for ‘qr.Q’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘qr.R’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘qr.X’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘qr.coef’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘qr.fitted’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘qr.resid’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘qr.qty’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘qr.qy’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘rcond’ from ‘base’ in package ‘Matrix’
+    (from the saved implicit definition)
+Creating a generic function for ‘rcond’ from package ‘base’ in package ‘Matrix’
+Creating a generic function for ‘toeplitz’ from ‘stats’ in package ‘Matrix’
+    (from the saved implicit definition)
+Creating a generic function for ‘toeplitz’ from package ‘stats’ in package ‘Matrix’
+Creating a generic function for ‘which’ from package ‘base’ in package ‘Matrix’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Matrix’ as ‘Matrix_1.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Matrix)
+* installing *source* package ‘htmlTable’ ...
+** package ‘htmlTable’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘htmlTable’ as ‘htmlTable_2.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (htmlTable)
+* installing *source* package ‘Formula’ ...
+** package ‘Formula’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Formula’ as ‘Formula_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Formula)
+* installing *source* package ‘xts’ ...
+** package ‘xts’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c add_class.c -o add_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c any.c -o any.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c attr.c -o attr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c binsearch.c -o binsearch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coredata.c -o coredata.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dimnames.c -o dimnames.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c endpoints.c -o endpoints.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract_col.c -o extract_col.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isOrdered.c -o isOrdered.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isXts.c -o isXts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lag.c -o lag.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c merge.c -o merge.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c na.c -o na.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c period_apply.c -o period_apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c period_arithmetic.c -o period_arithmetic.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c period_quantile.c -o period_quantile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbind.c -o rbind.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rollfun.c -o rollfun.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c runSum.c -o runSum.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c startofyear.c -o startofyear.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subset.c -o subset.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subset.old.c -o subset.old.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c toperiod.c -o toperiod.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c totalcols.c -o totalcols.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tryXts.c -o tryXts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/tmp/tmp/built/zoo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c unique.time.c -o unique.time.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o xts.so add_class.o any.o attr.o binsearch.o coredata.o dimnames.o endpoints.o extract_col.o init.o isOrdered.o isXts.o lag.o merge.o na.o period_apply.o period_arithmetic.o period_quantile.o rbind.o rollfun.o runSum.o startofyear.o subset.o subset.old.o toperiod.o totalcols.o tryXts.o unique.time.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-xts/00new/xts/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘xts’ as ‘xts_0.13.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xts)
+* installing *source* package ‘SparseM’ ...
+** package ‘SparseM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gfortran  -fpic  -g -O2  -c bckslv.f -o bckslv.o
+gfortran  -fpic  -g -O2  -c chol.f -o chol.o
+gfortran  -fpic  -g -O2  -c chol2csr.f -o chol2csr.o
+gfortran  -fpic  -g -O2  -c cholesky.f -o cholesky.o
+cholesky.f:2948:72:
+
+ 2948 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2982:72:
+
+ 2982 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3299:72:
+
+ 3299 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3356:72:
+
+ 3356 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3430:72:
+
+ 3430 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c csr.f -o csr.o
+gfortran  -fpic  -g -O2  -c extract.f -o extract.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c sparskit.f -o sparskit.o
+gfortran  -fpic  -g -O2  -c subscr.f -o subscr.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SparseM.so bckslv.o chol.o chol2csr.o cholesky.o csr.o extract.o init.o sparskit.o subscr.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-SparseM/00new/SparseM/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘norm’ from package ‘base’ in package ‘SparseM’
+Creating a new generic function for ‘backsolve’ in package ‘SparseM’
+Creating a generic function for ‘forwardsolve’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘model.response’ from package ‘stats’ in package ‘SparseM’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.81_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *source* package ‘timechange’ ...
+** package ‘timechange’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c common.cpp -o common.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c get.cpp -o get.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parse.c -o parse.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c round.cpp -o round.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tzone.cpp -o tzone.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c update.cpp -o update.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_fixed.cc -o cctz/src/time_zone_fixed.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_if.cc -o cctz/src/time_zone_if.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_impl.cc -o cctz/src/time_zone_impl.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_info.cc -o cctz/src/time_zone_info.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_libc.cc -o cctz/src/time_zone_libc.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_lookup.cc -o cctz/src/time_zone_lookup.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/time_zone_posix.cc -o cctz/src/time_zone_posix.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./cctz/src/ -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cctz/src/zone_info_source.cc -o cctz/src/zone_info_source.o
+ar rcs libcctz.a ./cctz/src/time_zone_fixed.o ./cctz/src/time_zone_if.o ./cctz/src/time_zone_impl.o ./cctz/src/time_zone_info.o ./cctz/src/time_zone_libc.o ./cctz/src/time_zone_lookup.o ./cctz/src/time_zone_posix.o ./cctz/src/zone_info_source.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o timechange.so common.o cpp11.o get.o parse.o round.o tzone.o update.o -L. -lcctz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-timechange/00new/timechange/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *source* package ‘coda’ ...
+** package ‘coda’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘coda’ as ‘coda_0.19-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coda)
+* installing *source* package ‘dynamicTreeCut’ ...
+** package ‘dynamicTreeCut’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dynamicTreeCut’ as ‘dynamicTreeCut_1.63-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dynamicTreeCut)
+* installing *source* package ‘confintr’ ...
+** package ‘confintr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘confintr’ as ‘confintr_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (confintr)
+* installing *source* package ‘polynom’ ...
+** package ‘polynom’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘polynom’ as ‘polynom_1.4-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polynom)
+* installing *source* package ‘lmodel2’ ...
+** package ‘lmodel2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lmodel2’ as ‘lmodel2_1.7-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmodel2)
+* installing *source* package ‘splus2R’ ...
+** package ‘splus2R’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpeaks.c -o cpeaks.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o splus2R.so cpeaks.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-splus2R/00new/splus2R/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘splus2R’ as ‘splus2R_1.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splus2R)
+* installing *source* package ‘ggthemes’ ...
+** package ‘ggthemes’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggthemes’ as ‘ggthemes_4.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggthemes)
+* installing *source* package ‘pracma’ ...
+** package ‘pracma’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pracma’ as ‘pracma_2.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pracma)
+* installing *source* package ‘ggdendro’ ...
+** package ‘ggdendro’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggdendro’ as ‘ggdendro_0.1.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggdendro)
+* installing *source* package ‘fastcluster’ ...
+** package ‘fastcluster’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastcluster_R.cpp -o fastcluster_R.o
+In file included from fastcluster_R.cpp:24:
+fastcluster.cpp:53:35: note: ‘#pragma message: Use fenv header.’
+   53 | #pragma message("Use fenv header.")
+      |                                   ^
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o fastcluster.so fastcluster_R.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-fastcluster/00new/fastcluster/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘fastcluster’ as ‘fastcluster_1.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastcluster)
+* installing *source* package ‘MatrixModels’ ...
+** package ‘MatrixModels’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MatrixModels’ as ‘MatrixModels_0.5-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixModels)
+* installing *source* package ‘Hmisc’ ...
+** package ‘Hmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Hmisc.c -o Hmisc.o
+gfortran  -fpic  -g -O2  -c cidxcn.f -o cidxcn.o
+gfortran  -fpic  -g -O2  -c cidxcp.f -o cidxcp.o
+gfortran  -fpic  -g -O2  -c hoeffd.f -o hoeffd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c jacklins.f -o jacklins.o
+gfortran  -fpic  -g -O2  -c largrec.f -o largrec.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mChoice.c -o mChoice.o
+gfortran  -fpic  -g -O2  -c maxempr.f -o maxempr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nstr.c -o nstr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ranksort.c -o ranksort.o
+gfortran  -fpic  -g -O2  -c rcorr.f -o rcorr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c string_box.c -o string_box.o
+gfortran  -fpic  -g -O2  -c wclosest.f -o wclosest.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Hmisc.so Hmisc.o cidxcn.o cidxcp.o hoeffd.o init.o jacklins.o largrec.o mChoice.o maxempr.o nstr.o ranksort.o rcorr.o string_box.o wclosest.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Hmisc/00new/Hmisc/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Hmisc’ as ‘Hmisc_5.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Hmisc)
+* installing *source* package ‘lubridate’ ...
+** package ‘lubridate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c datetime.c -o datetime.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c period.c -o period.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tparse.c -o tparse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lubridate.so datetime.o init.o period.o tparse.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-lubridate/00new/lubridate/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *source* package ‘statnet.common’ ...
+** package ‘statnet.common’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c logspace_utils.c -o logspace_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o statnet.common.so init.o logspace_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-statnet.common/00new/statnet.common/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘statnet.common’ as ‘statnet.common_4.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statnet.common)
+* installing *source* package ‘ggpp’ ...
+** package ‘ggpp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggpp’ as ‘ggpp_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggpp)
+* installing *source* package ‘quantreg’ ...
+** package ‘quantreg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gfortran  -fpic  -g -O2  -c akj.f -o akj.o
+gfortran  -fpic  -g -O2  -c boot.f -o boot.o
+gfortran  -fpic  -g -O2  -c bound.f -o bound.o
+gfortran  -fpic  -g -O2  -c boundc.f -o boundc.o
+gfortran  -fpic  -g -O2  -c brute.f -o brute.o
+gfortran  -fpic  -g -O2  -c chlfct.f -o chlfct.o
+gfortran  -fpic  -g -O2  -c cholesky.f -o cholesky.o
+cholesky.f:2946:72:
+
+ 2946 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2980:72:
+
+ 2980 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3297:72:
+
+ 3297 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3354:72:
+
+ 3354 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3428:72:
+
+ 3428 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c combos.f -o combos.o
+gfortran  -fpic  -g -O2  -c crqf.f -o crqf.o
+crqf.f:98:72:
+
+   98 |         DO 5 J=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 5 at (1)
+crqf.f:99:72:
+
+   99 |    5    WA(I,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 5 at (1)
+crqf.f:140:72:
+
+  140 |   25      WA(L,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 25 at (1)
+crqf.f:149:72:
+
+  149 |   50  SOL(J+1,1) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+crqf.f:165:72:
+
+  165 |   60    XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+crqf.f:180:72:
+
+  180 |   80  S = S - WF(J)*X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+crqf.f:181:72:
+
+  181 |   90  WE(I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+crqf.f:192:72:
+
+  192 |  210  S = DMIN1(WD(J),S)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+crqf.f:205:72:
+
+  205 |  240    SOL(J+1,LSOL) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+crqf.f:226:72:
+
+  226 |  250  WD(I) = ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 250 at (1)
+crqf.f:228:72:
+
+  228 |  260  WD(H(J)) = ONE
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+crqf.f:236:72:
+
+  236 |  270  S = S + X(I,J)*XH(J,KM)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+crqf.f:258:72:
+
+  258 |         DO 310 J = 1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 310 at (1)
+crqf.f:259:72:
+
+  259 |  310    XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+crqf.f:273:72:
+
+  273 |  330  S = S + XH(K,J)*Y(H(J))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 330 at (1)
+crqf.f:274:72:
+
+  274 |  340  WF(K) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 340 at (1)
+crqf.f:278:72:
+
+  278 |  350  S = S - WF(J)*X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 350 at (1)
+crqf.f:279:72:
+
+  279 |  360  WE(I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 360 at (1)
+crqf.f:287:72:
+
+  287 |  370    SOL(J+1,LSOL) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 370 at (1)
+crqf.f:330:72:
+
+  330 | 396       B2 = B2 + X(I,J) * SOL(J+1,LSOL - 1)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 396 at (1)
+crqf.f:369:72:
+
+  369 |  506  WF(J) = ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 506 at (1)
+crqf.f:376:72:
+
+  376 |  510      WA(L1,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 510 at (1)
+crqf.f:379:72:
+
+  379 |  514      WF(J) = WF(J) + X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 514 at (1)
+crqf.f:389:72:
+
+  389 |  520      WF(J) = WF(J) + (ONE - W) * X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 520 at (1)
+crqf.f:394:72:
+
+  394 |  534  WA(MAL,J) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 534 at (1)
+crqf.f:413:72:
+
+  413 |  540        XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 540 at (1)
+crqf.f:429:72:
+
+  429 |  610  WD(I) = SOL(N+2,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 610 at (1)
+crqf.f:441:72:
+
+  441 |  650  WF(J) = S/V
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 650 at (1)
+crqf.f:445:72:
+
+  445 |  660    S = S + WF(J) * SOL(J+1,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 660 at (1)
+crqf.f:446:72:
+
+  446 |  670  SOL(N+2,I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 670 at (1)
+crqf.f:487:72:
+
+  487 |   60    A = A + X(I,K)*XH(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+crqf.f:488:72:
+
+  488 |   70  WA(I,J) = A
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 70 at (1)
+crqf.f:497:72:
+
+  497 |   90  IFLAG(I) = 0
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+crqf.f:499:72:
+
+  499 |   95  IFLAG(H(J)) = 1
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 95 at (1)
+crqf.f:544:72:
+
+  544 |  130  IFLAG(J) = IFLAG(J+M)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+gfortran  -fpic  -g -O2  -c crqfnb.f -o crqfnb.o
+gfortran  -fpic  -g -O2  -c dsel05.f -o dsel05.o
+gfortran  -fpic  -g -O2  -c etime.f -o etime.o
+gfortran  -fpic  -g -O2  -c extract.f -o extract.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frand.c -o frand.o
+gfortran  -fpic  -g -O2  -c grexp.f -o grexp.o
+gfortran  -fpic  -g -O2  -c idmin.f -o idmin.o
+gfortran  -fpic  -g -O2  -c iswap.f -o iswap.o
+iswap.f:40:72:
+
+   40 |       IF (INCX-1) 5,20,60
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c kuantile.f -o kuantile.o
+gfortran  -fpic  -g -O2  -c kuantiles.f -o kuantiles.o
+gfortran  -fpic  -g -O2  -c linpack.f -o linpack.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mcmb.c -o mcmb.o
+gfortran  -fpic  -g -O2  -c penalty.f -o penalty.o
+gfortran  -fpic  -g -O2  -c pfnb.f -o pfnb.o
+gfortran  -fpic  -g -O2  -c powell.f -o powell.o
+gfortran  -fpic  -g -O2  -c profnb.f -o profnb.o
+gfortran  -fpic  -g -O2  -c pwxy.f -o pwxy.o
+gfortran  -fpic  -g -O2  -c qfnb.f -o qfnb.o
+gfortran  -fpic  -g -O2  -c qselect.f -o qselect.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c quantreg_init.c -o quantreg_init.o
+gfortran  -fpic  -g -O2  -c rls.f -o rls.o
+gfortran  -fpic  -g -O2  -c rq0.f -o rq0.o
+gfortran  -fpic  -g -O2  -c rq1.f -o rq1.o
+gfortran  -fpic  -g -O2  -c rqbr.f -o rqbr.o
+gfortran  -fpic  -g -O2  -c rqfn.f -o rqfn.o
+gfortran  -fpic  -g -O2  -c rqfnb.f -o rqfnb.o
+gfortran  -fpic  -g -O2  -c rqfnc.f -o rqfnc.o
+gfortran  -fpic  -g -O2  -c rqs.f -o rqs.o
+gfortran  -fpic  -g -O2  -c sakj.f -o sakj.o
+gfortran  -fpic  -g -O2  -c sparskit2.f -o sparskit2.o
+gfortran  -fpic  -g -O2  -c srqfn.f -o srqfn.o
+gfortran  -fpic  -g -O2  -c srqfnc.f -o srqfnc.o
+gfortran  -fpic  -g -O2  -c srtpai.f -o srtpai.o
+srtpai.f:19:72:
+
+   19 |  10     P(1, I) = I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o quantreg.so akj.o boot.o bound.o boundc.o brute.o chlfct.o cholesky.o combos.o crqf.o crqfnb.o dsel05.o etime.o extract.o frand.o grexp.o idmin.o iswap.o kuantile.o kuantiles.o linpack.o mcmb.o penalty.o pfnb.o powell.o profnb.o pwxy.o qfnb.o qselect.o quantreg_init.o rls.o rq0.o rq1.o rqbr.o rqfn.o rqfnb.o rqfnc.o rqs.o sakj.o sparskit2.o srqfn.o srqfnc.o srtpai.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-quantreg/00new/quantreg/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘quantreg’ as ‘quantreg_5.95_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantreg)
+* installing *source* package ‘WGCNA’ ...
+** package ‘WGCNA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c corFunctions-utils.c -o corFunctions-utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c corFunctions.c -o corFunctions.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c myMatrixMultiplication.c -o myMatrixMultiplication.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c networkFunctions.c -o networkFunctions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parallelQuantile.cc -o parallelQuantile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DWITH_THREADS -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pivot.c -o pivot.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o WGCNA.so corFunctions-utils.o corFunctions.o myMatrixMultiplication.o networkFunctions.o parallelQuantile.o pivot.o -lpthread -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-WGCNA/00new/WGCNA/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘WGCNA’ as ‘WGCNA_1.72-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WGCNA)
+* installing *source* package ‘network’ ...
+** package ‘network’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rinit.c -o Rinit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c access.c -o access.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c constructors.c -o constructors.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c layout.c -o layout.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o network.so Rinit.o access.o constructors.o layout.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-network/00new/network/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘network’ as ‘network_1.18.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (network)
+* installing *source* package ‘ggpmisc’ ...
+** package ‘ggpmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggpmisc’ as ‘ggpmisc_0.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggpmisc)
+* installing *source* package ‘sna’ ...
+** package ‘sna’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rinit.c -o Rinit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cohesion.c -o cohesion.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c components.c -o components.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geodist.c -o geodist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gli.c -o gli.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c layout.c -o layout.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c likelihood.c -o likelihood.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nli.c -o nli.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c paths.c -o paths.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c randomgraph.c -o randomgraph.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c triads.c -o triads.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sna.so Rinit.o cohesion.o components.o geodist.o gli.o layout.o likelihood.o nli.o paths.o randomgraph.o triads.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-sna/00new/sna/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sna’ as ‘sna_2.7-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sna)
+* installing *source* package ‘intergraph’ ...
+** package ‘intergraph’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘intergraph’ as ‘intergraph_2.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (intergraph)
+* installing *source* package ‘CEMiTool’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** exec
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CEMiTool’ as ‘CEMiTool_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CEMiTool)
+
+The downloaded source packages are in
+	‘/tmp/RtmpiEkb8h/downloaded_packages’
+Old packages: 'GOSemSim', 'pkgload', 'rstudioapi', 'KernSmooth', 'Matrix',
+  'mgcv'
+
+real	8m18.810s
+user	7m40.486s
+sys	0m34.612s
