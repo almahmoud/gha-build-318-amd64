@@ -24,7 +24,6 @@
         "GenomicFeatures",
         "SpatialExperiment",
         "VariantAnnotation",
-        "alabaster.sce",
         "alabaster.spatial",
         "alabaster.vcf",
         "rtracklayer"
@@ -32,11 +31,9 @@
     "alabaster.files": [
         "rtracklayer"
     ],
-    "alabaster.sce": [],
     "alabaster.spatial": [
         "DropletUtils",
-        "SpatialExperiment",
-        "alabaster.sce"
+        "SpatialExperiment"
     ],
     "alabaster.vcf": [
         "BSgenome",
