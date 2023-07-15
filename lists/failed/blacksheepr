@@ -1,0 +1,26 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''blacksheepr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'blacksheepr'
+Warning: dependency ‘pasilla’ is not available
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/blacksheepr_1.13.0.tar.gz'
+Content type 'application/x-gzip' length 4355905 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+ERROR: dependency ‘pasilla’ is not available for package ‘blacksheepr’
+* removing ‘/tmp/tmp/built/blacksheepr’
+
+The downloaded source packages are in
+	‘/tmp/RtmpJDuHPK/downloaded_packages’
+Old packages: 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+Warning message:
+In install.packages(...) :
+  installation of package ‘blacksheepr’ had non-zero exit status
+
+real	0m4.753s
+user	0m2.765s
+sys	0m0.344s
