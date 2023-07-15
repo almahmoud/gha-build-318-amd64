@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''gep2pep'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'gep2pep'
+also installing the dependencies ‘repo’, ‘WriteXLS’
+
+trying URL 'https://cloud.r-project.org/src/contrib/repo_2.1.5.tar.gz'
+Content type 'application/x-gzip' length 235209 bytes (229 KB)
+==================================================
+downloaded 229 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/WriteXLS_6.4.0.tar.gz'
+Content type 'application/x-gzip' length 770065 bytes (752 KB)
+==================================================
+downloaded 752 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/gep2pep_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 125544 bytes (122 KB)
+==================================================
+downloaded 122 KB
+
+* installing *source* package ‘repo’ ...
+** package ‘repo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘repo’ as ‘repo_2.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (repo)
+* installing *source* package ‘WriteXLS’ ...
+** package ‘WriteXLS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘WriteXLS’ as ‘WriteXLS_6.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WriteXLS)
+* installing *source* package ‘gep2pep’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gep2pep’ as ‘gep2pep_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gep2pep)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzRKZdk/downloaded_packages’
+Old packages: 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m25.579s
+user	0m22.489s
+sys	0m2.433s
