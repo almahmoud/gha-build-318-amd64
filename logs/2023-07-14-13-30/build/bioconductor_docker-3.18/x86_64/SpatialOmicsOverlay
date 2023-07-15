@@ -1,0 +1,169 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SpatialOmicsOverlay'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'SpatialOmicsOverlay'
+also installing the dependencies ‘markdown’, ‘gridtext’, ‘plotrix’, ‘ggtext’, ‘vdiffr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/markdown_1.7.tar.gz'
+Content type 'application/x-gzip' length 107936 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gridtext_0.1.5.tar.gz'
+Content type 'application/x-gzip' length 386571 bytes (377 KB)
+==================================================
+downloaded 377 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/plotrix_3.8-2.tar.gz'
+Content type 'application/x-gzip' length 318217 bytes (310 KB)
+==================================================
+downloaded 310 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggtext_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 1211771 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/vdiffr_1.0.5.tar.gz'
+Content type 'application/x-gzip' length 102271 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/SpatialOmicsOverlay_1.1.0.tar.gz'
+Content type 'application/x-gzip' length 3206750 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+* installing *source* package ‘markdown’ ...
+** package ‘markdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *source* package ‘plotrix’ ...
+** package ‘plotrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *source* package ‘vdiffr’ ...
+** package ‘vdiffr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compare.cpp -o compare.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devSVG.cpp -o devSVG.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c engine_version.cpp -o engine_version.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o vdiffr.so compare.o cpp11.o devSVG.o engine_version.o -lpng -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-vdiffr/00new/vdiffr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘vdiffr’ as ‘vdiffr_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vdiffr)
+* installing *source* package ‘gridtext’ ...
+** package ‘gridtext’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bl-r-bindings.cpp -o bl-r-bindings.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c grid-renderer.cpp -o grid-renderer.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c grid.cpp -o grid.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gridtext.so RcppExports.o bl-r-bindings.o grid-renderer.o grid.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-gridtext/00new/gridtext/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridtext’ as ‘gridtext_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridtext)
+* installing *source* package ‘ggtext’ ...
+** package ‘ggtext’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggtext’ as ‘ggtext_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtext)
+* installing *source* package ‘SpatialOmicsOverlay’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+trying URL 'https://downloads.openmicroscopy.org/bio-formats/6.12.0/artifacts/bioformats_package.jar'
+Content type 'application/x-java-archive' length 43081858 bytes (41.1 MB)
+==================================================
+downloaded 41.1 MB
+
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SpatialOmicsOverlay’ as ‘SpatialOmicsOverlay_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpatialOmicsOverlay)
+
+The downloaded source packages are in
+	‘/tmp/RtmppNzqbP/downloaded_packages’
+Old packages: 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	1m41.671s
+user	1m10.586s
+sys	0m5.964s
