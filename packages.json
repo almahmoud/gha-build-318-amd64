@@ -1622,8 +1622,7 @@
         "rtracklayer"
     ],
     "cyanoFilter": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "cytofQC": [
         "BiocSingular",
@@ -1645,13 +1644,11 @@
         "scuttle"
     ],
     "CytoML": [
-        "flowWorkspace",
         "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
-        "flowWorkspace",
         "ggcyto"
     ],
     "cytoviewer": [
@@ -1703,8 +1700,7 @@
         "sva"
     ],
     "ddPCRclust": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "debCAM": [
         "SummarizedExperiment"
@@ -2426,24 +2422,16 @@
         "scuttle"
     ],
     "flowCut": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
-    "flowDensity": [
-        "flowWorkspace"
-    ],
+    "flowDensity": [],
     "flowGate": [
-        "flowWorkspace",
         "ggcyto"
     ],
-    "flowStats": [
-        "flowWorkspace"
-    ],
+    "flowStats": [],
     "flowVS": [
-        "flowStats",
-        "flowWorkspace"
+        "flowStats"
     ],
-    "flowWorkspace": [],
     "FRASER": [
         "BSgenome",
         "DESeq2",
@@ -2698,9 +2686,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [
-        "flowWorkspace"
-    ],
+    "ggcyto": [],
     "ggmanh": [],
     "ggspavis": [
         "DropletUtils",
@@ -3117,9 +3103,7 @@
         "cytomapper",
         "scuttle"
     ],
-    "ImmuneSpaceR": [
-        "flowWorkspace"
-    ],
+    "ImmuneSpaceR": [],
     "iNETgrate": [
         "AnnotationHub",
         "DOSE",
@@ -4418,9 +4402,7 @@
         "AnnotationHub",
         "SummarizedExperiment"
     ],
-    "openCyto": [
-        "flowWorkspace"
-    ],
+    "openCyto": [],
     "openPrimeRui": [],
     "oposSOM": [
         "biomaRt"
@@ -4575,9 +4557,7 @@
         "oligo",
         "oligoClasses"
     ],
-    "PeacoQC": [
-        "flowWorkspace"
-    ],
+    "PeacoQC": [],
     "peakPantheR": [],
     "PECA": [
         "annotate",
