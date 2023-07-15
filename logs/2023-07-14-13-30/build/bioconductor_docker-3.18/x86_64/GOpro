@@ -1,0 +1,237 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GOpro'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'GOpro'
+also installing the dependencies ‘selectr’, ‘assertthat’, ‘rvest’, ‘ggthemes’, ‘viridis’, ‘RTCGA’, ‘dendextend’, ‘RTCGA.PANCAN12’
+
+trying URL 'https://cloud.r-project.org/src/contrib/selectr_0.4-2.tar.gz'
+Content type 'application/x-gzip' length 41371 bytes (40 KB)
+==================================================
+downloaded 40 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'application/x-gzip' length 12742 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rvest_1.0.3.tar.gz'
+Content type 'application/x-gzip' length 94659 bytes (92 KB)
+==================================================
+downloaded 92 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggthemes_4.2.4.tar.gz'
+Content type 'application/x-gzip' length 444642 bytes (434 KB)
+==================================================
+downloaded 434 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/viridis_0.6.3.tar.gz'
+Content type 'application/x-gzip' length 3049132 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/RTCGA_1.31.0.tar.gz'
+Content type 'application/x-gzip' length 2441811 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dendextend_1.17.1.tar.gz'
+Content type 'application/x-gzip' length 3544318 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/RTCGA.PANCAN12_1.29.0.tar.gz'
+Content type 'application/x-gzip' length 224291452 bytes (213.9 MB)
+==================================================
+downloaded 213.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/GOpro_1.27.0.tar.gz'
+Content type 'application/x-gzip' length 1011411 bytes (987 KB)
+==================================================
+downloaded 987 KB
+
+* installing *source* package ‘selectr’ ...
+** package ‘selectr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘selectr’ as ‘selectr_0.4-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (selectr)
+* installing *source* package ‘assertthat’ ...
+** package ‘assertthat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *source* package ‘ggthemes’ ...
+** package ‘ggthemes’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggthemes’ as ‘ggthemes_4.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggthemes)
+* installing *source* package ‘viridis’ ...
+** package ‘viridis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘viridis’ as ‘viridis_0.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridis)
+* installing *source* package ‘rvest’ ...
+** package ‘rvest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rvest’ as ‘rvest_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rvest)
+* installing *source* package ‘dendextend’ ...
+** package ‘dendextend’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dendextend’ as ‘dendextend_1.17.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dendextend)
+* installing *source* package ‘RTCGA’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RTCGA’ as ‘RTCGA_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA)
+* installing *source* package ‘GOpro’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GOpro_init.c -o GOpro_init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fisher.cpp -o fisher.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GOpro.so GOpro_init.o RcppExports.o fisher.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-GOpro/00new/GOpro/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GOpro’ as ‘GOpro_1.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GOpro)
+* installing *source* package ‘RTCGA.PANCAN12’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RTCGA.PANCAN12’ as ‘RTCGA.PANCAN12_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.PANCAN12)
+
+The downloaded source packages are in
+	‘/tmp/RtmpUTWxAd/downloaded_packages’
+Old packages: 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	1m43.731s
+user	1m34.518s
+sys	0m8.682s
+* installing *source* package ‘RTCGA.PANCAN12’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RTCGA.PANCAN12’ as ‘RTCGA.PANCAN12_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.PANCAN12)
