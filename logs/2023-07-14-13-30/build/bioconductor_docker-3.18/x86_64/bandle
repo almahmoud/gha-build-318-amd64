@@ -1,0 +1,399 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''bandle'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'bandle'
+also installing the dependencies ‘GlobalOptions’, ‘hunspell’, ‘lbfgs’, ‘ggalluvial’, ‘ggrepel’, ‘circlize’, ‘pheatmap’, ‘spelling’
+
+trying URL 'https://cloud.r-project.org/src/contrib/GlobalOptions_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 305898 bytes (298 KB)
+==================================================
+downloaded 298 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/hunspell_3.0.2.tar.gz'
+Content type 'application/x-gzip' length 3210562 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lbfgs_1.2.1.2.tar.gz'
+Content type 'application/x-gzip' length 2232568 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggalluvial_0.12.5.tar.gz'
+Content type 'application/x-gzip' length 2850813 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggrepel_0.9.3.tar.gz'
+Content type 'application/x-gzip' length 136189 bytes (132 KB)
+==================================================
+downloaded 132 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/circlize_0.4.15.tar.gz'
+Content type 'application/x-gzip' length 2497140 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pheatmap_1.0.12.tar.gz'
+Content type 'application/x-gzip' length 15071 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/spelling_2.2.1.tar.gz'
+Content type 'application/x-gzip' length 11032 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/bandle_1.5.0.tar.gz'
+Content type 'application/x-gzip' length 1610483 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+* installing *source* package ‘GlobalOptions’ ...
+** package ‘GlobalOptions’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GlobalOptions’ as ‘GlobalOptions_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GlobalOptions)
+* installing *source* package ‘hunspell’ ...
+** package ‘hunspell’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dictionary.cpp -o dictionary.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parser.cpp -o parser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/textparser.cc -o parsers/textparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/latexparser.cc -o parsers/latexparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/manparser.cc -o parsers/manparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/xmlparser.cc -o parsers/xmlparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/htmlparser.cc -o parsers/htmlparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/affentry.cc -o hunspell/affentry.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/affixmgr.cc -o hunspell/affixmgr.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/filemgr.cc -o hunspell/filemgr.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/hashmgr.cc -o hunspell/hashmgr.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/hunspell.cc -o hunspell/hunspell.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/hunzip.cc -o hunspell/hunzip.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/phonet.cc -o hunspell/phonet.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/replist.cc -o hunspell/replist.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/suggestmgr.cc -o hunspell/suggestmgr.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/csutil.cc -o hunspell/csutil.o
+ar rcs hunspell/libstathunspell.a parsers/textparser.o parsers/latexparser.o parsers/manparser.o parsers/xmlparser.o parsers/htmlparser.o hunspell/affentry.o hunspell/affixmgr.o hunspell/filemgr.o hunspell/hashmgr.o hunspell/hunspell.o hunspell/hunzip.o hunspell/phonet.o hunspell/replist.o hunspell/suggestmgr.o hunspell/csutil.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o hunspell.so RcppExports.o dictionary.o parser.o -Lhunspell -lstathunspell -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-hunspell/00new/hunspell/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hunspell’ as ‘hunspell_3.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hunspell)
+* installing *source* package ‘lbfgs’ ...
+** package ‘lbfgs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RegisterDynamicSymbol.c -o RegisterDynamicSymbol.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lbfgs.cc -o lbfgs.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lbfgs.so RcppExports.o RegisterDynamicSymbol.o lbfgs.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-lbfgs/00new/lbfgs/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lbfgs’ as ‘lbfgs_1.2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lbfgs)
+* installing *source* package ‘ggalluvial’ ...
+** package ‘ggalluvial’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggalluvial’ as ‘ggalluvial_0.12.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggalluvial)
+* installing *source* package ‘ggrepel’ ...
+** package ‘ggrepel’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c repel_boxes.cpp -o repel_boxes.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ggrepel.so RcppExports.o repel_boxes.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ggrepel/00new/ggrepel/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *source* package ‘pheatmap’ ...
+** package ‘pheatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pheatmap’ as ‘pheatmap_1.0.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pheatmap)
+* installing *source* package ‘circlize’ ...
+** package ‘circlize’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘circlize’ as ‘circlize_0.4.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (circlize)
+* installing *source* package ‘spelling’ ...
+** package ‘spelling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spelling’ as ‘spelling_2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spelling)
+* installing *source* package ‘bandle’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/BH/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Bessel2ndKind.cpp -o Bessel2ndKind.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/BH/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/BH/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dmvtCpp.cpp -o dmvtCpp.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/BH/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c leapfrogGPcpp.cpp -o leapfrogGPcpp.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/BH/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pg_sample.cpp -o pg_sample.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bandle.so Bessel2ndKind.o RcppExports.o dmvtCpp.o leapfrogGPcpp.o pg_sample.o -fopenmp -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bandle/00new/bandle/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function from function ‘posteriorEstimates’ in package ‘bandle’
+Creating a generic function from function ‘bandleJoint’ in package ‘bandle’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bandle’ as ‘bandle_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bandle)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmaySZZ/downloaded_packages’
+Old packages: 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	3m19.196s
+user	3m5.289s
+sys	0m13.995s
+* installing *source* package ‘qpdf’ ...
+** package ‘qpdf’ successfully unpacked and MD5 sums checked
+** using staged installation
+Using bundled qpdf (recommended)
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bindings.cpp -o bindings.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/BitStream.cc -o libqpdf/BitStream.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/BitWriter.cc -o libqpdf/BitWriter.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Buffer.cc -o libqpdf/Buffer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/BufferInputSource.cc -o libqpdf/BufferInputSource.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/ClosedFileInputSource.cc -o libqpdf/ClosedFileInputSource.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/ContentNormalizer.cc -o libqpdf/ContentNormalizer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/FileInputSource.cc -o libqpdf/FileInputSource.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/InputSource.cc -o libqpdf/InputSource.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/InsecureRandomDataProvider.cc -o libqpdf/InsecureRandomDataProvider.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/JSON.cc -o libqpdf/JSON.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/MD5.cc -o libqpdf/MD5.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/OffsetInputSource.cc -o libqpdf/OffsetInputSource.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pipeline.cc -o libqpdf/Pipeline.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_AES_PDF.cc -o libqpdf/Pl_AES_PDF.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_ASCII85Decoder.cc -o libqpdf/Pl_ASCII85Decoder.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_ASCIIHexDecoder.cc -o libqpdf/Pl_ASCIIHexDecoder.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_Buffer.cc -o libqpdf/Pl_Buffer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_Concatenate.cc -o libqpdf/Pl_Concatenate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_Count.cc -o libqpdf/Pl_Count.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_DCT.cc -o libqpdf/Pl_DCT.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_Discard.cc -o libqpdf/Pl_Discard.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_Flate.cc -o libqpdf/Pl_Flate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_LZWDecoder.cc -o libqpdf/Pl_LZWDecoder.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_MD5.cc -o libqpdf/Pl_MD5.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_PNGFilter.cc -o libqpdf/Pl_PNGFilter.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_QPDFTokenizer.cc -o libqpdf/Pl_QPDFTokenizer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_RC4.cc -o libqpdf/Pl_RC4.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_RunLength.cc -o libqpdf/Pl_RunLength.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_SHA2.cc -o libqpdf/Pl_SHA2.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_StdioFile.cc -o libqpdf/Pl_StdioFile.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/Pl_TIFFPredictor.cc -o libqpdf/Pl_TIFFPredictor.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Array.cc -o libqpdf/QPDF_Array.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Bool.cc -o libqpdf/QPDF_Bool.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Dictionary.cc -o libqpdf/QPDF_Dictionary.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_encryption.cc -o libqpdf/QPDF_encryption.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_InlineImage.cc -o libqpdf/QPDF_InlineImage.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Integer.cc -o libqpdf/QPDF_Integer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_linearization.cc -o libqpdf/QPDF_linearization.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Name.cc -o libqpdf/QPDF_Name.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Null.cc -o libqpdf/QPDF_Null.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Operator.cc -o libqpdf/QPDF_Operator.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_optimization.cc -o libqpdf/QPDF_optimization.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_pages.cc -o libqpdf/QPDF_pages.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Real.cc -o libqpdf/QPDF_Real.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Reserved.cc -o libqpdf/QPDF_Reserved.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_Stream.cc -o libqpdf/QPDF_Stream.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF_String.cc -o libqpdf/QPDF_String.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/qpdf-c.cc -o libqpdf/qpdf-c.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDF.cc -o libqpdf/QPDF.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFAcroFormDocumentHelper.cc -o libqpdf/QPDFAcroFormDocumentHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFAnnotationObjectHelper.cc -o libqpdf/QPDFAnnotationObjectHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFExc.cc -o libqpdf/QPDFExc.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFFormFieldObjectHelper.cc -o libqpdf/QPDFFormFieldObjectHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFMatrix.cc -o libqpdf/QPDFMatrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFNameTreeObjectHelper.cc -o libqpdf/QPDFNameTreeObjectHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFNumberTreeObjectHelper.cc -o libqpdf/QPDFNumberTreeObjectHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFObject.cc -o libqpdf/QPDFObject.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFObjectHandle.cc -o libqpdf/QPDFObjectHandle.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFObjGen.cc -o libqpdf/QPDFObjGen.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFOutlineDocumentHelper.cc -o libqpdf/QPDFOutlineDocumentHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFOutlineObjectHelper.cc -o libqpdf/QPDFOutlineObjectHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFPageDocumentHelper.cc -o libqpdf/QPDFPageDocumentHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFPageLabelDocumentHelper.cc -o libqpdf/QPDFPageLabelDocumentHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFPageObjectHelper.cc -o libqpdf/QPDFPageObjectHelper.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFSystemError.cc -o libqpdf/QPDFSystemError.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFTokenizer.cc -o libqpdf/QPDFTokenizer.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFWriter.cc -o libqpdf/QPDFWriter.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QPDFXRefEntry.cc -o libqpdf/QPDFXRefEntry.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QTC.cc -o libqpdf/QTC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/QUtil.cc -o libqpdf/QUtil.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/RC4.cc -o libqpdf/RC4.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/rijndael.cc -o libqpdf/rijndael.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/SecureRandomDataProvider.cc -o libqpdf/SecureRandomDataProvider.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/sha2.c -o libqpdf/sha2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iinclude -Ilibqpdf  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libqpdf/sha2big.c -o libqpdf/sha2big.o
+ar rcs libqpdf/libstatqpdf.a libqpdf/BitStream.o libqpdf/BitWriter.o libqpdf/Buffer.o libqpdf/BufferInputSource.o libqpdf/ClosedFileInputSource.o libqpdf/ContentNormalizer.o libqpdf/FileInputSource.o libqpdf/InputSource.o libqpdf/InsecureRandomDataProvider.o libqpdf/JSON.o libqpdf/MD5.o libqpdf/OffsetInputSource.o libqpdf/Pipeline.o libqpdf/Pl_AES_PDF.o libqpdf/Pl_ASCII85Decoder.o libqpdf/Pl_ASCIIHexDecoder.o libqpdf/Pl_Buffer.o libqpdf/Pl_Concatenate.o libqpdf/Pl_Count.o libqpdf/Pl_DCT.o libqpdf/Pl_Discard.o libqpdf/Pl_Flate.o libqpdf/Pl_LZWDecoder.o libqpdf/Pl_MD5.o libqpdf/Pl_PNGFilter.o libqpdf/Pl_QPDFTokenizer.o libqpdf/Pl_RC4.o libqpdf/Pl_RunLength.o libqpdf/Pl_SHA2.o libqpdf/Pl_StdioFile.o libqpdf/Pl_TIFFPredictor.o libqpdf/QPDF_Array.o libqpdf/QPDF_Bool.o libqpdf/QPDF_Dictionary.o libqpdf/QPDF_encryption.o libqpdf/QPDF_InlineImage.o libqpdf/QPDF_Integer.o libqpdf/QPDF_linearization.o libqpdf/QPDF_Name.o libqpdf/QPDF_Null.o libqpdf/QPDF_Operator.o libqpdf/QPDF_optimization.o libqpdf/QPDF_pages.o libqpdf/QPDF_Real.o libqpdf/QPDF_Reserved.o libqpdf/QPDF_Stream.o libqpdf/QPDF_String.o libqpdf/qpdf-c.o libqpdf/QPDF.o libqpdf/QPDFAcroFormDocumentHelper.o libqpdf/QPDFAnnotationObjectHelper.o libqpdf/QPDFExc.o libqpdf/QPDFFormFieldObjectHelper.o libqpdf/QPDFMatrix.o libqpdf/QPDFNameTreeObjectHelper.o libqpdf/QPDFNumberTreeObjectHelper.o libqpdf/QPDFObject.o libqpdf/QPDFObjectHandle.o libqpdf/QPDFObjGen.o libqpdf/QPDFOutlineDocumentHelper.o libqpdf/QPDFOutlineObjectHelper.o libqpdf/QPDFPageDocumentHelper.o libqpdf/QPDFPageLabelDocumentHelper.o libqpdf/QPDFPageObjectHelper.o libqpdf/QPDFSystemError.o libqpdf/QPDFTokenizer.o libqpdf/QPDFWriter.o libqpdf/QPDFXRefEntry.o libqpdf/QTC.o libqpdf/QUtil.o libqpdf/RC4.o libqpdf/rijndael.o libqpdf/SecureRandomDataProvider.o libqpdf/sha2.o libqpdf/sha2big.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o qpdf.so RcppExports.o bindings.o -Llibqpdf -lstatqpdf -ljpeg -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-qpdf/00new/qpdf/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘qpdf’ as ‘qpdf_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qpdf)
+* installing *source* package ‘spelling’ ...
+** package ‘spelling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spelling’ as ‘spelling_2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spelling)
+* installing *source* package ‘pdftools’ ...
+** package ‘pdftools’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found pkg-config cflags and libs!
+Using PKG_CFLAGS=-I/usr/include/poppler/cpp -I/usr/include/poppler
+Using PKG_LIBS=-lpoppler-cpp
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/poppler/cpp -I/usr/include/poppler -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/poppler/cpp -I/usr/include/poppler -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bindings.cpp -o bindings.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pdftools.so RcppExports.o bindings.o -lpoppler-cpp -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-pdftools/00new/pdftools/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pdftools’ as ‘pdftools_3.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pdftools)
