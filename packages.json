@@ -472,7 +472,6 @@
     "bandle": [
         "AnnotationDbi",
         "MLInterfaces",
-        "MSnbase",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -963,7 +962,6 @@
     ],
     "CAMERA": [
         "AnnotationFilter",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -1472,7 +1470,6 @@
     ],
     "cliqueMS": [
         "AnnotationFilter",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -1480,9 +1477,7 @@
         "SummarizedExperiment",
         "xcms"
     ],
-    "CluMSID": [
-        "MSnbase"
-    ],
+    "CluMSID": [],
     "clusterExperiment": [
         "AnnotationDbi",
         "BiocSingular",
@@ -1829,7 +1824,6 @@
     ],
     "cosmiq": [
         "AnnotationFilter",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -2249,7 +2243,6 @@
         "rtracklayer"
     ],
     "DEP": [
-        "MSnbase",
         "SummarizedExperiment"
     ],
     "derfinder": [
@@ -2991,7 +2984,6 @@
     "flagme": [
         "AnnotationFilter",
         "CAMERA",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -4003,7 +3995,6 @@
     "IPO": [
         "AnnotationFilter",
         "CAMERA",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -4163,7 +4154,6 @@
     "LOBSTAHS": [
         "AnnotationFilter",
         "CAMERA",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -4286,7 +4276,6 @@
     "MAIT": [
         "AnnotationFilter",
         "CAMERA",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -4529,7 +4518,6 @@
     "metaMS": [
         "AnnotationFilter",
         "CAMERA",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -4931,7 +4919,6 @@
     ],
     "MobilityTransformR": [
         "AnnotationFilter",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -5095,18 +5082,13 @@
     "mslp": [
         "AnnotationDbi"
     ],
-    "msmsEDA": [
-        "MSnbase"
-    ],
+    "msmsEDA": [],
     "msmsTests": [
-        "MSnbase",
         "msmsEDA"
     ],
-    "MSnbase": [],
     "MSnID": [
         "AnnotationDbi",
         "AnnotationHub",
-        "MSnbase",
         "msmsEDA",
         "msmsTests"
     ],
@@ -5131,11 +5113,8 @@
         "SummarizedExperiment"
     ],
     "MSstatsLiP": [],
-    "MSstatsQC": [
-        "MSnbase"
-    ],
+    "MSstatsQC": [],
     "MSstatsQCgui": [
-        "MSnbase",
         "MSstatsQC"
     ],
     "MuData": [
@@ -5314,7 +5293,6 @@
     ],
     "ncGTW": [
         "AnnotationFilter",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -5723,9 +5701,7 @@
     "PeacoQC": [
         "flowWorkspace"
     ],
-    "peakPantheR": [
-        "MSnbase"
-    ],
+    "peakPantheR": [],
     "PECA": [
         "AnnotationDbi",
         "annotate",
@@ -5938,9 +5914,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "PrInCE": [
-        "MSnbase"
-    ],
+    "PrInCE": [],
     "proActiv": [
         "AnnotationDbi",
         "DESeq2",
@@ -5986,7 +5960,6 @@
     "pRoloc": [
         "AnnotationDbi",
         "MLInterfaces",
-        "MSnbase",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -5995,7 +5968,6 @@
     "pRolocGUI": [
         "AnnotationDbi",
         "MLInterfaces",
-        "MSnbase",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -6061,9 +6033,7 @@
         "biomaRt",
         "topGO"
     ],
-    "ptairMS": [
-        "MSnbase"
-    ],
+    "ptairMS": [],
     "puma": [
         "SummarizedExperiment",
         "oligo",
@@ -6116,9 +6086,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "qPLEXanalyzer": [
-        "MSnbase"
-    ],
+    "qPLEXanalyzer": [],
     "qsea": [
         "BSgenome",
         "GenomicAlignments",
@@ -6582,7 +6550,6 @@
     ],
     "Risa": [
         "AnnotationFilter",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
@@ -6622,9 +6589,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "RMassBank": [
-        "MSnbase"
-    ],
+    "RMassBank": [],
     "Rmmquant": [
         "AnnotationDbi",
         "DESeq2",
@@ -8185,9 +8150,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "synapter": [
-        "MSnbase"
-    ],
+    "synapter": [],
     "SynExtend": [],
     "syntenet": [
         "GenomicAlignments",
@@ -8434,9 +8397,7 @@
         "annotate",
         "genefilter"
     ],
-    "topdownr": [
-        "MSnbase"
-    ],
+    "topdownr": [],
     "topGO": [
         "AnnotationDbi"
     ],
@@ -8895,7 +8856,6 @@
     ],
     "xcms": [
         "AnnotationFilter",
-        "MSnbase",
         "MsExperiment",
         "MsFeatures",
         "MultiAssayExperiment",
