@@ -1,0 +1,148 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MEB'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'MEB'
+also installing the dependencies ‘proxy’, ‘logging’, ‘e1071’, ‘wrswoR’
+
+trying URL 'https://cloud.r-project.org/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'application/x-gzip' length 74622 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/logging_0.10-108.tar.gz'
+Content type 'application/x-gzip' length 17155 bytes (16 KB)
+==================================================
+downloaded 16 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/e1071_1.7-13.tar.gz'
+Content type 'application/x-gzip' length 314205 bytes (306 KB)
+==================================================
+downloaded 306 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/wrswoR_1.1.1.tar.gz'
+Content type 'application/x-gzip' length 13002 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/MEB_1.15.0.tar.gz'
+Content type 'application/x-gzip' length 1235967 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.c -o apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dll.c -o dll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘logging’ ...
+** package ‘logging’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘logging’ as ‘logging_0.10-108_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logging)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmeans.c -o cmeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cshell.c -o cshell.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c floyd.c -o floyd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘wrswoR’ ...
+** package ‘wrswoR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sample_int_crank.cpp -o sample_int_crank.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o wrswoR.so RcppExports.o sample_int_crank.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-wrswoR/00new/wrswoR/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘wrswoR’ as ‘wrswoR_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wrswoR)
+* installing *source* package ‘MEB’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MEB’ as ‘MEB_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MEB)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjwPx7I/downloaded_packages’
+Old packages: 'openssl', 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m55.667s
+user	0m50.065s
+sys	0m5.047s
