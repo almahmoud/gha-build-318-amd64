@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''clusterProfiler'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'clusterProfiler'
+also installing the dependencies ‘graphite’, ‘ReactomePA’
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/graphite_1.47.0.tar.gz'
+Content type 'application/x-gzip' length 788208 bytes (769 KB)
+==================================================
+downloaded 769 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/ReactomePA_1.45.0.tar.gz'
+Content type 'application/x-gzip' length 58700 bytes (57 KB)
+==================================================
+downloaded 57 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/clusterProfiler_4.9.2.tar.gz'
+Content type 'application/x-gzip' length 622013 bytes (607 KB)
+==================================================
+downloaded 607 KB
+
+* installing *source* package ‘graphite’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘graphite’ as ‘graphite_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (graphite)
+* installing *source* package ‘clusterProfiler’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘clusterProfiler’ as ‘clusterProfiler_4.9.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clusterProfiler)
+* installing *source* package ‘ReactomePA’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ReactomePA’ as ‘ReactomePA_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ReactomePA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp7TRgaK/downloaded_packages’
+Old packages: 'openssl', 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	2m9.473s
+user	1m47.163s
+sys	0m8.504s
