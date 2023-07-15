@@ -1,0 +1,79 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MBASED'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'MBASED'
+also installing the dependencies ‘bookdown’, ‘BiocStyle’
+
+trying URL 'https://cloud.r-project.org/src/contrib/bookdown_0.34.tar.gz'
+Content type 'application/x-gzip' length 859015 bytes (838 KB)
+==================================================
+downloaded 838 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/BiocStyle_2.29.0.tar.gz'
+Content type 'application/x-gzip' length 772925 bytes (754 KB)
+==================================================
+downloaded 754 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/MBASED_1.35.0.tar.gz'
+Content type 'application/x-gzip' length 372881 bytes (364 KB)
+==================================================
+downloaded 364 KB
+
+* installing *source* package ‘bookdown’ ...
+** package ‘bookdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bookdown’ as ‘bookdown_0.34_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bookdown)
+* installing *source* package ‘MBASED’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MBASED’ as ‘MBASED_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MBASED)
+* installing *source* package ‘BiocStyle’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocStyle’ as ‘BiocStyle_2.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocStyle)
+
+The downloaded source packages are in
+	‘/tmp/RtmpvjkvgU/downloaded_packages’
+Old packages: 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m34.177s
+user	0m30.006s
+sys	0m2.663s
