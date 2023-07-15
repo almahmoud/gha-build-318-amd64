@@ -1,0 +1,121 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''plyranges'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'plyranges'
+Warning: dependency ‘HelloRanges’ is not available
+also installing the dependencies ‘rex’, ‘HelloRangesData’, ‘covr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/rex_1.2.1.tar.gz'
+Content type 'application/x-gzip' length 93583 bytes (91 KB)
+==================================================
+downloaded 91 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/HelloRangesData_1.27.0.tar.gz'
+Content type 'application/x-gzip' length 47955415 bytes (45.7 MB)
+==================================================
+downloaded 45.7 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/covr_3.6.2.tar.gz'
+Content type 'application/x-gzip' length 162879 bytes (159 KB)
+==================================================
+downloaded 159 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/plyranges_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 1281149 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ‘rex’ ...
+** package ‘rex’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rex’ as ‘rex_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rex)
+* installing *source* package ‘HelloRangesData’ ...
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘HelloRangesData’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘HelloRangesData’ as ‘HelloRangesData_1.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HelloRangesData)
+* installing *source* package ‘plyranges’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plyranges’ as ‘plyranges_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyranges)
+* installing *source* package ‘covr’ ...
+** package ‘covr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reassign.c -o reassign.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o covr.so reassign.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-covr/00new/covr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘covr’ as ‘covr_3.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (covr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdnJnoU/downloaded_packages’
+Old packages: 'openssl', 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	1m15.863s
+user	1m9.908s
+sys	0m3.388s
+* installing *source* package ‘HelloRangesData’ ...
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘HelloRangesData’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘HelloRangesData’ as ‘HelloRangesData_1.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HelloRangesData)
