@@ -13,7 +13,6 @@
         "genefilter"
     ],
     "ACE": [
-        "GenomicRanges",
         "QDNAseq",
         "Rsamtools"
     ],
@@ -27,14 +26,12 @@
     "ADAM": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ADAMgui": [
         "ADAM",
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "adductomicsR": [
@@ -44,7 +41,6 @@
     ],
     "ADImpute": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -56,7 +52,6 @@
     ],
     "AffiXcan": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -68,7 +63,6 @@
     ],
     "aggregateBioVar": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -80,7 +74,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -91,7 +84,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -108,7 +100,6 @@
         "DropletUtils",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "MultiAssayExperiment",
         "Rsamtools",
@@ -131,14 +122,12 @@
     "alabaster.files": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "alabaster.mae": [
         "DelayedArray",
-        "GenomicRanges",
         "HDF5Array",
         "MultiAssayExperiment",
         "SummarizedExperiment",
@@ -150,12 +139,9 @@
         "DelayedArray",
         "HDF5Array"
     ],
-    "alabaster.ranges": [
-        "GenomicRanges"
-    ],
+    "alabaster.ranges": [],
     "alabaster.sce": [
         "DelayedArray",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -165,7 +151,6 @@
     ],
     "alabaster.se": [
         "DelayedArray",
-        "GenomicRanges",
         "HDF5Array",
         "SummarizedExperiment",
         "alabaster.matrix",
@@ -175,7 +160,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -193,7 +177,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -206,7 +189,6 @@
     ],
     "ALDEx2": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "AllelicImbalance": [
@@ -216,7 +198,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -231,7 +212,6 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "HDF5Array",
         "MultiAssayExperiment",
         "SummarizedExperiment"
@@ -239,7 +219,6 @@
     "amplican": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -247,14 +226,12 @@
     "Anaquin": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ANCOMBC": [
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -268,7 +245,6 @@
     "AneuFinder": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "bamsignals"
@@ -278,7 +254,6 @@
     ],
     "annmap": [
         "AnnotationDbi",
-        "GenomicRanges",
         "Rsamtools",
         "annotate",
         "genefilter"
@@ -287,9 +262,7 @@
         "AnnotationDbi"
     ],
     "AnnotationDbi": [],
-    "AnnotationFilter": [
-        "GenomicRanges"
-    ],
+    "AnnotationFilter": [],
     "AnnotationForge": [
         "AnnotationDbi"
     ],
@@ -303,7 +276,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -317,7 +289,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -327,7 +298,6 @@
     "anota2seq": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "APAlyzer": [
@@ -337,7 +307,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -349,13 +318,11 @@
     ],
     "apeglm": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "APL": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "topGO"
@@ -367,7 +334,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "GenomicScores",
         "HDF5Array",
         "OrganismDbi",
@@ -379,7 +345,6 @@
     ],
     "ArrayExpress": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligo",
         "oligoClasses"
@@ -390,7 +355,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -408,15 +372,12 @@
     ],
     "ASICS": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment",
         "ropls"
     ],
-    "AssessORF": [
-        "GenomicRanges"
-    ],
+    "AssessORF": [],
     "ASSIGN": [
         "AnnotationDbi",
         "annotate",
@@ -425,7 +386,6 @@
     ],
     "ASURAT": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -439,7 +399,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "GenomicScores",
         "HDF5Array",
         "InteractionSet",
@@ -459,7 +418,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -472,7 +430,6 @@
         "AnnotationHub",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -482,7 +439,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -504,25 +460,21 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate"
     ],
     "autonomics": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "awst": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "BaalChIP": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -532,7 +484,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -543,7 +494,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -557,23 +507,18 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
         "rtracklayer"
     ],
-    "bamsignals": [
-        "GenomicRanges"
-    ],
+    "bamsignals": [],
     "BANDITS": [
-        "DRIMSeq",
-        "GenomicRanges"
+        "DRIMSeq"
     ],
     "bandle": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "MLInterfaces",
         "MSnbase",
         "SummarizedExperiment",
@@ -584,13 +529,11 @@
     ],
     "barcodetrackR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "basecallQC": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -599,7 +542,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -608,7 +550,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -621,7 +562,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -634,7 +574,6 @@
     "BasicSTARRseq": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -642,7 +581,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ResidualMatrix",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -660,7 +598,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -671,20 +608,16 @@
     ],
     "bayNorm": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "baySeq": [
-        "GenomicRanges"
-    ],
+    "baySeq": [],
     "BBCAnalyzer": [
         "AnnotationDbi",
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -695,12 +628,10 @@
         "DelayedArray"
     ],
     "beadarray": [
-        "AnnotationDbi",
-        "GenomicRanges"
+        "AnnotationDbi"
     ],
     "BEARscc": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -708,7 +639,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -716,7 +646,6 @@
     ],
     "beer": [
         "DelayedArray",
-        "GenomicRanges",
         "PhIPData",
         "SummarizedExperiment"
     ],
@@ -728,7 +657,6 @@
         "DESeq2",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "MAST",
         "MultiAssayExperiment",
         "ScaledMatrix",
@@ -749,7 +677,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -765,16 +692,13 @@
         "GSEABase",
         "annotate"
     ],
-    "BiFET": [
-        "GenomicRanges"
-    ],
+    "BiFET": [],
     "bigmelon": [
         "AnnotationDbi",
         "DelayedArray",
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -793,7 +717,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -826,7 +749,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "MultiAssayExperiment",
         "Rsamtools",
@@ -849,7 +771,6 @@
     ],
     "BiocSklearn": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "biomaRt": [
@@ -868,7 +789,6 @@
     ],
     "biosigner": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment",
@@ -876,7 +796,6 @@
     ],
     "biotmle": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "biovizBase": [
@@ -886,7 +805,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -898,7 +816,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -907,12 +824,10 @@
     ],
     "blacksheepr": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "blima": [
         "AnnotationDbi",
-        "GenomicRanges",
         "beadarray"
     ],
     "BLMA": [
@@ -925,13 +840,11 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "bnbc": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter",
@@ -944,7 +857,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -956,9 +868,7 @@
         "plyranges",
         "rtracklayer"
     ],
-    "BPRMeth": [
-        "GenomicRanges"
-    ],
+    "BPRMeth": [],
     "brainflowprobes": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -968,7 +878,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -987,7 +896,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -996,7 +904,6 @@
     "breakpointR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -1004,7 +911,6 @@
         "DESeq2",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1012,7 +918,6 @@
     "BSgenome": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1021,7 +926,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1031,7 +935,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GenomicAlignments",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1045,7 +948,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1056,7 +958,6 @@
     ],
     "BUMHMM": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "bumphunter": [
@@ -1064,7 +965,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1072,7 +972,6 @@
     ],
     "BUScorrect": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "BUSpaRse": [
@@ -1082,7 +981,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1092,18 +990,15 @@
     ],
     "BUSseq": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "CaDrA": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "CAEN": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "CAFE": [
@@ -1113,7 +1008,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1134,7 +1028,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicInteractions",
-        "GenomicRanges",
         "Gviz",
         "InteractionSet",
         "Rsamtools",
@@ -1156,7 +1049,6 @@
         "GenomicFeatures",
         "GenomicFiles",
         "GenomicInteractions",
-        "GenomicRanges",
         "Gviz",
         "InteractionSet",
         "MultiAssayExperiment",
@@ -1171,7 +1063,6 @@
     "CAMERA": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -1195,7 +1086,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1207,7 +1097,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1217,7 +1106,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1246,7 +1134,6 @@
         "GenomicAlignments",
         "GenomicDataCommons",
         "GenomicFeatures",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "RTCGAToolbox",
         "RaggedExperiment",
@@ -1263,7 +1150,6 @@
         "AnnotationDbi",
         "BiocSet",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment"
@@ -1274,7 +1160,6 @@
         "GenomicAlignments",
         "GenomicDataCommons",
         "GenomicFeatures",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "RTCGAToolbox",
         "RaggedExperiment",
@@ -1296,7 +1181,6 @@
     ],
     "ccfindR": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -1311,7 +1195,6 @@
     ],
     "celaref": [
         "DelayedArray",
-        "GenomicRanges",
         "MAST",
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -1320,7 +1203,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1332,18 +1214,15 @@
     "CellBarcode": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
     ],
     "cellbaseR": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "CellBench": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -1358,7 +1237,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1374,7 +1252,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1384,7 +1261,6 @@
     ],
     "CellTrails": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -1398,7 +1274,6 @@
     ],
     "censcyt": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "diffcyt"
     ],
@@ -1407,7 +1282,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GSEABase",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1420,7 +1294,6 @@
         "DOSE",
         "DelayedArray",
         "GOSemSim",
-        "GenomicRanges",
         "SummarizedExperiment",
         "clusterProfiler",
         "enrichplot"
@@ -1429,7 +1302,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "genomation",
@@ -1437,7 +1309,6 @@
         "seqPattern"
     ],
     "cfdnakit": [
-        "GenomicRanges",
         "QDNAseq",
         "Rsamtools"
     ],
@@ -1445,15 +1316,12 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "plyranges",
         "rtracklayer"
     ],
-    "cfTools": [
-        "GenomicRanges"
-    ],
+    "cfTools": [],
     "cghMCR": [
         "AnnotationDbi",
         "CNTools",
@@ -1462,7 +1330,6 @@
     ],
     "CHETAH": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -1477,7 +1344,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1491,7 +1357,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1500,7 +1365,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1509,7 +1373,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1521,7 +1384,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1537,7 +1399,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "InteractionSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1554,7 +1415,6 @@
         "DiffBind",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "GreyListChIP",
         "Rsamtools",
         "ShortRead",
@@ -1573,7 +1433,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1583,7 +1442,6 @@
     "chipseq": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -1591,7 +1449,6 @@
     "ChIPseqR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -1599,27 +1456,22 @@
     "ChIPsim": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
     ],
     "ChIPXpress": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "frma",
         "oligo",
         "oligoClasses"
     ],
-    "chromDraw": [
-        "GenomicRanges"
-    ],
+    "chromDraw": [],
     "ChromHeatMap": [
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1627,7 +1479,6 @@
     ],
     "chromPlot": [
         "AnnotationDbi",
-        "GenomicRanges",
         "biomaRt"
     ],
     "ChromSCape": [
@@ -1635,7 +1486,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GenomicAlignments",
-        "GenomicRanges",
         "ResidualMatrix",
         "Rsamtools",
         "ScaledMatrix",
@@ -1651,7 +1501,6 @@
     "chromstaR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "bamsignals"
@@ -1662,7 +1511,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -1680,7 +1528,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -1690,9 +1537,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "CINdex": [
-        "GenomicRanges"
-    ],
+    "CINdex": [],
     "circRNAprofiler": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -1701,7 +1546,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1715,7 +1559,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rbowtie2",
         "Rhisat2",
         "Rsamtools",
@@ -1729,7 +1572,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -1740,7 +1582,6 @@
     "ClassifyR": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -1750,7 +1591,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1760,7 +1600,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1772,7 +1611,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1780,7 +1618,6 @@
     "cliqueMS": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -1796,7 +1633,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "DelayedArray",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -1815,29 +1651,24 @@
         "enrichplot"
     ],
     "clusterSeq": [
-        "GenomicRanges",
         "baySeq"
     ],
     "clustifyr": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "cmapR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "cn.farms": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligo",
         "oligoClasses"
     ],
     "cn.mops": [
-        "GenomicRanges",
         "Rsamtools",
         "exomeCopy"
     ],
@@ -1845,7 +1676,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -1864,7 +1694,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1878,9 +1707,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "cnvGSA": [
-        "GenomicRanges"
-    ],
+    "cnvGSA": [],
     "CNViz": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -1889,7 +1716,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1903,18 +1729,14 @@
         "regioneR",
         "rtracklayer"
     ],
-    "CNVMetrics": [
-        "GenomicRanges"
-    ],
+    "CNVMetrics": [],
     "CNVPanelizer": [
-        "GenomicRanges",
         "Rsamtools",
         "exomeCopy"
     ],
     "CNVRanger": [
         "DelayedArray",
         "GDSArray",
-        "GenomicRanges",
         "RaggedExperiment",
         "SeqArray",
         "SummarizedExperiment"
@@ -1925,7 +1747,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -1940,7 +1761,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GenomicAlignments",
-        "GenomicRanges",
         "HDF5Array",
         "MIRA",
         "Rsamtools",
@@ -1957,7 +1777,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -1965,7 +1784,6 @@
     "CoGAPS": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "biomaRt"
@@ -1975,7 +1793,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -1988,7 +1805,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2000,7 +1816,6 @@
     ],
     "combi": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "phyloseq"
     ],
@@ -2011,7 +1826,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2028,7 +1842,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2042,7 +1855,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2055,8 +1867,7 @@
         "topGO"
     ],
     "CompoundDb": [
-        "AnnotationFilter",
-        "GenomicRanges"
+        "AnnotationFilter"
     ],
     "concordexR": [
         "DelayedArray"
@@ -2065,7 +1876,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -2085,7 +1895,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "RUVSeq",
         "Rsamtools",
         "ShortRead",
@@ -2101,7 +1910,6 @@
         "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -2114,7 +1922,6 @@
     "consensusSeekeR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -2122,7 +1929,6 @@
     "consICA": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "topGO"
     ],
@@ -2133,7 +1939,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2147,7 +1952,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2165,7 +1969,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2181,13 +1984,11 @@
     ],
     "CoreGx": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "corral": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -2195,7 +1996,6 @@
     "coseq": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "HTSFilter",
         "SummarizedExperiment"
     ],
@@ -2208,7 +2008,6 @@
     "cosmiq": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -2226,7 +2025,6 @@
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter"
@@ -2234,7 +2032,6 @@
     "CoverageView": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -2250,21 +2047,17 @@
         "GSEABase",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
         "rtracklayer"
     ],
-    "crisprBase": [
-        "GenomicRanges"
-    ],
+    "crisprBase": [],
     "crisprBowtie": [
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "crisprBase",
@@ -2274,7 +2067,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "crisprBase",
@@ -2288,7 +2080,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2307,7 +2098,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -2316,7 +2106,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -2329,7 +2118,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2353,7 +2141,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2369,16 +2156,12 @@
     ],
     "crlmm": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligoClasses"
     ],
-    "CSAR": [
-        "GenomicRanges"
-    ],
+    "CSAR": [],
     "csaw": [
         "DelayedArray",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -2390,7 +2173,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2404,7 +2186,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -2419,7 +2200,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2431,7 +2211,6 @@
     ],
     "CuratedAtlasQueryR": [
         "DelayedArray",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -2446,7 +2225,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2463,7 +2241,6 @@
         "CATALYST",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -2473,14 +2250,12 @@
     ],
     "cytoKernel": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "cytomapper": [
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -2504,7 +2279,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -2516,7 +2290,6 @@
     "dada2": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -2527,7 +2300,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -2543,7 +2315,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2558,7 +2329,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -2575,7 +2345,6 @@
     ],
     "debCAM": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "debrowser": [
@@ -2585,7 +2354,6 @@
         "DOSE",
         "DelayedArray",
         "GOSemSim",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "apeglm",
@@ -2601,7 +2369,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2614,7 +2381,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2630,7 +2396,6 @@
     "DeepBlueR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -2641,7 +2406,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2651,7 +2415,6 @@
     "DEFormats": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "DegNorm": [
@@ -2659,7 +2422,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -2669,7 +2431,6 @@
     "DEGreport": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "DelayedArray": [],
@@ -2693,13 +2454,11 @@
     "DELocal": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "deltaCaptureC": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "demuxSNP": [
@@ -2709,7 +2468,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -2720,7 +2478,6 @@
     ],
     "DEP": [
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "SummarizedExperiment"
     ],
@@ -2731,7 +2488,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2747,7 +2503,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2768,7 +2523,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "InteractionSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2779,14 +2533,12 @@
     ],
     "DESeq2": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "DESpace": [
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -2796,14 +2548,12 @@
     ],
     "destiny": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "DEsubs": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "DExMA": [
@@ -2817,7 +2567,6 @@
         "DESeq2",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "GreyListChIP",
         "Rsamtools",
         "ShortRead",
@@ -2828,14 +2577,12 @@
     ],
     "diffcyt": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "DifferentialRegulation": [
         "BANDITS",
         "DRIMSeq",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -2843,7 +2590,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "InteractionSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -2854,7 +2600,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -2864,14 +2609,12 @@
     ],
     "DiscoRhythm": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "distinct": [
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -2881,51 +2624,40 @@
     ],
     "dittoSeq": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "divergence": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "DMCHMM": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "DMRcaller": [
-        "GenomicRanges"
-    ],
-    "DMRScan": [
-        "GenomicRanges"
-    ],
+    "DMRcaller": [],
+    "DMRScan": [],
     "DNAfusion": [
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "bamsignals",
         "biomaRt",
         "rtracklayer"
     ],
-    "DNAshapeR": [
-        "GenomicRanges"
-    ],
+    "DNAshapeR": [],
     "DominoEffect": [
         "AnnotationDbi",
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -2935,7 +2667,6 @@
     "doppelgangR": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter",
@@ -2948,26 +2679,21 @@
     ],
     "doseR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "doubletrouble": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "MSA2dist",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer",
         "syntenet"
     ],
-    "DRIMSeq": [
-        "GenomicRanges"
-    ],
+    "DRIMSeq": [],
     "DropletUtils": [
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -2980,7 +2706,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "UniProt.ws",
@@ -2992,7 +2717,6 @@
         "AnnotationDbi",
         "ArrayExpress",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -3001,7 +2725,6 @@
     ],
     "Dune": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "easier": [
@@ -3010,7 +2733,6 @@
         "DESeq2",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SummarizedExperiment",
         "quantiseqr"
     ],
@@ -3018,7 +2740,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -3028,7 +2749,6 @@
     "EBSEA": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "EDASeq": [
@@ -3036,7 +2756,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -3051,13 +2770,11 @@
     ],
     "EDIRquery": [
         "DelayedArray",
-        "GenomicRanges",
         "InteractionSet",
         "SummarizedExperiment"
     ],
     "eisaR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ELMER": [
@@ -3067,7 +2784,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "MultiAssayExperiment",
         "Rsamtools",
@@ -3085,7 +2801,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -3101,7 +2816,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3113,14 +2827,11 @@
         "minfi",
         "rtracklayer"
     ],
-    "EnrichedHeatmap": [
-        "GenomicRanges"
-    ],
+    "EnrichedHeatmap": [],
     "EnrichmentBrowser": [
         "AnnotationDbi",
         "DelayedArray",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "graphite",
@@ -3142,7 +2853,6 @@
         "DelayedArray",
         "GOSemSim",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -3159,7 +2869,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3171,7 +2880,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3181,7 +2889,6 @@
     "epidecodeR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -3189,7 +2896,6 @@
     "epigenomix": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "beadarray"
@@ -3198,7 +2904,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "GreyListChIP",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3213,7 +2918,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3229,7 +2933,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "HDF5Array",
         "OrganismDbi",
@@ -3247,7 +2950,6 @@
     ],
     "epistack": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "EpiTxDb": [
@@ -3255,7 +2957,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Modstrings",
         "Rsamtools",
         "Structstrings",
@@ -3271,7 +2972,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3287,7 +2987,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3302,7 +3001,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3316,7 +3014,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3334,7 +3031,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3353,7 +3049,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rbowtie2",
         "Rsamtools",
         "ShortRead",
@@ -3374,7 +3069,6 @@
         "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -3387,7 +3081,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -3400,12 +3093,10 @@
         "MLP"
     ],
     "eudysbiome": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "evaluomeR": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -3415,7 +3106,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SGSeq",
         "SummarizedExperiment",
@@ -3427,7 +3117,6 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "orthogene"
@@ -3435,13 +3124,11 @@
     "ExCluster": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "exomeCopy": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "ExperimentHub": [
@@ -3457,7 +3144,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3468,7 +3154,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -3479,7 +3164,6 @@
     ],
     "ExpressionAtlas": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "extraChIPs": [
@@ -3491,7 +3175,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicInteractions",
-        "GenomicRanges",
         "Gviz",
         "InteractionSet",
         "Rsamtools",
@@ -3508,7 +3191,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3530,19 +3212,15 @@
     "FastqCleaner": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
     ],
-    "fastseg": [
-        "GenomicRanges"
-    ],
+    "fastseg": [],
     "fCCAC": [
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "genomation",
@@ -3555,7 +3233,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3564,7 +3241,6 @@
     ],
     "FEAST": [
         "DelayedArray",
-        "GenomicRanges",
         "SC3",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -3573,7 +3249,6 @@
     ],
     "FeatSeekR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "FELLA": [],
@@ -3583,7 +3258,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3597,7 +3271,6 @@
         "rtracklayer"
     ],
     "FilterFFPE": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "FindIT2": [
@@ -3605,7 +3278,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3614,7 +3286,6 @@
     ],
     "fishpond": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -3622,7 +3293,6 @@
         "AnnotationFilter",
         "CAMERA",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -3641,7 +3311,6 @@
         "DropletUtils",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "MultiAssayExperiment",
         "OrganismDbi",
@@ -3696,7 +3365,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "OUTRIDER",
         "Rsamtools",
@@ -3706,7 +3374,6 @@
     ],
     "frma": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligo",
         "oligoClasses"
@@ -3714,7 +3381,6 @@
     "FunChIP": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -3724,7 +3390,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3737,7 +3402,6 @@
     ],
     "FuseSOM": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "GA4GHclient": [
@@ -3746,7 +3410,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3760,7 +3423,6 @@
         "GA4GHclient",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3778,7 +3440,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "MLSeq",
         "Rsamtools",
         "ShortRead",
@@ -3791,27 +3452,23 @@
     ],
     "GateFinder": [],
     "GBScleanR": [
-        "GenomicRanges",
         "SeqArray"
     ],
     "gcapc": [
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "gCrisprTools": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "gDR": [
         "CoreGx",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "PharmacoGx",
         "SummarizedExperiment",
@@ -3821,7 +3478,6 @@
     ],
     "gDRcore": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "gDRutils"
@@ -3829,7 +3485,6 @@
     "gDRimport": [
         "CoreGx",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "PharmacoGx",
         "SummarizedExperiment",
@@ -3837,18 +3492,15 @@
     ],
     "gDRutils": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "GDSArray": [
         "DelayedArray",
-        "GenomicRanges",
         "SeqArray"
     ],
     "gemma.R": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "geneAttribution": [
@@ -3856,14 +3508,12 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
         "rtracklayer"
     ],
     "GeneBreak": [
-        "GenomicRanges",
         "QDNAseq",
         "Rsamtools"
     ],
@@ -3876,7 +3526,6 @@
         "biomaRt"
     ],
     "GeneGeneInteR": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "GeneMeta": [
@@ -3888,11 +3537,8 @@
         "AnnotationDbi",
         "annotate"
     ],
-    "geneRxCluster": [
-        "GenomicRanges"
-    ],
+    "geneRxCluster": [],
     "GENESIS": [
-        "GenomicRanges",
         "SeqArray",
         "SeqVarTools"
     ],
@@ -3903,7 +3549,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -3917,14 +3562,12 @@
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "geneXtendeR": [
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -3933,35 +3576,24 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer",
         "seqPattern"
     ],
-    "GenomAutomorphism": [
-        "GenomicRanges"
-    ],
-    "genomeIntervals": [
-        "GenomicRanges"
-    ],
+    "GenomAutomorphism": [],
+    "genomeIntervals": [],
     "GenomicAlignments": [
         "DelayedArray",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
-    "GenomicDataCommons": [
-        "GenomicRanges"
-    ],
-    "GenomicDistributions": [
-        "GenomicRanges"
-    ],
+    "GenomicDataCommons": [],
+    "GenomicDistributions": [],
     "GenomicFeatures": [
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -3973,7 +3605,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3982,7 +3613,6 @@
     ],
     "genomicInstability": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "GenomicInteractionNodes": [
@@ -3990,7 +3620,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4003,7 +3632,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "InteractionSet",
         "Rsamtools",
@@ -4021,7 +3649,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4032,29 +3659,23 @@
         "ggbio",
         "rtracklayer"
     ],
-    "GenomicRanges": [],
     "GenomicScores": [
         "AnnotationDbi",
         "AnnotationHub",
         "DelayedArray",
-        "GenomicRanges",
         "HDF5Array"
     ],
     "GenomicSuperSignature": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "GenomicTuples": [
-        "GenomicRanges"
-    ],
+    "GenomicTuples": [],
     "GenVisR": [
         "AnnotationDbi",
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4070,7 +3691,6 @@
     ],
     "GeoTcgaData": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "gep2pep": [
@@ -4080,7 +3700,6 @@
     ],
     "getDEE2": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ggbio": [
@@ -4090,7 +3709,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4105,7 +3723,6 @@
         "flowWorkspace"
     ],
     "ggmanh": [
-        "GenomicRanges",
         "SeqArray"
     ],
     "ggmsa": [
@@ -4115,7 +3732,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -4126,7 +3742,6 @@
     "girafe": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -4141,13 +3756,11 @@
     "Glimma": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "glmGamPoi": [
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -4156,7 +3769,6 @@
     "glmSparseNet": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "biomaRt"
@@ -4177,7 +3789,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4198,18 +3809,14 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
         "rtracklayer"
     ],
-    "GMRP": [
-        "GenomicRanges"
-    ],
+    "GMRP": [],
     "GNET2": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "GOexpress": [
@@ -4217,13 +3824,11 @@
         "biomaRt"
     ],
     "GOfuncR": [
-        "AnnotationDbi",
-        "GenomicRanges"
+        "AnnotationDbi"
     ],
     "GOpro": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -4238,7 +3843,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4274,7 +3878,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -4291,7 +3894,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4307,20 +3909,17 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "GRmetrics": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "groHMM": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -4336,7 +3935,6 @@
         "EnrichmentBrowser",
         "ExperimentHub",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "graphite",
@@ -4353,7 +3951,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4372,7 +3969,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GSEABase",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -4380,9 +3976,7 @@
         "annotate",
         "beachmat"
     ],
-    "gtrellis": [
-        "GenomicRanges"
-    ],
+    "gtrellis": [],
     "GUIDEseq": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -4392,7 +3986,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "InteractionSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4406,7 +3999,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4419,7 +4011,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4435,7 +4026,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4448,7 +4038,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4458,25 +4047,20 @@
     "GWENA": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "h5vc": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "Harshlight": [],
     "HDF5Array": [
         "DelayedArray"
     ],
-    "heatmaps": [
-        "GenomicRanges"
-    ],
+    "heatmaps": [],
     "hermes": [
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "biomaRt"
@@ -4485,17 +4069,13 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
-    "HiCBricks": [
-        "GenomicRanges"
-    ],
+    "HiCBricks": [],
     "HiCcompare": [
         "DelayedArray",
-        "GenomicRanges",
         "InteractionSet",
         "SummarizedExperiment"
     ],
@@ -4507,7 +4087,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicInteractions",
-        "GenomicRanges",
         "Gviz",
         "InteractionSet",
         "Rsamtools",
@@ -4520,7 +4099,6 @@
     ],
     "HiCDOC": [
         "DelayedArray",
-        "GenomicRanges",
         "HiCcompare",
         "InteractionSet",
         "SummarizedExperiment",
@@ -4528,34 +4106,28 @@
     ],
     "HiCExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "InteractionSet",
         "SummarizedExperiment"
     ],
     "HiContacts": [
         "DelayedArray",
-        "GenomicRanges",
         "HiCExperiment",
         "InteractionSet",
         "SummarizedExperiment"
     ],
     "HiCool": [
         "DelayedArray",
-        "GenomicRanges",
         "HiCExperiment",
         "InteractionSet",
         "SummarizedExperiment"
     ],
-    "HilbertCurve": [
-        "GenomicRanges"
-    ],
+    "HilbertCurve": [],
     "HiLDA": [
         "AnnotationDbi",
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4565,13 +4137,11 @@
         "AnnotationDbi",
         "AnnotationHub",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "HIPPO": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -4579,7 +4149,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "hiAnnotator",
@@ -4588,7 +4157,6 @@
     "HiTC": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -4601,22 +4169,18 @@
     "HTSFilter": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "HumanTranscriptomeCompendium": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "hummingbird": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "iasva": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "icetea": [
@@ -4626,7 +4190,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -4641,7 +4204,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4659,7 +4221,6 @@
         "CODEX",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -4674,7 +4235,6 @@
         "GSEABase",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -4688,7 +4248,6 @@
     "IdeoViz": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -4697,17 +4256,13 @@
         "AnnotationDbi",
         "annotate"
     ],
-    "idr2d": [
-        "GenomicRanges"
-    ],
+    "idr2d": [],
     "IFAA": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "IgGeneUsage": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "igvR": [
@@ -4716,7 +4271,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4728,7 +4282,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "IVAS",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4739,7 +4292,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -4761,7 +4313,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "OrganismDbi",
         "Pigengene",
@@ -4780,7 +4331,6 @@
     ],
     "infercnv": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -4790,7 +4340,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4804,7 +4353,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4813,7 +4361,6 @@
     "InTAD": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4826,7 +4373,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -4839,7 +4385,6 @@
     ],
     "InteractionSet": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "interactiveDisplay": [
@@ -4855,32 +4400,27 @@
     ],
     "InterMineR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "IntOMICS": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "IONiseR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
     ],
     "ipdDb": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "GenomicRanges"
+        "AnnotationHub"
     ],
     "IPO": [
         "AnnotationFilter",
         "CAMERA",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -4891,13 +4431,11 @@
     ],
     "iSEE": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "iSEEhex": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "iSEE"
@@ -4907,21 +4445,18 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "iSEE"
     ],
     "iSEEindex": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "iSEE"
     ],
     "iSEEu": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "iSEE",
@@ -4929,7 +4464,6 @@
     ],
     "ISLET": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "isobar": [
@@ -4941,12 +4475,10 @@
         "DEGreport",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ITALICS": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligo",
         "oligoClasses"
@@ -4956,7 +4488,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -4964,12 +4495,9 @@
     ],
     "ivygapSE": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "IWTomics": [
-        "GenomicRanges"
-    ],
+    "IWTomics": [],
     "karyoploteR": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -4977,7 +4505,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4994,7 +4521,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5018,18 +4544,15 @@
     "LACE": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "biomaRt"
     ],
     "lefser": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "LineagePulse": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -5039,7 +4562,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5048,18 +4570,15 @@
     ],
     "LinkHD": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "lionessR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "lipidr": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment",
@@ -5072,7 +4591,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -5085,7 +4603,6 @@
         "AnnotationFilter",
         "CAMERA",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -5094,15 +4611,10 @@
         "SummarizedExperiment",
         "xcms"
     ],
-    "loci2path": [
-        "GenomicRanges"
-    ],
-    "LOLA": [
-        "GenomicRanges"
-    ],
+    "loci2path": [],
+    "LOLA": [],
     "LoomExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -5121,7 +4633,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5143,7 +4654,6 @@
         "DelayedArray",
         "ExperimentHub",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -5151,7 +4661,6 @@
     "Macarron": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "macat": [
@@ -5165,7 +4674,6 @@
     ],
     "made4": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "MADSEQ": [
@@ -5174,7 +4682,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5187,7 +4694,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "RnBeads",
         "Rsamtools",
@@ -5218,7 +4724,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TRESS",
@@ -5227,14 +4732,12 @@
     ],
     "MAI": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "MAIT": [
         "AnnotationFilter",
         "CAMERA",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -5249,7 +4752,6 @@
     "mariner": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "HDF5Array",
         "InteractionSet",
         "Rsamtools",
@@ -5260,7 +4762,6 @@
     ],
     "marr": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "maser": [
@@ -5270,7 +4771,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5283,7 +4783,6 @@
     "maskBAD": [],
     "MAST": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -5293,7 +4792,6 @@
         "DelayedArray",
         "ExperimentHub",
         "GSEABase",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -5303,7 +4801,6 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SummarizedExperiment",
         "proDA"
     ],
@@ -5313,7 +4810,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -5322,7 +4818,6 @@
     ],
     "MBASED": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "MBECS": [
@@ -5334,20 +4829,17 @@
     ],
     "mbkmeans": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat"
     ],
     "mBPCR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligoClasses"
     ],
     "MBQN": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "MCbiclust": [
@@ -5360,7 +4852,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "OrganismDbi",
         "Rsamtools",
@@ -5374,7 +4865,6 @@
     "MDTS": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -5386,7 +4876,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "HDF5Array",
         "MultiDataSet",
@@ -5411,7 +4900,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5429,7 +4917,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -5442,22 +4929,17 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
         "rtracklayer"
     ],
     "MEDME": [],
-    "megadepth": [
-        "GenomicRanges"
-    ],
+    "megadepth": [],
     "Melissa": [
-        "BPRMeth",
-        "GenomicRanges"
+        "BPRMeth"
     ],
     "memes": [
-        "GenomicRanges",
         "universalmotif"
     ],
     "MeSHDbi": [
@@ -5486,14 +4968,12 @@
         "AnnotationFilter",
         "CompoundDb",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "QFeatures",
         "SummarizedExperiment"
     ],
     "metabolomicsWorkbenchR": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "struct"
@@ -5506,7 +4986,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "MWASTools",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5519,7 +4998,6 @@
     "metagene2": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -5528,7 +5006,6 @@
         "AnnotationFilter",
         "CAMERA",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -5539,7 +5016,6 @@
     ],
     "MetaNeighbor": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -5551,13 +5027,10 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "methimpute": [
-        "GenomicRanges"
-    ],
+    "methimpute": [],
     "methInheritSim": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "fastseg",
@@ -5569,7 +5042,6 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SummarizedExperiment",
         "sesame"
     ],
@@ -5579,7 +5051,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5597,7 +5068,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5622,7 +5092,6 @@
         "ExperimentHubData",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "OrganismDbi",
         "Rsamtools",
@@ -5643,7 +5112,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5661,7 +5129,6 @@
     "methylInheritance": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "fastseg",
@@ -5671,7 +5138,6 @@
     "methylKit": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "fastseg",
@@ -5684,7 +5150,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5696,7 +5161,6 @@
     ],
     "methylscaper": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "MethylSeekR": [
@@ -5704,7 +5168,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -5717,7 +5180,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5741,7 +5203,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -5753,7 +5214,6 @@
     ],
     "miaSim": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment"
@@ -5762,7 +5222,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -5782,7 +5241,6 @@
     "microbiomeExplorer": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "microbiomeMarker": [
@@ -5792,7 +5250,6 @@
         "DESeq2",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -5814,26 +5271,22 @@
     ],
     "MicrobiotaProcess": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "microSTASIS": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment"
     ],
     "midasHLA": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "miloR": [
         "BiocSingular",
         "DelayedArray",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -5849,7 +5302,6 @@
         "GSEABase",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5868,7 +5320,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5882,7 +5333,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VanillaICE",
@@ -5892,7 +5342,6 @@
     ],
     "miQC": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -5901,7 +5350,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GenomicAlignments",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5923,7 +5371,6 @@
         "DelayedArray",
         "GOstats",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "TCGAbiolinks",
         "annotate",
@@ -5942,7 +5389,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -5956,7 +5402,6 @@
     ],
     "missRows": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -5966,7 +5411,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -5977,7 +5421,6 @@
     "MLInterfaces": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter"
@@ -5988,14 +5431,12 @@
     "MLSeq": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "MMDiff2": [
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -6004,14 +5445,12 @@
     "moanin": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "topGO"
     ],
     "MobilityTransformR": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -6023,9 +5462,7 @@
     "MODA": [
         "AnnotationDbi"
     ],
-    "Modstrings": [
-        "GenomicRanges"
-    ],
+    "Modstrings": [],
     "MOFA2": [
         "DelayedArray",
         "HDF5Array"
@@ -6041,7 +5478,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -6051,7 +5487,6 @@
     ],
     "MOMA": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -6061,7 +5496,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -6071,7 +5505,6 @@
     "mosaics": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -6079,7 +5512,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -6092,7 +5524,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "MotifDb",
         "Rsamtools",
@@ -6110,7 +5541,6 @@
     "MotifDb": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -6121,7 +5551,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -6134,7 +5563,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -6143,23 +5571,18 @@
     ],
     "MouseFM": [
         "AnnotationDbi",
-        "GenomicRanges",
         "biomaRt"
     ],
     "mpra": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "MPRAnalyze": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "msa": [],
-    "MSA2dist": [
-        "GenomicRanges"
-    ],
+    "MSA2dist": [],
     "MsBackendRawFileReader": [],
     "MsDataHub": [
         "AnnotationDbi",
@@ -6169,14 +5592,12 @@
     "MsExperiment": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "QFeatures",
         "SummarizedExperiment"
     ],
     "MsFeatures": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "msgbsR": [
@@ -6186,7 +5607,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "ShortRead",
@@ -6204,7 +5624,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -6233,7 +5652,6 @@
     "MSPrep": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter",
@@ -6242,7 +5660,6 @@
     "msqrob2": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "QFeatures",
         "SummarizedExperiment"
@@ -6250,7 +5667,6 @@
     "MsQuality": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MsExperiment",
         "MultiAssayExperiment",
         "QFeatures",
@@ -6267,19 +5683,16 @@
     "MSstatsShiny": [],
     "MuData": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "MultiAssayExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "MultiBaC": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment",
@@ -6293,7 +5706,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6308,7 +5720,6 @@
     ],
     "MultiDataSet": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "multiGSEA": [
@@ -6318,7 +5729,6 @@
     ],
     "multiHiCcompare": [
         "DelayedArray",
-        "GenomicRanges",
         "HiCcompare",
         "InteractionSet",
         "SummarizedExperiment"
@@ -6328,7 +5738,6 @@
     ],
     "MultimodalExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -6336,7 +5745,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ResidualMatrix",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -6352,7 +5760,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6366,7 +5773,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6380,7 +5786,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6389,7 +5794,6 @@
     ],
     "MWASTools": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "mygene": [
@@ -6397,7 +5801,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6409,7 +5812,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -6427,7 +5829,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "GenomicScores",
         "Gviz",
         "HDF5Array",
@@ -6453,7 +5854,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GenomicAlignments",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "ScaledMatrix",
@@ -6464,14 +5864,12 @@
     ],
     "NanoStringNCTools": [],
     "nanotatoR": [
-        "AnnotationDbi",
-        "GenomicRanges"
+        "AnnotationDbi"
     ],
     "NBAMSeq": [
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter"
@@ -6479,7 +5877,6 @@
     "ncGTW": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -6488,15 +5885,12 @@
         "SummarizedExperiment",
         "xcms"
     ],
-    "ncRNAtools": [
-        "GenomicRanges"
-    ],
+    "ncRNAtools": [],
     "nearBynding": [
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6505,7 +5899,6 @@
     ],
     "Nebulosa": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -6513,7 +5906,6 @@
         "DESeq2",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "netboost": [
@@ -6521,7 +5913,6 @@
     ],
     "netDx": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -6537,7 +5928,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -6561,7 +5951,6 @@
         "GSEABase",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6579,7 +5968,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -6593,7 +5981,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6601,13 +5988,11 @@
     ],
     "NormalyzerDE": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "normr": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "bamsignals",
@@ -6621,7 +6006,6 @@
     "nucleR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -6629,7 +6013,6 @@
     "nullranges": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "InteractionSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6649,7 +6032,6 @@
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "RUVSeq",
         "Rsamtools",
@@ -6674,7 +6056,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -6686,55 +6067,43 @@
     ],
     "oligo": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligoClasses"
     ],
     "oligoClasses": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "OmaDB": [
         "AnnotationDbi",
-        "GenomicRanges",
         "topGO"
     ],
     "omicade4": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "made4"
     ],
-    "OmicCircos": [
-        "GenomicRanges"
-    ],
+    "OmicCircos": [],
     "omicplotR": [
         "ALDEx2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "omicsPrint": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "RaggedExperiment",
         "SummarizedExperiment"
     ],
     "omicsViewer": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "oncomix": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "oncoscanR": [
-        "GenomicRanges"
-    ],
+    "oncoscanR": [],
     "OncoScore": [
         "AnnotationDbi",
         "biomaRt"
@@ -6743,18 +6112,14 @@
         "AnnotationDbi",
         "AnnotationHub",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "openCyto": [
         "DelayedArray",
         "flowWorkspace"
     ],
-    "openPrimeR": [
-        "GenomicRanges"
-    ],
+    "openPrimeR": [],
     "openPrimeRui": [
-        "GenomicRanges",
         "openPrimeR"
     ],
     "oposSOM": [
@@ -6768,7 +6133,6 @@
         "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -6780,7 +6144,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -6792,7 +6155,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6804,7 +6166,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6815,7 +6176,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6827,7 +6187,6 @@
     "OTUbase": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -6838,7 +6197,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -6850,7 +6208,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Repitools",
         "Ringo",
         "Rsamtools",
@@ -6862,7 +6219,6 @@
     ],
     "OVESEG": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "PAA": [
@@ -6871,12 +6227,9 @@
         "genefilter",
         "sva"
     ],
-    "packFinder": [
-        "GenomicRanges"
-    ],
+    "packFinder": [],
     "padma": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -6889,7 +6242,6 @@
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "TFBSTools",
@@ -6899,16 +6251,13 @@
     ],
     "PAIRADISE": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "pairkat": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "panelcn.mops": [
-        "GenomicRanges",
         "Rsamtools",
         "cn.mops",
         "exomeCopy"
@@ -6927,14 +6276,12 @@
         "AnnotationDbi",
         "AnnotationHub",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "PAST": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -6942,7 +6289,6 @@
     "PathoStat": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "phyloseq"
     ],
@@ -6960,7 +6306,6 @@
         "DelayedArray",
         "GOstats",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "biomaRt",
@@ -6978,7 +6323,6 @@
         "AnnotationDbi",
         "CoreGx",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "biomaRt",
@@ -6986,7 +6330,6 @@
     ],
     "pdInfoBuilder": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligo",
         "oligoClasses"
@@ -7007,7 +6350,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -7015,14 +6357,11 @@
         "scater",
         "scuttle"
     ],
-    "pepStat": [
-        "GenomicRanges"
-    ],
+    "pepStat": [],
     "periodicDNA": [
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7031,19 +6370,16 @@
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "PharmacoGx": [
         "CoreGx",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "phenomis": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment",
@@ -7051,7 +6387,6 @@
     ],
     "phenopath": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "phenoTest": [
@@ -7064,30 +6399,24 @@
     ],
     "PhIPData": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "PhosR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "PhyloProfile": [
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "GenomicRanges",
         "OmaDB",
         "topGO"
     ],
     "phyloseq": [],
-    "Pi": [
-        "GenomicRanges"
-    ],
+    "Pi": [],
     "PICS": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -7108,7 +6437,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "PICS",
         "Rsamtools",
@@ -7123,7 +6451,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -7136,14 +6463,12 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "planttfhunter": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "PloGO2": [
@@ -7158,7 +6483,6 @@
     "plotgardener": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "plyranges",
@@ -7167,21 +6491,18 @@
     "plyranges": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "pmp": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "podkat": [
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7190,14 +6511,12 @@
         "AnnotationDbi",
         "AnnotationHub",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "ontoProc"
     ],
     "polyester": [],
     "POWSC": [
         "DelayedArray",
-        "GenomicRanges",
         "MAST",
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -7207,13 +6526,10 @@
         "AnnotationDbi",
         "biomaRt"
     ],
-    "pqsfinder": [
-        "GenomicRanges"
-    ],
+    "pqsfinder": [],
     "pram": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7221,7 +6537,6 @@
     "prebs": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "RPA",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7232,7 +6547,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7252,7 +6566,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "GenomicScores",
         "Gviz",
         "HDF5Array",
@@ -7275,7 +6588,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7286,7 +6598,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7297,7 +6608,6 @@
     ],
     "proDA": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "profileplyr": [
@@ -7310,7 +6620,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -7324,7 +6633,6 @@
     "pRoloc": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "MLInterfaces",
         "MSnbase",
         "SummarizedExperiment",
@@ -7335,7 +6643,6 @@
     "pRolocGUI": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "MLInterfaces",
         "MSnbase",
         "SummarizedExperiment",
@@ -7361,7 +6668,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7385,7 +6691,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7398,7 +6703,6 @@
     "PSMatch": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "QFeatures",
         "SummarizedExperiment"
@@ -7414,7 +6718,6 @@
     ],
     "puma": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "oligo",
         "oligoClasses"
@@ -7425,7 +6728,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7440,7 +6742,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7452,19 +6753,16 @@
     ],
     "PWMEnrich": [],
     "QDNAseq": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "QFeatures": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "qmtools": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "qpgraph": [
@@ -7472,7 +6770,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -7486,7 +6783,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7494,7 +6790,6 @@
     "qsmooth": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter",
@@ -7504,18 +6799,14 @@
     "qsvaR": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter",
         "sva"
     ],
-    "Qtlizer": [
-        "GenomicRanges"
-    ],
+    "Qtlizer": [],
     "quantiseqr": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "quantro": [
@@ -7524,7 +6815,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7546,7 +6836,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -7561,7 +6850,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7575,7 +6863,6 @@
     "r3Cseq": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7586,7 +6873,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -7598,23 +6884,18 @@
     "RadioGx": [
         "CoreGx",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "RaggedExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "ramr": [
-        "GenomicRanges"
-    ],
+    "ramr": [],
     "ramwas": [
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt"
@@ -7626,7 +6907,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "GenomicScores",
         "HDF5Array",
         "Rsamtools",
@@ -7638,14 +6918,12 @@
     "Rbec": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
         "dada2"
     ],
     "Rbowtie2": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "rCGH": [
@@ -7653,7 +6931,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7676,7 +6953,6 @@
     ],
     "receptLoss": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "reconsi": [
@@ -7689,7 +6965,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7701,7 +6976,6 @@
     "recount3": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7712,7 +6986,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7728,7 +7001,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7742,7 +7014,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "InteractionSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7755,7 +7026,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7764,7 +7034,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "regioneR",
@@ -7779,7 +7048,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -7790,7 +7058,6 @@
     ],
     "regsplice": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "regutools": [
@@ -7801,7 +7068,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7819,7 +7085,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7835,7 +7100,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Ringo",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7845,12 +7109,10 @@
     ],
     "RepViz": [
         "AnnotationDbi",
-        "GenomicRanges",
         "Rsamtools",
         "biomaRt"
     ],
     "ReQON": [
-        "GenomicRanges",
         "Rsamtools",
         "seqbias"
     ],
@@ -7863,7 +7125,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "MutationalPatterns",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7876,19 +7137,16 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SummarizedExperiment",
         "rhdf5client"
     ],
     "rfPred": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "rGADEM": [
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7900,7 +7158,6 @@
     "RGMQL": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -7911,7 +7168,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7923,7 +7179,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7935,7 +7190,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7950,7 +7204,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SGSeq",
         "SummarizedExperiment",
@@ -7964,7 +7217,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "ORFik",
         "Rsamtools",
         "SummarizedExperiment",
@@ -7977,7 +7229,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -7990,7 +7241,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -8002,7 +7252,6 @@
         "rtracklayer"
     ],
     "riboSeqR": [
-        "GenomicRanges",
         "Rsamtools",
         "baySeq"
     ],
@@ -8014,7 +7263,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "RUVSeq",
         "Rsamtools",
         "ShortRead",
@@ -8028,7 +7276,6 @@
     "rifi": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -8036,7 +7283,6 @@
     "rifiComparative": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -8049,7 +7295,6 @@
     "Risa": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -8065,7 +7310,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -8076,7 +7320,6 @@
     "RJMCMCNucleosomes": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "consensusSeekeR",
@@ -8089,7 +7332,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -8105,7 +7347,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "apeglm",
@@ -8115,7 +7356,6 @@
     "rmspc": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -8127,7 +7367,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -8142,7 +7381,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -8165,7 +7403,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Modstrings",
         "Rsamtools",
@@ -8183,7 +7420,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Modstrings",
         "RNAmodR",
@@ -8202,7 +7438,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Modstrings",
         "RNAmodR",
@@ -8221,7 +7456,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Modstrings",
         "RNAmodR",
@@ -8235,7 +7469,6 @@
     ],
     "RNAsense": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "RnaSeqSampleSize": [
@@ -8245,7 +7478,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -8261,7 +7493,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -8276,25 +7507,21 @@
     "roar": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "ROCpAI": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "RolDE": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ROntoTools": [],
     "ropls": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment"
@@ -8311,7 +7538,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -8323,7 +7549,6 @@
     ],
     "rqt": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "MultiDataSet",
         "SummarizedExperiment",
@@ -8334,18 +7559,14 @@
         "AnnotationDbi",
         "GOSemSim"
     ],
-    "Rsamtools": [
-        "GenomicRanges"
-    ],
+    "Rsamtools": [],
     "rScudo": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "RSVSim": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -8356,7 +7577,6 @@
         "GenomicAlignments",
         "GenomicDataCommons",
         "GenomicFeatures",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "RaggedExperiment",
         "Rsamtools",
@@ -8367,18 +7587,15 @@
     ],
     "RTN": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "RTNduals": [
         "DelayedArray",
-        "GenomicRanges",
         "RTN",
         "SummarizedExperiment"
     ],
     "RTNsurvival": [
         "DelayedArray",
-        "GenomicRanges",
         "RTN",
         "RTNduals",
         "SummarizedExperiment"
@@ -8386,7 +7603,6 @@
     "rtracklayer": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -8397,7 +7613,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "MotifDb",
         "Rsamtools",
         "SummarizedExperiment",
@@ -8406,7 +7621,6 @@
     ],
     "runibic": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "RUVSeq": [
@@ -8415,7 +7629,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -8426,7 +7639,6 @@
         "AnnotationDbi"
     ],
     "SAIGEgds": [
-        "GenomicRanges",
         "SeqArray"
     ],
     "sampleClassifier": [
@@ -8443,25 +7655,21 @@
     "sarks": [],
     "satuRn": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SBGNview": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "pathview"
     ],
     "SC3": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "Scale4C": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ScaledMatrix": [
@@ -8470,7 +7678,6 @@
     "SCAN.UPC": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter",
@@ -8478,9 +7685,7 @@
         "oligoClasses",
         "sva"
     ],
-    "scanMiR": [
-        "GenomicRanges"
-    ],
+    "scanMiR": [],
     "scanMiRApp": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -8488,7 +7693,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -8500,14 +7704,12 @@
         "AnnotationDbi",
         "AnnotationHub",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "SCANVIS": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -8516,7 +7718,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8526,7 +7727,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "SCArray",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -8537,7 +7737,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8548,7 +7747,6 @@
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -8559,7 +7757,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8572,7 +7769,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GSEABase",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8580,13 +7776,11 @@
     ],
     "sccomp": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "scDataviz": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8595,7 +7789,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -8610,7 +7803,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8620,13 +7812,11 @@
     ],
     "scDDboost": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "scds": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8642,7 +7832,6 @@
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "ScaledMatrix",
@@ -8661,19 +7850,16 @@
     "scGPS": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "schex": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "scHOT": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8682,7 +7868,6 @@
     ],
     "scmap": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8690,7 +7875,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ResidualMatrix",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -8703,7 +7887,6 @@
     ],
     "scMET": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8715,7 +7898,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -8728,7 +7910,6 @@
     ],
     "SCnorm": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8738,7 +7919,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "RUVSeq",
         "Rsamtools",
         "ShortRead",
@@ -8751,7 +7931,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -8762,7 +7941,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -8772,7 +7950,6 @@
     "scp": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "QFeatures",
         "SingleCellExperiment",
@@ -8788,7 +7965,6 @@
         "DelayedMatrixStats",
         "DropletUtils",
         "GenomicAlignments",
-        "GenomicRanges",
         "HDF5Array",
         "MultiAssayExperiment",
         "Rsamtools",
@@ -8803,7 +7979,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8812,25 +7987,21 @@
     ],
     "scReClassify": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "screenCounter": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "scRepertoire": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "scRNAseqApp": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8845,7 +8016,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "ShortRead",
@@ -8861,7 +8031,6 @@
     "scry": [
         "BiocSingular",
         "DelayedArray",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8877,7 +8046,6 @@
         "GOSemSim",
         "GOstats",
         "GSEABase",
-        "GenomicRanges",
         "MeSHDbi",
         "ReactomePA",
         "SingleCellExperiment",
@@ -8893,7 +8061,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GSEABase",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -8907,7 +8074,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "ScaledMatrix",
@@ -8927,7 +8093,6 @@
     "scuttle": [
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat"
@@ -8936,7 +8101,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -8946,12 +8110,10 @@
     ],
     "SDAMS": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "sechm": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "segmenter": [
@@ -8963,7 +8125,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "bamsignals",
@@ -8974,7 +8135,6 @@
     "segmentSeq": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -8986,7 +8146,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HiLDA",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9000,7 +8159,6 @@
     ],
     "seq2pathway": [
         "AnnotationDbi",
-        "GenomicRanges",
         "biomaRt"
     ],
     "seqArchR": [],
@@ -9014,7 +8172,6 @@
         "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -9025,19 +8182,14 @@
         "seqArchR",
         "seqPattern"
     ],
-    "SeqArray": [
-        "GenomicRanges"
-    ],
-    "seqbias": [
-        "GenomicRanges"
-    ],
+    "SeqArray": [],
+    "seqbias": [],
     "seqCAT": [
         "AnnotationDbi",
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -9046,24 +8198,19 @@
     ],
     "SeqGate": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SeqGSEA": [
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "biomaRt"
     ],
-    "seqPattern": [
-        "GenomicRanges"
-    ],
+    "seqPattern": [],
     "seqsetvis": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -9071,11 +8218,9 @@
     "SeqSQC": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "GenomicRanges"
+        "ExperimentHub"
     ],
     "SeqVarTools": [
-        "GenomicRanges",
         "SeqArray"
     ],
     "sesame": [
@@ -9083,14 +8228,12 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SEtools": [
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter",
@@ -9100,7 +8243,6 @@
     "sevenC": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "InteractionSet",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9113,7 +8255,6 @@
         "DelayedArray",
         "GOstats",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "genefilter"
@@ -9123,7 +8264,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -9135,7 +8275,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9152,7 +8291,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9166,7 +8304,6 @@
     "ShortRead": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
@@ -9174,13 +8311,11 @@
         "phyloseq"
     ],
     "SICtools": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "SigCheck": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "MLInterfaces",
         "SummarizedExperiment",
         "annotate",
@@ -9188,12 +8323,9 @@
     ],
     "sigFeature": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "SigFuge": [
-        "GenomicRanges"
-    ],
+    "SigFuge": [],
     "signatureSearch": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -9202,7 +8334,6 @@
         "ExperimentHub",
         "GOSemSim",
         "GSEABase",
-        "GenomicRanges",
         "HDF5Array",
         "SummarizedExperiment",
         "annotate",
@@ -9215,7 +8346,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -9232,7 +8362,6 @@
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "ScaledMatrix",
@@ -9252,7 +8381,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -9272,19 +8400,16 @@
     ],
     "SimBu": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "phyloseq"
     ],
     "SimFFPE": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "simpleSeg": [
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -9300,20 +8425,17 @@
     "single": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
     "SingleCellExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SingleCellSignalR": [
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -9335,7 +8457,6 @@
         "GSVA",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "MAST",
         "ResidualMatrix",
@@ -9371,7 +8492,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "QuasR",
         "Rsamtools",
         "ShortRead",
@@ -9384,7 +8504,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SummarizedExperiment",
         "beachmat"
@@ -9393,13 +8512,11 @@
         "AnnotationDbi",
         "DelayedArray",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate"
     ],
     "SiPSiC": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -9408,7 +8525,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -9420,7 +8536,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9438,14 +8553,12 @@
         "AnnotationDbi",
         "DelayedArray",
         "GSEABase",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
     ],
     "slingshot": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TrajectoryUtils"
@@ -9456,7 +8569,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -9471,7 +8583,6 @@
     ],
     "snapcount": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SNPhood": [
@@ -9481,7 +8592,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -9491,7 +8601,6 @@
     "soGGi": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -9505,7 +8614,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9524,7 +8632,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9541,7 +8648,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -9563,7 +8669,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -9572,7 +8677,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -9582,14 +8686,12 @@
     ],
     "SpatialCPie": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "spatialDE": [
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -9605,7 +8707,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -9616,7 +8717,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -9629,7 +8729,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -9653,7 +8752,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicInteractions",
-        "GenomicRanges",
         "Gviz",
         "InteractionSet",
         "Rsamtools",
@@ -9669,13 +8767,11 @@
     ],
     "speckle": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "SpectralTAD": [
         "DelayedArray",
-        "GenomicRanges",
         "HiCcompare",
         "InteractionSet",
         "SummarizedExperiment"
@@ -9684,7 +8780,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -9697,7 +8792,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -9713,7 +8807,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -9721,7 +8814,6 @@
     "splatter": [
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -9735,7 +8827,6 @@
         "DelayedMatrixStats",
         "ExperimentHub",
         "GenomicAlignments",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9745,7 +8836,6 @@
     ],
     "SplicingFactory": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SplicingGraphs": [
@@ -9753,7 +8843,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -9771,7 +8860,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9785,7 +8873,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -9795,26 +8882,22 @@
     ],
     "SPOTlight": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "spqn": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SPsimSeq": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "phyloseq"
     ],
     "sRACIPE": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "srnadiff": [
@@ -9825,7 +8908,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "Rsamtools",
         "SummarizedExperiment",
@@ -9840,22 +8922,18 @@
     "sSNAPPY": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "graphite"
     ],
     "ssPATHS": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ssviz": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "stageR": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "standR": [
@@ -9866,7 +8944,6 @@
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "RUVSeq",
         "Rsamtools",
@@ -9895,7 +8972,6 @@
     ],
     "Statial": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -9903,7 +8979,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -9916,7 +8991,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -9924,13 +8998,11 @@
     ],
     "struct": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "Structstrings": [],
     "structToolbox": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "struct"
     ],
@@ -9940,7 +9012,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -9952,16 +9023,13 @@
     ],
     "SummarizedBenchmark": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SummarizedExperiment": [
-        "DelayedArray",
-        "GenomicRanges"
+        "DelayedArray"
     ],
     "supersigs": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "surfaltr": [
@@ -9971,7 +9039,6 @@
     ],
     "survtype": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "sva": [
@@ -9985,7 +9052,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "StructuralVariantAnnotation",
         "SummarizedExperiment",
@@ -9999,7 +9065,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "StructuralVariantAnnotation",
         "SummarizedExperiment",
@@ -10013,7 +9078,6 @@
         "DOSE",
         "DelayedArray",
         "GOSemSim",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "SWATH2stats": [
@@ -10022,7 +9086,6 @@
     ],
     "switchde": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -10034,7 +9097,6 @@
     "syntenet": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -10042,7 +9104,6 @@
     "systemPipeR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment"
@@ -10050,12 +9111,10 @@
     "systemPipeTools": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "TADCompare": [
         "DelayedArray",
-        "GenomicRanges",
         "HiCcompare",
         "InteractionSet",
         "SummarizedExperiment"
@@ -10066,15 +9125,12 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
         "rtracklayer"
     ],
-    "target": [
-        "GenomicRanges"
-    ],
+    "target": [],
     "TBSignatureProfiler": [
         "ASSIGN",
         "AnnotationDbi",
@@ -10084,7 +9140,6 @@
         "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -10098,14 +9153,12 @@
     "TCC": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "baySeq"
     ],
     "TCGAbiolinks": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "biomaRt"
     ],
@@ -10115,7 +9168,6 @@
         "GenomicAlignments",
         "GenomicDataCommons",
         "GenomicFeatures",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "RaggedExperiment",
         "Rsamtools",
@@ -10123,15 +9175,12 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "TDbasedUFE": [
-        "GenomicRanges"
-    ],
+    "TDbasedUFE": [],
     "TDbasedUFEadv": [
         "AnnotationDbi",
         "AnnotationHub",
         "DOSE",
         "GOSemSim",
-        "GenomicRanges",
         "TDbasedUFE",
         "enrichplot"
     ],
@@ -10139,14 +9188,12 @@
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment",
         "apeglm",
         "biomaRt"
     ],
     "TENxIO": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -10155,14 +9202,12 @@
         "AnnotationHub",
         "DelayedArray",
         "ExperimentHub",
-        "GenomicRanges",
         "SummarizedExperiment",
         "ontoProc",
         "restfulSE",
         "rhdf5client"
     ],
     "TEQC": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "terraTCGAdata": [
@@ -10171,7 +9216,6 @@
         "GenomicAlignments",
         "GenomicDataCommons",
         "GenomicFeatures",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "RaggedExperiment",
         "Rsamtools",
@@ -10180,16 +9224,13 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "TFARM": [
-        "GenomicRanges"
-    ],
+    "TFARM": [],
     "TFBSTools": [
         "AnnotationDbi",
         "BSgenome",
         "CNEr",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -10200,7 +9241,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -10213,7 +9253,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "ORFik",
         "Rsamtools",
         "SummarizedExperiment",
@@ -10223,24 +9262,20 @@
     "TFutils": [
         "AnnotationDbi",
         "GSEABase",
-        "GenomicRanges",
         "Rsamtools",
         "annotate"
     ],
     "tidybulk": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "tidySingleCellExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "tidySummarizedExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "tigre": [
@@ -10261,7 +9296,6 @@
         "DOSE",
         "DelayedArray",
         "GOSemSim",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "biomaRt",
@@ -10275,7 +9309,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate"
     ],
@@ -10285,7 +9318,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -10298,7 +9330,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -10312,7 +9343,6 @@
         "DelayedMatrixStats",
         "GSEABase",
         "GSVA",
-        "GenomicRanges",
         "HDF5Array",
         "ScaledMatrix",
         "SingleCellExperiment",
@@ -10320,24 +9350,19 @@
         "annotate",
         "beachmat"
     ],
-    "TnT": [
-        "GenomicRanges"
-    ],
+    "TnT": [],
     "TOAST": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "tomoda": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "TOP": [
         "AnnotationDbi",
         "ClassifyR",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -10352,12 +9377,10 @@
     "ToxicoGx": [
         "CoreGx",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
     "tracktables": [
-        "GenomicRanges",
         "Rsamtools"
     ],
     "trackViewer": [
@@ -10367,7 +9390,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "InteractionSet",
         "Rsamtools",
@@ -10380,7 +9402,6 @@
     ],
     "tradeSeq": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TrajectoryUtils",
@@ -10388,7 +9409,6 @@
     ],
     "TrajectoryUtils": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -10402,7 +9422,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
@@ -10413,41 +9432,33 @@
     "transformGamPoi": [
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
         "glmGamPoi"
     ],
-    "transite": [
-        "GenomicRanges"
-    ],
+    "transite": [],
     "tRanslatome": [
         "AnnotationDbi",
         "DESeq2",
         "DelayedArray",
         "GOSemSim",
-        "GenomicRanges",
         "SummarizedExperiment",
         "topGO"
     ],
     "transomics2cytoscape": [],
-    "TransView": [
-        "GenomicRanges"
-    ],
+    "TransView": [],
     "traseR": [
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "traviz": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TrajectoryUtils",
@@ -10455,25 +9466,21 @@
     ],
     "treekoR": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "diffcyt"
     ],
     "TreeSummarizedExperiment": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "TREG": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "Trendy": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "TRESS": [
@@ -10481,7 +9488,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -10492,7 +9498,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -10506,16 +9511,12 @@
         "genefilter",
         "sva"
     ],
-    "triplex": [
-        "GenomicRanges"
-    ],
+    "triplex": [],
     "tRNA": [
-        "GenomicRanges",
         "Modstrings",
         "Structstrings"
     ],
     "tRNAdbImport": [
-        "GenomicRanges",
         "Modstrings",
         "Structstrings",
         "tRNA"
@@ -10524,7 +9525,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Modstrings",
         "Rsamtools",
         "Structstrings",
@@ -10534,14 +9534,12 @@
     ],
     "TSCAN": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TrajectoryUtils"
     ],
     "TTMap": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "txcutr": [
@@ -10549,7 +9547,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -10562,7 +9559,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -10571,7 +9567,6 @@
     ],
     "UCell": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -10583,7 +9578,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Organism.dplyr",
         "Rsamtools",
         "SummarizedExperiment",
@@ -10599,7 +9593,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rbowtie2",
         "Rsamtools",
         "ShortRead",
@@ -10616,7 +9609,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Gviz",
         "OrganismDbi",
         "Rsamtools",
@@ -10637,7 +9629,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -10650,7 +9641,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -10662,7 +9652,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "crlmm",
@@ -10673,7 +9662,6 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
@@ -10684,7 +9672,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -10694,7 +9681,6 @@
         "DelayedArray",
         "DelayedDataFrame",
         "GDSArray",
-        "GenomicRanges",
         "SeqArray",
         "SummarizedExperiment"
     ],
@@ -10706,7 +9692,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "GenomicScores",
         "Gviz",
         "HDF5Array",
@@ -10722,7 +9707,6 @@
         "AnnotationDbi",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "annotate",
@@ -10738,7 +9722,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -10747,7 +9730,6 @@
     ],
     "VDJdive": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -10759,7 +9741,6 @@
         "BiocSingular",
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -10770,7 +9751,6 @@
     "vidger": [
         "DESeq2",
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "ViSEAGO": [
@@ -10791,7 +9771,6 @@
         "DelayedArray",
         "DelayedMatrixStats",
         "DropletUtils",
-        "GenomicRanges",
         "HDF5Array",
         "SingleCellExperiment",
         "SpatialExperiment",
@@ -10803,13 +9782,11 @@
     "VplotR": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment"
     ],
     "vsclust": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -10820,7 +9797,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -10838,7 +9814,6 @@
         "DiffBind",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "GreyListChIP",
         "InteractionSet",
         "Rsamtools",
@@ -10854,7 +9829,6 @@
     ],
     "waddR": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -10864,7 +9838,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -10882,7 +9855,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "biomaRt",
@@ -10895,26 +9867,22 @@
     "weitrix": [
         "DelayedArray",
         "DelayedMatrixStats",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "wiggleplotr": [
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "wpm": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "xcms": [
         "AnnotationFilter",
         "DelayedArray",
-        "GenomicRanges",
         "MSnbase",
         "MsExperiment",
         "MsFeatures",
@@ -10924,7 +9892,6 @@
     ],
     "xcore": [
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "SummarizedExperiment"
     ],
@@ -10937,7 +9904,6 @@
     "Xeva": [
         "CoreGx",
         "DelayedArray",
-        "GenomicRanges",
         "MultiAssayExperiment",
         "PharmacoGx",
         "SummarizedExperiment"
@@ -10946,14 +9912,12 @@
         "BSgenome",
         "DelayedArray",
         "GenomicAlignments",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "rtracklayer"
     ],
     "yamss": [
         "DelayedArray",
-        "GenomicRanges",
         "SummarizedExperiment"
     ],
     "yarn": [
@@ -10962,7 +9926,6 @@
         "DelayedMatrixStats",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "HDF5Array",
         "Rsamtools",
         "SummarizedExperiment",
@@ -10976,7 +9939,6 @@
     ],
     "zellkonverter": [
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -10985,7 +9947,6 @@
         "DelayedArray",
         "EnrichmentBrowser",
         "GSEABase",
-        "GenomicRanges",
         "SummarizedExperiment",
         "annotate",
         "graphite",
@@ -10995,7 +9956,6 @@
     "zinbwave": [
         "AnnotationDbi",
         "DelayedArray",
-        "GenomicRanges",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -11007,7 +9967,6 @@
         "DelayedArray",
         "GenomicAlignments",
         "GenomicFeatures",
-        "GenomicRanges",
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
