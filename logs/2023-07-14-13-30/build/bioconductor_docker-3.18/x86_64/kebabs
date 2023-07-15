@@ -1,0 +1,320 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''kebabs'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'kebabs'
+also installing the dependencies ‘proxy’, ‘kernlab’, ‘e1071’, ‘LiblineaR’, ‘apcluster’, ‘SparseM’
+
+trying URL 'https://cloud.r-project.org/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'application/x-gzip' length 74622 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/kernlab_0.9-32.tar.gz'
+Content type 'application/x-gzip' length 1215773 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/e1071_1.7-13.tar.gz'
+Content type 'application/x-gzip' length 314205 bytes (306 KB)
+==================================================
+downloaded 306 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/LiblineaR_2.10-22.tar.gz'
+Content type 'application/x-gzip' length 47738 bytes (46 KB)
+==================================================
+downloaded 46 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/apcluster_1.4.10.tar.gz'
+Content type 'application/x-gzip' length 1277976 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/SparseM_1.81.tar.gz'
+Content type 'application/x-gzip' length 735100 bytes (717 KB)
+==================================================
+downloaded 717 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/kebabs_1.35.0.tar.gz'
+Content type 'application/x-gzip' length 2409050 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.c -o apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dll.c -o dll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘kernlab’ ...
+** package ‘kernlab’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c brweight.cpp -o brweight.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ctable.cpp -o ctable.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cweight.cpp -o cweight.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dbreakpt.c -o dbreakpt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dcauchy.c -o dcauchy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgpnrm.c -o dgpnrm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgpstep.c -o dgpstep.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dprecond.c -o dprecond.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dprsrch.c -o dprsrch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dspcg.c -o dspcg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dtron.c -o dtron.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dtrpcg.c -o dtrpcg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dtrqsol.c -o dtrqsol.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c esa.cpp -o esa.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c expdecayweight.cpp -o expdecayweight.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inductionsort.cpp -o inductionsort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kspectrumweight.cpp -o kspectrumweight.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lcp.cpp -o lcp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c misc.c -o misc.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c msufsort.cpp -o msufsort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c solvebqp.c -o solvebqp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stringk.c -o stringk.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stringkernel.cpp -o stringkernel.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wkasailcp.cpp -o wkasailcp.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wmsufsort.cpp -o wmsufsort.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o kernlab.so brweight.o ctable.o cweight.o dbreakpt.o dcauchy.o dgpnrm.o dgpstep.o dprecond.o dprsrch.o dspcg.o dtron.o dtrpcg.o dtrqsol.o esa.o expdecayweight.o inductionsort.o init.o kspectrumweight.o lcp.o misc.o msufsort.o solvebqp.o stringk.o stringkernel.o svm.o wkasailcp.o wmsufsort.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-kernlab/00new/kernlab/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘pattern’ in package ‘kernlab’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘kernlab’ as ‘kernlab_0.9-32_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kernlab)
+* installing *source* package ‘LiblineaR’ ...
+** package ‘LiblineaR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c linear.cpp -o linear.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c predictLinear.c -o predictLinear.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trainLinear.c -o trainLinear.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tron.cpp -o tron.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o LiblineaR.so init.o linear.o predictLinear.o trainLinear.o tron.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-LiblineaR/00new/LiblineaR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘LiblineaR’ as ‘LiblineaR_2.10-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LiblineaR)
+* installing *source* package ‘apcluster’ ...
+** package ‘apcluster’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_apcluster.cpp -o R_init_apcluster.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aggExClusterC.cpp -o aggExClusterC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apclusterC.cpp -o apclusterC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apclusterLeveragedC.cpp -o apclusterLeveragedC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apclusterSparseC.cpp -o apclusterSparseC.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distanceL.c -o distanceL.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c preferenceRangeC.cpp -o preferenceRangeC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c preferenceRangeSparseC.cpp -o preferenceRangeSparseC.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o apcluster.so R_init_apcluster.o aggExClusterC.o apclusterC.o apclusterLeveragedC.o apclusterSparseC.o distanceL.o preferenceRangeC.o preferenceRangeSparseC.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-apcluster/00new/apcluster/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘heatmap’ in package ‘apcluster’
+Creating a generic function for ‘cutree’ from package ‘stats’ in package ‘apcluster’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘apcluster’ as ‘apcluster_1.4.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (apcluster)
+* installing *source* package ‘SparseM’ ...
+** package ‘SparseM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gfortran  -fpic  -g -O2  -c bckslv.f -o bckslv.o
+gfortran  -fpic  -g -O2  -c chol.f -o chol.o
+gfortran  -fpic  -g -O2  -c chol2csr.f -o chol2csr.o
+gfortran  -fpic  -g -O2  -c cholesky.f -o cholesky.o
+cholesky.f:2948:72:
+
+ 2948 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2982:72:
+
+ 2982 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3299:72:
+
+ 3299 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3356:72:
+
+ 3356 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3430:72:
+
+ 3430 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c csr.f -o csr.o
+gfortran  -fpic  -g -O2  -c extract.f -o extract.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c sparskit.f -o sparskit.o
+gfortran  -fpic  -g -O2  -c subscr.f -o subscr.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SparseM.so bckslv.o chol.o chol2csr.o cholesky.o csr.o extract.o init.o sparskit.o subscr.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-SparseM/00new/SparseM/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘norm’ from package ‘base’ in package ‘SparseM’
+Creating a new generic function for ‘backsolve’ in package ‘SparseM’
+Creating a generic function for ‘forwardsolve’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘model.response’ from package ‘stats’ in package ‘SparseM’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.81_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmeans.c -o cmeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cshell.c -o cshell.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c floyd.c -o floyd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘kebabs’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ByteStringVector.c -o ByteStringVector.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ExplicitRepC.cpp -o ExplicitRepC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FeatureWeightsPosDepC.cpp -o FeatureWeightsPosDepC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GappyPairC.cpp -o GappyPairC.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c KernelUtils.cpp -o KernelUtils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MismatchC.cpp -o MismatchC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MotifC.cpp -o MotifC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PredictionC.cpp -o PredictionC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PredictionProfileC.cpp -o PredictionProfileC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_kebabs.cpp -o R_init_kebabs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseMatrixHash.cpp -o SparseMatrixHash.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SpectrumC.cpp -o SpectrumC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SymmetricPairC.cpp -o SymmetricPairC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utils.cpp -o Utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o kebabs.so Biostrings_stubs.o ByteStringVector.o ExplicitRepC.o FeatureWeightsPosDepC.o GappyPairC.o IRanges_stubs.o KernelUtils.o MismatchC.o MotifC.o PredictionC.o PredictionProfileC.o R_init_kebabs.o Rsvm.o SparseMatrixHash.o SpectrumC.o SymmetricPairC.o Utils.o XVector_stubs.o svm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-kebabs/00new/kebabs/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘kebabs’ as ‘kebabs_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kebabs)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpm92Tg3/downloaded_packages’
+Old packages: 'KernSmooth', 'Matrix', 'mgcv'
+
+real	3m29.870s
+user	3m16.163s
+sys	0m13.467s
