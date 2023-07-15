@@ -1,0 +1,496 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''memes'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'memes'
+also installing the dependencies ‘mvtnorm’, ‘multcompView’, ‘gmp’, ‘Rmpfr’, ‘SuppDists’, ‘kSamples’, ‘BWStest’, ‘rex’, ‘cmdfun’, ‘BSgenome.Dmelanogaster.UCSC.dm6’, ‘pheatmap’, ‘PMCMRplus’, ‘plyranges’, ‘covr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/mvtnorm_1.2-2.tar.gz'
+Content type 'application/x-gzip' length 662749 bytes (647 KB)
+==================================================
+downloaded 647 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/multcompView_0.1-9.tar.gz'
+Content type 'application/x-gzip' length 37401 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gmp_0.7-2.tar.gz'
+Content type 'application/x-gzip' length 167378 bytes (163 KB)
+==================================================
+downloaded 163 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Rmpfr_0.9-2.tar.gz'
+Content type 'application/x-gzip' length 603750 bytes (589 KB)
+==================================================
+downloaded 589 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/SuppDists_1.1-9.7.tar.gz'
+Content type 'application/x-gzip' length 141797 bytes (138 KB)
+==================================================
+downloaded 138 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/kSamples_1.2-9.tar.gz'
+Content type 'application/x-gzip' length 74728 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/BWStest_0.2.2.tar.gz'
+Content type 'application/x-gzip' length 372114 bytes (363 KB)
+==================================================
+downloaded 363 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rex_1.2.1.tar.gz'
+Content type 'application/x-gzip' length 93583 bytes (91 KB)
+==================================================
+downloaded 91 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/cmdfun_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 33427 bytes (32 KB)
+==================================================
+downloaded 32 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/BSgenome.Dmelanogaster.UCSC.dm6_1.4.1.tar.gz'
+Content type 'application/x-gzip' length 34147677 bytes (32.6 MB)
+==================================================
+downloaded 32.6 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pheatmap_1.0.12.tar.gz'
+Content type 'application/x-gzip' length 15071 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/PMCMRplus_1.9.7.tar.gz'
+Content type 'application/x-gzip' length 264235 bytes (258 KB)
+==================================================
+downloaded 258 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/plyranges_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 1281149 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/covr_3.6.2.tar.gz'
+Content type 'application/x-gzip' length 162879 bytes (159 KB)
+==================================================
+downloaded 159 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/memes_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 1079195 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+* installing *source* package ‘mvtnorm’ ...
+** package ‘mvtnorm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c C_FORTRAN_interface.c -o C_FORTRAN_interface.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lpmvnorm.c -o lpmvnorm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ltMatrices.c -o ltMatrices.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c miwa.c -o miwa.o
+gfortran  -fpic  -g -O2  -c mvt.f -o mvt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mvtnorm-init.c -o mvtnorm-init.o
+gfortran  -fpic  -g -O2  -c tvpack.f -o tvpack.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mvtnorm.so C_FORTRAN_interface.o lpmvnorm.o ltMatrices.o miwa.o mvt.o mvtnorm-init.o tvpack.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mvtnorm/00new/mvtnorm/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.2-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *source* package ‘multcompView’ ...
+** package ‘multcompView’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘multcompView’ as ‘multcompView_0.1-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcompView)
+* installing *source* package ‘gmp’ ...
+** package ‘gmp’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking gmp.h usability... yes
+checking gmp.h presence... yes
+checking for gmp.h... yes
+checking for __gmpz_ui_sub in -lgmp... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.cc -o apply.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c biginteger.cc -o biginteger.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigintegerR.cc -o bigintegerR.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigmod.cc -o bigmod.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigrational.cc -o bigrational.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigrationalR.cc -o bigrationalR.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigvec.cc -o bigvec.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigvec_q.cc -o bigvec_q.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract_matrix.cc -o extract_matrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c factor.cc -o factor.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c factorize.cc -o factorize.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cc -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matrix.cc -o matrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matrixq.cc -o matrixq.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c solve.cc -o solve.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gmp.so apply.o biginteger.o bigintegerR.o bigmod.o bigrational.o bigrationalR.o bigvec.o bigvec_q.o extract_matrix.o factor.o factorize.o init.o matrix.o matrixq.o solve.o -lgmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-gmp/00new/gmp/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘which.max’ from package ‘base’ in package ‘gmp’
+Creating a generic function for ‘which.min’ from package ‘base’ in package ‘gmp’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gmp’ as ‘gmp_0.7-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gmp)
+* installing *source* package ‘SuppDists’ ...
+** package ‘SuppDists’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dists.cpp -o dists.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SuppDists.so dists.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-SuppDists/00new/SuppDists/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SuppDists’ as ‘SuppDists_1.1-9.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SuppDists)
+* installing *source* package ‘BWStest’ ...
+** package ‘BWStest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bws_init.cpp -o bws_init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bws_stat.cpp -o bws_stat.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c murakami_stat.cpp -o murakami_stat.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BWStest.so RcppExports.o bws_init.o bws_stat.o murakami_stat.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-BWStest/00new/BWStest/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BWStest’ as ‘BWStest_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BWStest)
+* installing *source* package ‘rex’ ...
+** package ‘rex’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rex’ as ‘rex_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rex)
+* installing *source* package ‘cmdfun’ ...
+** package ‘cmdfun’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cmdfun’ as ‘cmdfun_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cmdfun)
+* installing *source* package ‘BSgenome.Dmelanogaster.UCSC.dm6’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Dmelanogaster.UCSC.dm6’ as ‘BSgenome.Dmelanogaster.UCSC.dm6_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Dmelanogaster.UCSC.dm6)
+* installing *source* package ‘pheatmap’ ...
+** package ‘pheatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pheatmap’ as ‘pheatmap_1.0.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pheatmap)
+* installing *source* package ‘plyranges’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plyranges’ as ‘plyranges_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyranges)
+* installing *source* package ‘Rmpfr’ ...
+** package ‘Rmpfr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking mpfr.h usability... yes
+checking mpfr.h presence... yes
+checking for mpfr.h... yes
+checking gmp.h usability... yes
+checking gmp.h presence... yes
+checking for gmp.h... yes
+checking for __gmpz_init in -lgmp... yes
+checking for mpfr_init in -lmpfr... yes
+checking for mpfr_digamma in -lmpfr... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ops.c -o Ops.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Summary.c -o Summary.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c convert.c -o convert.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rmpfr.so Ops.o Summary.o convert.o init.o utils.o -lmpfr -lgmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Rmpfr/00new/Rmpfr/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘factorial’ from package ‘base’ in package ‘Rmpfr’
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘Rmpfr’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘Rmpfr’
+Creating a new generic function for ‘cbind’ in package ‘Rmpfr’
+Creating a new generic function for ‘rbind’ in package ‘Rmpfr’
+Creating a generic function for ‘colSums’ from package ‘base’ in package ‘Rmpfr’
+Creating a generic function for ‘colMeans’ from package ‘base’ in package ‘Rmpfr’
+Creating a generic function for ‘rowSums’ from package ‘base’ in package ‘Rmpfr’
+Creating a generic function for ‘rowMeans’ from package ‘base’ in package ‘Rmpfr’
+Creating a generic function for ‘norm’ from package ‘base’ in package ‘Rmpfr’
+in method for ‘show’ with signature ‘"integrateR"’: no definition for class “integrateR”
+Creating a new generic function for ‘pmin’ in package ‘Rmpfr’
+Creating a new generic function for ‘pmax’ in package ‘Rmpfr’
+Creating a generic function for ‘atan2’ from package ‘base’ in package ‘Rmpfr’
+Creating a generic function for ‘beta’ from package ‘base’ in package ‘Rmpfr’
+Creating a generic function for ‘lbeta’ from package ‘base’ in package ‘Rmpfr’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rmpfr’ as ‘Rmpfr_0.9-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rmpfr)
+* installing *source* package ‘kSamples’ ...
+** package ‘kSamples’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kSamples.c -o kSamples.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o kSamples.so kSamples.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-kSamples/00new/kSamples/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘kSamples’ as ‘kSamples_1.2-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kSamples)
+* installing *source* package ‘covr’ ...
+** package ‘covr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reassign.c -o reassign.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o covr.so reassign.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-covr/00new/covr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘covr’ as ‘covr_3.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (covr)
+* installing *source* package ‘memes’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘memes’ as ‘memes_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (memes)
+* installing *source* package ‘PMCMRplus’ ...
+** package ‘PMCMRplus’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c crwrapf90.c -o crwrapf90.o
+gfortran  -fpic  -g -O2  -c dstat.f -o dstat.o
+gfortran  -fpic  -g -O2  -c getpval.f -o getpval.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c pava.f -o pava.o
+gfortran  -fpic  -g -O2  -c pd.f -o pd.o
+gfortran  -fpic  -g -O2  -c util.f -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o PMCMRplus.so crwrapf90.o dstat.o getpval.o init.o pava.o pd.o util.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-PMCMRplus/00new/PMCMRplus/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘PMCMRplus’ as ‘PMCMRplus_1.9.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PMCMRplus)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRUMIaM/downloaded_packages’
+Old packages: 'tidytree', 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	2m49.593s
+user	2m38.486s
+sys	0m14.588s
