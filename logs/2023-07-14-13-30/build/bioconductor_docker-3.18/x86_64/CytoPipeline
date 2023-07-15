@@ -1,0 +1,163 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CytoPipeline'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'CytoPipeline'
+also installing the dependencies ‘diagram’, ‘diffviewer’
+
+trying URL 'https://cloud.r-project.org/src/contrib/diagram_1.6.5.tar.gz'
+Content type 'application/x-gzip' length 536872 bytes (524 KB)
+==================================================
+downloaded 524 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/diffviewer_0.1.1.tar.gz'
+Content type 'application/x-gzip' length 165978 bytes (162 KB)
+==================================================
+downloaded 162 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/CytoPipeline_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 3206744 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+* installing *source* package ‘diagram’ ...
+** package ‘diagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *source* package ‘diffviewer’ ...
+** package ‘diffviewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diffviewer’ as ‘diffviewer_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diffviewer)
+* installing *source* package ‘CytoPipeline’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CytoPipeline’ as ‘CytoPipeline_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CytoPipeline)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmLzDS8/downloaded_packages’
+Old packages: 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m25.159s
+user	0m22.774s
+sys	0m2.594s
+* installing *source* package ‘lazyeval’ ...
+** package ‘lazyeval’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c expr.c -o expr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interp.c -o interp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lazy.c -o lazy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c name.c -o name.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lazyeval.so expr.o init.o interp.o lazy.o name.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-lazyeval/00new/lazyeval/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lazyeval)
+* installing *source* package ‘diffviewer’ ...
+** package ‘diffviewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diffviewer’ as ‘diffviewer_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diffviewer)
+* installing *source* package ‘rex’ ...
+** package ‘rex’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rex’ as ‘rex_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rex)
+* installing *source* package ‘covr’ ...
+** package ‘covr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reassign.c -o reassign.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o covr.so reassign.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-covr/00new/covr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘covr’ as ‘covr_3.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (covr)
