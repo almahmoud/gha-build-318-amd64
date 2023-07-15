@@ -1,0 +1,1007 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''autonomics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'autonomics'
+Warning: dependency ‘mixOmics’ is not available
+also installing the dependencies ‘mitools’, ‘calibrate’, ‘rematch’, ‘survey’, ‘lazyeval’, ‘crosstalk’, ‘qqman’, ‘pixmap’, ‘assertive.base’, ‘assertive.properties’, ‘assertive.types’, ‘assertive.numbers’, ‘assertive.strings’, ‘assertive.datetimes’, ‘assertive.files’, ‘assertive.sets’, ‘assertive.matrices’, ‘assertive.models’, ‘assertive.data’, ‘assertive.data.uk’, ‘assertive.data.us’, ‘assertive.reflection’, ‘assertive.code’, ‘cellranger’, ‘shape’, ‘ICS’, ‘plotly’, ‘MultiDataSet’, ‘ade4’, ‘segmented’, ‘assertive’, ‘readxl’, ‘diagram’, ‘GEOquery’, ‘ICSNP’, ‘lmerTest’, ‘mpm’, ‘org.Mm.eg.db’, ‘ropls’, ‘Rsubread’, ‘seqinr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/mitools_2.4.tar.gz'
+Content type 'application/x-gzip' length 229514 bytes (224 KB)
+==================================================
+downloaded 224 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/calibrate_1.7.7.tar.gz'
+Content type 'application/x-gzip' length 306782 bytes (299 KB)
+==================================================
+downloaded 299 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rematch_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 3719 bytes
+==================================================
+downloaded 3719 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/survey_4.2-1.tar.gz'
+Content type 'application/x-gzip' length 2153349 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lazyeval_0.2.2.tar.gz'
+Content type 'application/x-gzip' length 83482 bytes (81 KB)
+==================================================
+downloaded 81 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/crosstalk_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 296495 bytes (289 KB)
+==================================================
+downloaded 289 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/qqman_0.1.8.tar.gz'
+Content type 'application/x-gzip' length 1341458 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pixmap_0.4-12.tar.gz'
+Content type 'application/x-gzip' length 34637 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.base_0.0-9.tar.gz'
+Content type 'application/x-gzip' length 78506 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.properties_0.0-5.tar.gz'
+Content type 'application/x-gzip' length 24051 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.types_0.0-3.tar.gz'
+Content type 'application/x-gzip' length 24867 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.numbers_0.0-2.tar.gz'
+Content type 'application/x-gzip' length 13933 bytes (13 KB)
+==================================================
+downloaded 13 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.strings_0.0-3.tar.gz'
+Content type 'application/x-gzip' length 13466 bytes (13 KB)
+==================================================
+downloaded 13 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.datetimes_0.0-3.tar.gz'
+Content type 'application/x-gzip' length 5986 bytes
+==================================================
+downloaded 5986 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.files_0.0-2.tar.gz'
+Content type 'application/x-gzip' length 12408 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.sets_0.0-3.tar.gz'
+Content type 'application/x-gzip' length 5149 bytes
+==================================================
+downloaded 5149 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.matrices_0.0-2.tar.gz'
+Content type 'application/x-gzip' length 5594 bytes
+==================================================
+downloaded 5594 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.models_0.0-2.tar.gz'
+Content type 'application/x-gzip' length 4739 bytes
+==================================================
+downloaded 4739 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.data_0.0-3.tar.gz'
+Content type 'application/x-gzip' length 11860 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.data.uk_0.0-2.tar.gz'
+Content type 'application/x-gzip' length 11551 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.data.us_0.0-2.tar.gz'
+Content type 'application/x-gzip' length 6734 bytes
+==================================================
+downloaded 6734 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.reflection_0.0-5.tar.gz'
+Content type 'application/x-gzip' length 32528 bytes (31 KB)
+==================================================
+downloaded 31 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive.code_0.0-4.tar.gz'
+Content type 'application/x-gzip' length 11155 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/cellranger_1.1.0.tar.gz'
+Content type 'application/x-gzip' length 63857 bytes (62 KB)
+==================================================
+downloaded 62 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/shape_1.4.6.tar.gz'
+Content type 'application/x-gzip' length 677262 bytes (661 KB)
+==================================================
+downloaded 661 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ICS_1.3-2.tar.gz'
+Content type 'application/x-gzip' length 841200 bytes (821 KB)
+==================================================
+downloaded 821 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/plotly_4.10.2.tar.gz'
+Content type 'application/x-gzip' length 3902837 bytes (3.7 MB)
+==================================================
+downloaded 3.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/MultiDataSet_1.29.0.tar.gz'
+Content type 'application/x-gzip' length 507148 bytes (495 KB)
+==================================================
+downloaded 495 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ade4_1.7-22.tar.gz'
+Content type 'application/x-gzip' length 3365194 bytes (3.2 MB)
+==================================================
+downloaded 3.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/segmented_1.6-4.tar.gz'
+Content type 'application/x-gzip' length 178319 bytes (174 KB)
+==================================================
+downloaded 174 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertive_0.3-6.tar.gz'
+Content type 'application/x-gzip' length 916027 bytes (894 KB)
+==================================================
+downloaded 894 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/readxl_1.4.3.tar.gz'
+Content type 'application/x-gzip' length 2093488 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/diagram_1.6.5.tar.gz'
+Content type 'application/x-gzip' length 536872 bytes (524 KB)
+==================================================
+downloaded 524 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/GEOquery_2.69.0.tar.gz'
+Content type 'application/x-gzip' length 13695645 bytes (13.1 MB)
+==================================================
+downloaded 13.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ICSNP_1.1-1.tar.gz'
+Content type 'application/x-gzip' length 46519 bytes (45 KB)
+==================================================
+downloaded 45 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lmerTest_3.1-3.tar.gz'
+Content type 'application/x-gzip' length 195633 bytes (191 KB)
+==================================================
+downloaded 191 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/mpm_1.0-23.tar.gz'
+Content type 'application/x-gzip' length 562811 bytes (549 KB)
+==================================================
+downloaded 549 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/org.Mm.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 78182157 bytes (74.6 MB)
+==================================================
+downloaded 74.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/ropls_1.33.0.tar.gz'
+Content type 'application/x-gzip' length 4057230 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/Rsubread_2.15.4.tar.gz'
+Content type 'application/x-gzip' length 13451128 bytes (12.8 MB)
+==================================================
+downloaded 12.8 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/seqinr_4.2-30.tar.gz'
+Content type 'application/x-gzip' length 3538250 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/autonomics_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 2443884 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘mitools’ ...
+** package ‘mitools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mitools’ as ‘mitools_2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitools)
+* installing *source* package ‘calibrate’ ...
+** package ‘calibrate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘calibrate’ as ‘calibrate_1.7.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (calibrate)
+* installing *source* package ‘rematch’ ...
+** package ‘rematch’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rematch’ as ‘rematch_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rematch)
+* installing *source* package ‘lazyeval’ ...
+** package ‘lazyeval’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c expr.c -o expr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interp.c -o interp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lazy.c -o lazy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c name.c -o name.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lazyeval.so expr.o init.o interp.o lazy.o name.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-lazyeval/00new/lazyeval/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lazyeval)
+* installing *source* package ‘pixmap’ ...
+** package ‘pixmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pixmap’ as ‘pixmap_0.4-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pixmap)
+* installing *source* package ‘assertive.base’ ...
+** package ‘assertive.base’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.base’ as ‘assertive.base_0.0-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.base)
+* installing *source* package ‘shape’ ...
+** package ‘shape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *source* package ‘segmented’ ...
+** package ‘segmented’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘segmented’ as ‘segmented_1.6-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (segmented)
+* installing *source* package ‘GEOquery’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GEOquery’ as ‘GEOquery_2.69.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GEOquery)
+* installing *source* package ‘lmerTest’ ...
+** package ‘lmerTest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lmerTest’ as ‘lmerTest_3.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmerTest)
+* installing *source* package ‘mpm’ ...
+** package ‘mpm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mpm’ as ‘mpm_1.0-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mpm)
+* installing *source* package ‘org.Mm.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Mm.eg.db’ as ‘org.Mm.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Mm.eg.db)
+* installing *source* package ‘Rsubread’ ...
+** using staged installation
+@@@@@ The operating system is Linux.
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HelperFunctions.c -o HelperFunctions.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LRMbase-index.c -o LRMbase-index.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LRMchro-event.c -o LRMchro-event.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LRMfile-io.c -o LRMfile-io.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LRMhashtable.c -o LRMhashtable.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LRMhelper.c -o LRMhelper.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LRMseek-zlib.c -o LRMseek-zlib.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LRMsorted-hashtable.c -o LRMsorted-hashtable.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_wrapper.c -o R_wrapper.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RsimReads.c -o RsimReads.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SNPCalling.c -o SNPCalling.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aligner.c -o aligner.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c atgcContent.c -o atgcContent.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c build-sam-index.c -o build-sam-index.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cell-counts.c -o cell-counts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core-bigtable.c -o core-bigtable.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core-indel.c -o core-indel.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core-interface-aligner.c -o core-interface-aligner.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core-interface-subjunc.c -o core-interface-subjunc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core-junction.c -o core-junction.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core.c -o core.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c detection-calls.c -o detection-calls.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c detectionCall.c -o detectionCall.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c detectionCallAnnotation.c -o detectionCallAnnotation.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exon-algorithms.c -o exon-algorithms.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exon-align-indel.c -o exon-align-indel.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exon-align.c -o exon-align.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c flattenAnnotations.c -o flattenAnnotations.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fullscan.c -o fullscan.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fusion-align.c -o fusion-align.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gen_rand_reads.c -o gen_rand_reads.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gene-algorithms.c -o gene-algorithms.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gene-value-index.c -o gene-value-index.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hashtable.c -o hashtable.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c index-builder.c -o index-builder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c input-blc.c -o input-blc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c input-files.c -o input-files.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interval_merge.c -o interval_merge.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c long-hashtable.c -o long-hashtable.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c longread-mapping.c -o longread-mapping.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mergeVCF.c -o mergeVCF.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c processExons.c -o processExons.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c propmapped.c -o propmapped.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qualityScores.c -o qualityScores.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read-repair.c -o read-repair.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readSummary.c -o readSummary.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c removeDupReads.c -o removeDupReads.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sam2bed.c -o sam2bed.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sambam-file.c -o sambam-file.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c seek-zlib.c -o seek-zlib.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sorted-hashtable.c -o sorted-hashtable.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sublog.c -o sublog.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DMAKE_FOR_EXON -D SUBREAD_VERSION="\"Rsubread 2.15.4\""  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tx-unique.c -o tx-unique.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rsubread.so HelperFunctions.o LRMbase-index.o LRMchro-event.o LRMfile-io.o LRMhashtable.o LRMhelper.o LRMseek-zlib.o LRMsorted-hashtable.o R_wrapper.o RsimReads.o SNPCalling.o aligner.o atgcContent.o build-sam-index.o cell-counts.o core-bigtable.o core-indel.o core-interface-aligner.o core-interface-subjunc.o core-junction.o core.o detection-calls.o detectionCall.o detectionCallAnnotation.o exon-algorithms.o exon-align-indel.o exon-align.o flattenAnnotations.o fullscan.o fusion-align.o gen_rand_reads.o gene-algorithms.o gene-value-index.o hashtable.o index-builder.o input-blc.o input-files.o interval_merge.o long-hashtable.o longread-mapping.o mergeVCF.o processExons.o propmapped.o qualityScores.o read-repair.o readSummary.o removeDupReads.o sam2bed.o sambam-file.o seek-zlib.o sorted-hashtable.o sublog.o tx-unique.o -lz -lpthread -DMAKE_FOR_EXON -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Rsubread/00new/Rsubread/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rsubread’ as ‘Rsubread_2.15.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rsubread)
+* installing *source* package ‘survey’ ...
+** package ‘survey’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘survey’ as ‘survey_4.2-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survey)
+* installing *source* package ‘crosstalk’ ...
+** package ‘crosstalk’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crosstalk)
+* installing *source* package ‘qqman’ ...
+** package ‘qqman’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘qqman’ as ‘qqman_0.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qqman)
+* installing *source* package ‘assertive.properties’ ...
+** package ‘assertive.properties’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.properties’ as ‘assertive.properties_0.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.properties)
+* installing *source* package ‘assertive.numbers’ ...
+** package ‘assertive.numbers’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.numbers’ as ‘assertive.numbers_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.numbers)
+* installing *source* package ‘assertive.sets’ ...
+** package ‘assertive.sets’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.sets’ as ‘assertive.sets_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.sets)
+* installing *source* package ‘assertive.matrices’ ...
+** package ‘assertive.matrices’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.matrices’ as ‘assertive.matrices_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.matrices)
+* installing *source* package ‘assertive.models’ ...
+** package ‘assertive.models’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.models’ as ‘assertive.models_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.models)
+* installing *source* package ‘assertive.reflection’ ...
+** package ‘assertive.reflection’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.reflection’ as ‘assertive.reflection_0.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.reflection)
+* installing *source* package ‘cellranger’ ...
+** package ‘cellranger’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cellranger’ as ‘cellranger_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellranger)
+* installing *source* package ‘ade4’ ...
+** package ‘ade4’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ade4libCpp.cpp -o ade4libCpp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c adesub.c -o adesub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c divsub.c -o divsub.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fourthcorner.c -o fourthcorner.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c phylog.c -o phylog.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testamova.c -o testamova.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testdim.c -o testdim.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testrlq.c -o testrlq.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests.c -o tests.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c testsCpp.cpp -o testsCpp.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ade4.so RcppExports.o ade4libCpp.o adesub.o divsub.o fourthcorner.o init.o phylog.o testamova.o testdim.o testrlq.o tests.o testsCpp.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ade4/00new/ade4/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ade4’ as ‘ade4_1.7-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ade4)
+* installing *source* package ‘diagram’ ...
+** package ‘diagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *source* package ‘assertive.types’ ...
+** package ‘assertive.types’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.types’ as ‘assertive.types_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.types)
+* installing *source* package ‘assertive.files’ ...
+** package ‘assertive.files’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.files’ as ‘assertive.files_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.files)
+* installing *source* package ‘ICS’ ...
+** package ‘ICS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ICS’ as ‘ICS_1.3-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ICS)
+* installing *source* package ‘plotly’ ...
+** package ‘plotly’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plotly’ as ‘plotly_4.10.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotly)
+* installing *source* package ‘MultiDataSet’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘add_methy’ with signature ‘"MultiDataSet","GenomicRatioSet"’: no definition for class “GenomicRatioSet”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MultiDataSet’ as ‘MultiDataSet_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MultiDataSet)
+* installing *source* package ‘readxl’ ...
+** package ‘readxl’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XlsWorkBook.cpp -o XlsWorkBook.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XlsxWorkBook.cpp -o XlsxWorkBook.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zip.cpp -o zip.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Read.cpp -o Read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cran.c -o cran.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxls/xlstool.c -o libxls/xlstool.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxls/endian.c -o libxls/endian.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxls/ole.c -o libxls/ole.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxls/xls.c -o libxls/xls.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -Iunix -I. -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/progress/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxls/locale.c -o libxls/locale.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o readxl.so cpp11.o XlsWorkBook.o XlsxWorkBook.o zip.o Read.o cran.o libxls/xlstool.o libxls/endian.o libxls/ole.o libxls/xls.o libxls/locale.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-readxl/00new/readxl/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘readxl’ as ‘readxl_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readxl)
+* installing *source* package ‘seqinr’ ...
+** package ‘seqinr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c alignment.c -o alignment.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastacc.c -o fastacc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getzlibsock.c -o getzlibsock.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kaks.c -o kaks.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c packagename_init.c -o packagename_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSE_TYPE_CHECKING_STRICT -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zsockr.c -o zsockr.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o seqinr.so alignment.o fastacc.o getzlibsock.o kaks.o packagename_init.o util.o zsockr.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-seqinr/00new/seqinr/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘seqinr’ as ‘seqinr_4.2-30_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqinr)
+* installing *source* package ‘assertive.strings’ ...
+** package ‘assertive.strings’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.strings’ as ‘assertive.strings_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.strings)
+* installing *source* package ‘assertive.datetimes’ ...
+** package ‘assertive.datetimes’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.datetimes’ as ‘assertive.datetimes_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.datetimes)
+* installing *source* package ‘assertive.code’ ...
+** package ‘assertive.code’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.code’ as ‘assertive.code_0.0-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.code)
+* installing *source* package ‘ICSNP’ ...
+** package ‘ICSNP’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aa.c -o aa.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c icsnp.cpp -o icsnp.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ICSNP.so aa.o icsnp.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ICSNP/00new/ICSNP/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ICSNP’ as ‘ICSNP_1.1-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ICSNP)
+* installing *source* package ‘ropls’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ropls’ as ‘ropls_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ropls)
+* installing *source* package ‘assertive.data’ ...
+** package ‘assertive.data’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.data’ as ‘assertive.data_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data)
+* installing *source* package ‘assertive.data.uk’ ...
+** package ‘assertive.data.uk’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.data.uk’ as ‘assertive.data.uk_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data.uk)
+* installing *source* package ‘assertive.data.us’ ...
+** package ‘assertive.data.us’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive.data.us’ as ‘assertive.data.us_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data.us)
+* installing *source* package ‘assertive’ ...
+** package ‘assertive’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertive’ as ‘assertive_0.3-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive)
+* installing *source* package ‘autonomics’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to '/' 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘autonomics’ as ‘autonomics_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (autonomics)
+
+The downloaded source packages are in
+	‘/tmp/RtmpV6KkqA/downloaded_packages’
+Old packages: 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	8m59.520s
+user	8m35.925s
+sys	0m28.848s
