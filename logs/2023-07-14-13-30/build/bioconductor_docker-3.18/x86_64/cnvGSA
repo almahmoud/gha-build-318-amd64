@@ -1,0 +1,137 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''cnvGSA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'cnvGSA'
+also installing the dependencies ‘profileModel’, ‘brglm’, ‘splitstackshape’, ‘cnvGSAdata’
+
+trying URL 'https://cloud.r-project.org/src/contrib/profileModel_0.6.1.tar.gz'
+Content type 'application/x-gzip' length 21513 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/brglm_0.7.2.tar.gz'
+Content type 'application/x-gzip' length 27208 bytes (26 KB)
+==================================================
+downloaded 26 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/splitstackshape_1.4.8.tar.gz'
+Content type 'application/x-gzip' length 33972 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/cnvGSAdata_1.37.0.tar.gz'
+Content type 'application/x-gzip' length 6537747 bytes (6.2 MB)
+==================================================
+downloaded 6.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/cnvGSA_1.45.0.tar.gz'
+Content type 'application/x-gzip' length 265508 bytes (259 KB)
+==================================================
+downloaded 259 KB
+
+* installing *source* package ‘profileModel’ ...
+** package ‘profileModel’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘profileModel’ as ‘profileModel_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (profileModel)
+* installing *source* package ‘splitstackshape’ ...
+** package ‘splitstackshape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘splitstackshape’ as ‘splitstackshape_1.4.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splitstackshape)
+* installing *source* package ‘brglm’ ...
+** package ‘brglm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c brglm_init.c -o brglm_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hats.c -o hats.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o brglm.so brglm_init.o hats.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-brglm/00new/brglm/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘brglm’ as ‘brglm_0.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (brglm)
+* installing *source* package ‘cnvGSA’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cnvGSA’ as ‘cnvGSA_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cnvGSA)
+* installing *source* package ‘cnvGSAdata’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cnvGSAdata’ as ‘cnvGSAdata_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cnvGSAdata)
+
+The downloaded source packages are in
+	‘/tmp/RtmpyOildh/downloaded_packages’
+Old packages: 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m28.733s
+user	0m22.965s
+sys	0m2.854s
+* installing *source* package ‘cnvGSAdata’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cnvGSAdata’ as ‘cnvGSAdata_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cnvGSAdata)
