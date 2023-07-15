@@ -1,0 +1,67 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''panp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'panp'
+also installing the dependency ‘gcrma’
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/gcrma_2.73.0.tar.gz'
+Content type 'application/x-gzip' length 150702 bytes (147 KB)
+==================================================
+downloaded 147 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/panp_1.71.0.tar.gz'
+Content type 'application/x-gzip' length 522891 bytes (510 KB)
+==================================================
+downloaded 510 KB
+
+* installing *source* package ‘gcrma’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c baseProfile.c -o baseProfile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c computeAffinities.c -o computeAffinities.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c postmean.c -o postmean.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gcrma.so baseProfile.o computeAffinities.o postmean.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-gcrma/00new/gcrma/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gcrma’ as ‘gcrma_2.73.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gcrma)
+* installing *source* package ‘panp’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘panp’ as ‘panp_1.71.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (panp)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGOidWb/downloaded_packages’
+Old packages: 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m26.198s
+user	0m21.909s
+sys	0m2.121s
