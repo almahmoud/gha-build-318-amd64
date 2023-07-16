@@ -1,0 +1,202 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''EpiTxDb'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'EpiTxDb'
+also installing the dependencies ‘EpiTxDb.Hs.hg38’, ‘BSgenome.Hsapiens.UCSC.hg38’, ‘BSgenome.Scerevisiae.UCSC.sacCer3’, ‘TxDb.Hsapiens.UCSC.hg38.knownGene’
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/EpiTxDb.Hs.hg38_0.99.7.tar.gz'
+Content type 'application/x-gzip' length 310131 bytes (302 KB)
+==================================================
+downloaded 302 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38_1.4.5.tar.gz'
+Content type 'application/x-gzip' length 731245539 bytes (697.4 MB)
+==================================================
+downloaded 697.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer3_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 2966747 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg38.knownGene_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 46645731 bytes (44.5 MB)
+==================================================
+downloaded 44.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/EpiTxDb_1.13.0.tar.gz'
+Content type 'application/x-gzip' length 759582 bytes (741 KB)
+==================================================
+downloaded 741 KB
+
+* installing *source* package ‘BSgenome.Hsapiens.UCSC.hg38’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.UCSC.hg38’ as ‘BSgenome.Hsapiens.UCSC.hg38_1.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.UCSC.hg38)
+* installing *source* package ‘BSgenome.Scerevisiae.UCSC.sacCer3’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Scerevisiae.UCSC.sacCer3’ as ‘BSgenome.Scerevisiae.UCSC.sacCer3_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Scerevisiae.UCSC.sacCer3)
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ as ‘TxDb.Hsapiens.UCSC.hg38.knownGene_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg38.knownGene)
+* installing *source* package ‘EpiTxDb’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EpiTxDb’ as ‘EpiTxDb_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EpiTxDb)
+* installing *source* package ‘EpiTxDb.Hs.hg38’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EpiTxDb.Hs.hg38’ as ‘EpiTxDb.Hs.hg38_0.99.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EpiTxDb.Hs.hg38)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXKAmZL/downloaded_packages’
+Old packages: 'openssl', 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	5m13.828s
+user	4m43.342s
+sys	0m14.517s
+* installing *source* package ‘EpiTxDb.Hs.hg38’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EpiTxDb.Hs.hg38’ as ‘EpiTxDb.Hs.hg38_0.99.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EpiTxDb.Hs.hg38)
+* installing *source* package ‘hunspell’ ...
+** package ‘hunspell’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dictionary.cpp -o dictionary.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parser.cpp -o parser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/textparser.cc -o parsers/textparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/latexparser.cc -o parsers/latexparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/manparser.cc -o parsers/manparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/xmlparser.cc -o parsers/xmlparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsers/htmlparser.cc -o parsers/htmlparser.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/affentry.cc -o hunspell/affentry.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/affixmgr.cc -o hunspell/affixmgr.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/filemgr.cc -o hunspell/filemgr.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/hashmgr.cc -o hunspell/hashmgr.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/hunspell.cc -o hunspell/hunspell.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/hunzip.cc -o hunspell/hunzip.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/phonet.cc -o hunspell/phonet.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/replist.cc -o hunspell/replist.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/suggestmgr.cc -o hunspell/suggestmgr.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I. -Ihunspell -DBUILDING_LIBHUNSPELL -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hunspell/csutil.cc -o hunspell/csutil.o
+ar rcs hunspell/libstathunspell.a parsers/textparser.o parsers/latexparser.o parsers/manparser.o parsers/xmlparser.o parsers/htmlparser.o hunspell/affentry.o hunspell/affixmgr.o hunspell/filemgr.o hunspell/hashmgr.o hunspell/hunspell.o hunspell/hunzip.o hunspell/phonet.o hunspell/replist.o hunspell/suggestmgr.o hunspell/csutil.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o hunspell.so RcppExports.o dictionary.o parser.o -Lhunspell -lstathunspell -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-hunspell/00new/hunspell/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hunspell’ as ‘hunspell_3.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hunspell)
+* installing *source* package ‘httptest’ ...
+** package ‘httptest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘httptest’ as ‘httptest_4.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httptest)
+* installing *source* package ‘spelling’ ...
+** package ‘spelling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘spelling’ as ‘spelling_2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spelling)
