@@ -1,0 +1,70 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RUVSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'RUVSeq'
+also installing the dependency ‘zebrafishRNASeq’
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/zebrafishRNASeq_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 368653 bytes (360 KB)
+==================================================
+downloaded 360 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/RUVSeq_1.35.0.tar.gz'
+Content type 'application/x-gzip' length 462506 bytes (451 KB)
+==================================================
+downloaded 451 KB
+
+* installing *source* package ‘zebrafishRNASeq’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘zebrafishRNASeq’ as ‘zebrafishRNASeq_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zebrafishRNASeq)
+* installing *source* package ‘RUVSeq’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RUVSeq’ as ‘RUVSeq_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RUVSeq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEUo7j5/downloaded_packages’
+Old packages: 'openssl', 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m40.051s
+user	0m34.883s
+sys	0m2.186s
+* installing *source* package ‘zebrafishRNASeq’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘zebrafishRNASeq’ as ‘zebrafishRNASeq_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zebrafishRNASeq)
