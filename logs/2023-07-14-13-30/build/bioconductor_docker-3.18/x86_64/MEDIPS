@@ -1,0 +1,71 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MEDIPS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21), R 4.3.1 (2023-06-16)
+Installing package(s) 'MEDIPS'
+also installing the dependency ‘MEDIPSData’
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/MEDIPSData_1.37.0.tar.gz'
+Content type 'application/x-gzip' length 166163891 bytes (158.5 MB)
+==================================================
+downloaded 158.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/MEDIPS_1.53.0.tar.gz'
+Content type 'application/x-gzip' length 329274 bytes (321 KB)
+==================================================
+downloaded 321 KB
+
+* installing *source* package ‘MEDIPSData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MEDIPSData’ as ‘MEDIPSData_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MEDIPSData)
+* installing *source* package ‘MEDIPS’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘IRanges’ for request: ‘values’ when loading ‘MEDIPS’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘IRanges’ for request: ‘values’ when loading ‘MEDIPS’
+** testing if installed package can be loaded from final location
+No methods found in package ‘IRanges’ for request: ‘values’ when loading ‘MEDIPS’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MEDIPS’ as ‘MEDIPS_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MEDIPS)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYhvYU4/downloaded_packages’
+Old packages: 'openssl', 'sass', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	1m34.334s
+user	1m25.569s
+sys	0m4.944s
+* installing *source* package ‘MEDIPSData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MEDIPSData’ as ‘MEDIPSData_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MEDIPSData)
