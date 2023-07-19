@@ -1,0 +1,203 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GenVisR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21.1), R 4.3.1 (2023-06-16)
+Installing package(s) 'GenVisR'
+also installing the dependencies ‘gtools’, ‘reshape2’, ‘RMySQL’, ‘vdiffr’, ‘TxDb.Hsapiens.UCSC.hg38.knownGene’, ‘BSgenome.Hsapiens.UCSC.hg38’
+
+trying URL 'https://cloud.r-project.org/src/contrib/gtools_3.9.4.tar.gz'
+Content type 'application/x-gzip' length 240661 bytes (235 KB)
+==================================================
+downloaded 235 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/reshape2_1.4.4.tar.gz'
+Content type 'application/x-gzip' length 37307 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RMySQL_0.10.25.tar.gz'
+Content type 'application/x-gzip' length 53316 bytes (52 KB)
+==================================================
+downloaded 52 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/vdiffr_1.0.5.tar.gz'
+Content type 'application/x-gzip' length 102271 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg38.knownGene_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 46645731 bytes (44.5 MB)
+==================================================
+downloaded 44.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38_1.4.5.tar.gz'
+Content type 'application/x-gzip' length 731245539 bytes (697.4 MB)
+==================================================
+downloaded 697.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/GenVisR_1.33.4.tar.gz'
+Content type 'application/x-gzip' length 8032955 bytes (7.7 MB)
+==================================================
+downloaded 7.7 MB
+
+* installing *source* package ‘gtools’ ...
+** package ‘gtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c roman2int.c -o roman2int.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c setTCPNoDelay.c -o setTCPNoDelay.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gtools.so init.o roman2int.o setTCPNoDelay.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-gtools/00new/gtools/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gtools’ as ‘gtools_3.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtools)
+* installing *source* package ‘reshape2’ ...
+** package ‘reshape2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c melt.cpp -o melt.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o reshape2.so RcppExports.o melt.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-reshape2/00new/reshape2/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reshape2’ as ‘reshape2_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape2)
+* installing *source* package ‘RMySQL’ ...
+** package ‘RMySQL’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found mysql_config cflags and libs!
+Using PKG_CFLAGS=-I/usr/include/mysql 
+Using PKG_LIBS=-L/usr/lib/x86_64-linux-gnu -lmysqlclient -lzstd -lssl -lcrypto -lresolv -lm
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+rm -f RMySQL.so RMySQL-init.o connection.o db-apply.o driver.o exception.o fields.o result.o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RMySQL-init.c -o RMySQL-init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c connection.c -o connection.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c db-apply.c -o db-apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c driver.c -o driver.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exception.c -o exception.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fields.c -o fields.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c result.c -o result.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/mysql   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RMySQL.so RMySQL-init.o connection.o db-apply.o driver.o exception.o fields.o result.o utils.o -L/usr/lib/x86_64-linux-gnu -lmysqlclient -lzstd -lssl -lcrypto -lresolv -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RMySQL/00new/RMySQL/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RMySQL’ as ‘RMySQL_0.10.25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RMySQL)
+* installing *source* package ‘vdiffr’ ...
+** package ‘vdiffr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compare.cpp -o compare.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devSVG.cpp -o devSVG.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c engine_version.cpp -o engine_version.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o vdiffr.so compare.o cpp11.o devSVG.o engine_version.o -lpng -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-vdiffr/00new/vdiffr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘vdiffr’ as ‘vdiffr_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vdiffr)
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ as ‘TxDb.Hsapiens.UCSC.hg38.knownGene_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg38.knownGene)
+* installing *source* package ‘BSgenome.Hsapiens.UCSC.hg38’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.UCSC.hg38’ as ‘BSgenome.Hsapiens.UCSC.hg38_1.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.UCSC.hg38)
+* installing *source* package ‘GenVisR’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenVisR’ as ‘GenVisR_1.33.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenVisR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpeNXkKN/downloaded_packages’
+Old packages: 'affy', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	4m31.187s
+user	4m13.169s
+sys	0m14.252s
