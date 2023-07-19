@@ -1,0 +1,104 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''REDseq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21.1), R 4.3.1 (2023-06-16)
+Installing package(s) 'REDseq'
+also installing the dependencies ‘VennDiagram’, ‘BSgenome.Celegans.UCSC.ce2’, ‘ChIPpeakAnno’
+
+trying URL 'https://cloud.r-project.org/src/contrib/VennDiagram_1.7.3.tar.gz'
+Content type 'application/x-gzip' length 78508 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/BSgenome.Celegans.UCSC.ce2_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 23653893 bytes (22.6 MB)
+==================================================
+downloaded 22.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/ChIPpeakAnno_3.35.1.tar.gz'
+Content type 'application/x-gzip' length 19312307 bytes (18.4 MB)
+==================================================
+downloaded 18.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/REDseq_1.47.0.tar.gz'
+Content type 'application/x-gzip' length 158054 bytes (154 KB)
+==================================================
+downloaded 154 KB
+
+* installing *source* package ‘VennDiagram’ ...
+** package ‘VennDiagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VennDiagram’ as ‘VennDiagram_1.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VennDiagram)
+* installing *source* package ‘BSgenome.Celegans.UCSC.ce2’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Celegans.UCSC.ce2’ as ‘BSgenome.Celegans.UCSC.ce2_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Celegans.UCSC.ce2)
+* installing *source* package ‘ChIPpeakAnno’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘annoGR’ with signature ‘"EnsDb"’: no definition for class “EnsDb”
+in method for ‘toGRanges’ with signature ‘"EnsDb"’: no definition for class “EnsDb”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ChIPpeakAnno’ as ‘ChIPpeakAnno_3.35.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChIPpeakAnno)
+* installing *source* package ‘REDseq’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘IRanges’ for requests: ‘%in%’, ‘rep.int’ when loading ‘REDseq’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘IRanges’ for requests: ‘%in%’, ‘rep.int’ when loading ‘REDseq’
+** testing if installed package can be loaded from final location
+No methods found in package ‘IRanges’ for requests: ‘%in%’, ‘rep.int’ when loading ‘REDseq’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘REDseq’ as ‘REDseq_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (REDseq)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpc5mZry/downloaded_packages’
+Old packages: 'affy', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	2m43.930s
+user	2m34.795s
+sys	0m6.397s
