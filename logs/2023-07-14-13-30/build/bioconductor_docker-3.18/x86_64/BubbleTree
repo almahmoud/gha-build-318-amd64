@@ -1,0 +1,154 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BubbleTree'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21.1), R 4.3.1 (2023-06-16)
+Installing package(s) 'BubbleTree'
+also installing the dependencies ‘proxy’, ‘WriteXLS’, ‘gtools’, ‘e1071’
+
+trying URL 'https://cloud.r-project.org/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'application/x-gzip' length 74622 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/WriteXLS_6.4.0.tar.gz'
+Content type 'application/x-gzip' length 770065 bytes (752 KB)
+==================================================
+downloaded 752 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gtools_3.9.4.tar.gz'
+Content type 'application/x-gzip' length 240661 bytes (235 KB)
+==================================================
+downloaded 235 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/e1071_1.7-13.tar.gz'
+Content type 'application/x-gzip' length 314205 bytes (306 KB)
+==================================================
+downloaded 306 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/BubbleTree_2.31.0.tar.gz'
+Content type 'application/x-gzip' length 28763356 bytes (27.4 MB)
+==================================================
+downloaded 27.4 MB
+
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.c -o apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dll.c -o dll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘WriteXLS’ ...
+** package ‘WriteXLS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘WriteXLS’ as ‘WriteXLS_6.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WriteXLS)
+* installing *source* package ‘gtools’ ...
+** package ‘gtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c roman2int.c -o roman2int.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c setTCPNoDelay.c -o setTCPNoDelay.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gtools.so init.o roman2int.o setTCPNoDelay.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-gtools/00new/gtools/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gtools’ as ‘gtools_3.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtools)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmeans.c -o cmeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cshell.c -o cshell.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c floyd.c -o floyd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘BubbleTree’ ...
+** using staged installation
+Warning in person1(given = given[[i]], family = family[[i]], middle = middle[[i]],  :
+  It is recommended to use ‘given’ instead of ‘middle’.
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BubbleTree’ as ‘BubbleTree_2.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BubbleTree)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZ5OEki/downloaded_packages’
+Old packages: 'affy', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	1m27.389s
+user	1m19.062s
+sys	0m6.092s
