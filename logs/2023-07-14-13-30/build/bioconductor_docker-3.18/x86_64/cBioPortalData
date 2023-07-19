@@ -1,0 +1,35 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''cBioPortalData'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21.1), R 4.3.1 (2023-06-16)
+Installing package(s) 'cBioPortalData'
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/cBioPortalData_2.13.6.tar.gz'
+Content type 'application/x-gzip' length 1032427 bytes (1008 KB)
+==================================================
+downloaded 1008 KB
+
+* installing *source* package ‘cBioPortalData’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘cBioPortalData’ as ‘cBioPortalData_2.13.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cBioPortalData)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYH67uL/downloaded_packages’
+Old packages: 'affy', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m41.651s
+user	0m38.134s
+sys	0m2.202s
