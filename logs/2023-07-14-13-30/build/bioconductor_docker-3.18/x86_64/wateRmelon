@@ -1,0 +1,280 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''wateRmelon'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21.1), R 4.3.1 (2023-06-16)
+Installing package(s) 'wateRmelon'
+also installing the dependencies ‘ExperimentHub’, ‘RPMM’, ‘irlba’, ‘FlowSorted.Blood.EPIC’
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/ExperimentHub_2.9.1.tar.gz'
+Content type 'application/x-gzip' length 496911 bytes (485 KB)
+==================================================
+downloaded 485 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RPMM_1.25.tar.gz'
+Content type 'application/x-gzip' length 118097 bytes (115 KB)
+==================================================
+downloaded 115 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/irlba_2.3.5.1.tar.gz'
+Content type 'application/x-gzip' length 233555 bytes (228 KB)
+==================================================
+downloaded 228 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/FlowSorted.Blood.EPIC_2.5.2.tar.gz'
+Content type 'application/x-gzip' length 98430 bytes (96 KB)
+==================================================
+downloaded 96 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/wateRmelon_2.7.0.tar.gz'
+Content type 'application/x-gzip' length 3408562 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+* installing *source* package ‘ExperimentHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ExperimentHub’ as ‘ExperimentHub_2.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExperimentHub)
+* installing *source* package ‘RPMM’ ...
+** package ‘RPMM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RPMM’ as ‘RPMM_1.25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RPMM)
+* installing *source* package ‘irlba’ ...
+** package ‘irlba’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Matrix/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c irlb.c -o irlb.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Matrix/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utility.c -o utility.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o irlba.so irlb.o utility.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-irlba/00new/irlba/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘irlba’ as ‘irlba_2.3.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (irlba)
+* installing *source* package ‘wateRmelon’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+Creating a generic function from function ‘as.methylumi’ in package ‘wateRmelon’
+Creating a generic function from function ‘adjustedDasen’ in package ‘wateRmelon’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘wateRmelon’ as ‘wateRmelon_2.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wateRmelon)
+* installing *source* package ‘FlowSorted.Blood.EPIC’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FlowSorted.Blood.EPIC’ as ‘FlowSorted.Blood.EPIC_2.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FlowSorted.Blood.EPIC)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbfyJCW/downloaded_packages’
+Old packages: 'affy', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	1m45.716s
+user	1m38.088s
+sys	0m6.161s
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.c -o apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dll.c -o dll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘locfdr’ ...
+** package ‘locfdr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘locfdr’ as ‘locfdr_1.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (locfdr)
+* installing *source* package ‘FlowSorted.CordBlood.450k’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FlowSorted.CordBlood.450k’ as ‘FlowSorted.CordBlood.450k_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FlowSorted.CordBlood.450k)
+* installing *source* package ‘FlowSorted.CordBloodNorway.450k’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FlowSorted.CordBloodNorway.450k’ as ‘FlowSorted.CordBloodNorway.450k_1.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FlowSorted.CordBloodNorway.450k)
+* installing *source* package ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ as ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICanno.ilm10b4.hg19)
+* installing *source* package ‘FlowSorted.Blood.EPIC’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FlowSorted.Blood.EPIC’ as ‘FlowSorted.Blood.EPIC_2.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FlowSorted.Blood.EPIC)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmeans.c -o cmeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cshell.c -o cshell.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c floyd.c -o floyd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘EpiDISH’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EpiDISH’ as ‘EpiDISH_2.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EpiDISH)
