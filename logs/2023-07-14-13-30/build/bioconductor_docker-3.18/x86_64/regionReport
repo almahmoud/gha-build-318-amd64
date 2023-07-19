@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''regionReport'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21.1), R 4.3.1 (2023-06-16)
+Installing package(s) 'regionReport'
+Warning: dependency ‘pasilla’ is not available
+also installing the dependency ‘knitrBootstrap’
+
+trying URL 'https://cloud.r-project.org/src/contrib/knitrBootstrap_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 1472643 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/regionReport_1.35.0.tar.gz'
+Content type 'application/x-gzip' length 629396 bytes (614 KB)
+==================================================
+downloaded 614 KB
+
+* installing *source* package ‘knitrBootstrap’ ...
+** package ‘knitrBootstrap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** exec
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘knitrBootstrap’ as ‘knitrBootstrap_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (knitrBootstrap)
+* installing *source* package ‘regionReport’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘regionReport’ as ‘regionReport_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (regionReport)
+
+The downloaded source packages are in
+	‘/tmp/RtmplPU5Dg/downloaded_packages’
+Old packages: 'affy', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	0m49.223s
+user	0m45.886s
+sys	0m2.765s
