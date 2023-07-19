@@ -1,0 +1,345 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''DEScan2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.21.1), R 4.3.1 (2023-06-16)
+Installing package(s) 'DEScan2'
+also installing the dependencies ‘hwriter’, ‘R.methodsS3’, ‘R.oo’, ‘R.utils’, ‘VennDiagram’, ‘ShortRead’, ‘aroma.light’, ‘ChIPpeakAnno’, ‘EDASeq’, ‘RUVSeq’, ‘statmod’
+
+trying URL 'https://cloud.r-project.org/src/contrib/hwriter_1.3.2.1.tar.gz'
+Content type 'application/x-gzip' length 59374 bytes (57 KB)
+==================================================
+downloaded 57 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.methodsS3_1.8.2.tar.gz'
+Content type 'application/x-gzip' length 24131 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.oo_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 384384 bytes (375 KB)
+==================================================
+downloaded 375 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.utils_2.12.2.tar.gz'
+Content type 'application/x-gzip' length 365876 bytes (357 KB)
+==================================================
+downloaded 357 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/VennDiagram_1.7.3.tar.gz'
+Content type 'application/x-gzip' length 78508 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/ShortRead_1.59.0.tar.gz'
+Content type 'application/x-gzip' length 5223367 bytes (5.0 MB)
+==================================================
+downloaded 5.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/aroma.light_3.31.1.tar.gz'
+Content type 'application/x-gzip' length 388449 bytes (379 KB)
+==================================================
+downloaded 379 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/ChIPpeakAnno_3.35.1.tar.gz'
+Content type 'application/x-gzip' length 19312307 bytes (18.4 MB)
+==================================================
+downloaded 18.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/EDASeq_2.35.0.tar.gz'
+Content type 'application/x-gzip' length 1036783 bytes (1012 KB)
+==================================================
+downloaded 1012 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/RUVSeq_1.35.0.tar.gz'
+Content type 'application/x-gzip' length 462506 bytes (451 KB)
+==================================================
+downloaded 451 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/statmod_1.5.0.tar.gz'
+Content type 'application/x-gzip' length 92486 bytes (90 KB)
+==================================================
+downloaded 90 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/DEScan2_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 2578706 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+* installing *source* package ‘hwriter’ ...
+** package ‘hwriter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hwriter’ as ‘hwriter_1.3.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hwriter)
+* installing *source* package ‘R.methodsS3’ ...
+** package ‘R.methodsS3’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *source* package ‘VennDiagram’ ...
+** package ‘VennDiagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VennDiagram’ as ‘VennDiagram_1.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VennDiagram)
+* installing *source* package ‘statmod’ ...
+** package ‘statmod’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c expectedDeviance.c -o expectedDeviance.o
+gfortran  -fpic  -g -O2  -c gaussq2.f -o gaussq2.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o statmod.so expectedDeviance.o gaussq2.o init.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-statmod/00new/statmod/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘statmod’ as ‘statmod_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statmod)
+* installing *source* package ‘R.oo’ ...
+** package ‘R.oo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getMethods to getMethods.default, which was defined in environment R.oo.
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getClasses to getClasses.default, which was defined in environment R.oo.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *source* package ‘ShortRead’ ...
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for gzeof in -lz... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking size of unsigned long... 8
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_ShortRead.c -o R_init_ShortRead.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c alphabet.c -o alphabet.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c count.c -o count.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io.c -o io.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_bowtie.c -o io_bowtie.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_soap.c -o io_soap.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_LIBZ=1 -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_UNSIGNED_LONG=8 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readBfaToc.cc -o readBfaToc.o
+readBfaToc.cc: In function ‘SEXPREC* readBfaToc(SEXP)’:
+readBfaToc.cc:35:19: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   35 |       (void) fread( seq_name, sizeof(char), name_len, fp );
+      |              ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+readBfaToc.cc:36:19: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   36 |       (void) fread( &seq_ori_len, sizeof(int), 1, fp );
+      |              ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+readBfaToc.cc:37:19: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   37 |       (void) fread( &seq_len, sizeof(int), 1, fp );
+      |              ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_LIBZ=1 -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_UNSIGNED_LONG=8 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_maq_map.cc -o read_maq_map.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampler.c -o sampler.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trim.c -o trim.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/tmp/tmp/built/Rhtslib/include' -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xsnap.c -o xsnap.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ShortRead.so Biostrings_stubs.o IRanges_stubs.o R_init_ShortRead.o S4Vectors_stubs.o XVector_stubs.o alphabet.o count.o io.o io_bowtie.o io_soap.o readBfaToc.o read_maq_map.o sampler.o trim.o util.o xsnap.o -lz -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ShortRead/00new/ShortRead/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ShortRead’ as ‘ShortRead_1.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ShortRead)
+* installing *source* package ‘ChIPpeakAnno’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘annoGR’ with signature ‘"EnsDb"’: no definition for class “EnsDb”
+in method for ‘toGRanges’ with signature ‘"EnsDb"’: no definition for class “EnsDb”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ChIPpeakAnno’ as ‘ChIPpeakAnno_3.35.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChIPpeakAnno)
+* installing *source* package ‘R.utils’ ...
+** package ‘R.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function warnings to warnings.default, which was defined in environment R.utils.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *source* package ‘DEScan2’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rcpparma_max_win.cpp -o rcpparma_max_win.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DEScan2.so RcppExports.o rcpparma_max_win.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-DEScan2/00new/DEScan2/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+Warning: saveGRangesAsTsv.Rd:34: unknown macro '\t'
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DEScan2’ as ‘DEScan2_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEScan2)
+* installing *source* package ‘aroma.light’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘aroma.light’ as ‘aroma.light_3.31.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (aroma.light)
+* installing *source* package ‘EDASeq’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EDASeq’ as ‘EDASeq_2.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EDASeq)
+* installing *source* package ‘RUVSeq’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RUVSeq’ as ‘RUVSeq_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RUVSeq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPkywhm/downloaded_packages’
+Old packages: 'affy', 'KernSmooth', 'Matrix', 'mgcv'
+
+real	5m10.779s
+user	4m56.168s
+sys	0m16.197s
