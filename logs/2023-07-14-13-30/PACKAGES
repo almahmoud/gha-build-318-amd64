@@ -579,13 +579,24 @@ MD5sum: 72d27bc1cc8f61d2b7fe256b94ff3082
 NeedsCompilation: no
 File: agricolae_1.3-6_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: AHMassBank
+Version: 1.1.0
+Depends: R (>= 4.2)
+Imports: AnnotationHubData (>= 1.5.24)
+Suggests: BiocStyle, knitr, AnnotationHub (>= 2.7.13), rmarkdown,
+        methods, CompoundDb (>= 1.1.4)
+License: Artistic-2.0
+MD5sum: ee5692a858a74d92f2c7fd33160d5a34
+NeedsCompilation: no
+File: AHMassBank_1.1.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: AhoCorasickTrie
 Version: 0.1.2
 Imports: Rcpp (>= 0.12.5)
 LinkingTo: Rcpp
 Suggests: Biostrings, microbenchmark, testthat
 License: Apache License 2.0
-MD5sum: 97149e990c420a78ce28ac7c1a7a63e6
+MD5sum: 158b8be450ac25fdc447731dcc2af000
 NeedsCompilation: yes
 File: AhoCorasickTrie_0.1.2_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -661,6 +672,18 @@ License: GPL (>= 2)
 MD5sum: dd823f6f548db43218336b0252d6f2b0
 NeedsCompilation: no
 File: alabama_2022.4-1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: alabaster
+Version: 1.1.0
+Depends: alabaster.base
+Imports: alabaster.matrix, alabaster.ranges, alabaster.se,
+        alabaster.sce, alabaster.spatial, alabaster.string,
+        alabaster.vcf, alabaster.bumpy, alabaster.mae
+Suggests: knitr, rmarkdown, BiocStyle
+License: MIT + file LICENSE
+MD5sum: 0e7085e74743b7f4b45161cdacdc35ab
+NeedsCompilation: no
+File: alabaster_1.1.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: alabaster.base
 Version: 1.1.0
@@ -781,7 +804,7 @@ Depends: alabaster.base, VariantAnnotation
 Imports: methods, S4Vectors, alabaster.se, alabaster.string, Rsamtools
 Suggests: knitr, rmarkdown, BiocStyle, testthat
 License: MIT + file LICENSE
-MD5sum: 9678e411bafc9e9fab3a590b0ba03bc0
+MD5sum: 1a89c187e4e8c0e805694bd272b0ef7c
 NeedsCompilation: no
 File: alabaster.vcf_1.1.1_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -833,6 +856,22 @@ License: Artistic-2.0
 MD5sum: d13174885a08593996688f573119e51d
 NeedsCompilation: no
 File: ALL_1.43.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: AllelicImbalance
+Version: 1.39.0
+Depends: R (>= 4.0.0), grid, GenomicRanges (>= 1.31.8),
+        SummarizedExperiment (>= 0.2.0), GenomicAlignments (>= 1.15.6)
+Imports: methods, BiocGenerics, AnnotationDbi, BSgenome (>= 1.47.3),
+        VariantAnnotation (>= 1.25.11), Biostrings (>= 2.47.6),
+        S4Vectors (>= 0.17.25), IRanges (>= 2.13.12), Rsamtools (>=
+        1.99.3), GenomicFeatures (>= 1.31.3), Gviz, lattice,
+        latticeExtra, gridExtra, seqinr, GenomeInfoDb, nlme
+Suggests: testthat, org.Hs.eg.db, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        SNPlocs.Hsapiens.dbSNP144.GRCh37, BiocStyle, knitr, rmarkdown
+License: GPL-3
+MD5sum: a9082eb6f5660a6f6f3b564c6cc086a8
+NeedsCompilation: no
+File: AllelicImbalance_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: ALLMLL
 Version: 1.41.0
@@ -1116,7 +1155,7 @@ Imports: GenomicFeatures, Rsamtools, rtracklayer, BiocGenerics,
 Suggests: RUnit, knitr, BiocStyle, grasp2db, GenomeInfoDbData,
         rmarkdown, HubPub
 License: Artistic-2.0
-MD5sum: 2af5badad0d48d938786f9887cd9c4ed
+MD5sum: af98e43ea0cfdc077e49685f89739e18
 NeedsCompilation: no
 File: AnnotationHubData_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -1266,7 +1305,7 @@ Imports: GenomicRanges, GenomicFeatures, GenomicAlignments, DESeq2,
 Suggests: knitr, rmarkdown, BiocStyle, org.Mm.eg.db, AnnotationDbi,
         TBX20BamSubset, testthat, pasillaBamSubset
 License: LGPL-3
-MD5sum: 7f1da409f1dd7eee861c2cf5be8e04ca
+MD5sum: e04b67395c0369eed9ec681d976b544c
 NeedsCompilation: no
 File: APAlyzer_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -1452,6 +1491,17 @@ License: Artistic-2.0
 MD5sum: 16a6ad9b42e441325a444b0d39671ae6
 NeedsCompilation: no
 File: ArrayExpress_1.61.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: arrayMvout
+Version: 1.59.0
+Depends: R (>= 2.6.0), tools, methods, utils, parody, Biobase, affy
+Imports: mdqc, affyContam, lumi
+Suggests: MAQCsubset, mvoutData, lumiBarnes, affyPLM, affydata,
+        hgu133atagcdf
+License: Artistic-2.0
+MD5sum: 671dedef9e662e4b3b1c65220cc2f2f6
+NeedsCompilation: no
+File: arrayMvout_1.59.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: arrayQuality
 Version: 1.79.0
@@ -1840,6 +1890,35 @@ MD5sum: 91558cab215ef9d8c9546497a357ac8a
 NeedsCompilation: yes
 File: ASURAT_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: ATACseqQC
+Version: 1.25.1
+Depends: R (>= 3.5.0), BiocGenerics, S4Vectors
+Imports: BSgenome, Biostrings, ChIPpeakAnno, IRanges, GenomicRanges,
+        GenomicAlignments, GenomeInfoDb, GenomicScores, graphics, grid,
+        limma, Rsamtools (>= 1.31.2), randomForest, rtracklayer, stats,
+        motifStack, preseqR, utils, KernSmooth, edgeR
+Suggests: BiocStyle, knitr, BSgenome.Hsapiens.UCSC.hg19,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, phastCons100way.UCSC.hg19,
+        MotifDb, trackViewer, testthat, rmarkdown
+License: GPL (>= 2)
+MD5sum: 1a3e86613cd66c5f0b46386da787a95f
+NeedsCompilation: no
+File: ATACseqQC_1.25.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ATACseqTFEA
+Version: 1.3.0
+Depends: R (>= 4.2)
+Imports: BiocGenerics, S4Vectors, IRanges, Matrix, GenomicRanges,
+        GenomicAlignments, GenomeInfoDb, SummarizedExperiment,
+        Rsamtools, motifmatchr, TFBSTools, stats, pracma, ggplot2,
+        ggrepel, dplyr, limma, methods
+Suggests: BSgenome.Drerio.UCSC.danRer10, knitr, testthat, ATACseqQC,
+        rmarkdown, BiocStyle
+License: GPL-3
+MD5sum: 674190fccd09b03447064fd78b9edddd
+NeedsCompilation: no
+File: ATACseqTFEA_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: atena
 Version: 1.7.0
 Depends: R (>= 4.3.0), SummarizedExperiment
@@ -1853,6 +1932,19 @@ License: Artistic-2.0
 MD5sum: e4037dfed95c0ff913caf074c21f648c
 NeedsCompilation: no
 File: atena_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: atSNP
+Version: 1.17.0
+Depends: R (>= 3.6)
+Imports: BSgenome, BiocFileCache, BiocParallel, Rcpp, data.table,
+        ggplot2, grDevices, graphics, grid, motifStack, rappdirs,
+        stats, testthat, utils, lifecycle
+LinkingTo: Rcpp
+Suggests: BiocStyle, knitr, rmarkdown
+License: GPL-2
+MD5sum: e71cd19723165481159ee4bd556b9d6d
+NeedsCompilation: yes
+File: atSNP_1.17.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: attempt
 Version: 0.3.1
@@ -2085,7 +2177,7 @@ Imports: VariantAnnotation, Rsamtools, biomaRt, GenomicRanges,
         S4Vectors, utils, stats, grDevices, graphics
 Suggests: BSgenome.Hsapiens.UCSC.hg19
 License: LGPL-3
-MD5sum: 93e1474a10ca1c4e19e56be03ecc7098
+MD5sum: e268cda8c1c72842982fe47a282dc963
 NeedsCompilation: no
 File: BadRegionFinder_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -2253,6 +2345,16 @@ License: GPL (>= 3)
 MD5sum: c9832c0b3acb921ae79cfd94237162b8
 NeedsCompilation: no
 File: basecallQC_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: baseline
+Version: 1.3-4
+Depends: R (>= 3.5.0)
+Imports: graphics, SparseM, grDevices, stats, methods, limSolve
+Suggests: gWidgets2, gWidgets2tcltk, IDPmisc, lattice, pls, MASS
+License: GPL-2
+MD5sum: dbc737e8c980fa6e508a3e6cbfb89b67
+NeedsCompilation: no
+File: baseline_1.3-4_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: BaseSpaceR
 Version: 1.45.0
@@ -2527,7 +2629,7 @@ Imports: SummarizedExperiment, VariantAnnotation, Rsamtools, grDevices,
         GenomicRanges, IRanges, Biostrings
 Suggests: BSgenome.Hsapiens.UCSC.hg19
 License: LGPL-3
-MD5sum: 1b07e0f5a5dc31cb7527636a3897a118
+MD5sum: 54c25bba056326b47b4158ab076689c8
 NeedsCompilation: no
 File: BBCAnalyzer_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -2957,6 +3059,19 @@ License: GPL
 MD5sum: c08a43bdcd9e604812b81f1f6a0e024b
 NeedsCompilation: yes
 File: biglm_0.9-2.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: bigmelon
+Version: 1.27.0
+Depends: R (>= 3.3), wateRmelon (>= 1.25.0), gdsfmt (>= 1.0.4),
+        methods, minfi (>= 1.21.0), Biobase, methylumi
+Imports: stats, utils, GEOquery, graphics, BiocGenerics, illuminaio
+Suggests: BiocGenerics, RUnit, BiocStyle, minfiData, parallel,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19,
+        IlluminaHumanMethylationEPICanno.ilm10b2.hg19, bumphunter
+License: GPL-3
+MD5sum: b43afed0fcfa8b8d56236061d2ac56a0
+NeedsCompilation: no
+File: bigmelon_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: bigmemory
 Version: 4.6.1
@@ -3742,7 +3857,7 @@ Suggests: BSgenome.Hsapiens.UCSC.hg19,
         TxDb.Hsapiens.UCSC.hg19.knownGene, BSgenome, rtracklayer,
         EnsDb.Hsapiens.v75, RUnit
 License: Artistic-2.0
-MD5sum: 8b15ddc73f98bac31daa7d747a89a7f0
+MD5sum: 9f2d5e8f8b7ce716be5d359c27e78ddb
 NeedsCompilation: yes
 File: biovizBase_1.49.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -4006,6 +4121,19 @@ MD5sum: edd1c634914a436035dc026bba539705
 NeedsCompilation: no
 File: bnviewer_0.1.6_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: BOBaFIT
+Version: 1.5.0
+Depends: R (>= 2.10)
+Imports: dplyr, NbClust, ggplot2, ggbio, grDevices, stats, tidyr,
+        GenomicRanges, ggforce, stringr, plyranges, methods, utils,
+        magrittr
+Suggests: rmarkdown, markdown, BiocStyle, knitr, testthat (>= 3.0.0),
+        utils, testthat
+License: GPL (>= 3)
+MD5sum: c40d1b99b37b1610c46e89bdda8b2cef
+NeedsCompilation: no
+File: BOBaFIT_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: bodymapRat
 Version: 1.17.0
 Depends: R (>= 3.6.0), SummarizedExperiment, ExperimentHub
@@ -4059,6 +4187,21 @@ License: GPL-2
 MD5sum: cd2ca0c1b2d52b1d16289c9a0378dfc8
 NeedsCompilation: no
 File: BRAIN_1.47.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: brainflowprobes
+Version: 1.15.0
+Depends: R (>= 3.6.0)
+Imports: Biostrings (>= 2.52.0), BSgenome.Hsapiens.UCSC.hg19 (>=
+        1.4.0), bumphunter (>= 1.26.0), cowplot (>= 1.0.0), derfinder
+        (>= 1.18.1), derfinderPlot (>= 1.18.1), GenomicRanges (>=
+        1.36.0), ggplot2 (>= 3.1.1), RColorBrewer (>= 1.1), utils,
+        grDevices, GenomicState (>= 0.99.7)
+Suggests: BiocStyle, knitr, RefManageR, rmarkdown, sessioninfo,
+        testthat (>= 2.1.0), covr
+License: Artistic-2.0
+MD5sum: 1b1f4623673e9de18a7c9cc66e090618
+NeedsCompilation: no
+File: brainflowprobes_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: branchpointer
 Version: 1.27.0
@@ -4561,6 +4704,16 @@ NeedsCompilation: no
 File:
         BSgenome.Hsapiens.UCSC.hg38.masked_1.4.5_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: BSgenome.Mmulatta.UCSC.rheMac10
+Version: 1.4.2
+Depends: BSgenome (>= 1.55.1)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 8f82f6ed158aa7dc6478e81b3d4ab49e
+NeedsCompilation: no
+File:
+        BSgenome.Mmulatta.UCSC.rheMac10_1.4.2_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: BSgenome.Mmusculus.UCSC.mm10
 Version: 1.4.3
 Depends: R (>= 3.5.0), BSgenome (>= 1.60.0)
@@ -4621,6 +4774,16 @@ NeedsCompilation: no
 File:
         BSgenome.Mmusculus.UCSC.mm9.masked_1.3.99_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: BSgenome.Rnorvegicus.UCSC.rn4
+Version: 1.4.0
+Depends: BSgenome (>= 1.33.5)
+Imports: BSgenome
+Suggests: TxDb.Rnorvegicus.UCSC.rn4.ensGene
+License: Artistic-2.0
+MD5sum: 69336af40d66ed406aa89194015da44e
+NeedsCompilation: no
+File: BSgenome.Rnorvegicus.UCSC.rn4_1.4.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: BSgenome.Rnorvegicus.UCSC.rn5
 Version: 1.4.0
 Depends: BSgenome (>= 1.33.5)
@@ -4640,6 +4803,25 @@ MD5sum: 38837ea53c474ff5cfc8a9ea09ec6bfb
 NeedsCompilation: no
 File:
         BSgenome.Rnorvegicus.UCSC.rn5.masked_1.3.99_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: BSgenome.Rnorvegicus.UCSC.rn6
+Version: 1.4.1
+Depends: BSgenome (>= 1.35.12)
+Imports: BSgenome
+Suggests: GenomicFeatures
+License: Artistic-2.0
+MD5sum: eea95b6c456334b56e150871c0794c2d
+NeedsCompilation: no
+File: BSgenome.Rnorvegicus.UCSC.rn6_1.4.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: BSgenome.Rnorvegicus.UCSC.rn7
+Version: 1.4.3
+Depends: R (>= 3.5.0), BSgenome (>= 1.60.0)
+Imports: BSgenome
+License: Artistic-2.0
+MD5sum: 9528aa6ab98b4f117a3d30179f438773
+NeedsCompilation: no
+File: BSgenome.Rnorvegicus.UCSC.rn7_1.4.3_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: BSgenome.Scerevisiae.UCSC.sacCer1
 Version: 1.4.0
@@ -4729,6 +4911,18 @@ MD5sum: 08282f8b117d4de253efce536821d7e0
 NeedsCompilation: no
 File: bst_0.3-24_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: BubbleTree
+Version: 2.31.0
+Depends: R (>= 3.5), IRanges, GenomicRanges, plyr, dplyr, magrittr
+Imports: BiocGenerics (>= 0.31.6), BiocStyle, Biobase, ggplot2,
+        WriteXLS, gtools, RColorBrewer, limma, grid, gtable, gridExtra,
+        biovizBase, e1071, methods, grDevices, stats, utils
+Suggests: knitr, rmarkdown
+License: LGPL (>= 3)
+MD5sum: 1b7f081b243eda434817f48e79c4a9c9
+NeedsCompilation: no
+File: BubbleTree_2.31.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: BufferedMatrix
 Version: 1.65.0
 Depends: R (>= 2.6.0), methods
@@ -4810,6 +5004,23 @@ License: GPL (>= 2)
 MD5sum: 02553ee94c6dbf5839ee41e10a7b0bfc
 NeedsCompilation: yes
 File: BUScorrect_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: BUSpaRse
+Version: 1.15.0
+Depends: R (>= 3.6)
+Imports: AnnotationDbi, AnnotationFilter, biomaRt, BiocGenerics,
+        Biostrings, BSgenome, dplyr, ensembldb, GenomeInfoDb,
+        GenomicFeatures, GenomicRanges, ggplot2, IRanges, magrittr,
+        Matrix, methods, plyranges, Rcpp, S4Vectors, stats, stringr,
+        tibble, tidyr, utils, zeallot
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress, BH
+Suggests: knitr, rmarkdown, testthat, BiocStyle, TENxBUSData,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, BSgenome.Hsapiens.UCSC.hg38,
+        EnsDb.Hsapiens.v86
+License: BSD_2_clause + file LICENSE
+MD5sum: bec2d10cdc9cc55c6f4ead2092e5de90
+NeedsCompilation: yes
+File: BUSpaRse_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: BUSseq
 Version: 1.7.0
@@ -4898,6 +5109,16 @@ MD5sum: 133650ad4de7b6f8a26e1529bcea4328
 NeedsCompilation: no
 File: CAEN_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: CAFE
+Version: 1.37.0
+Depends: R (>= 2.10), biovizBase, GenomicRanges, IRanges, ggbio
+Imports: affy, ggplot2, annotate, grid, gridExtra, tcltk, Biobase
+Suggests: RUnit, BiocGenerics, BiocStyle
+License: GPL-3
+MD5sum: 681c71a217f7d3836718becc7ea2f77e
+NeedsCompilation: no
+File: CAFE_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: CAGEfightR
 Version: 1.21.0
 Depends: R (>= 3.5), GenomicRanges (>= 1.30.1), rtracklayer (>=
@@ -4912,7 +5133,7 @@ Imports: pryr(>= 0.1.3), assertthat(>= 0.2.0), methods(>= 3.6.3),
 Suggests: knitr, rmarkdown, BiocStyle, org.Mm.eg.db,
         TxDb.Mmusculus.UCSC.mm9.knownGene
 License: GPL-3 + file LICENSE
-MD5sum: 351158ed7c5697c4cce87fc610fa9ea9
+MD5sum: 1e3c94dbfadfcd49a9dcc77b65a58ade
 NeedsCompilation: no
 File: CAGEfightR_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -4928,7 +5149,7 @@ Imports: BiocGenerics, BiocParallel, BSgenome, CAGEfightR, data.table,
 Suggests: BSgenome.Drerio.UCSC.danRer7, DESeq2, FANTOM3and4CAGE,
         BiocStyle, knitr, rmarkdown
 License: GPL-3
-MD5sum: 3b6d4c302c390b109d755a847913f047
+MD5sum: 97035b36939a11cb99041b99bffa7829
 NeedsCompilation: no
 File: CAGEr_2.7.1_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -5052,7 +5273,7 @@ Suggests: BiocStyle, foreach, knitr, pcaMethods, rmarkdown, testthat,
         VGAM
 Enhances: doMC
 License: GPL-3
-MD5sum: def4f651adad7a7f89ec59bae9d3dfad
+MD5sum: 9d1bce784e94785eb83a83a3d8b9c943
 NeedsCompilation: yes
 File: cardelino_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -5218,6 +5439,17 @@ MD5sum: 0fee72612d25418b6ea70bbb15fc014c
 NeedsCompilation: yes
 File: cba_0.2-23_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: cbaf
+Version: 1.23.0
+Depends: R (>= 4.1)
+Imports: BiocFileCache, RColorBrewer, cBioPortalData, genefilter,
+        gplots, grDevices, stats, utils, openxlsx
+Suggests: knitr, rmarkdown, BiocStyle
+License: Artistic-2.0
+MD5sum: 43d4e75e99e45090107ed9fe89fd607d
+NeedsCompilation: no
+File: cbaf_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: CBEA
 Version: 1.1.0
 Depends: R (>= 4.2.0)
@@ -5233,6 +5465,19 @@ License: MIT + file LICENSE
 MD5sum: df2f0644aaebb903a4758658b9572acd
 NeedsCompilation: yes
 File: CBEA_1.1.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: cBioPortalData
+Version: 2.13.6
+Depends: R (>= 4.2.0), AnVIL (>= 1.7.1), MultiAssayExperiment
+Imports: BiocFileCache (>= 1.5.3), digest, dplyr, GenomeInfoDb,
+        GenomicRanges, httr, IRanges, methods, readr, RaggedExperiment,
+        RTCGAToolbox (>= 2.19.7), S4Vectors, SummarizedExperiment,
+        stats, tibble, tidyr, TCGAutils (>= 1.9.4), utils
+Suggests: BiocStyle, knitr, survival, survminer, rmarkdown, testthat
+License: AGPL-3
+MD5sum: 507297f6287c80c2f5fd5f4ca5b1f07e
+NeedsCompilation: no
+File: cBioPortalData_2.13.6_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: CBNplot
 Version: 1.1.0
@@ -5812,7 +6057,7 @@ Version: 1.0.5
 Depends: changepoint
 Imports: methods,zoo,Rdpack
 License: GPL
-MD5sum: 0c2ab072bfdedfd9f043008bd3d5b992
+MD5sum: 0af472e9285fee8ca2bd161afa217603
 NeedsCompilation: yes
 File: changepoint.np_1.0.5_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -5915,6 +6160,20 @@ MD5sum: 4d0f30eb166b01753ad329a869aa4766
 NeedsCompilation: yes
 File: chihaya_1.1.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: chimeraviz
+Version: 1.27.0
+Depends: Biostrings, GenomicRanges, IRanges, Gviz, S4Vectors,
+        ensembldb, AnnotationFilter, data.table
+Imports: methods, grid, Rsamtools, GenomeInfoDb, GenomicAlignments,
+        RColorBrewer, graphics, AnnotationDbi, RCircos, org.Hs.eg.db,
+        org.Mm.eg.db, rmarkdown, graph, Rgraphviz, DT, plyr, dplyr,
+        BiocStyle, checkmate, gtools, magick
+Suggests: testthat, roxygen2, devtools, knitr, lintr
+License: Artistic-2.0
+MD5sum: 8f1fa87d5cb234f3ee67a45548b460ba
+NeedsCompilation: no
+File: chimeraviz_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: ChIPanalyser
 Version: 1.23.0
 Depends: R (>= 3.5.0),GenomicRanges, Biostrings, BSgenome, RcppRoll,
@@ -5976,6 +6235,31 @@ MD5sum: 0c076a49f5fc3de48e795e439ace8c31
 NeedsCompilation: no
 File: chipenrich.data_2.25.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: ChIPexoQual
+Version: 1.25.0
+Depends: R (>= 3.5.0), GenomicAlignments (>= 1.0.1)
+Imports: methods, utils, GenomeInfoDb, stats, BiocParallel,
+        GenomicRanges (>= 1.14.4), ggplot2 (>= 1.0), data.table (>=
+        1.9.6), Rsamtools (>= 1.16.1), IRanges (>= 1.6), S4Vectors (>=
+        0.8), biovizBase (>= 1.18), broom (>= 0.4), RColorBrewer (>=
+        1.1), dplyr (>= 0.5), scales (>= 0.4.0), viridis (>= 0.3),
+        hexbin (>= 1.27), rmarkdown
+Suggests: ChIPexoQualExample (>= 0.99.1), knitr (>= 1.10), BiocStyle,
+        gridExtra (>= 2.2), testthat
+License: GPL (>= 2)
+MD5sum: c039d2cda730ccaaa4b53dc7992128b9
+NeedsCompilation: no
+File: ChIPexoQual_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ChIPexoQualExample
+Version: 1.25.0
+Depends: R (>= 3.3)
+Suggests: BiocStyle, knitr, rmarkdown
+License: GPL (>= 2)
+MD5sum: 8f87afc862cf9be365779a5ad0e42eb9
+NeedsCompilation: no
+File: ChIPexoQualExample_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: chipPCR
 Version: 1.0-2
 Depends: R (>= 3.0.0), methods
@@ -6009,9 +6293,30 @@ Suggests: AnnotationHub, BSgenome, limma, reactome.db, BiocManager,
         knitr, rmarkdown, testthat, trackViewer, motifStack,
         OrganismDbi
 License: GPL (>= 2)
-MD5sum: 8b2a0eff5d6edc4fddc5df8d4c36be2c
+MD5sum: de4de3149cc0b24b2d6671962c00294a
 NeedsCompilation: no
 File: ChIPpeakAnno_3.35.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ChIPQC
+Version: 1.37.0
+Depends: R (>= 3.5.0), ggplot2, DiffBind, GenomicRanges (>= 1.17.19),
+        BiocParallel
+Imports: BiocGenerics (>= 0.11.3), S4Vectors (>= 0.1.0), IRanges (>=
+        1.99.17), Rsamtools (>= 1.17.28), GenomicAlignments (>=
+        1.1.16), chipseq (>= 1.12.0), gtools, methods, reshape2,
+        Nozzle.R1, Biobase, grDevices, stats, utils, GenomicFeatures,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Hsapiens.UCSC.hg18.knownGene,
+        TxDb.Mmusculus.UCSC.mm10.knownGene,
+        TxDb.Mmusculus.UCSC.mm9.knownGene,
+        TxDb.Rnorvegicus.UCSC.rn4.ensGene,
+        TxDb.Celegans.UCSC.ce6.ensGene,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene
+Suggests: BiocStyle
+License: GPL (>= 3)
+MD5sum: 795dbadb15ce2c9983ac47401355d4ab
+NeedsCompilation: no
+File: ChIPQC_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: ChIPseeker
 Version: 1.37.0
@@ -6216,6 +6521,23 @@ MD5sum: c5bf7c2dff53ed948480ecc84f6a9b25
 NeedsCompilation: no
 File: CHRONOS_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: cicero
+Version: 1.19.0
+Depends: R (>= 3.5.0), monocle, Gviz (>= 1.22.3)
+Imports: assertthat (>= 0.2.0), Biobase (>= 2.37.2), BiocGenerics (>=
+        0.23.0), data.table (>= 1.10.4), dplyr (>= 0.7.4), FNN (>=
+        1.1), GenomicRanges (>= 1.30.3), ggplot2 (>= 2.2.1), glasso (>=
+        1.8), grDevices, igraph (>= 1.1.0), IRanges (>= 2.10.5), Matrix
+        (>= 1.2-12), methods, parallel, plyr (>= 1.8.4), reshape2 (>=
+        1.4.3), S4Vectors (>= 0.14.7), stats, stringi, stringr (>=
+        1.2.0), tibble (>= 1.4.2), tidyr, VGAM (>= 1.0-5), utils
+Suggests: AnnotationDbi (>= 1.38.2), knitr, markdown, rmarkdown,
+        rtracklayer (>= 1.36.6), testthat, vdiffr (>= 0.2.3), covr
+License: MIT + file LICENSE
+MD5sum: 8589f9a77204f1b0ff5da9da548161a5
+NeedsCompilation: no
+File: cicero_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: cicerone
 Version: 1.0.4
 Imports: R6, shiny, assertthat
@@ -6261,6 +6583,35 @@ License: MIT + file LICENSE
 MD5sum: cc99a4f303fade2216afd7f62d166bcf
 NeedsCompilation: no
 File: circlize_0.4.15_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: circRNAprofiler
+Version: 1.15.0
+Depends: R(>= 4.3.0)
+Imports: dplyr, magrittr, readr, rtracklayer, stringr, stringi, DESeq2,
+        edgeR, GenomicRanges, IRanges, seqinr, R.utils, reshape2,
+        ggplot2, utils, rlang, S4Vectors, stats, GenomeInfoDb,
+        universalmotif, AnnotationHub, BSgenome.Hsapiens.UCSC.hg19,
+        Biostrings, gwascat, BSgenome,
+Suggests: testthat, knitr, roxygen2, rmarkdown, devtools, gridExtra,
+        ggpubr, VennDiagram, BSgenome.Mmusculus.UCSC.mm9,
+        BSgenome.Hsapiens.UCSC.hg38, BSgenome.Mmusculus.UCSC.mm10,
+        BiocManager,
+License: GPL-3
+MD5sum: 74885a2eaaa87f69b275253ae456fc9d
+NeedsCompilation: no
+File: circRNAprofiler_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: CircSeqAlignTk
+Version: 1.3.0
+Depends: R (>= 4.2)
+Imports: stats, tools, utils, methods, S4Vectors, rlang, magrittr,
+        dplyr, tidyr, ggplot2, BiocGenerics, Biostrings, IRanges,
+        ShortRead, Rsamtools, Rbowtie2, Rhisat2
+Suggests: knitr, rmarkdown, testthat, R.utils, BiocStyle
+License: MIT + file LICENSE
+MD5sum: 5b52a23dde1573548c7e52bd93f61b39
+NeedsCompilation: no
+File: CircSeqAlignTk_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: CircStats
 Version: 0.2-6
@@ -6699,6 +7050,19 @@ MD5sum: e9ad7892864a924580bd2d98c1753fe1
 NeedsCompilation: no
 File: clustifyr_1.13.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: clustree
+Version: 0.5.0
+Depends: R (>= 3.5), ggraph
+Imports: checkmate, igraph, dplyr, grid, ggplot2, viridis, methods,
+        rlang, tidygraph, ggrepel
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown, SingleCellExperiment,
+        Seurat (>= 2.3.0), covr, SummarizedExperiment, pkgdown,
+        spelling
+License: GPL-3
+MD5sum: 49fb62a3c1d0748a5806b8b7db0a9047
+NeedsCompilation: no
+File: clustree_0.5.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: clustvarsel
 Version: 2.3.4
 Depends: R (>= 3.2), mclust (>= 5.3)
@@ -6709,6 +7073,17 @@ License: GPL (>= 2)
 MD5sum: fd10be23ee1779b72e2ef081aad28532
 NeedsCompilation: no
 File: clustvarsel_2.3.4_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: clValid
+Version: 0.7
+Depends: R (>= 3.0), cluster
+Imports: methods, class
+Suggests: Biobase, annotate, GO.db, moe430a.db, RankAggreg, kohonen,
+        mclust
+License: LGPL-3
+MD5sum: d62697b82cf79d35c21700e865e134d7
+NeedsCompilation: no
+File: clValid_0.7_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: CMA
 Version: 1.59.0
@@ -6874,6 +7249,20 @@ MD5sum: a08d204390504f3c18155e0b9288e009
 NeedsCompilation: yes
 File: CNTools_1.57.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: CNVfilteR
+Version: 1.15.1
+Depends: R (>= 4.1)
+Imports: IRanges, GenomicRanges, SummarizedExperiment, pracma,
+        regioneR, assertthat, karyoploteR, CopyNumberPlots, graphics,
+        utils, VariantAnnotation, Rsamtools, GenomeInfoDb, Biostrings,
+        methods
+Suggests: knitr, BiocStyle, BSgenome.Hsapiens.UCSC.hg19,
+        BSgenome.Hsapiens.UCSC.hg19.masked, rmarkdown
+License: Artistic-2.0
+MD5sum: 5a662927f1271c5f5776e6662671dc72
+NeedsCompilation: no
+File: CNVfilteR_1.15.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: cnvGSA
 Version: 1.45.0
 Depends: brglm, doParallel, foreach, GenomicRanges, methods,
@@ -6891,6 +7280,17 @@ License: LGPL
 MD5sum: a7a6961f3bace0454d7007973b452a95
 NeedsCompilation: no
 File: cnvGSAdata_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: CNViz
+Version: 1.9.0
+Depends: R (>= 4.0), shiny (>= 1.5.0)
+Imports: dplyr, stats, utils, grDevices, plotly, karyoploteR,
+        CopyNumberPlots, GenomicRanges, magrittr, DT, scales, graphics
+Suggests: rmarkdown, knitr
+License: Artistic-2.0
+MD5sum: c47bb1ec864aed4e3a87e1afc7e07753
+NeedsCompilation: no
+File: CNViz_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: CNVMetrics
 Version: 1.5.0
@@ -6940,7 +7340,7 @@ Depends: R (>= 3.0.0), methods, VariantAnnotation, parallel, rjags,
 Imports: DNAcopy, IRanges, Rsamtools
 Suggests: knitr
 License: GPL-2
-MD5sum: cdd736c8c45a4ba591ad7a73d5b70a85
+MD5sum: 267aa6aaa3312e6f542c891cb1a27964
 NeedsCompilation: no
 File: CNVrd2_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -6978,6 +7378,19 @@ License: CPL
 MD5sum: 058f57e51ddd86227b2a73793403d6f0
 NeedsCompilation: no
 File: CoCiteStats_1.73.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: COCOA
+Version: 2.15.0
+Depends: R (>= 3.5), GenomicRanges
+Imports: BiocGenerics, S4Vectors, IRanges, data.table, ggplot2,
+        Biobase, stats, methods, ComplexHeatmap, MIRA, tidyr, grid,
+        grDevices, simpleCache, fitdistrplus
+Suggests: knitr, parallel, testthat, BiocStyle, rmarkdown,
+        AnnotationHub, LOLA
+License: GPL-3
+MD5sum: 72f5ce946ae9bd7e0f8505abf9709c20
+NeedsCompilation: no
+File: COCOA_2.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: coda
 Version: 0.19-4
@@ -7207,6 +7620,19 @@ MD5sum: 50aab2bf8907feecd599ff5285d5961f
 NeedsCompilation: yes
 File: colourvalues_0.3.9_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: comapr
+Version: 1.5.0
+Depends: R (>= 4.1.0)
+Imports: methods, ggplot2, reshape2, dplyr, gridExtra, plotly,
+        circlize, rlang, GenomicRanges, IRanges, foreach, BiocParallel,
+        GenomeInfoDb, scales, RColorBrewer, tidyr, S4Vectors, utils,
+        Matrix, grid, stats, SummarizedExperiment, plyr, Gviz
+Suggests: BiocStyle, knitr, rmarkdown, testthat (>= 2.1.0), statmod
+License: MIT + file LICENSE
+MD5sum: e5aec51fe21a0cbdbd6c4cb508a5ec5d
+NeedsCompilation: no
+File: comapr_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: combi
 Version: 1.13.1
 Depends: R (>= 4.0), DBI
@@ -7225,6 +7651,17 @@ License: GPL-2
 MD5sum: 09fc8c0f5988409ffce30be087a79a65
 NeedsCompilation: no
 File: combinat_0.0-8_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: coMET
+Version: 1.33.0
+Depends: R (>= 4.1.0), grid, utils, biomaRt, Gviz, psych
+Imports: hash,grDevices, gridExtra, rtracklayer, IRanges, S4Vectors,
+        GenomicRanges, stats, corrplot
+Suggests: BiocStyle, knitr, RUnit, BiocGenerics, showtext
+License: GPL (>= 2)
+MD5sum: bc1936297d10cf3ea1ad09d76375eb3c
+NeedsCompilation: no
+File: coMET_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: coMethDMR
 Version: 1.5.0
@@ -7281,6 +7718,20 @@ License: GPL (>= 2)
 MD5sum: 02471e884726ebcdae4992d26d0cc57d
 NeedsCompilation: no
 File: compcodeR_1.37.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: compEpiTools
+Version: 1.35.1
+Depends: R (>= 3.5.0), methods, topGO, GenomicRanges
+Imports: AnnotationDbi, BiocGenerics, Biostrings, Rsamtools, parallel,
+        grDevices, gplots, IRanges, GenomicFeatures, XVector,
+        methylPipe, GO.db, S4Vectors, GenomeInfoDb
+Suggests: BSgenome.Mmusculus.UCSC.mm9,
+        TxDb.Mmusculus.UCSC.mm9.knownGene, org.Mm.eg.db, knitr,
+        rtracklayer
+License: GPL
+MD5sum: c0f7a10541e5edc9b0a4e69cfbe10982
+NeedsCompilation: no
+File: compEpiTools_1.35.1_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: ComplexHeatmap
 Version: 2.17.0
@@ -7380,6 +7831,20 @@ License: Artistic-2.0
 MD5sum: caf4db5d6c42d119759af3c68b73bad5
 NeedsCompilation: no
 File: concordexR_1.1.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: condformat
+Version: 0.10.0
+Imports: dplyr (>= 0.7.7), grDevices, gridExtra (>= 2.3), gtable (>=
+        0.2.0), htmlTable (>= 1.9), htmltools (>= 0.3.6), knitr (>=
+        1.20), magrittr (>= 1.5), openxlsx (>= 4.1.5), rmarkdown (>=
+        1.10), rlang (>= 0.3.0), scales (>= 1.0.0), tibble (>= 1.3.4),
+        tidyselect (>= 1.0.0)
+Suggests: promises, shiny (>= 1.0.5), testthat (>= 1.0), vdiffr (>=
+        1.0.4)
+License: BSD_3_clause + file LICENSE
+MD5sum: 3b7e3a5cf5a5099bfd3c96d391da13a5
+NeedsCompilation: no
+File: condformat_0.10.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: condiments
 Version: 1.9.0
@@ -7493,6 +7958,21 @@ MD5sum: d0696ea155c7c7c1f0cb4ae63aee6f81
 NeedsCompilation: no
 File: ConsensusClusterPlus_1.65.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: consensusDE
+Version: 1.19.0
+Depends: R (>= 3.5), BiocGenerics
+Imports: airway, AnnotationDbi, BiocParallel, Biobase, Biostrings,
+        data.table, dendextend, DESeq2 (>= 1.20.0), EDASeq, ensembldb,
+        edgeR, EnsDb.Hsapiens.v86, GenomicAlignments, GenomicFeatures,
+        limma, org.Hs.eg.db, pcaMethods, RColorBrewer, Rsamtools,
+        RUVSeq, S4Vectors, stats, SummarizedExperiment,
+        TxDb.Dmelanogaster.UCSC.dm3.ensGene, utils
+Suggests: knitr, rmarkdown
+License: GPL-3
+MD5sum: ce72b2af4bfe04f1706e033ca9e72725
+NeedsCompilation: no
+File: consensusDE_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: consensusOV
 Version: 1.23.0
 Depends: R (>= 3.6)
@@ -7553,6 +8033,21 @@ MD5sum: 9f462c4484879f57284d5bbefaae4ad8
 NeedsCompilation: yes
 File: contfrac_1.1-12_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: contiBAIT
+Version: 1.29.0
+Depends: R (>= 3.5.0), BH (>= 1.51.0.3), Rsamtools (>= 1.21)
+Imports: data.table, grDevices, clue, cluster, gplots, BiocGenerics (>=
+        0.31.6), S4Vectors, IRanges, GenomicRanges, Rcpp, TSP,
+        GenomicFiles, gtools, rtracklayer, BiocParallel, DNAcopy,
+        colorspace, reshape2, ggplot2, methods, exomeCopy,
+        GenomicAlignments, diagram
+LinkingTo: Rcpp, BH
+Suggests: BiocStyle
+License: BSD_2_clause + file LICENSE
+MD5sum: 776f17350f5a474295fdc435fbc564f8
+NeedsCompilation: yes
+File: contiBAIT_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: contrast
 Version: 0.24.2
 Depends: R (>= 2.10)
@@ -7563,6 +8058,21 @@ License: GPL-2
 MD5sum: 3c96d176a1e86767fe5d5aa136d574ed
 NeedsCompilation: no
 File: contrast_0.24.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: conumee
+Version: 1.35.0
+Depends: R (>= 3.5.0), minfi,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19,
+        IlluminaHumanMethylation450kmanifest,
+        IlluminaHumanMethylationEPICanno.ilm10b2.hg19,
+        IlluminaHumanMethylationEPICmanifest
+Imports: methods, stats, DNAcopy, rtracklayer, GenomicRanges, IRanges,
+        GenomeInfoDb
+Suggests: BiocStyle, knitr, rmarkdown, minfiData, RCurl
+License: GPL (>= 2)
+MD5sum: fabb44dc25aa3fe7af3ff7f67a54919c
+NeedsCompilation: no
+File: conumee_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: convert
 Version: 1.77.0
@@ -7607,6 +8117,19 @@ License: GPL (>= 3) | file LICENCE
 MD5sum: 51a5b000976d32eea9cd7476ccf1d4cd
 NeedsCompilation: yes
 File: copula_1.1-2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: CopyNumberPlots
+Version: 1.17.0
+Depends: R (>= 3.6), karyoploteR
+Imports: regioneR, IRanges, Rsamtools, SummarizedExperiment,
+        VariantAnnotation, methods, stats, GenomeInfoDb, GenomicRanges,
+        cn.mops, rhdf5, utils
+Suggests: BiocStyle, knitr, rmarkdown, panelcn.mops,
+        BSgenome.Hsapiens.UCSC.hg19.masked, DNAcopy, testthat
+License: Artistic-2.0
+MD5sum: c6bb09f4681aeb079320694787469979
+NeedsCompilation: no
+File: CopyNumberPlots_1.17.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: coRdon
 Version: 1.19.0
@@ -7993,7 +8516,7 @@ Suggests: biomaRt, BSgenome.Hsapiens.UCSC.hg38,
         BSgenome.Mmusculus.UCSC.mm10, BiocStyle, crisprBwa (>= 0.99.7),
         knitr, rmarkdown, Rbowtie, Rbwa, RCurl, testthat
 License: MIT + file LICENSE
-MD5sum: 1d7aa1271bb3bf67961140281a16ce4a
+MD5sum: 3ce921c84269a8aa13b0a6359a8164b7
 NeedsCompilation: no
 File: crisprDesign_1.3.1_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -8048,6 +8571,31 @@ License: GPL-2
 MD5sum: b15719a01c4c98d28ebfda5a1ee0fa89
 NeedsCompilation: no
 File: CrispRVariants_1.29.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: crisprVerse
+Version: 1.3.0
+Depends: R (>= 4.2.0)
+Imports: BiocManager, cli, crisprBase, crisprBowtie, crisprScore,
+        crisprScoreData, crisprDesign, crisprViz, rlang, tools, utils
+Suggests: BiocStyle, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: fec749d479fadd8560006cb66b002f76
+NeedsCompilation: no
+File: crisprVerse_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: crisprViz
+Version: 1.3.1
+Depends: R (>= 4.2.0), crisprBase (>= 0.99.15), crisprDesign (>=
+        0.99.77)
+Imports: BiocGenerics, Biostrings, BSgenome, GenomeInfoDb,
+        GenomicFeatures, GenomicRanges, grDevices, Gviz, IRanges,
+        methods, S4Vectors
+Suggests: AnnotationHub, BiocStyle, BSgenome.Hsapiens.UCSC.hg38, knitr,
+        rmarkdown, rtracklayer, testthat, utils
+License: MIT + file LICENSE
+MD5sum: 5e7a85b6faa7f6046e268b76df67835f
+NeedsCompilation: no
+File: crisprViz_1.3.1_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: crlmm
 Version: 1.59.0
@@ -8247,6 +8795,18 @@ MD5sum: 2fe9d1c7e21a15bfde86f6583b9308fd
 NeedsCompilation: yes
 File: Cubist_0.4.2.1_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: cummeRbund
+Version: 2.43.0
+Depends: R (>= 2.7.0), BiocGenerics (>= 0.3.2), RSQLite, ggplot2,
+        reshape2, fastcluster, rtracklayer, Gviz
+Imports: methods, plyr, BiocGenerics, S4Vectors (>= 0.9.25), Biobase
+Suggests: cluster, plyr, NMFN, stringr, GenomicFeatures, GenomicRanges,
+        rjson
+License: Artistic-2.0
+MD5sum: 9e424b0ce92f82331d4b6ee4c73965aa
+NeedsCompilation: no
+File: cummeRbund_2.43.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: CuratedAtlasQueryR
 Version: 0.99.6
 Depends: R (>= 4.2.0)
@@ -8316,7 +8876,7 @@ Imports: S4Vectors (>= 0.9.25), DBI, GenomeInfoDb, GenomicRanges,
         AhoCorasickTrie, methods
 Suggests: RMariaDB, BSgenome.Hsapiens.UCSC.hg19
 License: Artistic-2.0
-MD5sum: 344e1e71573dd67c0356aae9979f88de
+MD5sum: 0b6e6fcdb3ec778f52d54d62ff64fd1d
 NeedsCompilation: no
 File: customProDB_1.41.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -8557,6 +9117,18 @@ MD5sum: 9ab328e6442186096f24eed75068ebd6
 NeedsCompilation: yes
 File: dada2_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: dagLogo
+Version: 1.39.0
+Depends: R (>= 3.0.1), methods, grid
+Imports: pheatmap, Biostrings, UniProt.ws, BiocGenerics, utils,
+        biomaRt, motifStack, httr
+Suggests: XML, grImport, grImport2, BiocStyle, knitr, rmarkdown,
+        testthat
+License: GPL (>= 2)
+MD5sum: d31150ff9da804fc6d2369d18d646e35
+NeedsCompilation: no
+File: dagLogo_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: daMA
 Version: 1.73.0
 Imports: MASS, stats
@@ -8576,7 +9148,7 @@ Imports: stats, GenomeInfoDb, GenomicRanges, IRanges, S4Vectors, readr,
 Suggests: BiocStyle, knitr, rmarkdown, testthat, rtracklayer,
         BSgenome.Hsapiens.UCSC.hg19
 License: MIT + file LICENSE
-MD5sum: 2e09a4d4db421654a5671c51434a0da0
+MD5sum: 218a8c3676378d76b18721489789f0da
 NeedsCompilation: no
 File: DAMEfinder_1.13.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -8867,7 +9439,7 @@ Imports: methods, Matrix, quadprog(>= 1.5-5), GenomicRanges, stats,
         GenomeInfoDb, readxl
 Suggests: knitr, rmarkdown, BiocStyle
 License: GPL-2
-MD5sum: 433e0d71e05fcdc2912b12e023fe13e6
+MD5sum: a986e198553ea148627632cae37f157c
 NeedsCompilation: no
 File: decompTumor2Sig_2.17.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -8879,6 +9451,16 @@ MD5sum: bfcc67e49010e39552536a6c3c6cba5d
 NeedsCompilation: no
 File: DeconRNASeq_1.43.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: deconstructSigs
+Version: 1.8.0
+Imports: reshape2, BSgenome, BSgenome.Hsapiens.UCSC.hg19, GenomeInfoDb,
+        grDevices, graphics, utils
+Suggests: VariantAnnotation
+License: GPL (>= 2)
+MD5sum: 379984acfd72807ac829f1491b64279d
+NeedsCompilation: no
+File: deconstructSigs_1.8.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: decontam
 Version: 1.21.0
 Depends: R (>= 3.4.1), methods (>= 3.4.1)
@@ -8888,6 +9470,25 @@ License: Artistic-2.0
 MD5sum: cefa4bafacd5b17d739541e2434bc276
 NeedsCompilation: no
 File: decontam_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: deconvR
+Version: 1.7.0
+Depends: R (>= 4.1), data.table (>= 1.14.0)
+Imports: S4Vectors (>= 0.30.0), methylKit (>= 1.18.0), IRanges (>=
+        2.26.0), GenomicRanges (>= 1.44.0), BiocGenerics (>= 0.38.0),
+        stats, methods, foreach (>= 1.5.1), magrittr (>= 2.0.1),
+        matrixStats (>= 0.61.0), e1071 (>= 1.7.9), quadprog (>= 1.5.8),
+        nnls (>= 1.4), rsq (>= 2.2), MASS, utils, dplyr (>= 1.0.7),
+        tidyr (>= 1.1.3), assertthat, minfi
+Suggests: testthat (>= 3.0.0), roxygen2 (>= 7.1.2), doParallel (>=
+        1.0.16), parallel, knitr (>= 1.34), BiocStyle (>= 2.20.2),
+        reshape2 (>= 1.4.4), ggplot2 (>= 3.3.5), rmarkdown, devtools
+        (>= 2.4.2), sessioninfo (>= 1.1.1), covr, granulator,
+        RefManageR
+License: Artistic-2.0
+MD5sum: 45ec762d8c51ef2b5093f05a682a0c66
+NeedsCompilation: no
+File: deconvR_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: decor
 Version: 1.0.2
@@ -8941,7 +9542,7 @@ Imports: Rhtslib
 LinkingTo: Rhtslib (>= 1.13.1)
 Suggests: RColorBrewer, knitr, rmarkdown
 License: GPL-3
-MD5sum: db7cb41483b908bf82ce6e06c5d82357
+MD5sum: 133e4009adbdd7b1c54a0c642646b436
 NeedsCompilation: yes
 File: deepSNV_1.47.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -9151,6 +9752,20 @@ MD5sum: 51c3b9be4c9bd56db5931ecd252d52c3
 NeedsCompilation: no
 File: demuxmix_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: demuxSNP
+Version: 0.99.15
+Depends: R (>= 4.3.0), SingleCellExperiment, VariantAnnotation,
+        ensembldb
+Imports: MatrixGenerics, BiocGenerics, class, GenomeInfoDb, IRanges,
+        Matrix, SummarizedExperiment, demuxmix, methods, combinat
+Suggests: knitr, rmarkdown, Seurat, ComplexHeatmap, viridisLite,
+        ggpubr, dittoSeq, EnsDb.Hsapiens.v86, BiocStyle, RefManageR,
+        testthat (>= 3.0.0)
+License: GPL-3
+MD5sum: deb4361389ab03e9a36537f77b583a8a
+NeedsCompilation: no
+File: demuxSNP_0.99.15_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: dendextend
 Version: 1.17.1
 Depends: R (>= 3.0.0)
@@ -9276,9 +9891,19 @@ Suggests: BiocStyle (>= 2.5.19), sessioninfo, derfinderData (>=
         RefManageR, rmarkdown (>= 0.3.3), testthat (>= 2.1.0),
         TxDb.Hsapiens.UCSC.hg19.knownGene, covr
 License: Artistic-2.0
-MD5sum: 412f5892a279111f521aa4113c827460
+MD5sum: 93a8b3735e185e7dc95635dbfc011c60
 NeedsCompilation: no
 File: derfinder_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: derfinderData
+Version: 2.19.0
+Depends: R (>= 3.5.0)
+Suggests: sessioninfo, knitr (>= 1.6), RefManageR, rmarkdown (>=
+        0.3.3), BiocStyle
+License: Artistic-2.0
+MD5sum: 07ad82afa99b0f95e3738d307911a699
+NeedsCompilation: no
+File: derfinderData_2.19.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: derfinderHelper
 Version: 1.35.0
@@ -9291,6 +9916,23 @@ MD5sum: 3fbd1c992e95a862fc3ccb7d2e8fc8ab
 NeedsCompilation: no
 File: derfinderHelper_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: derfinderPlot
+Version: 1.35.0
+Depends: R(>= 3.2)
+Imports: derfinder (>= 1.1.0), GenomeInfoDb (>= 1.3.3),
+        GenomicFeatures, GenomicRanges (>= 1.17.40), ggbio (>=
+        1.13.13), ggplot2, graphics, grDevices, IRanges (>= 1.99.28),
+        limma, methods, plyr, RColorBrewer, reshape2, S4Vectors (>=
+        0.9.38), scales, utils
+Suggests: biovizBase (>= 1.27.2), bumphunter (>= 1.7.6), derfinderData
+        (>= 0.99.0), sessioninfo, knitr (>= 1.6), BiocStyle (>=
+        2.5.19), org.Hs.eg.db, RefManageR, rmarkdown (>= 0.3.3),
+        testthat, TxDb.Hsapiens.UCSC.hg19.knownGene, covr
+License: Artistic-2.0
+MD5sum: 3c3df954397f581e85b09bec8a69acd5
+NeedsCompilation: no
+File: derfinderPlot_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: Deriv
 Version: 4.1.3
 Imports: methods
@@ -9299,6 +9941,21 @@ License: GPL (>= 3)
 MD5sum: 948af396f728f084255ca74148acd303
 NeedsCompilation: no
 File: Deriv_4.1.3_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: DEScan2
+Version: 1.21.0
+Depends: R (>= 3.5), GenomicRanges
+Imports: BiocParallel, BiocGenerics, ChIPpeakAnno, data.table,
+        DelayedArray, GenomeInfoDb, GenomicAlignments, glue, IRanges,
+        plyr, Rcpp (>= 0.12.13), rtracklayer, S4Vectors (>= 0.23.19),
+        SummarizedExperiment, tools, utils
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: BiocStyle, knitr, rmarkdown, testthat, edgeR, limma, EDASeq,
+        RUVSeq, RColorBrewer, statmod
+License: Artistic-2.0
+MD5sum: 39b68b23172e1fefcde9eead7c0300d7
+NeedsCompilation: yes
+File: DEScan2_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: DescTools
 Version: 0.99.49
@@ -9454,6 +10111,29 @@ MD5sum: f05294e4f0d8ab1fae1d58a8f1c43547
 NeedsCompilation: no
 File: DFP_1.59.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: DGEobj
+Version: 1.1.2
+Depends: R (>= 3.5.0)
+Imports: assertthat, magrittr, stringr, utils
+Suggests: biomaRt, conflicted, dplyr, edgeR, GenomicRanges, glue,
+        knitr, rmarkdown, testthat
+License: GPL-3
+MD5sum: 80d2cf39afeb36b2e0aa75d85dfd2633
+NeedsCompilation: no
+File: DGEobj_1.1.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: DGEobj.utils
+Version: 1.0.6
+Depends: R (>= 3.5.0)
+Imports: assertthat, DGEobj (>= 1.0.3), dplyr, methods, stats, stringr
+Suggests: biomaRt, canvasXpress, conflicted, edgeR, glue, ggplot2, IHW,
+        limma, knitr, qvalue, RNASeqPower, rmarkdown, statmod, sva,
+        testthat, zFPKM
+License: GPL-3
+MD5sum: 4575807b92b9f02e1fdc62953c226f52
+NeedsCompilation: no
+File: DGEobj.utils_1.0.6_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: dgof
 Version: 1.4
 License: GPL (>= 2.0)
@@ -9515,6 +10195,22 @@ License: GPL-2
 MD5sum: b6d31b2efc8432f4a1ec7f7571510d01
 NeedsCompilation: no
 File: dichromat_2.0-0.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: DiffBind
+Version: 3.11.0
+Depends: R (>= 4.0), GenomicRanges, SummarizedExperiment
+Imports: RColorBrewer, amap, gplots, grDevices, limma,
+        GenomicAlignments, locfit, stats, utils, IRanges, lattice,
+        systemPipeR, tools, Rcpp, dplyr, ggplot2, BiocParallel,
+        parallel, S4Vectors, Rsamtools (>= 2.13.1), DESeq2, methods,
+        graphics, ggrepel, apeglm, ashr, GreyListChIP
+LinkingTo: Rhtslib (>= 1.99.1), Rcpp
+Suggests: BiocStyle, testthat, xtable, rgl, XLConnect, edgeR, csaw,
+        BSgenome, GenomeInfoDb, profileplyr, rtracklayer, grid
+License: Artistic-2.0
+MD5sum: 493a2422cac22044b3e0d5863c48a7ca
+NeedsCompilation: yes
+File: DiffBind_3.11.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: diffcyt
 Version: 1.21.0
@@ -10043,7 +10739,7 @@ Imports: biomaRt, data.table, utils, stats, Biostrings,
         GenomeInfoDb, IRanges, GenomicRanges, methods
 Suggests: knitr, testthat, rmarkdown
 License: GPL (>= 3)
-MD5sum: d9be0eb963a3cf71046a5dfae478365a
+MD5sum: 6578a58fa488651407dc60e73070e2fe
 NeedsCompilation: no
 File: DominoEffect_1.21.1_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -10349,6 +11045,18 @@ License: MIT + file LICENSE
 MD5sum: 0afd15bc73bdb6f330044a1eac26e014
 NeedsCompilation: no
 File: drtmle_1.1.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: drugTargetInteractions
+Version: 1.9.0
+Depends: methods, R (>= 4.1)
+Imports: utils, RSQLite, UniProt.ws, biomaRt,ensembldb,
+        BiocFileCache,dplyr,rappdirs, AnnotationFilter, S4Vectors
+Suggests: RUnit, BiocStyle, knitr, rmarkdown, ggplot2, reshape2, DT,
+        EnsDb.Hsapiens.v86
+License: Artistic-2.0
+MD5sum: 77e7502539b7521dd2c50bd13dd78a7d
+NeedsCompilation: no
+File: drugTargetInteractions_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: dStruct
 Version: 1.7.1
@@ -10951,13 +11659,33 @@ MD5sum: 7312cf837579d04f44b10a65ace96833
 NeedsCompilation: no
 File: elliptic_1.4-0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: ELMER
+Version: 2.25.2
+Depends: R (>= 3.4.0), ELMER.data (>= 2.9.3)
+Imports: GenomicRanges, ggplot2, reshape, grid, grDevices, graphics,
+        methods, parallel, stats, utils, IRanges, GenomeInfoDb,
+        S4Vectors, GenomicFeatures, TCGAbiolinks (>= 2.23.7), plyr,
+        Matrix, dplyr, Gviz, ComplexHeatmap, circlize,
+        MultiAssayExperiment, SummarizedExperiment, biomaRt,
+        doParallel, downloader, ggrepel, lattice, magrittr, readr,
+        scales, rvest, xml2, plotly, gridExtra, rmarkdown, stringr,
+        tibble, tidyr, progress, purrr, reshape2, ggpubr, rtracklayer,
+        DelayedArray
+Suggests: BiocStyle, AnnotationHub, ExperimentHub, knitr, testthat,
+        data.table, DT, GenomicInteractions, webshot, R.utils, covr,
+        sesameData
+License: GPL-3
+MD5sum: fff170e29f1ebb8703c6f691ae5d20f8
+NeedsCompilation: no
+File: ELMER_2.25.2_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: ELMER.data
 Version: 2.25.0
 Depends: R (>= 3.5.0)
 Imports: GenomicRanges
 Suggests: BiocStyle, knitr, dplyr, devtools, DT, rmarkdown
 License: GPL-3
-MD5sum: f8d27c4a43bf7ae04d73ceec16c4ee4d
+MD5sum: 379e0ea446bf73ae6cc2f422f7d4570e
 NeedsCompilation: no
 File: ELMER.data_2.25.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -11073,6 +11801,24 @@ MD5sum: 20f6d8a25d6de41ad297561a5216e901
 NeedsCompilation: no
 File: EnhancedVolcano_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: enhancerHomologSearch
+Version: 1.7.0
+Depends: R (>= 4.1.0), methods
+Imports: BiocGenerics, Biostrings, BSgenome, BiocParallel,
+        BiocFileCache, GenomeInfoDb, GenomicRanges, httr, IRanges,
+        jsonlite, motifmatchr, Matrix, rtracklayer, Rcpp, S4Vectors,
+        stats, utils
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, BSgenome.Drerio.UCSC.danRer10,
+        BSgenome.Hsapiens.UCSC.hg38, BSgenome.Mmusculus.UCSC.mm10,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, org.Hs.eg.db,
+        TxDb.Mmusculus.UCSC.mm10.knownGene, org.Mm.eg.db, MotifDb,
+        testthat, TFBSTools
+License: GPL (>= 2)
+MD5sum: f5e9e7e8102d7be0d286998013ebf7a2
+NeedsCompilation: yes
+File: enhancerHomologSearch_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: EnMCB
 Version: 1.13.0
 Depends: R (>= 4.0)
@@ -11084,6 +11830,19 @@ License: GPL-2
 MD5sum: 79c729d23bb13175cb60f19e62522832
 NeedsCompilation: no
 File: EnMCB_1.13.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ENmix
+Version: 1.37.01
+Depends: R (>= 3.5.0), parallel, doParallel, foreach,
+        SummarizedExperiment, stats
+Imports: grDevices,graphics,preprocessCore,matrixStats,methods,utils,
+        geneplotter,impute,minfi,RPMM,illuminaio,dynamicTreeCut,IRanges,gtools,
+        Biobase,ExperimentHub,AnnotationHub,genefilter,gplots,quadprog,S4Vectors
+Suggests: minfiData, RUnit, BiocGenerics, BiocStyle, knitr, rmarkdown
+License: Artistic-2.0
+MD5sum: d7a0702cd468c06a312e4d4c8b7dc33a
+NeedsCompilation: no
+File: ENmix_1.37.01_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: EnrichedHeatmap
 Version: 1.31.0
@@ -11139,6 +11898,20 @@ MD5sum: 599696a53b19271842fd2a7e39228884
 NeedsCompilation: no
 File: enrichR_3.2_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: enrichTF
+Version: 1.17.0
+Depends: pipeFrame
+Imports: BSgenome, rtracklayer, motifmatchr, TFBSTools, R.utils,
+        methods, JASPAR2018, GenomeInfoDb, GenomicRanges, IRanges,
+        BiocGenerics, S4Vectors, utils, parallel, stats, ggpubr,
+        heatmap3, ggplot2, clusterProfiler, rmarkdown, grDevices,
+        magrittr
+Suggests: knitr, testthat, webshot
+License: GPL-3
+MD5sum: 5a140a773762d842e6940c21fcf6d9c3
+NeedsCompilation: no
+File: enrichTF_1.17.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: enrichwith
 Version: 0.3.1
 Depends: R (>= 3.0.0)
@@ -11156,6 +11929,14 @@ License: Artistic-2.0
 MD5sum: f813e06d7b03a50c7fa1b5dec1eba55e
 NeedsCompilation: no
 File: EnsDb.Hsapiens.v75_2.99.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: EnsDb.Hsapiens.v79
+Version: 2.99.0
+Depends: ensembldb
+License: Artistic-2.0
+MD5sum: f7bf516670b610f4957a66f404c5c68e
+NeedsCompilation: no
+File: EnsDb.Hsapiens.v79_2.99.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: EnsDb.Hsapiens.v86
 Version: 2.99.0
@@ -11233,7 +12014,7 @@ Imports: stats, methods, utils, GenomicRanges, BiocGenerics,
 LinkingTo: Rcpp, BH, Rhtslib, zlibbioc
 Suggests: RUnit, knitr, rmarkdown, ggplot2, ggstance, gridExtra
 License: Artistic-2.0
-MD5sum: 60cc96e9761532da08278abcb97eda14
+MD5sum: 8006411396ed44611e5a5507a6c0fc1b
 NeedsCompilation: yes
 File: epialleleR_1.9.5_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -11271,6 +12052,22 @@ MD5sum: e37535e01f63e11bc34ecc632a9d5d59
 NeedsCompilation: no
 File: epigenomix_1.41.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: epigraHMM
+Version: 1.9.1
+Depends: R (>= 3.5.0)
+Imports: Rcpp, magrittr, data.table, SummarizedExperiment, methods,
+        GenomeInfoDb, GenomicRanges, rtracklayer, IRanges, Rsamtools,
+        bamsignals, csaw, S4Vectors, limma, stats, Rhdf5lib, rhdf5,
+        Matrix, MASS, scales, ggpubr, ggplot2, GreyListChIP, pheatmap,
+        grDevices
+LinkingTo: Rcpp, RcppArmadillo, Rhdf5lib
+Suggests: testthat, knitr, rmarkdown, BiocStyle,
+        BSgenome.Rnorvegicus.UCSC.rn4, gcapc, chromstaRData
+License: MIT + file LICENSE
+MD5sum: fd2018a888bf1a1938b387bfdde96f8f
+NeedsCompilation: yes
+File: epigraHMM_1.9.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: EpiMix
 Version: 1.3.4
 Depends: R (>= 4.2.0), EpiMix.data (>= 1.2.2)
@@ -11298,6 +12095,37 @@ License: GPL-3
 MD5sum: 3bcb7955b9cdcd40812230809dca1b58
 NeedsCompilation: no
 File: EpiMix.data_1.3.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: epimutacions
+Version: 1.5.3
+Depends: R (>= 4.3.0), epimutacionsData
+Imports: minfi, bumphunter, isotree, robustbase, ggplot2,
+        GenomicRanges, GenomicFeatures, IRanges, SummarizedExperiment,
+        stats, matrixStats, BiocGenerics, S4Vectors, utils, biomaRt,
+        BiocParallel, GenomeInfoDb, Homo.sapiens, purrr, tibble, Gviz,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Hsapiens.UCSC.hg18.knownGene,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, rtracklayer, AnnotationDbi,
+        AnnotationHub, ExperimentHub, reshape2, grid, ensembldb,
+        gridExtra, IlluminaHumanMethylation450kmanifest,
+        IlluminaHumanMethylationEPICmanifest,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19,
+        IlluminaHumanMethylationEPICanno.ilm10b2.hg19, ggrepel
+Suggests: testthat, knitr, rmarkdown, BiocStyle, a4Base, kableExtra,
+        methods, grDevices
+License: MIT + file LICENSE
+MD5sum: 695d504f3a7ff0986f3cb93652492275
+NeedsCompilation: yes
+File: epimutacions_1.5.3_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: epimutacionsData
+Version: 1.5.0
+Depends: R (>= 4.2.0)
+Suggests: rmarkdown, BiocStyle, knitr, ExperimentHub, minfi
+License: MIT + file LICENSE
+MD5sum: deab6b174fab3189389e82cc75e45cdd
+NeedsCompilation: no
+File: epimutacionsData_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: epiR
 Version: 2.0.62
@@ -11363,6 +12191,48 @@ MD5sum: ffaf4d6f327ff34260472e1a5e8720b6
 NeedsCompilation: no
 File: EpiTxDb.Hs.hg38_0.99.7_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: epivizr
+Version: 2.31.0
+Depends: R (>= 3.5.0), methods
+Imports: epivizrServer (>= 1.1.1), epivizrData (>= 1.3.4),
+        GenomicRanges, S4Vectors, IRanges, bumphunter, GenomeInfoDb
+Suggests: testthat, roxygen2, knitr, Biobase, SummarizedExperiment,
+        antiProfilesData, hgu133plus2.db, Mus.musculus, BiocStyle,
+        minfi, rmarkdown
+License: Artistic-2.0
+MD5sum: a4d34d92dfaf87ed950605c97612b7a4
+NeedsCompilation: no
+File: epivizr_2.31.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: epivizrChart
+Version: 1.23.0
+Depends: R (>= 3.5.0)
+Imports: epivizrData (>= 1.5.1), epivizrServer, htmltools, rjson,
+        methods, BiocGenerics
+Suggests: testthat, roxygen2, knitr, Biobase, GenomicRanges, S4Vectors,
+        IRanges, SummarizedExperiment, antiProfilesData,
+        hgu133plus2.db, Mus.musculus, BiocStyle, Homo.sapiens, shiny,
+        minfi, Rsamtools, rtracklayer, RColorBrewer, magrittr,
+        AnnotationHub
+License: Artistic-2.0
+MD5sum: 058a33bce67cd4da40dfbe0a675a4226
+NeedsCompilation: no
+File: epivizrChart_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: epivizrData
+Version: 1.29.0
+Depends: R (>= 3.4), methods, epivizrServer (>= 1.1.1), Biobase
+Imports: S4Vectors, GenomicRanges, SummarizedExperiment (>= 0.2.0),
+        OrganismDbi, GenomicFeatures, GenomeInfoDb, IRanges, ensembldb
+Suggests: testthat, roxygen2, bumphunter, hgu133plus2.db, Mus.musculus,
+        TxDb.Mmusculus.UCSC.mm10.knownGene, rjson, knitr, rmarkdown,
+        BiocStyle, EnsDb.Mmusculus.v79, AnnotationHub, rtracklayer,
+        utils, RMySQL, DBI, matrixStats
+License: MIT + file LICENSE
+MD5sum: c345231a646d694475e92d8888664c41
+NeedsCompilation: no
+File: epivizrData_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: epivizrServer
 Version: 1.29.0
 Depends: R (>= 3.2.3), methods
@@ -11373,6 +12243,18 @@ MD5sum: 247c39239f7a03d06c4381e193266acb
 NeedsCompilation: no
 File: epivizrServer_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: epivizrStandalone
+Version: 1.29.0
+Depends: R (>= 3.2.3), epivizr (>= 2.3.6), methods
+Imports: git2r, epivizrServer, GenomeInfoDb, BiocGenerics,
+        GenomicFeatures, S4Vectors
+Suggests: testthat, knitr, rmarkdown, OrganismDbi (>= 1.13.9),
+        Mus.musculus, Biobase, BiocStyle
+License: MIT + file LICENSE
+MD5sum: 397d57ef411a2e0ccdc55b90ae376f8d
+NeedsCompilation: no
+File: epivizrStandalone_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: erccdashboard
 Version: 1.35.0
 Depends: R (>= 3.2), ggplot2 (>= 2.1.0), gridExtra (>= 2.0.0)
@@ -11382,6 +12264,38 @@ License: GPL (>= 2)
 MD5sum: 11c49ed435f7f9854032b795fdc11b2b
 NeedsCompilation: no
 File: erccdashboard_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: erma
+Version: 1.17.0
+Depends: R (>= 3.1), methods, Homo.sapiens, GenomicFiles (>= 1.5.2)
+Imports: rtracklayer (>= 1.38.1), S4Vectors (>= 0.23.18), BiocGenerics,
+        GenomicRanges, SummarizedExperiment, ggplot2, GenomeInfoDb,
+        Biobase, shiny, BiocParallel, IRanges, AnnotationDbi
+Suggests: rmarkdown, BiocStyle, knitr, GO.db, png, DT, doParallel
+License: Artistic-2.0
+MD5sum: e038aa80200a501ac74d29356c78d403
+NeedsCompilation: no
+File: erma_1.17.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: esATAC
+Version: 1.23.0
+Depends: R (>= 4.0.0), Rsamtools, GenomicRanges, ShortRead, pipeFrame
+Imports: Rcpp (>= 0.12.11), methods, knitr, Rbowtie2, rtracklayer,
+        ggplot2, Biostrings, ChIPseeker, clusterProfiler, igraph,
+        rJava, magrittr, digest, BSgenome, AnnotationDbi,
+        GenomicAlignments, GenomicFeatures, R.utils, GenomeInfoDb,
+        BiocGenerics, S4Vectors, IRanges, rmarkdown, tools,
+        VennDiagram, grid, JASPAR2018, TFBSTools, grDevices, graphics,
+        stats, utils, parallel, corrplot, BiocManager, motifmatchr
+LinkingTo: Rcpp
+Suggests: BSgenome.Hsapiens.UCSC.hg19,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, org.Hs.eg.db, testthat,
+        webshot, prettydoc
+License: GPL-3 | file LICENSE
+Archs: x64
+MD5sum: d8e2fed914931478a0091993080c29e3
+NeedsCompilation: yes
+File: esATAC_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: escape
 Version: 1.11.0
@@ -11676,7 +12590,7 @@ Depends: utils, BiocGenerics (>= 0.15.10), S4Vectors, AnnotationHubData
 Imports: methods, ExperimentHub, BiocManager, DBI, httr, curl
 Suggests: GenomeInfoDb, RUnit, knitr, BiocStyle, rmarkdown, HubPub
 License: Artistic-2.0
-MD5sum: 68f39f532d93739c4f4df3b3d78653a8
+MD5sum: 37d7af7decc91a934a33f9e3cb6e7649
 NeedsCompilation: no
 File: ExperimentHubData_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -11749,6 +12663,23 @@ License: GPL (>= 2)
 MD5sum: 4af66a01a3a806b0197d13ab9644b640
 NeedsCompilation: no
 File: ExtDist_0.7-1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: extraChIPs
+Version: 1.5.7
+Depends: BiocParallel, R (>= 4.2.0), GenomicRanges, ggplot2 (>= 3.4.0),
+        ggside (>= 0.2.2), SummarizedExperiment, tibble
+Imports: BiocIO, broom, ComplexUpset, csaw, dplyr (>= 1.1.0), edgeR,
+        EnrichedHeatmap, forcats, GenomeInfoDb, GenomicInteractions,
+        ggforce, ggrepel, glue, grDevices, grid, Gviz, InteractionSet,
+        IRanges, limma, matrixStats, methods, patchwork, RColorBrewer,
+        rlang, Rsamtools, rtracklayer, S4Vectors, scales, stats,
+        stringr, tidyr, tidyselect, utils, vctrs, VennDiagram
+Suggests: BiocStyle, covr, cqn, harmonicmeanp, here, knitr, magrittr,
+        plyranges, quantro, rmarkdown, testthat (>= 3.0.0), tidyverse
+License: GPL-3
+MD5sum: faa8e75aad88f24d3817fac7167869e7
+NeedsCompilation: yes
+File: extraChIPs_1.5.7_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: extraDistr
 Version: 1.9.1
@@ -11913,6 +12844,14 @@ MD5sum: 15d40c823333f80ba3ab19d13ae30957
 NeedsCompilation: no
 File: fANCOVA_0.6-1_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: FANTOM3and4CAGE
+Version: 1.37.0
+Depends: R (>= 2.15.0)
+License: GPL-3
+MD5sum: 898481fb56eb6992c5d97cf137a91b7b
+NeedsCompilation: no
+File: FANTOM3and4CAGE_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: farver
 Version: 2.1.1
 Suggests: covr, testthat (>= 3.0.0)
@@ -12060,7 +12999,7 @@ Imports: stats, plyr, VariantAnnotation, SummarizedExperiment,
         doParallel, parallel
 Suggests: RUnit, BiocGenerics, BiocStyle, knitr, rmarkdown
 License: Artistic-2.0
-MD5sum: 2830a0c84f6cfd0e143e97841d1624d0
+MD5sum: 7e11f79c109dac5d9764f3a17bb9d68b
 NeedsCompilation: no
 File: fcScan_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -12083,6 +13022,16 @@ License: GPL-2
 MD5sum: af8453eef1e2a52fd5b518fcc8fb7d2b
 NeedsCompilation: yes
 File: fda.usc_2.1.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: FDb.InfiniumMethylation.hg18
+Version: 2.2.0
+Depends: R (>= 2.10), GenomicFeatures (>= 1.7.22),
+        TxDb.Hsapiens.UCSC.hg18.knownGene, org.Hs.eg.db
+Imports: GenomicFeatures, AnnotationDbi, Biostrings
+License: Artistic-2.0
+MD5sum: 360f1f096a0f405cb0b954edc1033ead
+NeedsCompilation: no
+File: FDb.InfiniumMethylation.hg18_2.2.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: FDb.InfiniumMethylation.hg19
 Version: 2.2.0
@@ -12203,6 +13152,25 @@ License: GPL-2 | GPL-3 | file LICENSE
 MD5sum: c310a4a82b87023349684f0ec2e9a1bd
 NeedsCompilation: yes
 File: ff_4.0.9_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ffpe
+Version: 1.45.0
+Depends: R (>= 2.10.0), TTR, methods
+Imports: Biobase, BiocGenerics, affy, lumi, methylumi, sfsmisc
+Suggests: genefilter, ffpeExampleData
+License: GPL (> 2)
+MD5sum: 18c498062d1868e9d87a5e4f4bc9a5a7
+NeedsCompilation: no
+File: ffpe_1.45.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ffpeExampleData
+Version: 1.39.0
+Depends: R (>= 2.10.0), lumi
+Suggests: genefilter, affy
+License: GPL (> 2)
+MD5sum: f4d7587cbb9874d44246399f54bd1633
+NeedsCompilation: no
+File: ffpeExampleData_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: fftw
 Version: 1.0-7
@@ -12417,6 +13385,32 @@ License: GPL-3
 MD5sum: a1a16b727dbacba480919355c0c7dbc2
 NeedsCompilation: yes
 File: fixest_0.11.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: flagme
+Version: 1.57.0
+Depends: gcspikelite, xcms, CAMERA
+Imports: gplots, graphics, MASS, methods, SparseM, stats, utils
+License: LGPL (>= 2)
+MD5sum: dc4a6d7299d20c78d4101f84edfed07a
+NeedsCompilation: yes
+File: flagme_1.57.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: FLAMES
+Version: 1.7.0
+Imports: basilisk, bambu, Biostrings, BiocGenerics, circlize,
+        ComplexHeatmap, cowplot, dplyr, DropletUtils, GenomicRanges,
+        GenomicFeatures, GenomeInfoDb, ggplot2, ggbio, grid, gridExtra,
+        igraph, jsonlite, magrittr, Matrix, parallel, reticulate,
+        Rsamtools, rtracklayer, RColorBrewer, SingleCellExperiment,
+        SummarizedExperiment, scater, S4Vectors, scuttle, stats, scran,
+        stringr, MultiAssayExperiment, tidyr, utils, withr, zlibbioc,
+LinkingTo: Rcpp, Rhtslib, zlibbioc
+Suggests: BiocStyle, GEOquery, knitr, rmarkdown, markdown,
+        BiocFileCache, R.utils, ShortRead, uwot, testthat (>= 3.0.0)
+License: GPL (>= 2)
+MD5sum: b6be50c2d1d34569cc5a058b519f6204
+NeedsCompilation: yes
+File: FLAMES_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: flashClust
 Version: 1.01-2
@@ -12764,6 +13758,41 @@ MD5sum: f65d765e47205d08fbebef52a9ed36b3
 NeedsCompilation: no
 File: FlowSorted.Blood.450k_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: FlowSorted.Blood.EPIC
+Version: 2.5.2
+Depends: R (>= 3.5), minfi(>= 1.21.2), ExperimentHub
+Imports: genefilter, nlme, quadprog, graphics, stats, utils,
+        AnnotationHub, SummarizedExperiment, S4Vectors
+Suggests: knitr,rmarkdown, FlowSorted.CordBlood.450k,
+        FlowSorted.Blood.450k(>= 1.0.1),
+        EpiDISH,FlowSorted.CordBloodNorway.450k, testthat,
+        IlluminaHumanMethylation450kmanifest(>= 0.2.0),
+        IlluminaHumanMethylationEPICmanifest,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19(>= 0.2.1),
+        IlluminaHumanMethylationEPICanno.ilm10b4.hg19
+Enhances: FlowSorted.CordBloodCombined.450k(>= 1.11.5)
+License: GPL-3
+MD5sum: 40b3ae822d11b139a88ebf41b6718f03
+NeedsCompilation: no
+File: FlowSorted.Blood.EPIC_2.5.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: FlowSorted.CordBlood.450k
+Version: 1.29.0
+Depends: R (>= 3.5.0), minfi (>= 1.21.2)
+License: Artistic-2.0
+MD5sum: ced43e2ca9675227d90bb369977f4eb5
+NeedsCompilation: no
+File: FlowSorted.CordBlood.450k_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: FlowSorted.CordBloodNorway.450k
+Version: 1.27.0
+Depends: R (>= 3.5.0), minfi (>= 1.21.2)
+License: Artistic-2.0
+MD5sum: b38be6ec6864ccce45efbc2cf94c3bf6
+NeedsCompilation: no
+File:
+        FlowSorted.CordBloodNorway.450k_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: flowSpecs
 Version: 1.15.0
 Depends: R (>= 4.0)
@@ -12893,6 +13922,13 @@ License: GPL (>= 2)
 MD5sum: 11f3acf17522fcdd574d95b4749e69b4
 NeedsCompilation: no
 File: fmsb_0.7.5_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: FMStable
+Version: 0.1-4
+License: GPL-3
+MD5sum: e585ba71c1ad8892ae93e321ef454288
+NeedsCompilation: yes
+File: FMStable_0.1-4_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: FNN
 Version: 1.1.3.2
@@ -13209,6 +14245,19 @@ MD5sum: f67d679c5c053aed6f1713f716ab571f
 NeedsCompilation: no
 File: functional_0.6_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: funtooNorm
+Version: 1.25.0
+Depends: R(>= 3.4)
+Imports: pls, matrixStats, minfi, methods,
+        IlluminaHumanMethylation450kmanifest,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19, GenomeInfoDb,
+        grDevices, graphics, stats
+Suggests: prettydoc, minfiData, knitr, rmarkdown
+License: GPL-3
+MD5sum: e109e4f68c6a35dc8ef36fad49018afa
+NeedsCompilation: no
+File: funtooNorm_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: furrr
 Version: 0.3.1
 Depends: future (>= 1.25.0), R (>= 3.4.0)
@@ -13314,9 +14363,22 @@ Imports: BiocGenerics, Biostrings, dplyr, GenomeInfoDb, GenomicRanges,
 Suggests: AnnotationDbi, BiocStyle, DT, knitr, org.Hs.eg.db, rmarkdown,
         testthat, TxDb.Hsapiens.UCSC.hg19.knownGene
 License: GPL (>= 2)
-MD5sum: 41b63c672846fea987b8d1a4094aa76c
+MD5sum: b937960b53f79be66187520b3b3e1731
 NeedsCompilation: no
 File: GA4GHclient_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: GA4GHshiny
+Version: 1.23.0
+Depends: GA4GHclient
+Imports: AnnotationDbi, BiocGenerics, dplyr, DT, GenomeInfoDb,
+        openxlsx, GenomicFeatures, methods, purrr, S4Vectors, shiny,
+        shinyjs, tidyr, shinythemes
+Suggests: BiocStyle, org.Hs.eg.db, knitr, rmarkdown, testthat,
+        TxDb.Hsapiens.UCSC.hg19.knownGene
+License: GPL-3
+MD5sum: 5622047ec2a8408dacb7c60c58d50f50
+NeedsCompilation: no
+File: GA4GHshiny_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: gaga
 Version: 2.47.0
@@ -13487,6 +14549,16 @@ MD5sum: b8fd77488be89bb3b18df60fc955e24b
 NeedsCompilation: no
 File: gargle_1.5.1_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: GARS
+Version: 1.21.0
+Depends: R (>= 3.5), ggplot2, cluster
+Imports: DaMiRseq, MLSeq, stats, methods, SummarizedExperiment
+Suggests: BiocStyle, knitr, testthat
+License: GPL (>= 2)
+MD5sum: a6ddf9cc03501487589af84958d7fa30
+NeedsCompilation: no
+File: GARS_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: gaston
 Version: 1.5.9
 Depends: Rcpp, RcppParallel, methods
@@ -13585,6 +14657,14 @@ License: LGPL
 MD5sum: 95b0b2ab5a8b7a1936b4cca42f1e5842
 NeedsCompilation: yes
 File: gcrma_2.73.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: gcspikelite
+Version: 1.39.0
+Depends: R (>= 2.5.0)
+License: LGPL
+MD5sum: b3642df75d56bf684f0b54054fa84db2
+NeedsCompilation: no
+File: gcspikelite_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: gdata
 Version: 2.19.0
@@ -14037,6 +15117,16 @@ MD5sum: 2da78e2376654e7547c70648c7d30e38
 NeedsCompilation: yes
 File: GENESIS_2.31.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: GeneStructureTools
+Version: 1.21.0
+Imports:
+        Biostrings,GenomicRanges,IRanges,data.table,plyr,stringdist,stringr,S4Vectors,BSgenome.Mmusculus.UCSC.mm10,stats,utils,Gviz,rtracklayer,methods
+Suggests: BiocStyle, knitr, rmarkdown
+License: BSD_3_clause + file LICENSE
+MD5sum: 8cd5d61eef6b738c8cd3418339f0f5ec
+NeedsCompilation: no
+File: GeneStructureTools_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: geNetClassifier
 Version: 1.41.0
 Depends: R (>= 2.10.1), Biobase (>= 2.5.5), EBarrays, minet, methods
@@ -14327,7 +15417,7 @@ Imports: GenomicAlignments (>= 1.7.7), IRanges, S4Vectors (>= 0.9.25),
 Suggests: BiocStyle, RUnit, genefilter, deepSNV, snpStats, knitr,
         RNAseqData.HNRNPC.bam.chr14, Biostrings, Homo.sapiens
 License: Artistic-2.0
-MD5sum: b32aee9c82d8ba0059d52dccabc8d66a
+MD5sum: ba7899c2cc07343a6a0f03dd96ccd42e
 NeedsCompilation: no
 File: GenomicFiles_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -14363,9 +15453,21 @@ Imports: Rsamtools, rtracklayer, GenomicRanges (>= 1.29.6), IRanges,
         grDevices
 Suggests: knitr, rmarkdown, BiocStyle, testthat
 License: GPL-3
-MD5sum: 3c6786e70f448168758306d4b42b716b
+MD5sum: 0deb09e8507c2354a81be4c82770f96e
 NeedsCompilation: no
 File: GenomicInteractions_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: GenomicOZone
+Version: 1.15.0
+Depends: R (>= 4.0.0), Ckmeans.1d.dp (>= 4.3.0), GenomicRanges,
+        biomaRt, ggplot2
+Imports: grDevices, stats, utils, plyr, gridExtra, lsr, parallel,
+        ggbio, S4Vectors, IRanges, GenomeInfoDb, Rdpack
+Suggests: readxl, GEOquery, knitr, rmarkdown
+License: LGPL (>= 3)
+MD5sum: 983a630a18858e528ed2a4f79142c2a2
+NeedsCompilation: no
+File: GenomicOZone_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: GenomicRanges
 Version: 1.53.1
@@ -14410,6 +15512,20 @@ License: Artistic-2.0
 MD5sum: c199280d17b08e04a8e7b707c8fd23b6
 NeedsCompilation: no
 File: GenomicScores_2.13.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: GenomicState
+Version: 0.99.15
+Depends: AnnotationHub
+Imports: GenomicFeatures, GenomeInfoDb, rtracklayer, bumphunter,
+        derfinder (>= 1.21.7), AnnotationDbi, IRanges, org.Hs.eg.db,
+        utils, methods
+Suggests: knitr, rmarkdown, BiocStyle, sessioninfo, testthat (>=
+        2.1.0), glue, derfinderPlot, AnnotationHubData, RefManageR,
+        GenomicRanges, covr
+License: Artistic-2.0
+MD5sum: 79477a623dbf3df261c0f68c4cc5443e
+NeedsCompilation: no
+File: GenomicState_0.99.15_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: GenomicSuperSignature
 Version: 1.9.0
@@ -14467,6 +15583,23 @@ License: GPL-2
 MD5sum: 54fe3f7fa2574aa92f2f682311644e57
 NeedsCompilation: yes
 File: GenSA_1.1.9_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: GenVisR
+Version: 1.33.4
+Depends: R (>= 3.3.0), methods
+Imports: AnnotationDbi, biomaRt (>= 2.45.8), BiocGenerics, Biostrings,
+        DBI, GenomicFeatures, GenomicRanges (>= 1.25.4), ggplot2 (>=
+        2.1.0), gridExtra (>= 2.0.0), gtable, gtools, IRanges (>=
+        2.7.5), plyr (>= 1.8.3), reshape2, Rsamtools, scales, viridis,
+        data.table, BSgenome, GenomeInfoDb, VariantAnnotation
+Suggests: BiocStyle, BSgenome.Hsapiens.UCSC.hg19, knitr, RMySQL,
+        roxygen2, testthat, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        rmarkdown, vdiffr, formatR, TxDb.Hsapiens.UCSC.hg38.knownGene,
+        BSgenome.Hsapiens.UCSC.hg38
+License: GPL-3 + file LICENSE
+MD5sum: e0af653c9ae93af712aa93f7a6922850
+NeedsCompilation: no
+File: GenVisR_1.33.4_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: geodata
 Version: 0.5-8
@@ -14781,7 +15914,7 @@ Suggests: vsn, BSgenome.Hsapiens.UCSC.hg19, Homo.sapiens,
         TxDb.Mmusculus.UCSC.mm9.knownGene, knitr, BiocStyle, testthat,
         EnsDb.Hsapiens.v75, tinytex
 License: Artistic-2.0
-MD5sum: 25de208aa115fb9e5c1c513634519b15
+MD5sum: 1efb51b3c1d8cf318754b49d18f094f6
 NeedsCompilation: no
 File: ggbio_1.49.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -15136,7 +16269,7 @@ NeedsCompilation: no
 File: ggpol_0.0.7_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: ggpp
-Version: 0.5.2
+Version: 0.5.3
 Depends: R (>= 4.0.0), ggplot2 (>= 3.3.6)
 Imports: stats, grid, grDevices, rlang (>= 1.0.6), magrittr (>= 2.0.1),
         glue (>= 1.6.0), gridExtra (>= 2.3), scales (>= 1.2.0), tibble
@@ -15147,9 +16280,9 @@ Suggests: knitr (>= 1.40), rmarkdown (>= 2.20), ggrepel (>= 0.9.2),
         gginnards(>= 0.1.1), magick (>= 2.7.3), testthat (>= 3.1.5),
         vdiffr (>= 1.0.5)
 License: GPL (>= 2)
-MD5sum: 0c3537d658177808058bbe29c6b92834
+MD5sum: 3e03b228d3bf125b0bf225358e87c89f
 NeedsCompilation: no
-File: ggpp_0.5.2_R_x86_64-pc-linux-gnu.tar.gz
+File: ggpp_0.5.3_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: ggpubr
 Version: 0.6.0
@@ -15657,6 +16790,23 @@ MD5sum: 5b61b3c21c34b2fd85096207f0129e9d
 NeedsCompilation: no
 File: globaltest_5.55.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: gmapR
+Version: 1.43.0
+Depends: R (>= 2.15.0), methods, GenomeInfoDb (>= 1.1.3), GenomicRanges
+        (>= 1.31.8), Rsamtools (>= 1.31.2)
+Imports: S4Vectors (>= 0.17.25), IRanges (>= 2.13.12), BiocGenerics (>=
+        0.25.1), rtracklayer (>= 1.39.7), GenomicFeatures (>= 1.31.3),
+        Biostrings, VariantAnnotation (>= 1.25.11), tools, Biobase,
+        BSgenome, GenomicAlignments (>= 1.15.6), BiocParallel
+Suggests: RUnit, BSgenome.Dmelanogaster.UCSC.dm3,
+        BSgenome.Scerevisiae.UCSC.sacCer3, org.Hs.eg.db,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, BSgenome.Hsapiens.UCSC.hg19,
+        LungCancerLines
+License: Artistic-2.0
+MD5sum: aa510dc36814686e7208c7c2b2d5d1e2
+NeedsCompilation: yes
+File: gmapR_1.43.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: Gmedian
 Version: 1.2.7
 Depends: R (>= 3.0.0)
@@ -16104,6 +17254,40 @@ MD5sum: 01158e599d8eeceb06bf350eb9c9a24e
 NeedsCompilation: yes
 File: gRain_1.3.13_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: GRaNIE
+Version: 1.5.1
+Depends: R (>= 4.2.0)
+Imports: futile.logger, checkmate, patchwork, reshape2, data.table,
+        matrixStats, Matrix, GenomicRanges, RColorBrewer,
+        ComplexHeatmap, DESeq2, circlize, progress, utils, methods,
+        stringr, scales, igraph, S4Vectors, ggplot2, rlang, Biostrings,
+        GenomeInfoDb (>= 1.34.8), SummarizedExperiment, forcats,
+        gridExtra, limma, tidyselect, readr, grid, tidyr, dplyr, stats,
+        grDevices, graphics, magrittr, tibble, viridis, colorspace,
+        biomaRt, topGO, AnnotationHub, ensembldb
+Suggests: knitr, BSgenome.Hsapiens.UCSC.hg19,
+        BSgenome.Hsapiens.UCSC.hg38, BSgenome.Mmusculus.UCSC.mm10,
+        BSgenome.Mmusculus.UCSC.mm9, BSgenome.Rnorvegicus.UCSC.rn6,
+        BSgenome.Rnorvegicus.UCSC.rn7, BSgenome.Dmelanogaster.UCSC.dm6,
+        BSgenome.Mmulatta.UCSC.rheMac10,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Hsapiens.UCSC.hg38.knownGene,
+        TxDb.Mmusculus.UCSC.mm10.knownGene,
+        TxDb.Mmusculus.UCSC.mm9.knownGene,
+        TxDb.Rnorvegicus.UCSC.rn6.refGene,
+        TxDb.Rnorvegicus.UCSC.rn7.refGene,
+        TxDb.Dmelanogaster.UCSC.dm6.ensGene,
+        TxDb.Mmulatta.UCSC.rheMac10.refGene, org.Hs.eg.db,
+        org.Mm.eg.db, org.Rn.eg.db, org.Dm.eg.db, org.Mmu.eg.db, IHW,
+        clusterProfiler, ReactomePA, DOSE, BiocFileCache, ChIPseeker,
+        testthat (>= 3.0.0), BiocStyle, csaw, BiocParallel, WGCNA,
+        variancePartition, purrr, EDASeq, JASPAR2022, TFBSTools,
+        motifmatchr, rbioapi
+License: Artistic-2.0
+MD5sum: bf0e7b348fca48e22deabac07a946f26
+NeedsCompilation: no
+File: GRaNIE_1.5.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: granulator
 Version: 1.9.0
 Depends: R (>= 4.1)
@@ -16189,6 +17373,17 @@ License: GPL-2
 MD5sum: 0afefae29833f863995c75790359aed8
 NeedsCompilation: no
 File: GraphPAC_1.43.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: grasp2db
+Version: 1.1.0
+Depends: RSQLite, dplyr, dbplyr
+Imports: methods, utils, stats, GenomeInfoDb, AnnotationHub, digest
+Suggests: gwascat, knitr
+Enhances: AnnotationHubData
+License: Artistic-2.0 + file LICENSE
+MD5sum: 5f53633457c7abbbb5f75cc89a1ce032
+NeedsCompilation: no
+File: grasp2db_1.1.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: gRbase
 Version: 1.8.9
@@ -16377,6 +17572,14 @@ MD5sum: 508a511221dc73ce14af2593db2a9fc9
 NeedsCompilation: no
 File: GSAR_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: GSBenchMark
+Version: 1.21.0
+Depends: R (>= 2.13.1)
+License: GPL-2
+MD5sum: 75e005153cf19163a8e478ca65e81750
+NeedsCompilation: no
+File: GSBenchMark_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: GSCA
 Version: 2.31.0
 Depends: shiny, sp, gplots, ggplot2, reshape2, RColorBrewer, rhdf5,
@@ -16479,6 +17682,16 @@ License: Artistic-2.0
 MD5sum: af751d767e8aea5213fd1f3319cd6a91
 NeedsCompilation: no
 File: gson_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: GSReg
+Version: 1.35.0
+Depends: R (>= 2.13.1), Homo.sapiens, org.Hs.eg.db, GenomicFeatures,
+        AnnotationDbi
+Suggests: GenomicRanges, GSBenchMark
+License: GPL-2
+MD5sum: 41398847a9efa8a23643f918d80fae9a
+NeedsCompilation: yes
+File: GSReg_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: GSRI
 Version: 2.49.0
@@ -16604,6 +17817,22 @@ MD5sum: e893a7cc4cb8c933494e6582b3facbf1
 NeedsCompilation: no
 File: Guerry_1.8.1_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: GUIDEseq
+Version: 1.31.0
+Depends: R (>= 3.5.0), GenomicRanges, BiocGenerics
+Imports: Biostrings, CRISPRseek, ChIPpeakAnno, data.table, matrixStats,
+        BSgenome, parallel, IRanges (>= 2.5.5), S4Vectors (>= 0.9.6),
+        stringr, multtest, GenomicAlignments (>= 1.7.3), GenomeInfoDb,
+        Rsamtools, hash, limma,dplyr, GenomicFeatures, rio, tidyr,
+        tools, methods, purrr, ggplot2, openxlsx, patchwork, rlang
+Suggests: knitr, RUnit, BiocStyle, BSgenome.Hsapiens.UCSC.hg19,
+        BSgenome.Hsapiens.UCSC.hg38, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        org.Hs.eg.db, testthat (>= 3.0.0)
+License: GPL (>= 2)
+MD5sum: 849f33e88f79ab2950465725af72a53b
+NeedsCompilation: no
+File: GUIDEseq_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: Guitar
 Version: 2.17.0
 Depends: GenomicFeatures, rtracklayer,AnnotationDbi, GenomicRanges,
@@ -16641,7 +17870,7 @@ Imports: XVector (>= 0.5.7), rtracklayer (>= 1.25.13), lattice,
 Suggests: BSgenome.Hsapiens.UCSC.hg19, xml2, BiocStyle, knitr,
         rmarkdown, testthat
 License: Artistic-2.0
-MD5sum: 630901276b9ac040fd6d9ca4fb0cbe24
+MD5sum: e3f29f0897766db2e8810bfd49f39ccd
 NeedsCompilation: no
 File: Gviz_1.45.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -16668,7 +17897,7 @@ Suggests: DO.db, DT, knitr, RBGL, testthat, rmarkdown, dplyr, Gviz,
         TxDb.Hsapiens.UCSC.hg19.knownGene, org.Hs.eg.db, BiocStyle
 Enhances: SNPlocs.Hsapiens.dbSNP144.GRCh37
 License: Artistic-2.0
-MD5sum: 228da772b5a0f980cdd217669bf9cd2c
+MD5sum: 0ac890e308daad9e8b8a3e25cddd1f25
 NeedsCompilation: no
 File: gwascat_2.33.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -16865,6 +18094,28 @@ MD5sum: 1b38154b38d86afcfc6ef48461d9f5eb
 NeedsCompilation: no
 File: HarmanData_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: harmonicmeanp
+Version: 3.0
+Depends: FMStable
+Suggests: knitr, ape, rmarkdown
+License: GPL-3
+MD5sum: 04710037d67a0b5c892c4a3a6a7b316c
+NeedsCompilation: no
+File: harmonicmeanp_3.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: harmony
+Version: 0.1.1
+Depends: R(>= 3.4.0), Rcpp
+Imports: dplyr, cowplot, tidyr, ggplot2, irlba, Matrix, methods,
+        tibble, rlang
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
+Suggests: SingleCellExperiment, Seurat (>= 4.1.1), testthat, knitr,
+        rmarkdown
+License: GPL-3
+MD5sum: a929c89a1de2be2b729e1271ce877474
+NeedsCompilation: yes
+File: harmony_0.1.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: harrypotter
 Version: 2.1.1
 Depends: R (>= 2.10)
@@ -17024,6 +18275,15 @@ License: Artistic-2.0
 MD5sum: 8e442fcaa1b947de0c79581cc91164b9
 NeedsCompilation: no
 File: healthyFlowData_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: heatmap3
+Version: 1.1.9
+Imports: fastcluster
+Suggests: knitr
+License: GPL (>= 2)
+MD5sum: f6c65f3e80c60809c38a0d495296a782
+NeedsCompilation: no
+File: heatmap3_1.1.9_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: heatmaply
 Version: 1.4.2
@@ -17412,6 +18672,21 @@ License: GPL-3
 MD5sum: d1f7b533e80f53999d745c06e328ad3c
 NeedsCompilation: no
 File: HiCDataLymphoblast_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: HiCDCPlus
+Version: 1.9.0
+Imports:
+        Rcpp,InteractionSet,GenomicInteractions,bbmle,pscl,BSgenome,data.table,dplyr,tidyr,GenomeInfoDb,rlang,splines,MASS,GenomicRanges,IRanges,tibble,R.utils,Biostrings,rtracklayer,methods,S4Vectors
+LinkingTo: Rcpp
+Suggests: BSgenome.Mmusculus.UCSC.mm9, BSgenome.Mmusculus.UCSC.mm10,
+        BSgenome.Hsapiens.UCSC.hg19, BSgenome.Hsapiens.UCSC.hg38,
+        RUnit, BiocGenerics, knitr, rmarkdown, HiTC, DESeq2, Matrix,
+        BiocFileCache, rappdirs
+Enhances: parallel
+License: GPL-3
+MD5sum: 6e2c6ca0986c9386511d60279261fb4c
+NeedsCompilation: yes
+File: HiCDCPlus_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: HiCDOC
 Version: 1.3.0
@@ -18133,9 +19408,20 @@ Imports: stats, utils, methods, graphics, grDevices, ggplot2,
         TxDb.Dmelanogaster.UCSC.dm6.ensGene
 Suggests: knitr, rmarkdown, Rsubread (>= 1.29.0), testthat
 License: GPL-3 + file LICENSE
-MD5sum: 099d1af2d7bc2660b8c0c97aa158d5bd
+MD5sum: 3dd27e12ede12460a6f6426547e88e3b
 NeedsCompilation: no
 File: icetea_1.19.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: iCheck
+Version: 1.31.0
+Depends: R (>= 3.2.0), Biobase, lumi, gplots
+Imports: stats, graphics, preprocessCore, grDevices, randomForest,
+        affy, limma, parallel, GeneSelectMMD, rgl, MASS, lmtest,
+        scatterplot3d, utils
+License: GPL (>= 2)
+MD5sum: 51d290f223578cf6f4757bc6bacab99d
+NeedsCompilation: no
+File: iCheck_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: iChip
 Version: 1.55.0
@@ -18195,6 +19481,23 @@ License: GPL (>= 2)
 MD5sum: add50fe384aa47239738362ac4bdc351
 NeedsCompilation: yes
 File: ICSNP_1.1-1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ideal
+Version: 1.25.1
+Depends: topGO
+Imports: DESeq2, SummarizedExperiment, GenomicRanges, IRanges,
+        S4Vectors, ggplot2 (>= 2.0.0), heatmaply, plotly, pheatmap,
+        pcaExplorer, IHW, gplots, UpSetR, goseq, stringr, dplyr, limma,
+        GOstats, GO.db, AnnotationDbi, shiny (>= 0.12.0),
+        shinydashboard, shinyBS, DT, rentrez, rintrojs, rlang, ggrepel,
+        knitr, rmarkdown, shinyAce, BiocParallel, grDevices, base64enc,
+        methods
+Suggests: testthat, BiocStyle, markdown, airway, org.Hs.eg.db,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, DEFormats, edgeR
+License: MIT + file LICENSE
+MD5sum: d5b933ce0225f9e60556682187eda5d9
+NeedsCompilation: no
+File: ideal_1.25.1_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: IdeoViz
 Version: 1.37.0
@@ -18339,7 +19642,7 @@ Imports: methods, BiocGenerics, httpuv, utils, rtracklayer,
         VariantAnnotation, RColorBrewer, httr
 Suggests: RUnit, BiocStyle, knitr, rmarkdown, MotifDb, seqLogo
 License: MIT + file LICENSE
-MD5sum: c05994883c2e72d084f30dd9602c1e10
+MD5sum: 0cde5f7336a3fa27f04352623e64dad6
 NeedsCompilation: no
 File: igvR_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -18613,6 +19916,21 @@ MD5sum: c844fb45118704bfd464a1ec4aa2cc87
 NeedsCompilation: no
 File: ineq_0.2-13_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: iNETgrate
+Version: 0.99.124
+Depends: R (>= 4.3.0), BiocStyle (>= 2.18.1)
+Imports: SummarizedExperiment, GenomicRanges (>= 1.24.1), stats, WGCNA,
+        grDevices, graphics, survival, igraph, Pigengene (>= 1.19.26),
+        Homo.sapiens, glmnet, caret, gplots, minfi, matrixStats, Rfast,
+        tidyr, tidyselect, utils
+Suggests: knitr, org.Hs.eg.db, org.Mm.eg.db,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19, AnnotationDbi,
+        sesameData, TCGAbiolinks (>= 2.29.4)
+License: GPL-3
+MD5sum: 5115b75ec2daa2d59cf040e30083cb8b
+NeedsCompilation: no
+File: iNETgrate_0.99.124_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: infercnv
 Version: 1.17.0
 Depends: R(>= 4.0)
@@ -18745,6 +20063,15 @@ License: GPL (>= 2)
 MD5sum: 9b4d1a0eb1ebabf0f3daaac253c2f7cb
 NeedsCompilation: no
 File: InTAD_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: intansv
+Version: 1.41.0
+Depends: R (>= 2.14.0), plyr, ggbio, GenomicRanges
+Imports: BiocGenerics, IRanges
+License: MIT + file LICENSE
+MD5sum: 6450d853fcd9a9c90a8e8eb354c30f91
+NeedsCompilation: no
+File: intansv_1.41.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: interacCircos
 Version: 1.11.0
@@ -18972,6 +20299,18 @@ License: Artistic-2.0
 MD5sum: 7cd5f1ce8a8772942f2c11f948dd881e
 NeedsCompilation: no
 File: ipdDb_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: IPO
+Version: 1.27.0
+Depends: xcms (>= 1.50.0), rsm, CAMERA, grDevices, graphics, stats,
+        utils
+Imports: BiocParallel
+Suggests: RUnit, BiocGenerics, msdata, mtbls2, faahKO, knitr
+Enhances: parallel
+License: GPL (>= 2) + file LICENSE
+MD5sum: d7c8b203eab813fd849b72a399f98592
+NeedsCompilation: no
+File: IPO_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: ipred
 Version: 0.9-14
@@ -19246,6 +20585,26 @@ MD5sum: 508d08b228499f419413fdd2242ab739
 NeedsCompilation: no
 File: isomiRs_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: isotree
+Version: 0.5.20
+Imports: Rcpp (>= 1.0.1)
+LinkingTo: Rcpp
+Suggests: MASS, outliertree, jsonlite (>= 1.7.3), mlbench, MLmetrics,
+        kernlab, knitr, rmarkdown, kableExtra
+Enhances: Matrix, SparseM
+License: BSD_2_clause + file LICENSE
+MD5sum: bd739f5998247759cff5a2c1783fea49
+NeedsCompilation: yes
+File: isotree_0.5.20_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: isva
+Version: 1.9
+Depends: qvalue, fastICA, JADE
+License: GPL-2
+MD5sum: 68246b0906659addcccb26c09bfa8139
+NeedsCompilation: no
+File: isva_1.9_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: ITALICS
 Version: 2.61.0
 Depends: R (>= 2.0.0), GLAD, ITALICSData, oligo, affxparser,
@@ -19364,6 +20723,15 @@ License: GPL (>= 2)
 MD5sum: b6d90c8aeeffcd9763bb48598155fddf
 NeedsCompilation: no
 File: IWTomics_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: JADE
+Version: 2.0-3
+Imports: clue, graphics
+Suggests: ICS, ICSNP
+License: GPL (>= 2)
+MD5sum: 11b44dfaa3a6045ad0199bfef3636e57
+NeedsCompilation: yes
+File: JADE_2.0-3_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: janeaustenr
 Version: 1.0.0
@@ -19505,7 +20873,7 @@ Suggests: BiocStyle, knitr, rmarkdown, markdown, testthat, magrittr,
         TxDb.Mmusculus.UCSC.mm10.knownGene, org.Hs.eg.db, org.Mm.eg.db,
         pasillaBamSubset
 License: Artistic-2.0
-MD5sum: 40388ab9dc0b391054659ae8725a7b4d
+MD5sum: 77062ca7ea4f5369a6044f57f2da43e3
 NeedsCompilation: no
 File: karyoploteR_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -19525,7 +20893,7 @@ Imports: BiocParallel (>= 1.26.2), changepoint (>= 2.2.3),
 Suggests: scales (>= 1.2.0), knitr (>= 1.37), rmarkdown (>= 2.13),
         testthat (>= 3.0.0), BiocStyle (>= 2.26.0)
 License: GPL-3 + file LICENSE
-MD5sum: 34376ebec06661b4bac6ae707e311f7a
+MD5sum: 3176105cf83f0bfc155cd5f6f2287111
 NeedsCompilation: no
 File: katdetectr_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -20389,9 +21757,19 @@ Imports: VariantAnnotation, MatrixGenerics, SummarizedExperiment,
         data.table, stringr, httr, utils
 Suggests: BiocStyle, RefManageR, rmarkdown, knitr, testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: d7a663f53c88771a5d0c9c7c0dbd0de4
+MD5sum: 3b1039fd3c191f9f2e7dade51af44b0c
 NeedsCompilation: no
 File: lineagespot_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: linkcomm
+Version: 1.0-14
+Depends: igraph, RColorBrewer
+Imports: dynamicTreeCut, grid, utils
+Suggests: fastcluster, R.rsp
+License: GPL (>= 2)
+MD5sum: a5bdade9b5aba6bcb30fcf6fb2fbb6fd
+NeedsCompilation: yes
+File: linkcomm_1.0-14_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: LinkedMatrix
 Version: 1.4.0
@@ -20600,6 +21978,16 @@ License: GPL-2 | GPL-3
 MD5sum: 6e4d3020d619a8732de59012cc9a7190
 NeedsCompilation: yes
 File: lmtest_0.9-40_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: LOBSTAHS
+Version: 1.27.0
+Depends: R (>= 3.4), xcms, CAMERA, methods
+Imports: utils
+Suggests: PtH2O2lipids, knitr, rmarkdown
+License: GPL (>= 3) + file LICENSE
+MD5sum: 3b91489a167c11ba8bec57dd3bccbba4
+NeedsCompilation: no
+File: LOBSTAHS_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: lobstr
 Version: 1.1.2
@@ -20905,6 +22293,15 @@ MD5sum: c01a560747b9df31db6095cdb877fe2d
 NeedsCompilation: no
 File: LSD_4.1-0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: lsr
+Version: 0.5.2
+Imports: graphics, grDevices, methods, stats
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 7566b97817226f14d9f85f2375810891
+NeedsCompilation: no
+File: lsr_0.5.2_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: lubridate
 Version: 1.9.2
 Depends: methods, R (>= 3.2)
@@ -20926,9 +22323,38 @@ Imports: affy (>= 1.23.4), methylumi (>= 2.3.2), GenomicFeatures,
 Suggests: beadarray, limma, vsn, lumiBarnes, lumiHumanAll.db,
         lumiHumanIDMapping, genefilter, RColorBrewer
 License: LGPL (>= 2)
-MD5sum: 928029ff91cd2e1bfa08228d10910c4b
+MD5sum: 4e10d63a65604f9d1423591134b68ef0
 NeedsCompilation: no
 File: lumi_2.53.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: lumiBarnes
+Version: 1.41.0
+Depends: R (>= 2.0), Biobase (>= 2.5.5), lumi (>= 1.1.0)
+License: LGPL
+MD5sum: 9ed53246978d5369f99dc96dd3d5c092
+NeedsCompilation: no
+File: lumiBarnes_1.41.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: lumiHumanAll.db
+Version: 1.22.0
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.23.25),
+        org.Hs.eg.db (>= 2.10.1)
+Imports: methods, AnnotationDbi
+Suggests: annotate, RUnit
+License: Artistic-2.0
+MD5sum: 5b6da05da5a87738d155431d27b56ffd
+NeedsCompilation: no
+File: lumiHumanAll.db_1.22.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: lumiHumanIDMapping
+Version: 1.10.1
+Depends: R (>= 2.7.0), lumi (>= 1.7.14), methods, AnnotationDbi (>=
+        1.13.13)
+Imports: methods, AnnotationDbi, DBI
+License: Artistic-2.0
+MD5sum: 8d6f1d2c29b33d898d55cb1099a5eb6c
+NeedsCompilation: no
+File: lumiHumanIDMapping_1.10.1_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: LungCancerACvsSCCGEO
 Version: 1.37.0
@@ -20942,7 +22368,7 @@ Package: LungCancerLines
 Version: 0.39.0
 Imports: Rsamtools
 License: Artistic-2.0
-MD5sum: 97107f5e909be2d87c8ce8b9ab5f02a3
+MD5sum: 297008303d8f2948b39f490b31273daa
 NeedsCompilation: no
 File: LungCancerLines_0.39.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -21128,6 +22554,20 @@ MD5sum: a044f26ab9bae32a1650ddcc74f1de28
 NeedsCompilation: no
 File: made4_1.75.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: MADSEQ
+Version: 1.27.0
+Depends: R (>= 3.5.0), rjags (>= 4.6)
+Imports: VGAM, coda, BSgenome, BSgenome.Hsapiens.UCSC.hg19, S4Vectors,
+        methods, preprocessCore, GenomicAlignments, Rsamtools,
+        Biostrings, GenomicRanges, IRanges, VariantAnnotation,
+        SummarizedExperiment, GenomeInfoDb, rtracklayer, graphics,
+        stats, grDevices, utils, zlibbioc, vcfR
+Suggests: knitr
+License: GPL (>= 2)
+MD5sum: c94531d7b5a1945e633c314195413bd7
+NeedsCompilation: no
+File: MADSEQ_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: MafDb.1Kgenomes.phase1.hs37d5
 Version: 3.10.0
 Depends: R (>= 3.5.0), GenomicScores (>= 1.9.6)
@@ -21233,6 +22673,18 @@ License: GPL-3
 MD5sum: ec17aae703ae44cfb7baacf4bd6eaea4
 NeedsCompilation: no
 File: MAI_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: MAIT
+Version: 1.35.0
+Depends: R (>= 2.10), CAMERA, Rcpp, pls
+Imports:
+        gplots,e1071,class,MASS,plsgenomics,agricolae,xcms,methods,caret
+Suggests: faahKO
+Enhances: rgl
+License: GPL-2
+MD5sum: fbe4f5de81109a62df5a148e5ef96ae5
+NeedsCompilation: no
+File: MAIT_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: makecdfenv
 Version: 1.77.0
@@ -21361,6 +22813,16 @@ MD5sum: 89a69b39550d21d3237deecce9de382a
 NeedsCompilation: no
 File: maqcExpression4plex_1.45.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: MAQCsubset
+Version: 1.39.0
+Depends: R (>= 2.10.0), affy (>= 1.23.4), Biobase (>= 2.5.5), lumi,
+        methods
+Suggests: genefilter, codelink
+License: Artistic-2.0
+MD5sum: 87a3fe5dba113ea8ff261a97bc75c812
+NeedsCompilation: no
+File: MAQCsubset_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: marginaleffects
 Version: 0.13.0
 Depends: R (>= 3.6.0)
@@ -21459,6 +22921,17 @@ License: GPL-3
 MD5sum: 113493163dc2f62ad78f512dcb2c1446
 NeedsCompilation: yes
 File: martini_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: maser
+Version: 1.19.0
+Depends: R (>= 3.5.0), ggplot2, GenomicRanges
+Imports: dplyr, rtracklayer, reshape2, Gviz, DT, GenomeInfoDb, stats,
+        utils, IRanges, methods, BiocGenerics, parallel, data.table
+Suggests: testthat, knitr, rmarkdown, BiocStyle, AnnotationHub
+License: MIT + file LICENSE
+MD5sum: 2c5d973747ed7fa13fd291a3991ff8e2
+NeedsCompilation: no
+File: maser_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: maSigPro
 Version: 1.73.0
@@ -21998,6 +23471,29 @@ MD5sum: 85a62ed6f1651de2e8c9008fea1baca0
 NeedsCompilation: yes
 File: mco_1.15.6_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: mCSEA
+Version: 1.21.0
+Depends: R (>= 3.5), mCSEAdata, Homo.sapiens
+Imports: biomaRt, fgsea, GenomicFeatures, GenomicRanges, ggplot2,
+        graphics, grDevices, Gviz, IRanges, limma, methods, parallel,
+        S4Vectors, stats, SummarizedExperiment, utils
+Suggests: Biobase, BiocGenerics, BiocStyle, FlowSorted.Blood.450k,
+        knitr, leukemiasEset, minfi, minfiData, rmarkdown, RUnit
+License: GPL-2
+MD5sum: 63df5b37d395cdd2c92dbf77f8c67a07
+NeedsCompilation: no
+File: mCSEA_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: mCSEAdata
+Version: 1.21.2
+Depends: R (>= 3.5)
+Imports: GenomicRanges
+Suggests: BiocStyle, knitr, rmarkdown
+License: GPL-2
+MD5sum: 58452c41173e3034df095647b0f5d321
+NeedsCompilation: no
+File: mCSEAdata_1.21.2_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: mda
 Version: 0.5-4
 Depends: R (>= 3.5.0), stats, class
@@ -22046,6 +23542,21 @@ MD5sum: 15295e18961cdce8982c39c25f86a29e
 NeedsCompilation: no
 File: MDTS_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: MEAL
+Version: 1.31.0
+Depends: R (>= 3.6.0), Biobase, MultiDataSet
+Imports: GenomicRanges, limma, vegan, BiocGenerics, minfi, IRanges,
+        S4Vectors, methods, parallel, ggplot2 (>= 2.0.0), permute,
+        Gviz, missMethyl, isva, SummarizedExperiment, SmartSVA,
+        graphics, stats, utils, matrixStats
+Suggests: testthat, IlluminaHumanMethylationEPICanno.ilm10b2.hg19,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19, knitr, minfiData,
+        BiocStyle, rmarkdown, brgedata
+License: Artistic-2.0
+MD5sum: 9da123537417187860fbfcb74d1e8d54
+NeedsCompilation: no
+File: MEAL_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: MeasurementError.cor
 Version: 1.73.0
 License: LGPL
@@ -22061,6 +23572,18 @@ License: GPL-3
 MD5sum: 191384e408577523789d2cc629931368
 NeedsCompilation: no
 File: measures_0.3_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: MEAT
+Version: 1.13.0
+Depends: R (>= 4.0)
+Imports: impute (>= 1.58), dynamicTreeCut (>= 1.63), glmnet (>= 2.0),
+        grDevices, graphics, stats, utils, stringr, tibble, RPMM (>=
+        1.25), minfi (>= 1.30), dplyr, SummarizedExperiment, wateRmelon
+Suggests: knitr, markdown, rmarkdown, BiocStyle, testthat (>= 2.1.0)
+License: MIT + file LICENSE
+MD5sum: a1b75b2a3d6103f60c76fdb0337e9e6e
+NeedsCompilation: no
+File: MEAT_1.13.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: MEB
 Version: 1.15.0
@@ -22229,6 +23752,17 @@ MD5sum: 311defa9ba74296e67f45656ff7fd53d
 NeedsCompilation: no
 File: MeSHDbi_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: meshes
+Version: 1.27.0
+Depends: R (>= 4.1.0)
+Imports: AnnotationDbi, DOSE, enrichplot, GOSemSim, methods, utils,
+        AnnotationHub, MeSHDbi, yulab.utils
+Suggests: knitr, rmarkdown, prettydoc
+License: Artistic-2.0
+MD5sum: a3be9a6e1fc763e10b27f7d958b8e577
+NeedsCompilation: no
+File: meshes_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: meshr
 Version: 2.7.0
 Depends: R (>= 4.1.0)
@@ -22375,6 +23909,18 @@ MD5sum: 8c0b6684f6aaeac0102715406d61a70c
 NeedsCompilation: no
 File: metabomxtr_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: MetaboSignal
+Version: 1.31.1
+Depends: R(>= 3.3)
+Imports: KEGGgraph, hpar, igraph, RCurl, KEGGREST, EnsDb.Hsapiens.v75,
+        stats, graphics, utils, org.Hs.eg.db, biomaRt, AnnotationDbi,
+        MWASTools, mygene
+Suggests: RUnit, BiocGenerics, knitr, BiocStyle, rmarkdown
+License: GPL-3
+MD5sum: c6643dac93cd3c596935e376ddf6e238
+NeedsCompilation: no
+File: MetaboSignal_1.31.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: metaCCA
 Version: 1.29.0
 Suggests: knitr
@@ -22472,14 +24018,14 @@ Imports: Matrix, tools, robustbase, BiocGenerics, graphics, stats,
         utils
 Suggests: metaMSdata, RUnit
 License: GPL (>= 2)
-MD5sum: 902a77c5747f29ad18b9539defc7f394
+MD5sum: 94b92ff6c66d5ffaece933b74acf205c
 NeedsCompilation: no
 File: metaMS_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: metaMSdata
 Version: 1.37.0
 License: GPL (>= 2)
-MD5sum: 13910f051db97913ce581d66d633d104
+MD5sum: 58209ca5fe44e8723073dee08f23bcbc
 NeedsCompilation: no
 File: metaMSdata_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -22629,6 +24175,80 @@ MD5sum: 303a98cb64a4a2884620fbb95c9fe9e6
 NeedsCompilation: no
 File: MethTargetedNGS_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: MethylAid
+Version: 1.35.0
+Depends: R (>= 3.4)
+Imports: Biobase, BiocParallel, BiocGenerics, ggplot2, grid, gridBase,
+        grDevices, graphics, hexbin, matrixStats, minfi (>= 1.22.0),
+        methods, RColorBrewer, shiny, stats, SummarizedExperiment,
+        utils
+Suggests: BiocStyle, knitr, MethylAidData, minfiData, minfiDataEPIC,
+        RUnit
+License: GPL (>= 2)
+MD5sum: f4499d4bb78f3c4a34051881fe61ee5e
+NeedsCompilation: no
+File: MethylAid_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: MethylAidData
+Version: 1.33.0
+Depends: MethylAid, R (>= 3.2)
+Suggests: BiocParallel, BiocStyle, knitr, minfiData, minfiDataEPIC
+License: GPL (>= 2)
+MD5sum: 0fd3d637238a5870b696f8e3e33d1f4a
+NeedsCompilation: no
+File: MethylAidData_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: methylCC
+Version: 1.15.0
+Depends: R (>= 3.6), FlowSorted.Blood.450k
+Imports: Biobase, GenomicRanges, IRanges, S4Vectors, dplyr, magrittr,
+        minfi, bsseq, quadprog, plyranges, stats, utils, bumphunter,
+        genefilter, methods, IlluminaHumanMethylation450kmanifest,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19
+Suggests: rmarkdown, knitr, testthat (>= 2.1.0), BiocGenerics,
+        BiocStyle, tidyr, ggplot2
+License: GPL-3
+MD5sum: b854786c1cd0ff8afe1262d59634a137
+NeedsCompilation: no
+File: methylCC_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: methylclock
+Version: 1.7.0
+Depends: R (>= 4.1.0), methylclockData, devtools, quadprog
+Imports: Rcpp (>= 1.0.6), ExperimentHub, dplyr, impute,
+        PerformanceAnalytics, Biobase, ggpmisc, tidyverse, ggplot2,
+        ggpubr, minfi, tibble, RPMM, stats, graphics, tidyr, gridExtra,
+        preprocessCore, dynamicTreeCut, planet
+LinkingTo: Rcpp
+Suggests: BiocStyle, knitr, GEOquery, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 9df7c33856cfa2a1e37bebde5d1637c1
+NeedsCompilation: yes
+File: methylclock_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: methylclockData
+Version: 1.9.1
+Imports: ExperimentHubData, ExperimentHub, utils
+Suggests: knitr, BiocStyle, rmarkdown
+License: MIT + file LICENSE
+MD5sum: e5f63da18c5e4afa5bed453d534ffc0c
+NeedsCompilation: no
+File: methylclockData_1.9.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: methylGSA
+Version: 1.19.0
+Depends: R (>= 3.5)
+Imports: RobustRankAggreg, ggplot2, stringr, stats, clusterProfiler,
+        missMethyl, org.Hs.eg.db, reactome.db, BiocParallel, GO.db,
+        AnnotationDbi, shiny,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19,
+        IlluminaHumanMethylationEPICanno.ilm10b4.hg19
+Suggests: knitr, rmarkdown, testthat, enrichplot
+License: GPL-2
+MD5sum: 7e5c542c9fda24d5718d6afedf0dca55
+NeedsCompilation: no
+File: methylGSA_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: methylInheritance
 Version: 1.25.0
 Depends: R (>= 3.5)
@@ -22675,6 +24295,20 @@ MD5sum: aa05dc17f2c8c7863bb83e01b016b25b
 NeedsCompilation: yes
 File: methylMnM_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: methylPipe
+Version: 1.35.0
+Depends: R (>= 3.5.0), methods, grDevices, graphics, stats, utils,
+        GenomicRanges, SummarizedExperiment (>= 0.2.0), Rsamtools
+Imports: marray, gplots, IRanges, BiocGenerics, Gviz,
+        GenomicAlignments, Biostrings, parallel, data.table,
+        GenomeInfoDb, S4Vectors
+Suggests: BSgenome.Hsapiens.UCSC.hg18,
+        TxDb.Hsapiens.UCSC.hg18.knownGene, knitr, MethylSeekR
+License: GPL (>= 2)
+MD5sum: 9caa2e42e2eca99e83d799d03fc83c8b
+NeedsCompilation: yes
+File: methylPipe_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: methylscaper
 Version: 1.9.4
 Depends: R (>= 4.1.0)
@@ -22714,7 +24348,7 @@ Suggests: lumi, lattice, limma, xtable, SQN, MASS, matrixStats,
         IlluminaHumanMethylation450kanno.ilmn12.hg19,
         FDb.InfiniumMethylation.hg18 (>= 2.2.0), Homo.sapiens, knitr
 License: GPL-2
-MD5sum: b005e8c6d17bcc8227cf86a1b00d42ad
+MD5sum: 366753681342d34cf4054c7b52414cb6
 NeedsCompilation: no
 File: methylumi_2.47.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -23113,6 +24747,22 @@ MD5sum: 3e3af453dbc811e9149f818c01c6a600
 NeedsCompilation: yes
 File: mina_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: MineICA
+Version: 1.41.0
+Depends: R (>= 2.10), methods, BiocGenerics (>= 0.13.8), Biobase, plyr,
+        ggplot2, scales, foreach, xtable, biomaRt, gtools, GOstats,
+        cluster, marray, mclust, RColorBrewer, colorspace, igraph,
+        Rgraphviz, graph, annotate, Hmisc, fastICA, JADE
+Imports: AnnotationDbi, lumi, fpc, lumiHumanAll.db
+Suggests: biomaRt, GOstats, cluster, hgu133a.db, mclust, igraph,
+        breastCancerMAINZ, breastCancerTRANSBIG, breastCancerUPP,
+        breastCancerVDX, future, future.apply
+Enhances: doMC
+License: GPL-2
+MD5sum: aa7d129d6f636909344d7a62ddf53b84
+NeedsCompilation: no
+File: MineICA_1.41.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: minet
 Version: 3.59.0
 Imports: infotheo
@@ -23161,6 +24811,21 @@ MD5sum: cdf122ecfb58f1a408f9ae3236c21075
 NeedsCompilation: no
 File: minfiDataEPIC_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: MinimumDistance
+Version: 1.45.0
+Depends: R (>= 3.5.0), VanillaICE (>= 1.47.1)
+Imports: methods, BiocGenerics, MatrixGenerics, Biobase, S4Vectors (>=
+        0.23.18), IRanges, GenomeInfoDb, GenomicRanges (>= 1.17.16),
+        SummarizedExperiment (>= 1.15.4), oligoClasses, DNAcopy, ff,
+        foreach, matrixStats, lattice, data.table, grid, stats, utils
+Suggests: human610quadv1bCrlmm (>= 1.0.3), BSgenome.Hsapiens.UCSC.hg18,
+        BSgenome.Hsapiens.UCSC.hg19, RUnit
+Enhances: snow, doSNOW
+License: Artistic-2.0
+MD5sum: 06df80834ef711cd441605e4a8cb8f7c
+NeedsCompilation: no
+File: MinimumDistance_1.45.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: minionSummaryData
 Version: 1.31.0
 Depends: R (>= 3.2.0)
@@ -23205,6 +24870,18 @@ License: BSD_3_clause + file LICENSE
 MD5sum: 35eeac8f5a2d8fa9acbf9487b8c1dc1e
 NeedsCompilation: no
 File: miQC_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: MIRA
+Version: 1.23.0
+Depends: R (>= 3.5)
+Imports: BiocGenerics, S4Vectors, IRanges, GenomicRanges, data.table,
+        ggplot2, Biobase, stats, bsseq, methods
+Suggests: knitr, parallel, testthat, BiocStyle, rmarkdown,
+        AnnotationHub, LOLA
+License: GPL-3
+MD5sum: 0a39cb5deea277239cb547265c8d5831
+NeedsCompilation: no
+File: MIRA_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: MiRaGE
 Version: 1.43.0
@@ -23385,6 +25062,22 @@ MD5sum: 784cff44368a82e5eee147e7fb654174
 NeedsCompilation: no
 File: missMDA_1.18_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: missMethyl
+Version: 1.35.0
+Depends: R (>= 3.6.0), IlluminaHumanMethylation450kanno.ilmn12.hg19,
+        IlluminaHumanMethylationEPICanno.ilm10b4.hg19
+Imports: AnnotationDbi, BiasedUrn, Biobase, BiocGenerics,
+        GenomicRanges, GO.db, IlluminaHumanMethylation450kmanifest,
+        IlluminaHumanMethylationEPICmanifest, IRanges, limma, methods,
+        methylumi, minfi, org.Hs.eg.db, ruv, S4Vectors, statmod,
+        stringr, SummarizedExperiment
+Suggests: BiocStyle, edgeR, knitr, minfiData, rmarkdown,
+        tweeDEseqCountData, DMRcate, ExperimentHub
+License: GPL-2
+MD5sum: f7b15e3af12ee63bf06e3ebee4721aa9
+NeedsCompilation: no
+File: missMethyl_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: missRows
 Version: 1.21.0
 Depends: R (>= 3.5), methods, ggplot2, grDevices, MultiAssayExperiment
@@ -23432,6 +25125,19 @@ MD5sum: 4afbde5ac4004d348c9f9d7a526471a1
 NeedsCompilation: no
 File: mitml_0.4-5_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: mitoClone2
+Version: 1.7.0
+Depends: R (>= 4.1.0)
+Imports: reshape2, GenomicRanges, pheatmap, deepSNV, grDevices,
+        graphics, stats, utils, S4Vectors, Rhtslib, parallel, methods,
+        ggplot2
+LinkingTo: Rhtslib (>= 1.13.1)
+Suggests: knitr, rmarkdown, Biostrings, testthat
+License: GPL-3
+MD5sum: d33947adc23f23a01058a506f3775c6f
+NeedsCompilation: yes
+File: mitoClone2_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: mitools
 Version: 2.4
 Imports: DBI, methods, stats
@@ -23440,6 +25146,14 @@ License: GPL-2
 MD5sum: 6f3004cc438235b184515cb5fe82b0f6
 NeedsCompilation: no
 File: mitools_2.4_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: mixsmsn
+Version: 1.1-10
+Depends: R (>= 1.9.0), mvtnorm (>= 0.9-9)
+License: GPL (>= 2.0)
+MD5sum: 67f344f5c897884ad6eeef784bf88740
+NeedsCompilation: no
+File: mixsmsn_1.1-10_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: mixsqp
 Version: 0.3-48
@@ -24058,6 +25772,21 @@ MD5sum: e0af3d860b3b80b32cfe0020dbc68dba
 NeedsCompilation: no
 File: Motif2Site_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: motifbreakR
+Version: 2.15.5
+Depends: R (>= 4.3.0), grid, MotifDb
+Imports: methods, grDevices, stringr, parallel, BiocGenerics, S4Vectors
+        (>= 0.9.25), IRanges, GenomeInfoDb, GenomicRanges, Biostrings,
+        BSgenome, rtracklayer, VariantAnnotation, BiocParallel,
+        motifStack, Gviz, matrixStats, TFMPvalue, SummarizedExperiment
+Suggests: BSgenome.Hsapiens.UCSC.hg19,
+        SNPlocs.Hsapiens.dbSNP155.GRCh37, knitr, rmarkdown,
+        BSgenome.Drerio.UCSC.danRer7, BiocStyle
+License: GPL-2
+MD5sum: 032df3e4e23b42aaf96e4dcb075474d3
+NeedsCompilation: no
+File: motifbreakR_2.15.5_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: motifcounter
 Version: 1.25.0
 Depends: R(>= 3.0)
@@ -24328,6 +26057,14 @@ MD5sum: f22066c8327b15cfc102d01fee045c00
 NeedsCompilation: yes
 File: MsCoreUtils_1.13.1_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: msd16s
+Version: 1.21.0
+Depends: R (>= 2.10), Biobase, metagenomeSeq,
+License: Artistic-2.0
+MD5sum: 7a62a37744ae768d4c617c1ac5f4f6aa
+NeedsCompilation: no
+File: msd16s_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: msdata
 Version: 0.41.0
 Depends: R (>= 3.5.0)
@@ -24369,6 +26106,19 @@ License: Artistic-2.0
 MD5sum: 31833e4f1a3fb7fd4562e7f2cc1e057d
 NeedsCompilation: no
 File: MsFeatures_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: msgbsR
+Version: 1.25.0
+Depends: R (>= 3.5.0), GenomicRanges, methods
+Imports: BSgenome, easyRNASeq, edgeR, GenomicAlignments,
+        GenomicFeatures, GenomeInfoDb, ggbio, ggplot2, IRanges,
+        parallel, plyr, Rsamtools, R.utils, stats,
+        SummarizedExperiment, S4Vectors, utils
+Suggests: roxygen2, BSgenome.Rnorvegicus.UCSC.rn6
+License: GPL-2
+MD5sum: 2296b5a21a47f68987ab7ad2867f0f0d
+NeedsCompilation: no
+File: msgbsR_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: msgps
 Version: 1.3.5
@@ -24766,6 +26516,23 @@ MD5sum: c75dcec72a744639fb7aea27905b5bcf
 NeedsCompilation: yes
 File: multicool_0.1-12_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: multicrispr
+Version: 1.11.1
+Depends: R (>= 4.0)
+Imports: assertive, BiocGenerics, Biostrings, BSgenome, CRISPRseek,
+        data.table, GenomeInfoDb, GenomicFeatures, GenomicRanges,
+        ggplot2, grid, karyoploteR, magrittr, methods, parallel,
+        plyranges, Rbowtie, reticulate, rtracklayer, stats, stringi,
+        tidyr, tidyselect, utils
+Suggests: AnnotationHub, BiocStyle, BSgenome.Hsapiens.UCSC.hg38,
+        BSgenome.Mmusculus.UCSC.mm10,
+        BSgenome.Scerevisiae.UCSC.sacCer1, ensembldb, IRanges, knitr,
+        magick, rmarkdown, testthat, TxDb.Mmusculus.UCSC.mm10.knownGene
+License: GPL-2
+MD5sum: 13281f75731195e44733759f9bdf6aad
+NeedsCompilation: no
+File: multicrispr_1.11.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: MultiDataSet
 Version: 1.29.0
 Depends: R (>= 4.1), Biobase
@@ -24908,6 +26675,17 @@ MD5sum: 8c5c0c1100dbb26cc2e79873f9be25ac
 NeedsCompilation: no
 File: munsell_0.5.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: Mus.musculus
+Version: 1.3.1
+Depends: R (>= 1.6), AnnotationDbi (>= 1.17.11), methods, OrganismDbi
+        (>= 1.11.39), GenomicFeatures, GO.db, org.Mm.eg.db,
+        TxDb.Mmusculus.UCSC.mm10.knownGene
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+MD5sum: 1cf1309736a7fff37fb219ea0a71c2b7
+NeedsCompilation: no
+File: Mus.musculus_1.3.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: muscData
 Version: 1.15.0
 Depends: R (>= 3.6), ExperimentHub, SingleCellExperiment
@@ -24928,6 +26706,30 @@ MD5sum: 1a273ec499ecdb4e20e56c6c435919de
 NeedsCompilation: yes
 File: muscle_3.43.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: musicatk
+Version: 1.11.0
+Depends: R (>= 4.0.0), NMF
+Imports: SummarizedExperiment, VariantAnnotation, Biostrings, base,
+        methods, magrittr, tibble, tidyr, gtools, gridExtra,
+        MCMCprecision, MASS, matrixTests, data.table, dplyr, rlang,
+        BSgenome, GenomeInfoDb, GenomicFeatures, GenomicRanges,
+        IRanges, S4Vectors, uwot, ggplot2, stringr,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, BSgenome.Hsapiens.UCSC.hg19,
+        BSgenome.Hsapiens.UCSC.hg38, BSgenome.Mmusculus.UCSC.mm9,
+        BSgenome.Mmusculus.UCSC.mm10, deconstructSigs, decompTumor2Sig,
+        topicmodels, ggrepel, plotly, utils, factoextra, cluster,
+        ComplexHeatmap, philentropy, maftools, shiny, stringi,
+        tidyverse, ggpubr
+Suggests: TCGAbiolinks, shinyBS, shinyalert, shinybusy, shinydashboard,
+        shinyjs, shinyjqui, sortable, testthat, BiocStyle, knitr,
+        rmarkdown, survival, XVector, qpdf, covr, shinyWidgets,
+        cowplot, withr
+License: LGPL-3
+MD5sum: bfe0be5a8254d8073378fbafaccf350c
+NeedsCompilation: no
+File: musicatk_1.11.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: MutationalPatterns
 Version: 3.11.0
 Depends: R (>= 4.2.0), GenomicRanges (>= 1.24.0), NMF (>= 0.20.6)
@@ -24944,7 +26746,7 @@ Suggests: BSgenome.Hsapiens.UCSC.hg19 (>= 1.4.0), BiocStyle (>= 2.0.3),
         (>= 1.6.0), GenomicFeatures, AnnotationDbi, testthat, knitr,
         rmarkdown
 License: MIT + file LICENSE
-MD5sum: 182f9b96c65a67bcca6f9c32edb87e9d
+MD5sum: 3b2f7dd4843adc36e4d4f7b173fc149d
 NeedsCompilation: no
 File: MutationalPatterns_3.11.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -24965,6 +26767,15 @@ License: LGPL
 MD5sum: 1540b4f18efa13dff8af79c0938a05c8
 NeedsCompilation: no
 File: MVCClass_1.75.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: mvoutData
+Version: 1.37.0
+Depends: R (>= 2.10.0), methods, Biobase (>= 2.5.5), affy (>= 1.23.4),
+        lumi
+License: Artistic-2.0
+MD5sum: 05c5381cf08b5d5c35292a254f43b334
+NeedsCompilation: no
+File: mvoutData_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: mvoutlier
 Version: 2.1.1
@@ -25014,7 +26825,7 @@ Depends: R (>= 3.2.1), VariantAnnotation
 Imports: httr, jsonlite, S4Vectors, Hmisc, plyr, magrittr, GenomeInfoDb
 Suggests: BiocStyle
 License: Artistic-2.0
-MD5sum: 58533ee5749525007c8b4d8aba7f02a9
+MD5sum: fbdb79de71abc09709d85aec2dbe97f0
 NeedsCompilation: no
 File: myvariant_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -25061,6 +26872,21 @@ MD5sum: 4e29240e87a67dff0a91d7ea52da25b9
 NeedsCompilation: no
 File: NADA_1.6-1.1_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: NADfinder
+Version: 1.25.0
+Depends: R (>= 3.5.0), BiocGenerics, IRanges, GenomicRanges, S4Vectors,
+        SummarizedExperiment
+Imports: graphics, methods, baseline, signal, GenomicAlignments,
+        GenomeInfoDb, rtracklayer, limma, trackViewer, stats, utils,
+        Rsamtools, metap, EmpiricalBrownsMethod,ATACseqQC, corrplot,
+        csaw
+Suggests: RUnit, BiocStyle, knitr, BSgenome.Mmusculus.UCSC.mm10,
+        testthat, BiocManager, rmarkdown
+License: GPL (>= 2)
+MD5sum: c54ae50ced76d5bd99b9447044cbdfb3
+NeedsCompilation: no
+File: NADfinder_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: naivebayes
 Version: 0.9.7
 Suggests: knitr, Matrix
@@ -25068,6 +26894,40 @@ License: GPL-2
 MD5sum: 343cd2c9c38a3654d1705d341ad2baa9
 NeedsCompilation: no
 File: naivebayes_0.9.7_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: naniar
+Version: 1.0.0
+Depends: R (>= 3.1.2)
+Imports: dplyr, ggplot2, purrr, tidyr, tibble (>= 2.0.0), norm,
+        magrittr, stats, visdat, rlang, forcats, viridis, glue, UpSetR,
+        cli, vctrs
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0), rpart, rpart.plot,
+        covr, gridExtra, wakefield, vdiffr, here, simputation,
+        imputeTS, Hmisc, spelling
+License: MIT + file LICENSE
+MD5sum: 49eb3177c5b6301aa818f5e269208490
+NeedsCompilation: no
+File: naniar_1.0.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: NanoMethViz
+Version: 2.7.0
+Depends: R (>= 4.0.0), methods, ggplot2 (>= 3.4.0)
+Imports: cpp11 (>= 0.2.5), readr, S4Vectors, SummarizedExperiment,
+        BiocSingular, bsseq, forcats, assertthat, AnnotationDbi, Rcpp,
+        dplyr, data.table, e1071, fs, GenomicRanges, ggrastr, glue,
+        graphics, limma (>= 3.44.0), patchwork, purrr, rlang, R.utils,
+        RSQLite, Rsamtools, scales (>= 1.2.0), scico, stats, stringr,
+        tibble, tidyr, utils, withr, zlibbioc
+LinkingTo: Rcpp
+Suggests: DSS, Mus.musculus (>= 1.3.1), Homo.sapiens (>= 1.3.1),
+        org.Hs.eg.db, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, org.Mm.eg.db,
+        TxDb.Mmusculus.UCSC.mm10.knownGene, knitr, rmarkdown,
+        rtracklayer, testthat (>= 3.0.0), covr
+License: Apache License (>= 2.0)
+MD5sum: fdee5e4f6aeaaa3dcd5b7fb171b5cd57
+NeedsCompilation: yes
+File: NanoMethViz_2.7.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: NanoporeRNASeq
 Version: 1.11.0
@@ -25451,6 +27311,20 @@ MD5sum: bbadaaf4b533f225edf3735b134bdc13
 NeedsCompilation: no
 File: networkD3_0.4_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: netZooR
+Version: 1.5.0
+Depends: R (>= 4.2.0), igraph, reticulate, pandaR, yarn, matrixcalc
+Imports: RCy3, viridisLite, STRINGdb, Biobase, GOstats, AnnotationDbi,
+        matrixStats, GO.db, org.Hs.eg.db, Matrix, gplots, nnet,
+        data.table, vegan, stats, utils, reshape, reshape2, penalized,
+        parallel, doParallel, foreach, ggplot2, ggdendro, grid, MASS,
+        assertthat, tidyr, methods, dplyr, graphics
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown, pkgdown
+License: GPL-3
+MD5sum: 4b9312ecceb319a797a11323a749a2d0
+NeedsCompilation: no
+File: netZooR_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: neuralnet
 Version: 1.44.2
 Depends: R (>= 2.9.0)
@@ -25580,6 +27454,13 @@ License: GPL (>= 2)
 MD5sum: 2401f32f5f9d57be5ab1894dd0bbfee1
 NeedsCompilation: yes
 File: NMF_0.26_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: NMFN
+Version: 2.0.1
+License: GPL
+MD5sum: d8c82cbb20e91fd9f4107e2223994ae2
+NeedsCompilation: no
+File: NMFN_2.0.1_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: NMI
 Version: 2.0
@@ -25958,6 +27839,28 @@ MD5sum: f3362625fbe6676fe9636645bc3c3c29
 NeedsCompilation: no
 File: OCplus_1.75.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: octad
+Version: 1.3.0
+Depends: R (>= 4.2.0), magrittr, dplyr, ggplot2, edgeR, RUVSeq, DESeq2,
+        limma, rhdf5, foreach, Rfast, octad.db, stats, httr,
+        ExperimentHub, AnnotationHub, Biobase, S4Vectors
+Imports: EDASeq, GSVA, data.table, htmlwidgets, plotly, reshape2,
+        grDevices, utils
+Suggests: knitr, rmarkdown
+License: Artistic-2.0
+MD5sum: 30b7417b45316fd657ba2f7a0375c571
+NeedsCompilation: no
+File: octad_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: octad.db
+Version: 1.3.0
+Depends: R (>= 4.2.0), ExperimentHub
+Suggests: knitr, rmarkdown
+License: Artistic-2.0
+MD5sum: 1eafd2fb7f0b27fef4f8e601e6a6d45f
+NeedsCompilation: no
+File: octad.db_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: odseq
 Version: 1.29.0
 Depends: R (>= 3.2.3)
@@ -25978,6 +27881,18 @@ License: MIT + file LICENSE
 MD5sum: 16bc74fcb5d468217cff19cd9da51261
 NeedsCompilation: no
 File: officer_0.6.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: OGRE
+Version: 1.5.0
+Depends: R (>= 4.2.0), S4Vectors
+Imports: GenomicRanges, methods, data.table, assertthat, ggplot2, Gviz,
+        IRanges, AnnotationHub, grDevices, stats, GenomeInfoDb, shiny,
+        shinyFiles, DT, rtracklayer, shinydashboard, shinyBS,tidyr
+Suggests: testthat (>= 3.0.0), knitr (>= 1.36), rmarkdown (>= 2.11)
+License: Artistic-2.0
+MD5sum: d7d8ce60a741c90590af69f8690dcbb2
+NeedsCompilation: no
+File: OGRE_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: oligo
 Version: 1.65.0
@@ -26276,6 +28191,20 @@ License: GPL-3
 MD5sum: 3275b733f3b48eaf6b1c23fb55d1fdb7
 NeedsCompilation: no
 File: opdisDownsampling_0.8.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: openair
+Version: 2.17-0
+Depends: R (>= 3.2.0)
+Imports: cli, cluster, dplyr (>= 1.0), graphics, grDevices, grid,
+        hexbin, lattice, latticeExtra, lubridate, mapproj, MASS,
+        methods, mgcv, purrr (>= 1.0.0), Rcpp, readr, rlang, stats,
+        tibble, tidyr, utils
+LinkingTo: Rcpp
+Suggests: KernSmooth, mapdata, maps, quantreg, spelling
+License: GPL (>= 2)
+MD5sum: a1ae159ae9ec4608fb777f4e4032bb58
+NeedsCompilation: yes
+File: openair_2.17-0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: opencpu
 Version: 2.2.10
@@ -26904,6 +28833,21 @@ MD5sum: 9ec106845d69cb20566fbd0e3cbcd07c
 NeedsCompilation: yes
 File: OUTRIDER_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: OutSplice
+Version: 1.1.2
+Depends: R(>= 4.3)
+Imports: AnnotationDbi (>= 1.60.0), GenomicRanges (>= 1.49.0),
+        GenomicFeatures (>= 1.50.2), IRanges (>= 2.32.0), org.Hs.eg.db
+        (>= 3.16.0), Repitools (>= 1.44.0),
+        TxDb.Hsapiens.UCSC.hg19.knownGene (>= 3.2.2),
+        TxDb.Hsapiens.UCSC.hg38.knownGene (>= 3.16.0), S4Vectors (>=
+        0.36.0)
+Suggests: BiocStyle, knitr, rmarkdown, testthat
+License: GPL-2
+MD5sum: e7d682ddc21af815e43c7e114d3aaaa8
+NeedsCompilation: no
+File: OutSplice_1.1.2_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: OVESEG
 Version: 1.17.0
 Depends: R (>= 3.6)
@@ -26975,6 +28919,19 @@ MD5sum: 225215f6b2185909c894129c54bdaa54
 NeedsCompilation: no
 File: PADOG_1.43.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: pageRank
+Version: 1.11.0
+Depends: R (>= 4.0)
+Imports: GenomicRanges, igraph, motifmatchr, stats, utils, grDevices,
+        graphics
+Suggests: bcellViper, BSgenome.Hsapiens.UCSC.hg19, JASPAR2018,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, org.Hs.eg.db, TFBSTools,
+        GenomicFeatures, annotate
+License: GPL-2
+MD5sum: 0a1b4b2c27175ae7f8416791e8e8b641
+NeedsCompilation: no
+File: pageRank_1.11.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: paintmap
 Version: 1.0
 License: GPL (>= 2)
@@ -27021,6 +28978,16 @@ License: GPL-3
 MD5sum: 8c652dc43f20734a0ba1491b16ef48ec
 NeedsCompilation: no
 File: pairkat_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: pairsD3
+Version: 0.1.3
+Depends: R (>= 3.1.2)
+Imports: htmlwidgets (>= 0.3.2), shiny
+Suggests: knitr
+License: GPL (>= 3)
+MD5sum: 46a52848c502e18eb4df09b2fc3d8f58
+NeedsCompilation: no
+File: pairsD3_0.1.3_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: palaeoverse
 Version: 1.2.0
@@ -27226,7 +29193,7 @@ Depends: R (>= 4.0.0)
 Imports: snow, xml2, jsonlite, methods, utils
 Suggests: mailR, testthat, shiny, DT, knitr, rmarkdown, tibble
 License: Apache License 2.0
-MD5sum: 5cd1d2a1b9310104adc3a75f13afbd6a
+MD5sum: ab29fd012854cdcea5c94eebd6dad922
 NeedsCompilation: no
 File: ParallelLogger_3.2.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -28186,6 +30153,16 @@ MD5sum: 2b0edfcdec7e111b85b1685fed6b5468
 NeedsCompilation: no
 File: phastCons100way.UCSC.hg19_3.7.2_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: phastCons100way.UCSC.hg38
+Version: 3.7.1
+Depends: R (>= 3.0.0), GenomicScores (>= 1.3.19)
+Imports: utils, S4Vectors, IRanges, GenomicRanges, GenomeInfoDb,
+        BSgenome
+License: Artistic-2.0
+MD5sum: cf85859467409a6588a41a41efc61a95
+NeedsCompilation: no
+File: phastCons100way.UCSC.hg38_3.7.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: pheatmap
 Version: 1.0.12
 Depends: R (>= 2.0)
@@ -28483,9 +30460,21 @@ Package: pinfsc50
 Version: 1.2.0
 Depends: R (>= 3.2.1)
 License: GPL
-MD5sum: 1d7e74b3a37c663f217853c3b8df61ea
+MD5sum: 61beefd4af26db16d10fef2233183f5b
 NeedsCompilation: no
 File: pinfsc50_1.2.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: PING
+Version: 2.45.0
+Depends: R(>= 3.5.0)
+Imports: methods, PICS, graphics, grDevices, stats, Gviz, fda,
+        BSgenome, stats4, BiocGenerics, IRanges, GenomicRanges,
+        S4Vectors
+Suggests: parallel, ShortRead, rtracklayer
+License: Artistic-2.0
+MD5sum: ac110d356ee08db7d2ae21ecdbeb2046
+NeedsCompilation: yes
+File: PING_2.45.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: pingr
 Version: 2.0.2
@@ -29246,6 +31235,23 @@ MD5sum: a9d0d143646a1f78e9f7d88557a295bb
 NeedsCompilation: no
 File: prettyGraphs_2.1.6_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: primirTSS
+Version: 1.19.0
+Depends: R (>= 3.5.0)
+Imports: GenomicRanges (>= 1.32.2), S4Vectors (>= 0.18.2), rtracklayer
+        (>= 1.40.3), dplyr (>= 0.7.6), stringr (>= 1.3.1), tidyr (>=
+        0.8.1), Biostrings (>= 2.48.0), purrr (>= 0.2.5),
+        BSgenome.Hsapiens.UCSC.hg38 (>= 1.4.1),
+        phastCons100way.UCSC.hg38 (>= 3.7.1), GenomicScores (>= 1.4.1),
+        shiny (>= 1.0.5), Gviz (>= 1.24.0), BiocGenerics (>= 0.26.0),
+        IRanges (>= 2.14.10), TFBSTools (>= 1.18.0), JASPAR2018 (>=
+        1.1.1), tibble (>= 1.4.2), R.utils (>= 2.6.0), stats, utils
+Suggests: knitr, rmarkdown
+License: GPL-2
+MD5sum: 28db88575b20881ec7c82d7d4437550b
+NeedsCompilation: no
+File: primirTSS_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: PRIMME
 Version: 3.2-4
 Imports: Rcpp (>= 0.11.4)
@@ -29577,7 +31583,7 @@ Suggests: AnnotationDbi (>= 1.54.1), BSgenome (>= 1.60.0),
         1.4.4), scales (>= 1.1.1), testthat (>= 3.0.3),
         TxDb.Hsapiens.UCSC.hg19.knownGene (>= 3.2.2)
 License: GPL-3
-MD5sum: 58453b3fb355790f2de35f177830592b
+MD5sum: 5acc9a3d8bff3fd076ca86864b368b37
 NeedsCompilation: no
 File: ProteoDisco_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -29738,6 +31744,25 @@ MD5sum: 0427e24ca725f8d77e15f3a1fdaaddd8
 NeedsCompilation: no
 File: PSEA_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: psichomics
+Version: 1.27.0
+Depends: R (>= 4.0), shiny (>= 1.7.0), shinyBS
+Imports: AnnotationDbi, AnnotationHub, BiocFileCache, cluster,
+        colourpicker, data.table, digest, dplyr, DT (>= 0.2), edgeR,
+        fastICA, fastmatch, ggplot2, ggrepel, graphics, grDevices,
+        highcharter (>= 0.5.0), htmltools, httr, jsonlite, limma,
+        pairsD3, plyr, purrr, Rcpp (>= 0.12.14), recount, Rfast,
+        R.utils, reshape2, shinyjs, stringr, stats,
+        SummarizedExperiment, survival, tools, utils, XML, xtable,
+        methods
+LinkingTo: Rcpp
+Suggests: testthat, knitr, parallel, devtools, rmarkdown, gplots, covr,
+        car, rstudioapi, spelling
+License: MIT + file LICENSE
+MD5sum: 7a63125ca3467ea706f743e7f84c4764
+NeedsCompilation: yes
+File: psichomics_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: PSMatch
 Version: 1.5.0
 Depends: S4Vectors
@@ -29813,6 +31838,15 @@ MD5sum: eb5f7791f534312799d3c2a6366e4d53
 NeedsCompilation: yes
 File: ptairMS_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: PtH2O2lipids
+Version: 1.27.0
+Depends: R (>= 3.3), xcms, CAMERA, LOBSTAHS, methods, utils
+Suggests: gplots, RColorBrewer, cluster, vegan
+License: MIT + file LICENSE
+MD5sum: 7c06fdc7e678021ea886ed25b8d2341e
+NeedsCompilation: no
+File: PtH2O2lipids_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: ptw
 Version: 1.9-16
 Imports: RcppDE, graphics, grDevices, stats
@@ -29851,6 +31885,24 @@ License: LGPL
 MD5sum: d7e645d69bc81460c28ca72d5511e86d
 NeedsCompilation: no
 File: pumadata_2.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: PureCN
+Version: 2.7.11
+Depends: R (>= 3.5.0), DNAcopy, VariantAnnotation (>= 1.14.1)
+Imports: GenomicRanges (>= 1.20.3), IRanges (>= 2.2.1), RColorBrewer,
+        S4Vectors, data.table, grDevices, graphics, stats, utils,
+        SummarizedExperiment, GenomeInfoDb, GenomicFeatures, Rsamtools,
+        Biobase, Biostrings, BiocGenerics, rtracklayer, ggplot2,
+        gridExtra, futile.logger, VGAM, tools, methods, mclust, rhdf5,
+        Matrix
+Suggests: BiocParallel, BiocStyle, PSCBS, R.utils,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, covr, knitr, optparse,
+        org.Hs.eg.db, jsonlite, markdown, rmarkdown, testthat
+Enhances: genomicsdb (>= 0.0.3)
+License: Artistic-2.0
+MD5sum: a0b71e4ccc16d94e6f9835d20b9e4a70
+NeedsCompilation: no
+File: PureCN_2.7.11_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: pushbar
 Version: 0.1.0
@@ -29896,7 +31948,7 @@ Imports: biovizBase, Biostrings, GenomicRanges, IRanges, data.table,
         methods
 Suggests: knitr, pepDat
 License: Artistic-2.0
-MD5sum: 9f0875e831d72f725e21e7169a78e0b0
+MD5sum: 4f26497d09f701a8b9e9a9c986fde7a4
 NeedsCompilation: no
 File: Pviz_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -30305,24 +32357,24 @@ NeedsCompilation: no
 File: quantiseqr_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: quantmod
-Version: 0.4.23
+Version: 0.4.24
 Depends: R (>= 3.2.0), xts(>= 0.9-0), zoo, TTR(>= 0.2), methods
 Imports: curl, jsonlite(>= 1.1)
 Suggests: DBI,RMySQL,RSQLite,timeSeries,xml2,downloader
 License: GPL-3
-MD5sum: 1d60684b9aad620191cf9c8ff86b93be
+MD5sum: 3a64d293e4e4f2fca9c2082531a51180
 NeedsCompilation: no
-File: quantmod_0.4.23_R_x86_64-pc-linux-gnu.tar.gz
+File: quantmod_0.4.24_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: quantreg
-Version: 5.95
+Version: 5.96
 Depends: R (>= 3.5), stats, SparseM
 Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
 Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
 License: GPL (>= 2)
-MD5sum: f056b4f256ca8fc87a774a7b15e61eda
+MD5sum: 3230537cec060f2cca62e35aa7bb7ee3
 NeedsCompilation: yes
-File: quantreg_5.95_R_x86_64-pc-linux-gnu.tar.gz
+File: quantreg_5.96_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: quantro
 Version: 1.35.0
@@ -30331,7 +32383,7 @@ Imports: Biobase, minfi, doParallel, foreach, iterators, ggplot2,
         methods, RColorBrewer
 Suggests: rmarkdown, knitr, RUnit, BiocGenerics, BiocStyle
 License: GPL-3
-MD5sum: c87e2e21027ae3dcc8ddadc07a084dcd
+MD5sum: f183994cb5ace3a049d7e594fd4edbf0
 NeedsCompilation: no
 File: quantro_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -30365,7 +32417,7 @@ Suggests: Gviz, BiocStyle, GenomicAlignments, Rhisat2, knitr,
         rmarkdown, covr, testthat
 License: GPL-2
 Archs: x64
-MD5sum: a58327d26e0179ed1dafadf8fbb5560c
+MD5sum: b6d00fa9842f0e9bb6c16801a2175d04
 NeedsCompilation: yes
 File: QuasR_1.41.2_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -30583,6 +32635,22 @@ MD5sum: 496887332bc8498ef6852a5ecd70f3bc
 NeedsCompilation: no
 File: R2WinBUGS_2.1-21_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: R3CPET
+Version: 1.33.0
+Depends: R (>= 3.2), Rcpp (>= 0.10.4), methods
+Imports: methods, parallel, ggplot2, pheatmap, clValid, igraph,
+        data.table, reshape2, Hmisc, RCurl, BiocGenerics, S4Vectors,
+        IRanges (>= 2.13.12), GenomeInfoDb, GenomicRanges (>= 1.31.8),
+        ggbio
+LinkingTo: Rcpp
+Suggests: BiocStyle, knitr, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        biovizBase, biomaRt, AnnotationDbi, org.Hs.eg.db, shiny,
+        ChIPpeakAnno
+License: GPL (>= 2)
+MD5sum: d5f5be7973c2d8830b4f3c0d2da44429
+NeedsCompilation: yes
+File: R3CPET_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: r3Cseq
 Version: 1.47.0
 Depends: GenomicRanges, Rsamtools, rtracklayer, VGAM, qvalue
@@ -30610,7 +32678,7 @@ Imports: utils, grDevices, graphics, stats, tools, xtable, R2HTML,
 Suggests: rtracklayer, BSgenome.Hsapiens.UCSC.hg19,
         BSgenome.Scerevisiae.UCSC.sacCer2
 License: LGPL-3
-MD5sum: 60c9b3c3c42d359d8b6dc24e667bcce6
+MD5sum: b60150385905722130c626246ef4f604
 NeedsCompilation: yes
 File: R453Plus1Toolbox_1.51.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -30885,6 +32953,19 @@ MD5sum: 72d3adab49a737580e695ed5bb499a47
 NeedsCompilation: no
 File: RAREsim_1.5.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: RareVariantVis
+Version: 2.29.0
+Depends: BiocGenerics, VariantAnnotation, googleVis, GenomicFeatures
+Imports: S4Vectors, IRanges, GenomeInfoDb, GenomicRanges, gtools,
+        BSgenome, BSgenome.Hsapiens.UCSC.hg19,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, phastCons100way.UCSC.hg19,
+        SummarizedExperiment, GenomicScores
+Suggests: knitr
+License: Artistic-2.0
+MD5sum: 9dc7babc79c944fcf4d204dcb1ab3854
+NeedsCompilation: no
+File: RareVariantVis_2.29.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: rARPACK
 Version: 0.11-0
 Imports: RSpectra
@@ -30983,6 +33064,15 @@ License: GPL-2
 MD5sum: cfdfa4d4f0e1971c26c1d52f7a73adf7
 NeedsCompilation: yes
 File: rbibutils_2.2.13_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: rbioapi
+Version: 0.7.9
+Imports: httr, jsonlite, utils
+Suggests: DT, knitr, png, rmarkdown, testthat (>= 3.0.0)
+License: GPL-3
+MD5sum: 7334fedecf42aded3693d15663c23aac
+NeedsCompilation: no
+File: rbioapi_0.7.9_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: RBioFormats
 Version: 1.1.0
@@ -31807,7 +33897,7 @@ Suggests: AnnotationDbi, BiocManager, BiocStyle (>= 2.5.19), DESeq2,
         rmarkdown (>= 0.9.5), testthat (>= 2.1.0), covr, pheatmap, DT,
         edgeR, ggplot2, RColorBrewer
 License: Artistic-2.0
-MD5sum: 453756d8d840d580f3c82aa8374fe173
+MD5sum: 02a48f0273dcf288040ece58c1a6383d
 NeedsCompilation: no
 File: recount_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -31822,6 +33912,20 @@ License: Artistic-2.0
 MD5sum: ebc0a56199cc17ff11cabe9daf960a7e
 NeedsCompilation: no
 File: recount3_1.11.2_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: recountmethylation
+Version: 1.11.1
+Depends: R (>= 4.1)
+Imports: minfi, HDF5Array, rhdf5, S4Vectors, utils, methods, RCurl,
+        R.utils, BiocFileCache, basilisk, reticulate,
+        DelayedMatrixStats
+Suggests: minfiData, minfiDataEPIC, knitr, testthat, ggplot2,
+        gridExtra, rmarkdown, BiocStyle, GenomicRanges, limma,
+        ExperimentHub, AnnotationHub
+License: Artistic-2.0
+MD5sum: f895dd7d1e4aa33e1a4149a38571d111
+NeedsCompilation: no
+File: recountmethylation_1.11.1_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: recoup
 Version: 1.29.0
@@ -31857,6 +33961,16 @@ License: Artistic-2.0
 MD5sum: 012550e465b28cebe468d81f9fcd0f89
 NeedsCompilation: no
 File: RedisParam_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: REDseq
+Version: 1.47.0
+Depends: R (>= 3.5.0), BiocGenerics, BSgenome.Celegans.UCSC.ce2,
+        multtest, Biostrings, BSgenome, ChIPpeakAnno
+Imports: AnnotationDbi, graphics, IRanges (>= 1.13.5), stats, utils
+License: GPL (>= 2)
+MD5sum: 7278662a4a89818dd25f3dae199a306a
+NeedsCompilation: no
+File: REDseq_1.47.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: redux
 Version: 1.1.3
@@ -31916,6 +34030,22 @@ MD5sum: b72fca6923540c6fbfa189ee6496ad3c
 NeedsCompilation: no
 File: regioneReloaded_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: regionReport
+Version: 1.35.0
+Depends: R(>= 3.2)
+Imports: BiocStyle (>= 2.5.19), derfinder (>= 1.25.3), DEFormats,
+        DESeq2, GenomeInfoDb, GenomicRanges, knitr (>= 1.6),
+        knitrBootstrap (>= 0.9.0), methods, RefManageR, rmarkdown (>=
+        0.9.5), S4Vectors, SummarizedExperiment, utils
+Suggests: BiocManager, biovizBase, bumphunter (>= 1.7.6), derfinderPlot
+        (>= 1.29.1), sessioninfo, DT, edgeR, ggbio (>= 1.35.2),
+        ggplot2, grid, gridExtra, IRanges, mgcv, pasilla, pheatmap,
+        RColorBrewer, TxDb.Hsapiens.UCSC.hg19.knownGene, whisker
+License: Artistic-2.0
+MD5sum: 229dab67ee47626177ef8d98a8fa6714
+NeedsCompilation: no
+File: regionReport_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: registry
 Version: 0.5-1
 Depends: R (>= 2.6.0)
@@ -31934,6 +34064,19 @@ License: MIT + file LICENSE
 MD5sum: 75e6e4fd7e988491c8371bd8a2a05aaa
 NeedsCompilation: no
 File: regsplice_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: regutools
+Version: 1.13.0
+Depends: R (>= 4.0)
+Imports: AnnotationDbi, AnnotationHub, Biostrings, DBI, GenomicRanges,
+        Gviz, IRanges, RCy3, RSQLite, S4Vectors, methods, stats, utils,
+        BiocFileCache
+Suggests: BiocStyle, knitr, RefManageR, rmarkdown, sessioninfo,
+        testthat (>= 2.1.0), covr
+License: Artistic-2.0
+MD5sum: b123eaf510bd2cfecf2d4356cc1c3648
+NeedsCompilation: no
+File: regutools_1.13.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: relations
 Version: 0.6-13
@@ -31994,6 +34137,23 @@ License: MIT + file LICENSE
 MD5sum: 3800567e07c47e2dea0e55812cff25b6
 NeedsCompilation: no
 File: rematch_1.0.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: REMP
+Version: 1.25.0
+Depends: R (>= 3.6), SummarizedExperiment(>= 1.1.6), minfi (>= 1.22.0)
+Imports: readr, rtracklayer, graphics, stats, utils, methods, settings,
+        BiocGenerics, S4Vectors, Biostrings, GenomicRanges, IRanges,
+        GenomeInfoDb, BiocParallel, doParallel, parallel, foreach,
+        caret, kernlab, ranger, BSgenome, AnnotationHub, org.Hs.eg.db,
+        impute, iterators
+Suggests: IlluminaHumanMethylation450kanno.ilmn12.hg19,
+        IlluminaHumanMethylationEPICanno.ilm10b2.hg19,
+        BSgenome.Hsapiens.UCSC.hg19, BSgenome.Hsapiens.UCSC.hg38,
+        knitr, rmarkdown, minfiDataEPIC
+License: GPL-3
+MD5sum: e404aa15f1dae0eae87a326b09f8ac2a
+NeedsCompilation: no
+File: REMP_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: rentrez
 Version: 1.2.3
@@ -32141,6 +34301,19 @@ License: GPL-3
 MD5sum: 0fa1885e2abb8bc95dfd636f277adeae
 NeedsCompilation: no
 File: ResidualMatrix_1.11.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RESOLVE
+Version: 1.3.0
+Depends: R (>= 4.1.0)
+Imports: Biostrings, BSgenome, BSgenome.Hsapiens.1000genomes.hs37d5,
+        data.table, GenomeInfoDb, GenomicRanges, glmnet, ggplot2,
+        gridExtra, IRanges, lsa, methods, MutationalPatterns, nnls,
+        parallel, reshape2, S4Vectors
+Suggests: BiocGenerics, BiocStyle, testthat, knitr
+License: file LICENSE
+MD5sum: a0eab28c384a6e57108656e5f03bb861
+NeedsCompilation: no
+File: RESOLVE_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: restfulr
 Version: 0.0.15
@@ -32441,6 +34614,17 @@ MD5sum: 7a03334f5e27b1eb1cbf6c95ff958e1a
 NeedsCompilation: no
 File: RGSEA_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: rgsepd
+Version: 1.33.0
+Depends: R (>= 4.2.0), DESeq2, goseq (>= 1.28)
+Imports: gplots, biomaRt, org.Hs.eg.db, GO.db, SummarizedExperiment,
+        AnnotationDbi
+Suggests: boot, tools, BiocGenerics, knitr, xtable
+License: GPL-3
+MD5sum: 3ace51262a2ac32fed78f9d9277ec58e
+NeedsCompilation: no
+File: rgsepd_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: rhandsontable
 Version: 0.3.8
 Imports: jsonlite, htmlwidgets (>= 0.3.3), magrittr, methods, utils
@@ -32548,6 +34732,19 @@ MD5sum: 3dee0933dcea87469e180a7ea32f9352
 NeedsCompilation: yes
 File: RiboDiPA_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: RiboProfiling
+Version: 1.31.0
+Depends: R (>= 3.5.0), Biostrings
+Imports: BiocGenerics, GenomeInfoDb, GenomicRanges, IRanges, reshape2,
+        GenomicFeatures, grid, plyr, S4Vectors, GenomicAlignments,
+        ggplot2, ggbio, Rsamtools, rtracklayer, data.table, sqldf
+Suggests: knitr, BiocStyle, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        BSgenome.Hsapiens.UCSC.hg19, testthat, SummarizedExperiment
+License: GPL-3
+MD5sum: 972e550c42622bd889d5ce744a66e227
+NeedsCompilation: no
+File: RiboProfiling_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: ribor
 Version: 1.13.0
 Depends: R (>= 3.6.0)
@@ -32568,6 +34765,21 @@ License: GPL-3
 MD5sum: 9cb3928d74ade192a2c46142ef976225
 NeedsCompilation: no
 File: riboSeqR_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ribosomeProfilingQC
+Version: 1.13.2
+Depends: R (>= 4.0), GenomicRanges
+Imports: AnnotationDbi, BiocGenerics, Biostrings, BSgenome, EDASeq,
+        GenomicAlignments, GenomicFeatures, GenomeInfoDb, IRanges,
+        methods, motifStack, rtracklayer, Rsamtools, RUVSeq, Rsubread,
+        S4Vectors, XVector, ggplot2, ggfittext, scales, ggrepel, utils,
+        cluster, stats, graphics, grid
+Suggests: RUnit, BiocStyle, knitr, BSgenome.Drerio.UCSC.danRer10,
+        edgeR, limma, testthat, rmarkdown
+License: GPL (>= 3) + file LICENSE
+MD5sum: e05bfd2aa2198b8e40fc0c596461af6b
+NeedsCompilation: no
+File: ribosomeProfilingQC_1.13.2_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: ridge
 Version: 3.3
@@ -32686,6 +34898,29 @@ License: GPL (>= 2)
 MD5sum: 75f02bc15193fcc0736a1ad7342541e6
 NeedsCompilation: no
 File: RISmed_2.3.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RITAN
+Version: 1.25.0
+Depends: R (>= 4.0),
+Imports: graphics, methods, stats, utils, grid, gridExtra, reshape2,
+        gplots, ggplot2, plotrix, RColorBrewer, STRINGdb, MCL,
+        linkcomm, dynamicTreeCut, gsubfn, hash, png, sqldf, igraph,
+        BgeeDB, knitr, RITANdata, GenomicFeatures, ensembldb,
+        AnnotationFilter, EnsDb.Hsapiens.v86
+Suggests: rmarkdown, BgeeDB
+License: file LICENSE
+MD5sum: e14e30117ee49ed63fa9dcdcc8b268fe
+NeedsCompilation: no
+File: RITAN_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RITANdata
+Version: 1.25.1
+Depends: R (>= 4.2)
+Suggests: knitr
+License: file LICENSE
+MD5sum: 03052c4991a112044c32acce4f813ea3
+NeedsCompilation: no
+File: RITANdata_1.25.1_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: RIVER
 Version: 1.25.0
@@ -33031,6 +35266,17 @@ MD5sum: ff6f1c9b2e9a173febd1fc405593b523
 NeedsCompilation: yes
 File: RMySQL_0.10.25_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: RNAAgeCalc
+Version: 1.13.0
+Depends: R (>= 3.6)
+Imports: ggplot2, recount, impute, AnnotationDbi, org.Hs.eg.db, stats,
+        SummarizedExperiment, methods
+Suggests: knitr, rmarkdown, testthat
+License: GPL-2
+MD5sum: 4d3fa311866aa6f6e6948031b793f208
+NeedsCompilation: no
+File: RNAAgeCalc_1.13.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: rnaEditr
 Version: 1.11.0
 Depends: R (>= 4.0)
@@ -33063,6 +35309,67 @@ License: Artistic-2.0
 MD5sum: 04d42e4e9a3fedd53e65378f7fa1ede9
 NeedsCompilation: no
 File: RNAinteractMAPK_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RNAmodR
+Version: 1.15.0
+Depends: R (>= 4.0), S4Vectors (>= 0.27.12), IRanges (>= 2.23.9),
+        GenomicRanges, Modstrings
+Imports: methods, stats, grDevices, matrixStats, BiocGenerics,
+        Biostrings (>= 2.57.2), BiocParallel, GenomicFeatures,
+        GenomicAlignments, GenomeInfoDb, rtracklayer, Rsamtools,
+        BSgenome, RColorBrewer, colorRamps, ggplot2, Gviz (>= 1.31.0),
+        reshape2, graphics, ROCR
+Suggests: BiocStyle, knitr, rmarkdown, testthat, RNAmodR.Data
+License: Artistic-2.0
+MD5sum: 44a9d5cff74ff9a94a3055032fb8afdc
+NeedsCompilation: no
+File: RNAmodR_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RNAmodR.AlkAnilineSeq
+Version: 1.15.0
+Depends: R (>= 4.0), RNAmodR (>= 1.5.3)
+Imports: methods, S4Vectors, IRanges, BiocGenerics, GenomicRanges, Gviz
+Suggests: BiocStyle, knitr, rmarkdown, testthat, rtracklayer,
+        Biostrings, RNAmodR.Data
+License: Artistic-2.0
+MD5sum: fb8d7fedbaa4131a5f4c7388b6129e2f
+NeedsCompilation: no
+File: RNAmodR.AlkAnilineSeq_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RNAmodR.Data
+Version: 1.15.0
+Depends: R (>= 3.6), ExperimentHub, ExperimentHubData (>= 1.9.2)
+Imports: utils
+Suggests: knitr, rmarkdown, BiocStyle, GenomicRanges, sessioninfo,
+        testthat
+License: Artistic-2.0
+MD5sum: 90a5eb0d9336e5176a4430c42c9897db
+NeedsCompilation: no
+File: RNAmodR.Data_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RNAmodR.ML
+Version: 1.15.0
+Depends: R (>= 3.6), RNAmodR
+Imports: methods, BiocGenerics, S4Vectors, IRanges, GenomicRanges,
+        stats, ranger
+Suggests: BiocStyle, knitr, rmarkdown, testthat, RNAmodR.Data,
+        RNAmodR.AlkAnilineSeq, GenomicFeatures, Rsamtools, rtracklayer,
+        keras
+License: Artistic-2.0
+MD5sum: ac75e169985577fedf92955f5ab50953
+NeedsCompilation: no
+File: RNAmodR.ML_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RNAmodR.RiboMethSeq
+Version: 1.15.0
+Depends: R (>= 4.0), RNAmodR (>= 1.5.3)
+Imports: methods, S4Vectors, BiocGenerics, IRanges, GenomicRanges, Gviz
+Suggests: BiocStyle, knitr, rmarkdown, testthat, rtracklayer,
+        RNAmodR.Data
+License: Artistic-2.0
+MD5sum: 64d718ac5d171c58f815cc2a406ccc15
+NeedsCompilation: no
+File: RNAmodR.RiboMethSeq_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: RNAsense
 Version: 1.15.0
@@ -33099,6 +35406,67 @@ License: LGPL (>= 2)
 MD5sum: fc425919979a14faff1ad73484bdd1a0
 NeedsCompilation: no
 File: RNASeqPower_1.41.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RnaSeqSampleSize
+Version: 2.11.0
+Depends: R (>= 4.0.0), ggplot2, RnaSeqSampleSizeData
+Imports: biomaRt,edgeR,heatmap3,matlab,KEGGREST,methods,grDevices,
+        graphics, stats, Rcpp (>=
+        0.11.2),recount,ggpubr,SummarizedExperiment,tidyr,dplyr,tidyselect,utils
+LinkingTo: Rcpp
+Suggests: BiocStyle, knitr, testthat
+License: GPL (>= 2)
+MD5sum: e15edf85a0de84891c84f7fe96e56973
+NeedsCompilation: yes
+File: RnaSeqSampleSize_2.11.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RnaSeqSampleSizeData
+Version: 1.33.0
+Depends: edgeR,R (>= 2.10)
+Suggests: BiocStyle, knitr
+License: GPL (>= 2)
+MD5sum: 6e18cadb8dc1b3316d7778e18b76ad99
+NeedsCompilation: no
+File: RnaSeqSampleSizeData_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RnBeads
+Version: 2.19.0
+Depends: R (>= 3.0.0), BiocGenerics, S4Vectors (>= 0.9.25),
+        GenomicRanges, MASS, cluster, ff, fields, ggplot2 (>= 0.9.2),
+        gplots, grid, gridExtra, limma, matrixStats, methods,
+        illuminaio, methylumi, plyr
+Imports: IRanges
+Suggests: Category, GOstats, Gviz,
+        IlluminaHumanMethylation450kmanifest, RPMM, RnBeads.hg19,
+        RnBeads.mm9, XML, annotate, biomaRt, foreach, doParallel,
+        ggbio, isva, mclust, mgcv, minfi, nlme, org.Hs.eg.db,
+        org.Mm.eg.db, org.Rn.eg.db, quadprog, rtracklayer, qvalue, sva,
+        wateRmelon, wordcloud, qvalue, argparse, glmnet,
+        IlluminaHumanMethylation450kanno.ilmn12.hg19, scales,
+        missMethyl, impute, shiny, shinyjs, plotrix, hexbin, RUnit,
+        MethylSeekR, sesame
+License: GPL-3
+MD5sum: f5fcc9e2e41c76306a93edf7cad1fd43
+NeedsCompilation: no
+File: RnBeads_2.19.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RnBeads.hg19
+Version: 1.33.0
+Depends: R (>= 3.5.0), GenomicRanges
+Suggests: RnBeads
+License: GPL-3
+MD5sum: 3c58d47de0920d2464db7d5aabcce3f0
+NeedsCompilation: no
+File: RnBeads.hg19_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: RnBeads.mm9
+Version: 1.33.0
+Depends: R (>= 3.5.0), GenomicRanges
+Suggests: RnBeads
+License: GPL-3
+MD5sum: aa38a29f13cfbc605c4c3ac723ea6fbf
+NeedsCompilation: no
+File: RnBeads.mm9_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: rncl
 Version: 0.8.7
@@ -33513,6 +35881,20 @@ MD5sum: f612b9f0e0830b90120dd2455bfadd8c
 NeedsCompilation: no
 File: rpx_2.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: Rqc
+Version: 1.35.0
+Depends: BiocParallel, ShortRead, ggplot2
+Imports: BiocGenerics (>= 0.25.1), Biostrings, IRanges, methods,
+        S4Vectors, knitr (>= 1.7), BiocStyle, plyr, markdown, grid,
+        reshape2, Rcpp (>= 0.11.6), biovizBase, shiny, Rsamtools,
+        GenomicAlignments, GenomicFiles
+LinkingTo: Rcpp
+Suggests: rmarkdown, testthat
+License: GPL (>= 2)
+MD5sum: db34b1ffb43d16697169d4dcd7976128
+NeedsCompilation: yes
+File: Rqc_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: rqt
 Version: 1.27.0
 Depends: R (>= 3.4), SummarizedExperiment
@@ -33772,6 +36154,14 @@ MD5sum: 84a5b6047f03b426cbc106fae3986ef1
 NeedsCompilation: yes
 File: rSpectral_1.0.0.10_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: rsq
+Version: 2.5
+Imports: methods, stats, MASS, lme4, nlme, Deriv, Matrix
+License: GPL-2
+MD5sum: 79fe4da9340835b0edd3d6cd7db60f03
+NeedsCompilation: no
+File: rsq_2.5_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: RSQLite
 Version: 2.3.1
 Depends: R (>= 3.1.0)
@@ -34005,7 +36395,7 @@ Imports: BiocGenerics, data.table, DelayedArray, GenomicRanges,
         stringr, SummarizedExperiment, TCGAutils (>= 1.9.4), utils
 Suggests: BiocStyle, Homo.sapiens, knitr, readr, rmarkdown
 License: GPL-2
-MD5sum: 380a53313c5c17979b2c30afbfa5691f
+MD5sum: efb05b985cf87fb38f4d22f99d2dde2b
 NeedsCompilation: no
 File: RTCGAToolbox_2.31.1_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -34661,6 +37051,34 @@ MD5sum: 854e1fa7d63b5f5b25d7a29d218cb40a
 NeedsCompilation: no
 File: scanMiR_1.7.1_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: scanMiRApp
+Version: 1.7.0
+Depends: R (>= 4.0)
+Imports: AnnotationDbi, AnnotationFilter, AnnotationHub, BiocParallel,
+        Biostrings, data.table, digest, DT, ensembldb, fst,
+        GenomeInfoDb, GenomicFeatures, GenomicRanges, ggplot2,
+        htmlwidgets, IRanges, Matrix, methods, plotly, rintrojs,
+        rtracklayer, S4Vectors, scanMiR, scanMiRData, shiny,
+        shinycssloaders, shinydashboard, shinyjqui, stats, utils,
+        waiter
+Suggests: knitr, rmarkdown, BiocStyle, testthat (>= 3.0.0), shinytest,
+        BSgenome.Hsapiens.UCSC.hg38, BSgenome.Mmusculus.UCSC.mm10,
+        BSgenome.Rnorvegicus.UCSC.rn6
+License: GPL-3
+MD5sum: 925876615144fc1fb1083c70b2d5c364
+NeedsCompilation: no
+File: scanMiRApp_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: scanMiRData
+Version: 1.7.1
+Depends: R (>= 4.0)
+Imports: scanMiR, utils
+Suggests: knitr, rmarkdown, BiocStyle
+License: GPL-3
+MD5sum: 9d61b47d8e9b48de6a05d0c39ce82d53
+NeedsCompilation: no
+File: scanMiRData_1.7.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: scAnnotatR
 Version: 1.7.0
 Depends: R (>= 4.1), Seurat, SingleCellExperiment, SummarizedExperiment
@@ -35050,6 +37468,21 @@ MD5sum: d775018a41682a08d9e997ef6fb44f58
 NeedsCompilation: yes
 File: scMET_1.3.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: scmeth
+Version: 1.21.0
+Depends: R (>= 3.5.0)
+Imports: knitr, rmarkdown, bsseq, AnnotationHub, GenomicRanges,
+        reshape2, stats, utils, BSgenome, DelayedArray (>= 0.5.15),
+        annotatr, SummarizedExperiment (>= 1.5.6), GenomeInfoDb,
+        Biostrings, DT, HDF5Array (>= 1.7.5)
+Suggests: BSgenome.Mmusculus.UCSC.mm10, BSgenome.Hsapiens.NCBI.GRCh38,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, org.Hs.eg.db, Biobase,
+        BiocGenerics, ggplot2, ggthemes
+License: GPL-2
+MD5sum: bf72739403a0a0b069155ba4d917b7c1
+NeedsCompilation: no
+File: scmeth_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: SCnorm
 Version: 1.23.0
 Depends: R (>= 3.4.0),
@@ -35062,6 +37495,22 @@ License: GPL (>= 2)
 MD5sum: 431bac5cb5c584afe71f70309f40a7b2
 NeedsCompilation: no
 File: SCnorm_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: scone
+Version: 1.25.0
+Depends: R (>= 3.4), methods, SummarizedExperiment
+Imports: graphics, stats, utils, aroma.light, BiocParallel, class,
+        cluster, compositions, diptest, edgeR, fpc, gplots, grDevices,
+        hexbin, limma, matrixStats, mixtools, RColorBrewer, boot,
+        rhdf5, RUVSeq, rARPACK, MatrixGenerics, SingleCellExperiment
+Suggests: BiocStyle, DT, ggplot2, knitr, miniUI, NMF, plotly, reshape2,
+        rmarkdown, scran, scRNAseq, shiny, testthat, visNetwork,
+        doParallel, batchtools, splatter, scater, kableExtra, mclust,
+        TENxPBMCData
+License: Artistic-2.0
+MD5sum: 6d3a78c4138281a4c9615c95fdfddf8e
+NeedsCompilation: no
+File: scone_1.25.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: Sconify
 Version: 1.21.0
@@ -35087,6 +37536,17 @@ License: GPL-2
 MD5sum: 68453fc37ddb4f0f308bf9cecc4b520f
 NeedsCompilation: no
 File: SCOPE_1.13.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: scoreInvHap
+Version: 1.23.0
+Depends: R (>= 3.6.0)
+Imports: Biostrings, methods, snpStats, VariantAnnotation,
+        GenomicRanges, BiocParallel, graphics, SummarizedExperiment
+Suggests: testthat, knitr, BiocStyle, rmarkdown
+License: file LICENSE
+MD5sum: d23d9d2c8e144b35b244685952312673
+NeedsCompilation: no
+File: scoreInvHap_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: scp
 Version: 1.11.2
@@ -35268,6 +37728,21 @@ MD5sum: 0001b40b8756336168b665e2a1651cb9
 NeedsCompilation: no
 File: scRNAseqApp_1.1.9_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: scruff
+Version: 1.19.1
+Depends: R (>= 4.0)
+Imports: data.table, GenomicAlignments, GenomicFeatures, GenomicRanges,
+        Rsamtools, ShortRead, parallel, plyr, BiocGenerics,
+        BiocParallel, S4Vectors, AnnotationDbi, Biostrings, methods,
+        ggplot2, ggthemes, scales, GenomeInfoDb, stringdist, ggbio,
+        rtracklayer, SingleCellExperiment, SummarizedExperiment,
+        Rsubread, parallelly
+Suggests: BiocStyle, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 3acffee405f73a1dfce7554b6dd74ee4
+NeedsCompilation: no
+File: scruff_1.19.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: scry
 Version: 1.13.0
 Depends: R (>= 4.0), stats, methods
@@ -35371,6 +37846,19 @@ License: GPL-3 | file LICENSE
 MD5sum: c43b61afe2454def37fc579690f90181
 NeedsCompilation: yes
 File: sctransform_0.3.5_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: scTreeViz
+Version: 1.7.0
+Depends: R (>= 4.0), methods, epivizr, SummarizedExperiment
+Imports: data.table, S4Vectors, digest, Matrix, Rtsne, httr, igraph,
+        clustree, scran, sys, epivizrData, epivizrServer, ggraph,
+        scater, Seurat, SingleCellExperiment, ggplot2, stats, utils
+Suggests: knitr, BiocStyle, testthat, SC3, scRNAseq, rmarkdown, msd16s,
+        metagenomeSeq, epivizrStandalone, GenomeInfoDb
+License: Artistic-2.0
+MD5sum: 9227ac0a7c338d24e0918bc66bd51949
+NeedsCompilation: no
+File: scTreeViz_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: scuttle
 Version: 1.11.0
@@ -35488,6 +37976,17 @@ License: GPL-3
 MD5sum: cf38845e970a83ca53c06a53c0c6688b
 NeedsCompilation: no
 File: segmentSeq_2.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: selectKSigs
+Version: 1.13.0
+Depends: R(>= 3.6)
+Imports: HiLDA, magrittr, gtools, methods, Rcpp
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, testthat, BiocStyle, ggplot2, dplyr, tidyr
+License: GPL-3
+MD5sum: 6a0ce7fffa18d873b3d199e79f2784f4
+NeedsCompilation: yes
+File: selectKSigs_1.13.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: selectr
 Version: 0.4-2
@@ -35641,6 +38140,20 @@ License: LGPL-3
 MD5sum: 4a500c4a69ac8afa75d4bc512cfc8b0d
 NeedsCompilation: yes
 File: seqbias_1.49.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: seqCAT
+Version: 1.23.0
+Depends: R (>= 3.6), GenomicRanges (>= 1.26.4), VariantAnnotation(>=
+        1.20.3)
+Imports: dplyr (>= 0.5.0), GenomeInfoDb (>= 1.13.4), ggplot2 (>=
+        2.2.1), grid (>= 3.5.0), IRanges (>= 2.8.2), methods,
+        rtracklayer, rlang, scales (>= 0.4.1), S4Vectors (>= 0.12.2),
+        stats, SummarizedExperiment (>= 1.4.0), tidyr (>= 0.6.1), utils
+Suggests: knitr, BiocStyle, rmarkdown, testthat, BiocManager
+License: MIT + file LICENCE
+MD5sum: 60a406bd9cadc19796140bb5494c708b
+NeedsCompilation: no
+File: seqCAT_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: seqCNA
 Version: 1.47.0
@@ -36136,6 +38649,29 @@ MD5sum: 535fbc2c75b6c5c420169b860e3a8900
 NeedsCompilation: no
 File: shinydashboardPlus_2.0.3_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: shinyepico
+Version: 1.9.0
+Depends: R (>= 4.3.0)
+Imports: DT (>= 0.15.0), data.table (>= 1.13.0), doParallel (>= 1.0.0),
+        dplyr (>= 1.0.9), foreach (>= 1.5.0), GenomicRanges (>=
+        1.38.0), ggplot2 (>= 3.3.0), gplots (>= 3.0.0), heatmaply (>=
+        1.1.0), limma (>= 3.42.0), minfi (>= 1.32.0), plotly (>=
+        4.9.2), reshape2 (>= 1.4.0), rlang (>= 1.0.2), rmarkdown (>=
+        2.3.0), rtracklayer (>= 1.46.0), shiny (>= 1.5.0), shinyWidgets
+        (>= 0.5.0), shinycssloaders (>= 0.3.0), shinyjs (>= 1.1.0),
+        shinythemes (>= 1.1.0), statmod (>= 1.4.0), tidyr (>= 1.2.0),
+        zip (>= 2.1.0)
+Suggests: knitr (>= 1.30.0), mCSEA (>= 1.10.0),
+        IlluminaHumanMethylation450kanno.ilmn12.hg19,
+        IlluminaHumanMethylation450kmanifest,
+        IlluminaHumanMethylationEPICanno.ilm10b4.hg19,
+        IlluminaHumanMethylationEPICmanifest, testthat, minfiData,
+        BiocStyle
+License: AGPL-3 + file LICENSE
+MD5sum: 541122ec9fc7dfc300b69af706948e41
+NeedsCompilation: no
+File: shinyepico_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: shinyFeedback
 Version: 0.4.0
 Depends: R (>= 3.1.2)
@@ -36204,6 +38740,25 @@ License: GPL-3
 MD5sum: 2c53fa55aaf834dff161fcd6c223dbaf
 NeedsCompilation: no
 File: shinymanager_1.0.410_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: shinyMethyl
+Version: 1.37.0
+Imports: Biobase, BiocGenerics, graphics, grDevices, htmltools,
+        MatrixGenerics, methods, minfi, RColorBrewer, shiny, stats,
+        utils
+Suggests: shinyMethylData, minfiData, BiocStyle, knitr, testthat
+License: Artistic-2.0
+MD5sum: d99327aa3af07f87ed2b2ef8761ffb3d
+NeedsCompilation: no
+File: shinyMethyl_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: shinyMethylData
+Version: 1.21.0
+Depends: R (>= 3.0.0)
+License: Artistic-2.0
+MD5sum: 707548a11e2bad17db91d440f7ca5813
+NeedsCompilation: no
+File: shinyMethylData_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: shinyscreenshot
 Version: 0.2.0
@@ -36283,6 +38838,16 @@ License: MIT + file LICENSE
 MD5sum: d7f25946c3ada7700d8205e812a56159
 NeedsCompilation: no
 File: shinytoastr_2.1.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: shinyTree
+Version: 0.2.7
+Depends: R (>= 2.15.1), methods
+Imports: shiny (>= 0.9.0), htmlwidgets, jsonlite, stringr, promises
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 09304fccc696830579b071f8d8d32ae2
+NeedsCompilation: no
+File: shinyTree_0.2.7_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: shinyvalidate
 Version: 0.1.2
@@ -36534,6 +39099,37 @@ MD5sum: a924996fdcd059378f5a591c37362682
 NeedsCompilation: no
 File: signatureSearchData_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: signifinder
+Version: 1.3.1
+Depends: R (>= 4.2.0)
+Imports: ggplot2, org.Hs.eg.db, patchwork, AnnotationDbi, BiocGenerics,
+        ComplexHeatmap, cowplot, DGEobj.utils, GSVA, IRanges,
+        SummarizedExperiment, consensusOV, dplyr, ensembldb, ggridges,
+        grid, magrittr, matrixStats, maxstat, methods, openair,
+        RColorBrewer, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, stats, survival, survminer,
+        viridis
+Suggests: BiocStyle, knitr, kableExtra, testthat (>= 3.0.0), edgeR,
+        limma
+License: AGPL-3
+MD5sum: 1ed20770693f9d72c7ff17320092afa6
+NeedsCompilation: no
+File: signifinder_1.3.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: SigsPack
+Version: 1.15.0
+Depends: R (>= 3.6)
+Imports: quadprog (>= 1.5-5), methods, Biobase, BSgenome (>= 1.46.0),
+        VariantAnnotation (>= 1.24.5), Biostrings, GenomeInfoDb,
+        GenomicRanges, rtracklayer, SummarizedExperiment, graphics,
+        stats, utils
+Suggests: IRanges, BSgenome.Hsapiens.UCSC.hg19, BiocStyle, knitr,
+        rmarkdown
+License: GPL-3
+MD5sum: b48595ff167d5b9750b547ea74695034
+NeedsCompilation: no
+File: SigsPack_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: sigsquared
 Version: 1.33.0
 Depends: R (>= 3.2.0), methods
@@ -36636,6 +39232,15 @@ License: GPL (>= 2)
 MD5sum: 36b93b19959dcc4f5627fb79461488c3
 NeedsCompilation: no
 File: simpIntLists_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: simpleCache
+Version: 0.4.2
+Suggests: knitr, rmarkdown, testthat
+Enhances: batchtools
+License: BSD_2_clause + file LICENSE
+MD5sum: 2225b017b663ba7037007a3e292a73a0
+NeedsCompilation: no
+File: simpleCache_0.4.2_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: simpleSeg
 Version: 1.3.0
@@ -36752,9 +39357,32 @@ Suggests: testthat, Rsubread, BiocStyle, knitr, lintr, spelling,
         shinyjqui, shinyWidgets, shinyFiles, BiocGenerics,
         RColorBrewer, fastmap (>= 1.1.0), harmony
 License: MIT + file LICENSE
-MD5sum: a99b54daefe40dfc125c5e0301ca9936
+MD5sum: 5bbe5b33ff36f57083dfb95e6ca9ea9a
 NeedsCompilation: no
 File: singleCellTK_2.11.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: SingleMoleculeFootprinting
+Version: 1.9.0
+Depends: R (>= 4.1.0)
+Imports: BiocGenerics, Biostrings, BSgenome, GenomeInfoDb,
+        GenomicRanges, data.table, grDevices, plyr, IRanges,
+        RColorBrewer, stats, QuasR
+Suggests: BSgenome.Mmusculus.UCSC.mm10, devtools, ExperimentHub, knitr,
+        parallel, rmarkdown, readr, SingleMoleculeFootprintingData,
+        testthat (>= 3.0.0)
+License: GPL-3
+MD5sum: f4152b1e38be5f5e1817b1f3c852eaef
+NeedsCompilation: no
+File: SingleMoleculeFootprinting_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: SingleMoleculeFootprintingData
+Version: 1.9.0
+Imports: ExperimentHub, utils
+Suggests: knitr, rmarkdown
+License: GPL-3
+MD5sum: 0260380d3eeb848c8a372857e3b4b191
+NeedsCompilation: no
+File: SingleMoleculeFootprintingData_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: SingleR
 Version: 2.3.5
@@ -36859,6 +39487,17 @@ License: GPL-3
 MD5sum: 63cbf789fe7d1cd675f722eefa79016c
 NeedsCompilation: no
 File: sjmisc_2.8.9_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: skewr
+Version: 1.33.0
+Depends: R (>= 3.1.1), methylumi, wateRmelon, mixsmsn,
+        IlluminaHumanMethylation450kmanifest
+Imports: minfi, S4Vectors (>= 0.19.1), RColorBrewer
+Suggests: GEOquery, knitr, minfiData
+License: GPL-2
+MD5sum: 42126b024590b3d660caacdcaedd01c7
+NeedsCompilation: no
+File: skewr_1.33.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: skmeans
 Version: 0.2-15
@@ -36967,12 +39606,35 @@ MD5sum: 33a3f3aaa54d562528f820840526e4d5
 NeedsCompilation: yes
 File: SMAP_1.65.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: SmartSVA
+Version: 0.1.3
+Depends: R (>= 3.1.0), sva, isva, RSpectra
+Imports: Rcpp, stats, utils
+LinkingTo: Rcpp, RcppEigen
+License: GPL-3
+MD5sum: 068b034d760f4c58a0a483be9f3ff1c1
+NeedsCompilation: yes
+File: SmartSVA_0.1.3_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: smatr
 Version: 3.4-8
 License: GPL-2
 MD5sum: df77ab0034cbabcdce26109efa83bf9c
 NeedsCompilation: no
 File: smatr_3.4-8_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: SMITE
+Version: 1.29.0
+Depends: R (>= 3.5), GenomicRanges
+Imports: scales, plyr, Hmisc, AnnotationDbi, org.Hs.eg.db, ggplot2,
+        reactome.db, KEGGREST, BioNet, goseq, methods, IRanges, igraph,
+        Biobase,tools, S4Vectors, geneLenDataBase, grDevices, graphics,
+        stats, utils
+Suggests: knitr, rmarkdown
+License: GPL (>= 2)
+MD5sum: 20d1612c91cddc753b5bffba8ebc4402
+NeedsCompilation: no
+File: SMITE_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: smoof
 Version: 1.6.0.3
@@ -37149,6 +39811,29 @@ MD5sum: 4560be5b180d7a9008f063077302e295
 NeedsCompilation: no
 File: SNPediaR_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: SNPhood
+Version: 1.31.0
+Depends: R (>= 3.5.0), GenomicRanges, Rsamtools, data.table, checkmate
+Imports: DESeq2, cluster, ggplot2, lattice, GenomeInfoDb (>= 1.34.8),
+        BiocParallel, VariantAnnotation, BiocGenerics, IRanges,
+        methods, SummarizedExperiment, RColorBrewer, Biostrings,
+        grDevices, gridExtra, stats, grid, utils, reshape2, scales,
+        S4Vectors
+Suggests: BiocStyle, knitr, pryr, rmarkdown, SNPhoodData, corrplot
+License: LGPL (>= 3)
+MD5sum: a7c2f377890f7e127c98a417f997764c
+NeedsCompilation: no
+File: SNPhood_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: SNPhoodData
+Version: 1.31.0
+Depends: R (>= 3.2)
+Suggests: BiocStyle,knitr,rmarkdown
+License: LGPL (>= 3)
+MD5sum: e8d408d95e6efd6ace86b20854695881
+NeedsCompilation: no
+File: SNPhoodData_1.31.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: SNPlocs.Hsapiens.dbSNP144.GRCh37
 Version: 0.99.20
 Depends: BSgenome (>= 1.43.4)
@@ -37232,6 +39917,43 @@ License: GPL (>= 3)
 MD5sum: 227acb4f0a9dd6b494376dd87973d285
 NeedsCompilation: yes
 File: som_0.3-5.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: SomaticCancerAlterations
+Version: 1.37.0
+Depends: R (>= 3.5.0)
+Imports: GenomicRanges, IRanges, S4Vectors
+Suggests: testthat, ggbio, ggplot2, knitr
+License: GPL-3
+MD5sum: 83ed72d3812eb1b86f636798cbec0b41
+NeedsCompilation: no
+File: SomaticCancerAlterations_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: SomaticSignatures
+Version: 2.37.0
+Depends: R (>= 3.5.0), VariantAnnotation, GenomicRanges, NMF
+Imports: S4Vectors, IRanges, GenomeInfoDb, Biostrings, ggplot2, ggbio,
+        reshape2, NMF, pcaMethods, Biobase, methods, proxy
+Suggests: testthat, knitr, parallel,
+        BSgenome.Hsapiens.1000genomes.hs37d5, SomaticCancerAlterations,
+        ggdendro, fastICA, sva
+License: MIT + file LICENSE
+MD5sum: 4d4cce8b95fe39c7d76d0cc8c89af48e
+NeedsCompilation: no
+File: SomaticSignatures_2.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: SOMNiBUS
+Version: 1.9.2
+Depends: R (>= 4.1.0)
+Imports: Matrix, mgcv, stats, VGAM, IRanges, GenomeInfoDb,
+        GenomicRanges, rtracklayer, S4Vectors, BiocManager, annotatr,
+        yaml, utils, bsseq, reshape2, data.table, ggplot2, tidyr,
+Suggests: BiocStyle, covr, devtools, dplyr, knitr, magick, rmarkdown,
+        testthat, TxDb.Hsapiens.UCSC.hg38.knownGene,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, org.Hs.eg.db,
+License: MIT + file LICENSE
+MD5sum: dc6701c2876659e7d98dd58db8f615f7
+NeedsCompilation: no
+File: SOMNiBUS_1.9.2_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: sonicLength
 Version: 1.4.7
@@ -37748,6 +40470,23 @@ MD5sum: f23ca385d7ceb421ad90f21f739f9ac4
 NeedsCompilation: yes
 File: spatstat.utils_3.0-3_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: spatzie
+Version: 1.7.0
+Depends: R (>= 4.3)
+Imports: BiocGenerics, BSgenome, GenomeInfoDb, GenomicFeatures,
+        GenomicInteractions, GenomicRanges, ggplot2, IRanges,
+        MatrixGenerics, matrixStats, motifmatchr, S4Vectors, stats,
+        SummarizedExperiment, TFBSTools, utils
+Suggests: BiocManager, Biostrings, knitr, pheatmap, rmarkdown,
+        testthat, TxDb.Hsapiens.UCSC.hg19.knownGene,
+        TxDb.Hsapiens.UCSC.hg38.knownGene,
+        TxDb.Mmusculus.UCSC.mm10.knownGene,
+        TxDb.Mmusculus.UCSC.mm9.knownGene
+License: GPL-3
+MD5sum: e3313a747562dc2ae5e4bcd893c94023
+NeedsCompilation: no
+File: spatzie_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: spBayes
 Version: 0.4-6
 Depends: R (>= 1.8.0)
@@ -38053,6 +40792,19 @@ MD5sum: 0bf0a8a5947994b1947b381faef5b0af
 NeedsCompilation: no
 File: splineTimeR_1.29.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: SPLINTER
+Version: 1.27.0
+Depends: R (>= 3.6.0), grDevices, stats
+Imports: graphics, ggplot2, seqLogo, Biostrings, biomaRt,
+        GenomicAlignments, GenomicRanges, GenomicFeatures, Gviz,
+        IRanges, S4Vectors, GenomeInfoDb, utils, plyr,stringr, methods,
+        BSgenome.Mmusculus.UCSC.mm9, googleVis
+Suggests: BiocStyle, knitr, rmarkdown
+License: GPL-2
+MD5sum: 51fe4aa8a51587bc005a6a0725251edb
+NeedsCompilation: no
+File: SPLINTER_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: splitstackshape
 Version: 1.4.8
 Depends: R (>= 2.10)
@@ -38185,6 +40937,14 @@ MD5sum: 0bc9c4cd3bcf14c7fc6a4328744bced6
 NeedsCompilation: no
 File: sqldf_0.4-11_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: SQN
+Version: 1.0.6
+Depends: R (>= 2.6.0), mclust(>= 3.2), nor1mix(>= 1.0-7)
+License: LGPL (>= 2.0)
+MD5sum: c011a3486a426896e1760e6ad0c5c620
+NeedsCompilation: no
+File: SQN_1.0.6_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: SQUADD
 Version: 1.51.0
 Depends: R (>= 2.11.0)
@@ -38233,6 +40993,21 @@ License: Artistic-2.0
 MD5sum: 7198a7715d822cb42d787271a3999615
 NeedsCompilation: no
 File: SRAdb_1.63.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: srnadiff
+Version: 1.21.0
+Depends: R (>= 3.6)
+Imports: Rcpp (>= 0.12.8), methods, devtools, S4Vectors, GenomeInfoDb,
+        rtracklayer, SummarizedExperiment, IRanges, GenomicRanges,
+        DESeq2, edgeR, baySeq, Rsamtools, GenomicFeatures,
+        GenomicAlignments, grDevices, Gviz, BiocParallel, BiocStyle,
+        BiocManager
+LinkingTo: Rcpp
+Suggests: knitr, rmarkdown, testthat, BiocManager, BiocStyle
+License: GPL-3
+MD5sum: 3929ade111d837f4c04b806aced46657
+NeedsCompilation: yes
+File: srnadiff_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: ssc
 Version: 2.1-0
@@ -38702,6 +41477,21 @@ MD5sum: fd574fb28681cada19a37dc113b4b85a
 NeedsCompilation: no
 File: structToolbox_1.13.2_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: StructuralVariantAnnotation
+Version: 1.17.0
+Depends: GenomicRanges, rtracklayer, VariantAnnotation, BiocGenerics, R
+        (>= 4.1.0)
+Imports: assertthat, Biostrings, stringr, dplyr, methods, rlang,
+        GenomicFeatures, IRanges, S4Vectors, SummarizedExperiment,
+        GenomeInfoDb,
+Suggests: ggplot2, devtools, testthat (>= 2.1.0), roxygen2, rmarkdown,
+        tidyverse, knitr, ggbio, biovizBase,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, BSgenome.Hsapiens.UCSC.hg19,
+License: GPL-3 + file LICENSE
+MD5sum: eb99953596e62a5dff902b7106ead863
+NeedsCompilation: no
+File: StructuralVariantAnnotation_1.17.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: styler
 Version: 1.10.1
 Depends: R (>= 3.6.0)
@@ -38975,6 +41765,37 @@ License: Artistic-2.0
 MD5sum: dc4ad51a64380b6cfd178d9759941aa7
 NeedsCompilation: yes
 File: sva_3.49.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: svaNUMT
+Version: 1.7.0
+Depends: GenomicRanges, rtracklayer, VariantAnnotation,
+        StructuralVariantAnnotation, BiocGenerics, Biostrings, R (>=
+        4.0)
+Imports: assertthat, stringr, dplyr, methods, rlang, GenomeInfoDb,
+        S4Vectors, GenomicFeatures
+Suggests: TxDb.Hsapiens.UCSC.hg19.knownGene,
+        BSgenome.Hsapiens.UCSC.hg19, ggplot2, devtools, testthat (>=
+        2.1.0), roxygen2, knitr, readr, plyranges, circlize, IRanges,
+        SummarizedExperiment, rmarkdown
+License: GPL-3 + file LICENSE
+MD5sum: 8b5ec1c9c061ffe72b80610737d3ad49
+NeedsCompilation: no
+File: svaNUMT_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: svaRetro
+Version: 1.7.0
+Depends: GenomicRanges, rtracklayer, BiocGenerics,
+        StructuralVariantAnnotation, R (>= 4.0)
+Imports: VariantAnnotation, assertthat, Biostrings, stringr, dplyr,
+        methods, rlang, GenomicFeatures, GenomeInfoDb, S4Vectors, utils
+Suggests: TxDb.Hsapiens.UCSC.hg19.knownGene, ggplot2, devtools,
+        testthat (>= 2.1.0), roxygen2, knitr, BiocStyle, plyranges,
+        circlize, tictoc, IRanges, stats, SummarizedExperiment,
+        rmarkdown
+License: GPL-3 + file LICENSE
+MD5sum: f2d841fadbe7c0a0d96f54293dda517e
+NeedsCompilation: no
+File: svaRetro_1.7.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: svd
 Version: 0.5.4
@@ -39536,6 +42357,13 @@ MD5sum: 40c9acb2a455c4e0ba95c6d3d32ea93c
 NeedsCompilation: no
 File: TCGAbiolinksGUI.data_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: TCGAMethylation450k
+Version: 1.37.0
+License: GPL-2
+MD5sum: a68b7d20cb1f9aea2b39de1a8bd159d7
+NeedsCompilation: no
+File: TCGAMethylation450k_1.37.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: TCGAutils
 Version: 1.21.4
 Depends: R (>= 4.2.0)
@@ -39648,6 +42476,15 @@ MD5sum: ac6473c71f9ebbfda0504c45b25195bc
 NeedsCompilation: no
 File: TENxBrainData_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: TENxBUSData
+Version: 1.15.0
+Imports: ExperimentHub, AnnotationHub, utils, BiocGenerics
+Suggests: knitr, rmarkdown, BiocStyle
+License: BSD_2_clause + file LICENSE
+MD5sum: 7e7d4c36146b34d74fb1112b2acbfecc
+NeedsCompilation: no
+File: TENxBUSData_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: TENxIO
 Version: 1.3.0
 Depends: R (>= 4.2.0), SingleCellExperiment, SummarizedExperiment
@@ -39725,6 +42562,18 @@ License: GPL (>= 3)
 MD5sum: 02567f3686440ea3e680817726c4c42e
 NeedsCompilation: yes
 File: terra_1.7-39_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: terraTCGAdata
+Version: 1.5.2
+Depends: R (>= 4.2.0), AnVIL, MultiAssayExperiment
+Imports: BiocFileCache, dplyr, GenomicRanges, methods,
+        RaggedExperiment, readr, S4Vectors, stats, tidyr, TCGAutils,
+        utils
+Suggests: knitr, rmarkdown, BiocStyle, withr, testthat (>= 3.0.0)
+License: Artistic-2.0
+MD5sum: f16698ccc7262c152d34f089bf600d3c
+NeedsCompilation: no
+File: terraTCGAdata_1.5.2_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: tester
 Version: 0.1.7
@@ -40304,6 +43153,18 @@ MD5sum: 3201c4e2c1f93a163be1825a1ca7f820
 NeedsCompilation: no
 File: TissueEnrich_1.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: TitanCNA
+Version: 1.39.0
+Depends: R (>= 3.5.1)
+Imports: BiocGenerics (>= 0.31.6), IRanges (>= 2.6.1), GenomicRanges
+        (>= 1.24.3), VariantAnnotation (>= 1.18.7), foreach (>= 1.4.3),
+        GenomeInfoDb (>= 1.8.7), data.table (>= 1.10.4), dplyr (>=
+        0.5.0),
+License: GPL-3
+MD5sum: 9bf0671b1b4325dadac581fb0b72a2cc
+NeedsCompilation: yes
+File: TitanCNA_1.39.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: tkrplot
 Version: 0.0-27
 Depends: R (>= 2.13), grDevices, tcltk
@@ -40321,6 +43182,18 @@ License: Artistic-2.0
 MD5sum: c430703fa2dbd93be5d36107e89c98b9
 NeedsCompilation: no
 File: tkWidgets_1.79.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: tLOH
+Version: 1.9.0
+Depends: R (>= 4.2)
+Imports: scales, stats, utils, ggplot2, data.table, purrr, dplyr,
+        VariantAnnotation, GenomicRanges, MatrixGenerics,
+        bestNormalize, depmixS4, naniar, stringr
+Suggests: knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 10a39fa7bc577c7a1565eec40e5d9eae
+NeedsCompilation: no
+File: tLOH_1.9.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: tm
 Version: 0.7-11
@@ -40584,6 +43457,21 @@ License: GPL (>= 3)
 MD5sum: 4cc21cd919ca8666e39e42e86f87c734
 NeedsCompilation: no
 File: tracktables_1.35.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: trackViewer
+Version: 1.37.14
+Depends: R (>= 3.5.0), grDevices, methods, GenomicRanges, grid
+Imports: GenomeInfoDb, GenomicAlignments, GenomicFeatures, Gviz,
+        Rsamtools, S4Vectors, rtracklayer, BiocGenerics, scales, tools,
+        IRanges, AnnotationDbi, grImport, htmlwidgets, plotrix,
+        Rgraphviz, InteractionSet, graph, utils, rhdf5, strawr
+Suggests: biomaRt, TxDb.Hsapiens.UCSC.hg19.knownGene, RUnit,
+        org.Hs.eg.db, BiocStyle, knitr, VariantAnnotation, httr,
+        htmltools, rmarkdown, motifStack
+License: GPL (>= 2)
+MD5sum: 4825c884a45204468d4655f6f8b79fae
+NeedsCompilation: no
+File: trackViewer_1.37.14_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: tractor.base
 Version: 3.3.5.1
@@ -41265,6 +44153,15 @@ NeedsCompilation: no
 File:
         TxDb.Celegans.UCSC.ce11.refGene_3.4.6_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: TxDb.Celegans.UCSC.ce6.ensGene
+Version: 3.2.2
+Depends: GenomicFeatures (>= 1.21.30)
+Imports: AnnotationDbi
+License: Artistic-2.0
+MD5sum: beab9b77234e99f988d2e7b98ae39ae3
+NeedsCompilation: no
+File: TxDb.Celegans.UCSC.ce6.ensGene_3.2.2_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: TxDb.Dmelanogaster.UCSC.dm3.ensGene
 Version: 3.2.2
 Depends: GenomicFeatures (>= 1.21.30)
@@ -41345,6 +44242,16 @@ NeedsCompilation: no
 File:
         TxDb.Hsapiens.UCSC.hg38.knownGene_3.17.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: TxDb.Mmulatta.UCSC.rheMac10.refGene
+Version: 3.14.0
+Depends: GenomicFeatures (>= 1.45.2)
+Imports: AnnotationDbi
+License: Artistic-2.0
+MD5sum: afe36ea2ec92adb4ee59f7123beac8e8
+NeedsCompilation: no
+File:
+        TxDb.Mmulatta.UCSC.rheMac10.refGene_3.14.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: TxDb.Mmusculus.UCSC.mm10.ensGene
 Version: 3.4.0
 Depends: GenomicFeatures (>= 1.25.17)
@@ -41405,6 +44312,16 @@ NeedsCompilation: no
 File:
         TxDb.Rnorvegicus.UCSC.rn6.refGene_3.4.6_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: TxDb.Rnorvegicus.UCSC.rn7.refGene
+Version: 3.15.0
+Depends: GenomicFeatures (>= 1.47.13)
+Imports: AnnotationDbi
+License: Artistic-2.0
+MD5sum: 1996f5c9e8e74694753e72c3e27c738b
+NeedsCompilation: no
+File:
+        TxDb.Rnorvegicus.UCSC.rn7.refGene_3.15.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: TxDb.Scerevisiae.UCSC.sacCer3.sgdGene
 Version: 3.2.2
 Depends: GenomicFeatures (>= 1.21.30)
@@ -41424,7 +44341,7 @@ Imports: SummarizedExperiment, tximport, jsonlite, S4Vectors, IRanges,
 Suggests: knitr, rmarkdown, testthat, tximportData, org.Dm.eg.db,
         DESeq2, fishpond, edgeR, limma, devtools
 License: GPL-2
-MD5sum: a67b515e8039b22dacf841996b73b508
+MD5sum: 803907455986118163bbbc58aeca53c8
 NeedsCompilation: no
 File: tximeta_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -41542,6 +44459,21 @@ MD5sum: d1afed80cc4ca8c1a2429b63eea2a9f5
 NeedsCompilation: no
 File: UMI4Cats_1.11.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: uncoverappLib
+Version: 1.11.0
+Imports: markdown, shiny, shinyjs, shinyBS,
+        shinyWidgets,shinycssloaders, DT, Gviz, Homo.sapiens, openxlsx,
+        condformat, stringr, org.Hs.eg.db,
+        TxDb.Hsapiens.UCSC.hg38.knownGene, BiocFileCache,rappdirs,
+        TxDb.Hsapiens.UCSC.hg19.knownGene, rlist, utils,S4Vectors,
+        EnsDb.Hsapiens.v75, EnsDb.Hsapiens.v86, OrganismDbi, processx,
+        Rsamtools, GenomicRanges
+Suggests: BiocStyle, knitr, testthat, rmarkdown, dplyr
+License: MIT + file LICENSE
+MD5sum: f6546f80203ead14a4be531ad0b9237a
+NeedsCompilation: no
+File: uncoverappLib_1.11.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: UNDO
 Version: 1.43.0
 Depends: R (>= 2.15.2), methods, BiocGenerics, Biobase
@@ -41578,6 +44510,17 @@ License: MIT + file LICENSE
 MD5sum: e622956a1d399b7961002f9bd9981ece
 NeedsCompilation: no
 File: uniqtag_1.0.1_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: Uniquorn
+Version: 2.21.0
+Depends: R (>= 3.5)
+Imports: stringr, R.utils, WriteXLS, stats, doParallel, foreach,
+        GenomicRanges, IRanges, VariantAnnotation, data.table
+Suggests: testthat, knitr, rmarkdown, BiocGenerics
+License: Artistic-2.0
+MD5sum: 63ca934726a7ec5b6b31d3b67e643a72
+NeedsCompilation: no
+File: Uniquorn_2.21.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: units
 Version: 0.8-2
@@ -41840,6 +44783,28 @@ MD5sum: 03e8fc9093be678b18f7bec919f88f3e
 NeedsCompilation: no
 File: VariantExperiment_1.15.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: VariantFiltering
+Version: 1.37.1
+Depends: R (>= 3.5.0), methods, BiocGenerics (>= 0.25.1),
+        VariantAnnotation (>= 1.13.29)
+Imports: utils, stats, Biobase, S4Vectors (>= 0.9.25), IRanges (>=
+        2.3.23), RBGL, graph, AnnotationDbi, BiocParallel, Biostrings
+        (>= 2.33.11), GenomeInfoDb (>= 1.3.6), GenomicRanges (>=
+        1.19.13), SummarizedExperiment, GenomicFeatures, Rsamtools (>=
+        1.17.8), BSgenome, GenomicScores (>= 1.0.0), Gviz, shiny,
+        shinythemes, shinyjs, DT, shinyTree
+LinkingTo: S4Vectors, IRanges, XVector, Biostrings
+Suggests: RUnit, BiocStyle, org.Hs.eg.db,
+        BSgenome.Hsapiens.1000genomes.hs37d5,
+        TxDb.Hsapiens.UCSC.hg19.knownGene,
+        SNPlocs.Hsapiens.dbSNP144.GRCh37,
+        MafDb.1Kgenomes.phase1.hs37d5, phastCons100way.UCSC.hg19,
+        PolyPhen.Hsapiens.dbSNP131, SIFT.Hsapiens.dbSNP137
+License: Artistic-2.0
+MD5sum: 78d1abf16d5ccf7eca3de6b3a05e7131
+NeedsCompilation: yes
+File: VariantFiltering_1.37.1_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: varImp
 Version: 0.4
 Depends: R (>= 3.0.0), measures, party, stats
@@ -41888,6 +44853,17 @@ MD5sum: c8fa8315b9187fbe992a7faafea6ed42
 NeedsCompilation: no
 File: vcd_1.4-11_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: VCFArray
+Version: 1.17.0
+Depends: R (>= 3.6), methods, BiocGenerics, DelayedArray (>= 0.7.28)
+Imports: tools, GenomicRanges, VariantAnnotation (>= 1.29.3),
+        GenomicFiles (>= 1.17.3), S4Vectors (>= 0.19.19), Rsamtools
+Suggests: SeqArray, BiocStyle, BiocManager, testthat, knitr, rmarkdown
+License: GPL-3
+MD5sum: a1437be2d537bd1eeb2450e5705fa730
+NeedsCompilation: no
+File: VCFArray_1.17.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: vcfR
 Version: 1.14.0
 Depends: R (>= 3.0.1)
@@ -41898,7 +44874,7 @@ LinkingTo: Rcpp
 Suggests: adegenet, ggplot2, knitr, poppr, reshape2, rmarkdown, scales,
         testthat, tidyr
 License: GPL-3
-MD5sum: f8a9d93c8859336586d7ff550dfe1e45
+MD5sum: b2a5363929b1fd375ba9b4ff84573822
 NeedsCompilation: yes
 File: vcfR_1.14.0_R_x86_64-pc-linux-gnu.tar.gz
 
@@ -42118,6 +45094,18 @@ MD5sum: 9f7c0589c169e417e6d69bc6d7a1cab5
 NeedsCompilation: no
 File: viridisLite_0.4.2_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: visdat
+Version: 0.6.0
+Depends: R (>= 3.2.2)
+Imports: ggplot2, tidyr, dplyr, purrr, readr, magrittr, stats, tibble,
+        glue, forcats, cli, scales
+Suggests: testthat (>= 3.0.0), plotly (>= 4.5.6), knitr, rmarkdown,
+        vdiffr, spelling, covr, stringr
+License: MIT + file LICENSE
+MD5sum: 7cad1548ec8753663b269d4b82e8e625
+NeedsCompilation: no
+File: visdat_0.6.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: ViSEAGO
 Version: 1.15.0
 Depends: R (>= 3.6)
@@ -42229,6 +45217,36 @@ MD5sum: ec317d1b1f01ef50869b9a7762cb4510
 NeedsCompilation: yes
 File: vsn_3.69.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: vtpnet
+Version: 0.41.0
+Depends: R (>= 3.0.0), graph, GenomicRanges, gwascat, doParallel,
+        foreach
+Suggests: MotifDb, VariantAnnotation, Rgraphviz
+License: Artistic-2.0
+MD5sum: 03736e1adf1ebf16fb7321bd3b91b4e2
+NeedsCompilation: no
+File: vtpnet_0.41.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: vulcan
+Version: 1.23.0
+Depends: R (>= 4.0), ChIPpeakAnno,TxDb.Hsapiens.UCSC.hg19.knownGene,
+        zoo, GenomicRanges, S4Vectors, viper, DiffBind, locfit
+Imports: wordcloud, csaw, gplots, stats, utils, caTools, graphics,
+        DESeq2, Biobase
+Suggests: vulcandata
+License: LGPL-3
+MD5sum: e51b10773232217ba72049e139512033
+NeedsCompilation: no
+File: vulcan_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: vulcandata
+Version: 1.23.0
+Imports: utils
+License: LGPL-3
+MD5sum: c05bbcfe0d1e8f57f13585db1dbd0c7e
+NeedsCompilation: no
+File: vulcandata_1.23.0_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: waddR
 Version: 1.15.0
 Depends: R (>= 3.6.0)
@@ -42269,6 +45287,22 @@ License: MIT + file LICENSE
 MD5sum: 96d7f4e3424ece48e3cab4d0461ab994
 NeedsCompilation: yes
 File: warp_0.2.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: wateRmelon
+Version: 2.7.0
+Depends: R (>= 3.5.0), Biobase, limma, methods, matrixStats, methylumi,
+        lumi, ROC, IlluminaHumanMethylation450kanno.ilmn12.hg19,
+        illuminaio
+Imports: Biobase
+Suggests: RPMM, IlluminaHumanMethylationEPICanno.ilm10b2.hg19,
+        BiocStyle, knitr, rmarkdown,
+        IlluminaHumanMethylationEPICmanifest, irlba,
+        FlowSorted.Blood.EPIC, FlowSorted.Blood.450k, preprocessCore
+Enhances: minfi
+License: GPL-3
+MD5sum: d473234656a748a8935ad5e9d5f1acfc
+NeedsCompilation: no
+File: wateRmelon_2.7.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: wavClusteR
 Version: 2.35.0
@@ -42734,6 +45768,16 @@ MD5sum: 3b59e98092f9a7fef2a490b80a07e28b
 NeedsCompilation: no
 File: XINA_1.19.0_R_x86_64-pc-linux-gnu.tar.gz
 
+Package: XLConnect
+Version: 1.0.7
+Depends: R (>= 3.6.0)
+Imports: methods, rJava (>= 1.0-1)
+Suggests: RUnit, lattice, ggplot2 (>= 0.9.3), zoo
+License: GPL-3
+MD5sum: 8c3ac31164b0505e6328c496659e407d
+NeedsCompilation: no
+File: XLConnect_1.0.7_R_x86_64-pc-linux-gnu.tar.gz
+
 Package: xlsx
 Version: 0.6.5
 Imports: rJava, xlsxjars, grDevices, utils
@@ -42871,6 +45915,18 @@ License: Artistic-2.0
 MD5sum: 7fb61addd0fb29c93a93f5c7d7b2f800
 NeedsCompilation: no
 File: yamss_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: yarn
+Version: 1.27.0
+Depends: Biobase
+Imports: biomaRt, downloader, edgeR, gplots, graphics, limma,
+        matrixStats, preprocessCore, readr, RColorBrewer, stats,
+        quantro
+Suggests: knitr, rmarkdown, testthat (>= 0.8)
+License: Artistic-2.0
+MD5sum: 3e210abc95a924d0f0fd2e478bf2ef00
+NeedsCompilation: no
+File: yarn_1.27.0_R_x86_64-pc-linux-gnu.tar.gz
 
 Package: yeast2.db
 Version: 3.13.0
@@ -43014,3 +46070,15 @@ License: GPL-2 | GPL-3
 MD5sum: 9f8684cca77b00fe504de4997cc84555
 NeedsCompilation: yes
 File: zoo_1.8-12_R_x86_64-pc-linux-gnu.tar.gz
+
+Package: ZygosityPredictor
+Version: 1.1.2
+Depends: R (>= 4.3.0)
+Imports: GenomicAlignments, GenomicRanges, Rsamtools, IRanges,
+        VariantAnnotation, DelayedArray, dplyr, stringr, purrr, tibble,
+        methods, igraph
+Suggests: knitr, rmarkdown, testthat, BiocStyle
+License: GPL-2
+MD5sum: 2378ad5e0e4c3ac89a76666ef39bc289
+NeedsCompilation: no
+File: ZygosityPredictor_1.1.2_R_x86_64-pc-linux-gnu.tar.gz
