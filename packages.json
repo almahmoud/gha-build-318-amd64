@@ -67,9 +67,7 @@
         "methylumi",
         "minfi"
     ],
-    "ASSIGN": [
-        "sva"
-    ],
+    "ASSIGN": [],
     "ATACCoGAPS": [
         "BSgenome",
         "CNEr",
@@ -112,9 +110,7 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "ballgown": [
-        "sva"
-    ],
+    "ballgown": [],
     "bambu": [
         "BSgenome",
         "GenomicFeatures"
@@ -132,9 +128,7 @@
         "BASiCS",
         "scran"
     ],
-    "BatchQC": [
-        "sva"
-    ],
+    "BatchQC": [],
     "BayesSpace": [
         "scran"
     ],
@@ -184,9 +178,7 @@
     "BiSeq": [],
     "blacksheepr": [],
     "BloodGen3Module": [],
-    "bnbc": [
-        "sva"
-    ],
+    "bnbc": [],
     "BOBaFIT": [
         "BSgenome",
         "GenomicFeatures",
@@ -615,13 +607,11 @@
     ],
     "DaMiRseq": [
         "EDASeq",
-        "GenomicFeatures",
-        "sva"
+        "GenomicFeatures"
     ],
     "debrowser": [
         "clusterProfiler",
-        "enrichplot",
-        "sva"
+        "enrichplot"
     ],
     "decompTumor2Sig": [
         "BSgenome",
@@ -678,9 +668,7 @@
     "DESpace": [
         "SpatialExperiment"
     ],
-    "DExMA": [
-        "sva"
-    ],
+    "DExMA": [],
     "DiffBind": [
         "BSgenome",
         "GreyListChIP",
@@ -702,9 +690,7 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "doppelgangR": [
-        "sva"
-    ],
+    "doppelgangR": [],
     "doubletrouble": [
         "syntenet"
     ],
@@ -718,9 +704,7 @@
     "EDASeq": [
         "GenomicFeatures"
     ],
-    "edge": [
-        "sva"
-    ],
+    "edge": [],
     "ELMER": [
         "BSgenome",
         "GenomicFeatures",
@@ -923,8 +907,7 @@
     "GARS": [
         "DaMiRseq",
         "EDASeq",
-        "GenomicFeatures",
-        "sva"
+        "GenomicFeatures"
     ],
     "gcapc": [
         "BSgenome"
@@ -1181,9 +1164,7 @@
         "VariantAnnotation",
         "plyranges"
     ],
-    "KnowSeq": [
-        "sva"
-    ],
+    "KnowSeq": [],
     "lineagespot": [
         "BSgenome",
         "GenomicFeatures",
@@ -1252,9 +1233,7 @@
         "CNEr",
         "TFBSTools"
     ],
-    "MBECS": [
-        "sva"
-    ],
+    "MBECS": [],
     "mBPCR": [],
     "mCSEA": [
         "BSgenome",
@@ -1275,8 +1254,7 @@
         "ensembldb",
         "methylumi",
         "minfi",
-        "missMethyl",
-        "sva"
+        "missMethyl"
     ],
     "MEAT": [
         "GenomicFeatures",
@@ -1469,9 +1447,7 @@
     "msImpute": [
         "scran"
     ],
-    "MSPrep": [
-        "sva"
-    ],
+    "MSPrep": [],
     "MsQuality": [
         "MsExperiment"
     ],
@@ -1603,9 +1579,7 @@
         "Repitools",
         "Ringo"
     ],
-    "PAA": [
-        "sva"
-    ],
+    "PAA": [],
     "pageRank": [
         "BSgenome",
         "CNEr",
@@ -1698,9 +1672,7 @@
     "pRolocGUI": [
         "pRoloc"
     ],
-    "PROPS": [
-        "sva"
-    ],
+    "PROPS": [],
     "ProteoDisco": [
         "BSgenome",
         "GenomicFeatures",
@@ -1737,12 +1709,8 @@
     "qsea": [
         "BSgenome"
     ],
-    "qsmooth": [
-        "sva"
-    ],
-    "qsvaR": [
-        "sva"
-    ],
+    "qsmooth": [],
+    "qsvaR": [],
     "quantro": [
         "GenomicFeatures",
         "bumphunter",
@@ -2006,9 +1974,7 @@
         "GenomicFeatures"
     ],
     "sampleClassifier": [],
-    "SCAN.UPC": [
-        "sva"
-    ],
+    "SCAN.UPC": [],
     "scanMiRApp": [
         "GenomicFeatures",
         "ensembldb"
@@ -2112,9 +2078,7 @@
         "VariantAnnotation"
     ],
     "seqsetvis": [],
-    "SEtools": [
-        "sva"
-    ],
+    "SEtools": [],
     "sevenC": [],
     "SGCP": [
         "Category",
@@ -2171,7 +2135,6 @@
         "scDblFinder",
         "scMerge",
         "scran",
-        "sva",
         "zinbwave"
     ],
     "SingleMoleculeFootprinting": [
@@ -2320,7 +2283,6 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "sva": [],
     "svaNUMT": [
         "BSgenome",
         "GenomicFeatures",
@@ -2341,8 +2303,7 @@
         "GenomicFeatures"
     ],
     "TBSignatureProfiler": [
-        "ASSIGN",
-        "sva"
+        "ASSIGN"
     ],
     "TCGAutils": [
         "GenomicFeatures"
@@ -2412,9 +2373,7 @@
         "GenomicFeatures"
     ],
     "tricycle": [],
-    "trigger": [
-        "sva"
-    ],
+    "trigger": [],
     "tRNAscanImport": [
         "BSgenome"
     ],
@@ -2472,8 +2431,7 @@
         "ensembldb"
     ],
     "VaSP": [
-        "ballgown",
-        "sva"
+        "ballgown"
     ],
     "VCFArray": [
         "BSgenome",
