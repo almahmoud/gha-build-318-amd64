@@ -1,0 +1,299 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ggtree'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'ggtree'
+also installing the dependencies ‘showtextdb’, ‘proto’, ‘showtext’, ‘sysfonts’, ‘magick’, ‘emojifont’, ‘ggimage’, ‘shadowtext’
+
+trying URL 'https://cloud.r-project.org/src/contrib/showtextdb_3.0.tar.gz'
+Content type 'application/x-gzip' length 1989613 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/proto_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 541398 bytes (528 KB)
+==================================================
+downloaded 528 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/showtext_0.9-6.tar.gz'
+Content type 'application/x-gzip' length 442369 bytes (432 KB)
+==================================================
+downloaded 432 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sysfonts_0.8.8.tar.gz'
+Content type 'application/x-gzip' length 1199486 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/magick_2.7.5.tar.gz'
+Content type 'application/x-gzip' length 4499585 bytes (4.3 MB)
+==================================================
+downloaded 4.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/emojifont_0.5.5.tar.gz'
+Content type 'application/x-gzip' length 3697991 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggimage_0.3.3.tar.gz'
+Content type 'application/x-gzip' length 73718 bytes (71 KB)
+==================================================
+downloaded 71 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/shadowtext_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 187214 bytes (182 KB)
+==================================================
+downloaded 182 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/ggtree_3.9.1.tar.gz'
+Content type 'application/x-gzip' length 362042 bytes (353 KB)
+==================================================
+downloaded 353 KB
+
+* installing *source* package ‘proto’ ...
+** package ‘proto’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proto’ as ‘proto_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proto)
+* installing *source* package ‘sysfonts’ ...
+** package ‘sysfonts’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for pkg-config... /usr/bin/pkg-config
+checking whether pkg-config could find zlib... yes
+checking whether pkg-config could find libpng... yes
+checking whether pkg-config could find freetype2... yes
+checking whether freetype2 flags work... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c font_name.c -o font_name.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c register_routines.c -o register_routines.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sysfonts.c -o sysfonts.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sysfonts.so font_name.o register_routines.o sysfonts.o -lfreetype -lpng16 -lz -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-sysfonts/00new/sysfonts/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sysfonts’ as ‘sysfonts_0.8.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sysfonts)
+* installing *source* package ‘magick’ ...
+** package ‘magick’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found pkg-config cflags and libs!
+Using PKG_CFLAGS=-fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6
+Using PKG_LIBS=-lMagick++-6.Q16 -lMagickWand-6.Q16 -lMagickCore-6.Q16
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c animation.cpp -o animation.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c attributes.cpp -o attributes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c base.cpp -o base.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c color.cpp -o color.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c composite.cpp -o composite.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c config.cc -o config.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c convolve.cpp -o convolve.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c device.cpp -o device.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c edges.cpp -o edges.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c edit.cpp -o edit.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fonts.cpp -o fonts.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c options.cpp -o options.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c properties.cpp -o properties.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c resize.cpp -o resize.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c segment.cpp -o segment.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -fopenmp -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I/usr/include/x86_64-linux-gnu//ImageMagick-6 -I/usr/include/ImageMagick-6 -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transformations.cpp -o transformations.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o magick.so RcppExports.o animation.o attributes.o base.o color.o composite.o config.o convolve.o device.o edges.o edit.o fonts.o options.o properties.o resize.o segment.o transformations.o -lMagick++-6.Q16 -lMagickWand-6.Q16 -lMagickCore-6.Q16 -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-magick/00new/magick/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘magick’ as ‘magick_2.7.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (magick)
+* installing *source* package ‘shadowtext’ ...
+** package ‘shadowtext’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shadowtext’ as ‘shadowtext_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shadowtext)
+* installing *source* package ‘ggtree’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggtree’ as ‘ggtree_3.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtree)
+* installing *source* package ‘showtextdb’ ...
+** package ‘showtextdb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘showtextdb’ as ‘showtextdb_3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showtextdb)
+* installing *source* package ‘ggimage’ ...
+** package ‘ggimage’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggimage’ as ‘ggimage_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggimage)
+* installing *source* package ‘showtext’ ...
+** package ‘showtext’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for pkg-config... /usr/bin/pkg-config
+checking whether pkg-config could find zlib... yes
+checking whether pkg-config could find libpng... yes
+checking whether pkg-config could find freetype2... yes
+checking whether freetype2 flags work... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c array.c -o array.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cairodev.c -o cairodev.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c devfuns.c -o devfuns.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fonts.c -o fonts.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c outline.c -o outline.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raster.c -o raster.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c register_routines.c -o register_routines.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c showtext.c -o showtext.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utf8.c -o utf8.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libpng16   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o showtext.so array.o cairodev.o devfuns.o fonts.o outline.o raster.o register_routines.o showtext.o utf8.o util.o -lfreetype -lpng16 -lz -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-showtext/00new/showtext/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘showtext’ as ‘showtext_0.9-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showtext)
+* installing *source* package ‘emojifont’ ...
+** package ‘emojifont’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘emojifont’ as ‘emojifont_0.5.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emojifont)
+
+The downloaded source packages are in
+	‘/tmp/RtmpCeGDcE/downloaded_packages’
+Old packages: 'shiny', 'KernSmooth', 'Matrix', 'mgcv', 'nlme', 'spatial'
+
+real	1m47.099s
+user	1m37.006s
+sys	0m9.207s
+* installing *source* package ‘emojifont’ ...
+** package ‘emojifont’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘emojifont’ as ‘emojifont_0.5.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emojifont)
