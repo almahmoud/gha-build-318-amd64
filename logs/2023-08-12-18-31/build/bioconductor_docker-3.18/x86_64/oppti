@@ -1,0 +1,251 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''oppti'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'oppti'
+also installing the dependencies ‘plyr’, ‘RcppParallel’, ‘RcppArmadillo’, ‘reshape’, ‘pheatmap’, ‘parallelDist’, ‘markdown’
+
+trying URL 'https://cloud.r-project.org/src/contrib/plyr_1.8.8.tar.gz'
+Content type 'application/x-gzip' length 401438 bytes (392 KB)
+==================================================
+downloaded 392 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppParallel_5.1.7.tar.gz'
+Content type 'application/x-gzip' length 1629119 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppArmadillo_0.12.6.1.0.tar.gz'
+Content type 'application/x-gzip' length 1399577 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/reshape_0.8.9.tar.gz'
+Content type 'application/x-gzip' length 41843 bytes (40 KB)
+==================================================
+downloaded 40 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pheatmap_1.0.12.tar.gz'
+Content type 'application/x-gzip' length 15071 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/parallelDist_0.2.6.tar.gz'
+Content type 'application/x-gzip' length 201463 bytes (196 KB)
+==================================================
+downloaded 196 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/markdown_1.7.tar.gz'
+Content type 'application/x-gzip' length 107936 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/oppti_1.15.0.tar.gz'
+Content type 'application/x-gzip' length 76164 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+* installing *source* package ‘plyr’ ...
+** package ‘plyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loop_apply.c -o loop_apply.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c split-numeric.cpp -o split-numeric.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o plyr.so RcppExports.o loop_apply.o split-numeric.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-plyr/00new/plyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *source* package ‘RcppParallel’ ...
+** package ‘RcppParallel’ successfully unpacked and MD5 sums checked
+** using staged installation
+** preparing to configure package 'RcppParallel' ...
+*** configured file: 'R/tbb-autodetected.R.in' => 'R/tbb-autodetected.R'
+*** configured file: 'src/Makevars.in' => 'src/Makevars'
+*** configured file: 'src/install.libs.R.in' => 'src/install.libs.R'
+** finished configure for package 'RcppParallel'
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+(tbb) Building TBB using bundled sources ...
+make[1]: Entering directory '/tmp/RtmpXdD2MV/R.INSTALLa93fab091a/RcppParallel/src/tbb/src'
+OS: linux
+arch=intel64
+compiler=gcc
+runtime=cc11.4.0_libc2.35_kernel5.15.0
+tbb_build_prefix=linux_intel64_gcc_cc11.4.0_libc2.35_kernel5.15.0
+work_dir=/tmp/RtmpXdD2MV/R.INSTALLa93fab091a/RcppParallel/src/build/linux_intel64_gcc_cc11.4.0_libc2.35_kernel5.15.0_release
+make[1]: Leaving directory '/tmp/RtmpXdD2MV/R.INSTALLa93fab091a/RcppParallel/src/tbb/src'
+(tbb) TBB compilation finished successfully.
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include  -I/usr/local/include   -std=gnu++11 -DRCPP_PARALLEL_USE_TBB=1 -DTBB_SUPPRESS_DEPRECATED_MESSAGES=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include  -I/usr/local/include   -std=gnu++11 -DRCPP_PARALLEL_USE_TBB=1 -DTBB_SUPPRESS_DEPRECATED_MESSAGES=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c options.cpp -o options.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppParallel.so init.o options.o -L/usr/local/lib/R/lib -lR
+installing via 'install.libs.R' to /tmp/tmp/built/00LOCK-RcppParallel/00new/RcppParallel
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppParallel’ as ‘RcppParallel_5.1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppParallel)
+* installing *source* package ‘RcppArmadillo’ ...
+** package ‘RcppArmadillo’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking for g++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... g++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether g++ -std=gnu++17 accepts -g... (cached) yes
+checking for g++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking whether we have a suitable tempdir... /tmp
+checking whether R CMD SHLIB can already compile programs using OpenMP... yes
+checking LAPACK_LIBS... system LAPACK found
+configure: creating ./config.status
+config.status: creating inst/include/RcppArmadillo/config/RcppArmadilloConfigGenerated.h
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppArmadillo.cpp -o RcppArmadillo.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastLm.cpp -o fastLm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RcppArmadillo.so RcppArmadillo.o RcppExports.o fastLm.o -fopenmp -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RcppArmadillo/00new/RcppArmadillo/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_0.12.6.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *source* package ‘pheatmap’ ...
+** package ‘pheatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pheatmap’ as ‘pheatmap_1.0.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pheatmap)
+* installing *source* package ‘markdown’ ...
+** package ‘markdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *source* package ‘reshape’ ...
+** package ‘reshape’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reshape’ as ‘reshape_0.8.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape)
+* installing *source* package ‘parallelDist’ ...
+** package ‘parallelDist’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppParallel/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DistanceDTWFactory.cpp -o DistanceDTWFactory.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppParallel/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DistanceFactory.cpp -o DistanceFactory.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppParallel/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppParallel/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Util.cpp -o Util.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppParallel/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parallelDist.cpp -o parallelDist.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o parallelDist.so DistanceDTWFactory.o DistanceFactory.o RcppExports.o Util.o parallelDist.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-parallelDist/00new/parallelDist/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘parallelDist’ as ‘parallelDist_0.2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelDist)
+* installing *source* package ‘oppti’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘oppti’ as ‘oppti_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (oppti)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpl1amso/downloaded_packages’
+Old packages: 'shiny', 'KernSmooth', 'Matrix', 'mgcv', 'nlme', 'spatial'
+
+real	2m19.917s
+user	2m7.006s
+sys	0m13.911s
