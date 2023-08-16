@@ -1,0 +1,38 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''goSTAG'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'goSTAG'
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/goSTAG_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 2049250 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+* installing *source* package ‘goSTAG’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘goSTAG’ as ‘goSTAG_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goSTAG)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFG67EU/downloaded_packages’
+Old packages: 'ggplot2', 'curl', 'httr', 'Matrix', 'rmarkdown', 'shiny',
+  'KernSmooth', 'mgcv', 'nlme', 'spatial', 'survival'
+
+real	0m23.714s
+user	0m20.148s
+sys	0m1.686s
