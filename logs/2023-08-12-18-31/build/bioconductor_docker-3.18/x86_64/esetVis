@@ -1,0 +1,548 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''esetVis'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'esetVis'
+also installing the dependencies ‘triebeard’, ‘urltools’, ‘httpcode’, ‘lobstr’, ‘crul’, ‘assertthat’, ‘maps’, ‘pryr’, ‘gistr’, ‘mpm’, ‘hexbin’, ‘Rtsne’, ‘ggvis’, ‘rbokeh’, ‘ggrepel’, ‘ALL’, ‘pander’
+
+trying URL 'https://cloud.r-project.org/src/contrib/triebeard_0.4.1.tar.gz'
+Content type 'application/x-gzip' length 31450 bytes (30 KB)
+==================================================
+downloaded 30 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/urltools_1.7.3.tar.gz'
+Content type 'application/x-gzip' length 135778 bytes (132 KB)
+==================================================
+downloaded 132 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/httpcode_0.3.0.tar.gz'
+Content type 'application/x-gzip' length 17821 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lobstr_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 62653 bytes (61 KB)
+==================================================
+downloaded 61 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/crul_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 534351 bytes (521 KB)
+==================================================
+downloaded 521 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'application/x-gzip' length 12742 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/maps_3.4.1.tar.gz'
+Content type 'application/x-gzip' length 2277921 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pryr_0.1.6.tar.gz'
+Content type 'application/x-gzip' length 42090 bytes (41 KB)
+==================================================
+downloaded 41 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gistr_0.9.0.tar.gz'
+Content type 'application/x-gzip' length 686443 bytes (670 KB)
+==================================================
+downloaded 670 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/mpm_1.0-23.tar.gz'
+Content type 'application/x-gzip' length 562811 bytes (549 KB)
+==================================================
+downloaded 549 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/hexbin_1.28.3.tar.gz'
+Content type 'application/x-gzip' length 1199967 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Rtsne_0.16.tar.gz'
+Content type 'application/x-gzip' length 70074 bytes (68 KB)
+==================================================
+downloaded 68 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggvis_0.4.8.tar.gz'
+Content type 'application/x-gzip' length 792377 bytes (773 KB)
+==================================================
+downloaded 773 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rbokeh_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 740634 bytes (723 KB)
+==================================================
+downloaded 723 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggrepel_0.9.3.tar.gz'
+Content type 'application/x-gzip' length 136189 bytes (132 KB)
+==================================================
+downloaded 132 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/ALL_1.43.0.tar.gz'
+Content type 'application/x-gzip' length 11382983 bytes (10.9 MB)
+==================================================
+downloaded 10.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pander_0.6.5.tar.gz'
+Content type 'application/x-gzip' length 393677 bytes (384 KB)
+==================================================
+downloaded 384 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/esetVis_1.27.1.tar.gz'
+Content type 'application/x-gzip' length 2160707 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+* installing *source* package ‘triebeard’ ...
+** package ‘triebeard’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c alter.cpp -o alter.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c create.cpp -o create.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c get.cpp -o get.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c greedy_match.cpp -o greedy_match.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c length.cpp -o length.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c longest_match.cpp -o longest_match.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c prefix_match.cpp -o prefix_match.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I../inst/include -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c str.cpp -o str.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o triebeard.so RcppExports.o alter.o create.o get.o greedy_match.o length.o longest_match.o prefix_match.o str.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-triebeard/00new/triebeard/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘triebeard’ as ‘triebeard_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (triebeard)
+* installing *source* package ‘httpcode’ ...
+** package ‘httpcode’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘httpcode’ as ‘httpcode_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httpcode)
+* installing *source* package ‘lobstr’ ...
+** package ‘lobstr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c address.cpp -o address.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inspect.cpp -o inspect.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c size.cpp -o size.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lobstr.so address.o cpp11.o inspect.o size.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-lobstr/00new/lobstr/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lobstr’ as ‘lobstr_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lobstr)
+* installing *source* package ‘assertthat’ ...
+** package ‘assertthat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *source* package ‘maps’ ...
+** package ‘maps’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gawk... no
+checking for mawk... mawk
+configure: creating ./config.status
+config.status: creating src/Makefile
+** libs
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile init.o mapclip.o mapget.o smooth.o thin.o 
+make[1]: Entering directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapclip.c -o mapclip.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapget.c -o mapget.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c smooth.c -o smooth.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c thin.c -o thin.o
+make[1]: Leaving directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+"/usr/local/lib/R/bin/R" CMD SHLIB -o maps.so init.o mapclip.o mapget.o smooth.o thin.o 
+make[1]: Entering directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o maps.so init.o mapclip.o mapget.o smooth.o thin.o -L/usr/local/lib/R/lib -lR
+make[1]: Leaving directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile Gmake
+make[1]: Entering directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/local/include -L/usr/local/lib  Gmake.c   -o Gmake
+make[1]: Leaving directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile Lmake
+make[1]: Entering directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/local/include -L/usr/local/lib  Lmake.c   -o Lmake
+make[1]: Leaving directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile world2.line
+make[1]: Entering directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+Converting world to world2
+mawk -f ./convert.awk < world.line > world2.line
+make[1]: Leaving directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.L state.L usa.L nz.L world.L world2.L italy.L france.L state.vbm.L state.carto.L lakes.L
+make[1]: Entering directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+./Lmake 0 s b county.line county.linestats ../inst/mapdata/county.L
+./Lmake 0 s b state.line state.linestats ../inst/mapdata/state.L
+./Lmake 0 s b usa.line usa.linestats ../inst/mapdata/usa.L
+./Lmake 0 s b nz.line nz.linestats ../inst/mapdata/nz.L
+./Lmake 0 s b world.line world.linestats ../inst/mapdata/world.L
+./Lmake 0 s b world2.line world2.linestats ../inst/mapdata/world2.L
+./Lmake 0 s b italy.line italy.linestats ../inst/mapdata/italy.L
+./Lmake 0 s b france.line france.linestats ../inst/mapdata/france.L
+./Lmake 0 p b state.vbm.line state.vbm.linestats ../inst/mapdata/state.vbm.L
+./Lmake 0 p b state.carto.line state.carto.linestats ../inst/mapdata/state.carto.L
+./Lmake 0 s b lakes.line lakes.linestats ../inst/mapdata/lakes.L
+make[1]: Leaving directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.G state.G usa.G nz.G world.G world2.G italy.G france.G state.vbm.G state.carto.G lakes.G
+make[1]: Entering directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+./Gmake b county.gon county.gonstats ../inst/mapdata/county.G ../inst/mapdata/county.L
+./Gmake b state.gon state.gonstats ../inst/mapdata/state.G ../inst/mapdata/state.L
+./Gmake b usa.gon usa.gonstats ../inst/mapdata/usa.G ../inst/mapdata/usa.L
+./Gmake b nz.gon nz.gonstats ../inst/mapdata/nz.G ../inst/mapdata/nz.L
+./Gmake b world.gon world.gonstats ../inst/mapdata/world.G ../inst/mapdata/world.L
+./Gmake b world2.gon world2.gonstats ../inst/mapdata/world2.G ../inst/mapdata/world2.L
+./Gmake b italy.gon italy.gonstats ../inst/mapdata/italy.G ../inst/mapdata/italy.L
+./Gmake b france.gon france.gonstats ../inst/mapdata/france.G ../inst/mapdata/france.L
+./Gmake b state.vbm.gon state.vbm.gonstats ../inst/mapdata/state.vbm.G ../inst/mapdata/state.vbm.L
+./Gmake b state.carto.gon state.carto.gonstats ../inst/mapdata/state.carto.G ../inst/mapdata/state.carto.L
+./Gmake b lakes.gon lakes.gonstats ../inst/mapdata/lakes.G ../inst/mapdata/lakes.L
+make[1]: Leaving directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.N state.N usa.N nz.N world.N world2.N italy.N france.N state.vbm.N state.carto.N lakes.N
+make[1]: Entering directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+make[1]: Leaving directory '/tmp/RtmpqVDnMN/R.INSTALL1a9136fc752/maps/src'
+installing to /tmp/tmp/built/00LOCK-maps/00new/maps/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘maps’ as ‘maps_3.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maps)
+* installing *source* package ‘mpm’ ...
+** package ‘mpm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mpm’ as ‘mpm_1.0-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mpm)
+* installing *source* package ‘hexbin’ ...
+** package ‘hexbin’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gfortran  -fpic  -g -O2  -c hbin.f -o hbin.o
+gfortran  -fpic  -g -O2  -c hcell.f -o hcell.o
+gfortran  -fpic  -g -O2  -c herode.f -o herode.o
+gfortran  -fpic  -g -O2  -c hsm.f -o hsm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reg.c -o reg.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o hexbin.so hbin.o hcell.o herode.o hsm.o reg.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-hexbin/00new/hexbin/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hexbin’ as ‘hexbin_1.28.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hexbin)
+* installing *source* package ‘Rtsne’ ...
+** package ‘Rtsne’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rtsne.cpp -o Rtsne.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c normalize_input.cpp -o normalize_input.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sptree.cpp -o sptree.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tsne.cpp -o tsne.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rtsne.so RcppExports.o Rtsne.o normalize_input.o sptree.o tsne.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Rtsne/00new/Rtsne/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Rtsne’ as ‘Rtsne_0.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rtsne)
+* installing *source* package ‘ggrepel’ ...
+** package ‘ggrepel’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c repel_boxes.cpp -o repel_boxes.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ggrepel.so RcppExports.o repel_boxes.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ggrepel/00new/ggrepel/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *source* package ‘ALL’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ALL’ as ‘ALL_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ALL)
+* installing *source* package ‘pander’ ...
+** package ‘pander’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c helpers.cpp -o helpers.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pandoc.cpp -o pandoc.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pander.so RcppExports.o helpers.o pandoc.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-pander/00new/pander/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pander’ as ‘pander_0.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pander)
+* installing *source* package ‘urltools’ ...
+** package ‘urltools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compose.cpp -o compose.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c credentials.cpp -o credentials.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c encoding.cpp -o encoding.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parameter.cpp -o parameter.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parsing.cpp -o parsing.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c puny.cpp -o puny.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c punycode.c -o punycode.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c suffix.cpp -o suffix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utf8.c -o utf8.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o urltools.so RcppExports.o compose.o credentials.o encoding.o parameter.o parsing.o puny.o punycode.o suffix.o utf8.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-urltools/00new/urltools/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘urltools’ as ‘urltools_1.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (urltools)
+* installing *source* package ‘pryr’ ...
+** package ‘pryr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bytes.cpp -o bytes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inspect.cpp -o inspect.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c promise.cpp -o promise.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c slice.cpp -o slice.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c typename.cpp -o typename.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pryr.so RcppExports.o bytes.o inspect.o promise.o slice.o typename.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-pryr/00new/pryr/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pryr’ as ‘pryr_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pryr)
+* installing *source* package ‘ggvis’ ...
+** package ‘ggvis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggvis’ as ‘ggvis_0.4.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggvis)
+* installing *source* package ‘esetVis’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘esetVis’ as ‘esetVis_1.27.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (esetVis)
+* installing *source* package ‘crul’ ...
+** package ‘crul’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘crul’ as ‘crul_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crul)
+* installing *source* package ‘gistr’ ...
+** package ‘gistr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gistr’ as ‘gistr_0.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gistr)
+* installing *source* package ‘rbokeh’ ...
+** package ‘rbokeh’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rbokeh’ as ‘rbokeh_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rbokeh)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDdzGKe/downloaded_packages’
+Old packages: 'ggplot2', 'rtracklayer', 'curl', 'httr', 'Matrix', 'rmarkdown',
+  'shiny', 'KernSmooth', 'mgcv', 'nlme', 'spatial', 'survival'
+
+real	4m53.215s
+user	4m32.100s
+sys	0m24.968s
