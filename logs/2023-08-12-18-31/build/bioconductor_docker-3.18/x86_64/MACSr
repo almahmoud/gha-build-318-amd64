@@ -1,0 +1,69 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MACSr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'MACSr'
+also installing the dependency ‘MACSdata’
+
+trying URL 'https://bioconductor.org/packages/3.18/data/experiment/src/contrib/MACSdata_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 2766 bytes
+==================================================
+downloaded 2766 bytes
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/MACSr_1.9.1.tar.gz'
+Content type 'application/x-gzip' length 884072 bytes (863 KB)
+==================================================
+downloaded 863 KB
+
+* installing *source* package ‘MACSdata’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MACSdata’ as ‘MACSdata_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MACSdata)
+* installing *source* package ‘MACSr’ ...
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘MACSr’ as ‘MACSr_1.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MACSr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXCfraa/downloaded_packages’
+Old packages: 'ggplot2', 'rtracklayer', 'curl', 'httr', 'Matrix', 'rmarkdown',
+  'shiny', 'KernSmooth', 'mgcv', 'nlme', 'spatial', 'survival'
+
+real	0m23.129s
+user	0m19.557s
+sys	0m2.273s
+* installing *source* package ‘MACSdata’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MACSdata’ as ‘MACSdata_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MACSdata)
