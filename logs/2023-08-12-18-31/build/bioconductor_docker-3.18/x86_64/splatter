@@ -753,7 +753,7 @@ checking for qmake... no
 configure: creating ./config.status
 config.status: creating makefile
 config.status: creating config.h
-make[1]: Entering directory '/tmp/RtmpzXfRts/R.INSTALL4b419921671/cubature/src/Cuba'
+make[1]: Entering directory '/tmp/Rtmp883LB7/R.INSTALL4b463d6eee8/cubature/src/Cuba'
 gcc -std=gnu17 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic -I. -I../inst/include -I./src/common -I./src/vegas -DNOUNDERSCORE -c -o Vegas.o ./src/vegas/Vegas.c
 ar -rv libcuba.a Vegas.o
 ar: creating libcuba.a
@@ -784,17 +784,17 @@ ar -rv libcuba.a Data.o
 a - Data.o
 rm -f Data.o
 ranlib libcuba.a
-make[1]: Leaving directory '/tmp/RtmpzXfRts/R.INSTALL4b419921671/cubature/src/Cuba'
+make[1]: Leaving directory '/tmp/Rtmp883LB7/R.INSTALL4b463d6eee8/cubature/src/Cuba'
 g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I../inst/include -I./src/common -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcpp-Cuba.cpp -o Rcpp-Cuba.o
 ((cd cubature-1.0.4 && \
 (make libcubature.a CC="gcc -std=gnu17" CFLAGS="-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic -I. -I../inst/include -I./src/common" AR="ar" RANLIB="ranlib")) && \
 touch cubature.ts)
-make[1]: Entering directory '/tmp/RtmpzXfRts/R.INSTALL4b419921671/cubature/src/cubature-1.0.4'
+make[1]: Entering directory '/tmp/Rtmp883LB7/R.INSTALL4b463d6eee8/cubature/src/cubature-1.0.4'
 gcc -std=gnu17 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic -I. -I../inst/include -I./src/common   -c -o hcubature.o hcubature.c
 gcc -std=gnu17 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -fpic -I. -I../inst/include -I./src/common   -c -o pcubature.o pcubature.c
 ar cr libcubature.a  hcubature.o pcubature.o
 ranlib libcubature.a
-make[1]: Leaving directory '/tmp/RtmpzXfRts/R.INSTALL4b419921671/cubature/src/cubature-1.0.4'
+make[1]: Leaving directory '/tmp/Rtmp883LB7/R.INSTALL4b463d6eee8/cubature/src/cubature-1.0.4'
 g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I../inst/include -I./src/common -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcpp-cubature.cpp -o Rcpp-cubature.o
 g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I../inst/include -I./src/common -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
 gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I../inst/include -I./src/common -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I. -I../inst/include -I./src/common -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cubature_init.c -o cubature_init.o
@@ -1025,32 +1025,32 @@ configure: creating ./config.status
 config.status: creating src/Makefile
 ** libs
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile init.o mapclip.o mapget.o smooth.o thin.o 
-make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Entering directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapclip.c -o mapclip.o
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mapget.c -o mapget.o
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c smooth.c -o smooth.o
 gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c thin.c -o thin.o
-make[1]: Leaving directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Leaving directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 "/usr/local/lib/R/bin/R" CMD SHLIB -o maps.so init.o mapclip.o mapget.o smooth.o thin.o 
-make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Entering directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o maps.so init.o mapclip.o mapget.o smooth.o thin.o -L/usr/local/lib/R/lib -lR
-make[1]: Leaving directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Leaving directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile Gmake
-make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Entering directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/local/include -L/usr/local/lib  Gmake.c   -o Gmake
-make[1]: Leaving directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Leaving directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile Lmake
-make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Entering directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/local/include -L/usr/local/lib  Lmake.c   -o Lmake
-make[1]: Leaving directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Leaving directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile world2.line
-make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Entering directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 Converting world to world2
 mawk -f ./convert.awk < world.line > world2.line
-make[1]: Leaving directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Leaving directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.L state.L usa.L nz.L world.L world2.L italy.L france.L state.vbm.L state.carto.L lakes.L
-make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Entering directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 ./Lmake 0 s b county.line county.linestats ../inst/mapdata/county.L
 ./Lmake 0 s b state.line state.linestats ../inst/mapdata/state.L
 ./Lmake 0 s b usa.line usa.linestats ../inst/mapdata/usa.L
@@ -1062,9 +1062,9 @@ make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
 ./Lmake 0 p b state.vbm.line state.vbm.linestats ../inst/mapdata/state.vbm.L
 ./Lmake 0 p b state.carto.line state.carto.linestats ../inst/mapdata/state.carto.L
 ./Lmake 0 s b lakes.line lakes.linestats ../inst/mapdata/lakes.L
-make[1]: Leaving directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Leaving directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.G state.G usa.G nz.G world.G world2.G italy.G france.G state.vbm.G state.carto.G lakes.G
-make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Entering directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 ./Gmake b county.gon county.gonstats ../inst/mapdata/county.G ../inst/mapdata/county.L
 ./Gmake b state.gon state.gonstats ../inst/mapdata/state.G ../inst/mapdata/state.L
 ./Gmake b usa.gon usa.gonstats ../inst/mapdata/usa.G ../inst/mapdata/usa.L
@@ -1076,10 +1076,10 @@ make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
 ./Gmake b state.vbm.gon state.vbm.gonstats ../inst/mapdata/state.vbm.G ../inst/mapdata/state.vbm.L
 ./Gmake b state.carto.gon state.carto.gonstats ../inst/mapdata/state.carto.G ../inst/mapdata/state.carto.L
 ./Gmake b lakes.gon lakes.gonstats ../inst/mapdata/lakes.G ../inst/mapdata/lakes.L
-make[1]: Leaving directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Leaving directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 make -f "/usr/local/lib/R/etc/Makeconf" -f Makefile county.N state.N usa.N nz.N world.N world2.N italy.N france.N state.vbm.N state.carto.N lakes.N
-make[1]: Entering directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
-make[1]: Leaving directory '/tmp/RtmpCvhmbV/R.INSTALLe2e767f461a/maps/src'
+make[1]: Entering directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
+make[1]: Leaving directory '/tmp/RtmpwU5VoJ/R.INSTALLe2e18ee9c88/maps/src'
 installing to /tmp/tmp/built/00LOCK-maps/00new/maps/libs
 ** R
 ** data
@@ -3141,13 +3141,13 @@ set LDFLAGS=-L/usr/local/lib
 -- Performing Test HAS_FPIC - Success
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt-build
+-- Build files have been written to: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt-build
 [  1%] Generating nlopt.f
 [  3%] Generating nlopt.hpp
 [  3%] Built target generate-fortran
 [  3%] Built target generate-cpp
-[  5%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o
-[  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
+[  5%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
+[  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o
 [  9%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o
 [ 11%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o
 [ 13%] Building C object CMakeFiles/nlopt.dir/src/algs/cdirect/cdirect.c.o
@@ -3179,11 +3179,11 @@ set LDFLAGS=-L/usr/local/lib
 [ 64%] Building C object CMakeFiles/nlopt.dir/src/util/mt19937ar.c.o
 [ 66%] Building C object CMakeFiles/nlopt.dir/src/util/sobolseq.c.o
 [ 68%] Building C object CMakeFiles/nlopt.dir/src/util/timer.c.o
+[ 70%] Building C object CMakeFiles/nlopt.dir/src/util/stop.c.o
 [ 72%] Building C object CMakeFiles/nlopt.dir/src/util/redblack.c.o
-[ 72%] Building C object CMakeFiles/nlopt.dir/src/util/stop.c.o
 [ 74%] Building C object CMakeFiles/nlopt.dir/src/util/qsort_r.c.o
-[ 76%] Building C object CMakeFiles/nlopt.dir/src/util/rescale.c.o
 [ 78%] Building CXX object CMakeFiles/nlopt.dir/src/algs/stogo/global.cc.o
+[ 78%] Building C object CMakeFiles/nlopt.dir/src/util/rescale.c.o
 [ 80%] Building CXX object CMakeFiles/nlopt.dir/src/algs/stogo/linalg.cc.o
 [ 82%] Building CXX object CMakeFiles/nlopt.dir/src/algs/stogo/local.cc.o
 [ 84%] Building CXX object CMakeFiles/nlopt.dir/src/algs/stogo/stogo.cc.o
@@ -3200,18 +3200,18 @@ Consolidate compiler generated dependencies of target nlopt
 [100%] Built target nlopt
 Install the project...
 -- Install configuration: "Release"
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/include/nlopt.h
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/include/nlopt.hpp
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/include/nlopt.f
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/lib/libnlopt.a
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/share/man/man3/nlopt.3
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
--- Installing: /tmp/RtmpF1VCDc/R.INSTALL14aa50ac1fdf/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/include/nlopt.h
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/include/nlopt.hpp
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/include/nlopt.f
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/lib/libnlopt.a
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/share/man/man3/nlopt.3
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
+-- Installing: /tmp/RtmpdpQJuS/R.INSTALL14aa1c1c91e6/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
 mv: cannot move 'nlopt/lib' to a subdirectory of itself, 'nlopt/lib/lib'
 configure: creating ./config.status
 config.status: creating src/Makevars
@@ -8183,13 +8183,13 @@ packaged installation of ‘scDD’ as ‘scDD_1.25.0_R_x86_64-pc-linux-gnu.tar.
 * DONE (scDD)
 
 The downloaded source packages are in
-	‘/tmp/RtmpRQCDsn/downloaded_packages’
+	‘/tmp/RtmpgEtrkK/downloaded_packages’
 Old packages: 'ggplot2', 'rtracklayer', 'curl', 'httr', 'Matrix', 'rmarkdown',
   'shiny', 'KernSmooth', 'mgcv', 'nlme', 'spatial', 'survival'
 
-real	27m7.163s
-user	25m53.241s
-sys	2m2.915s
+real	24m6.914s
+user	22m55.608s
+sys	1m49.522s
 * installing *source* package ‘SparseDC’ ...
 ** package ‘SparseDC’ successfully unpacked and MD5 sums checked
 ** using staged installation
