@@ -1,0 +1,216 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''peco'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.22), R 4.3.1 (2023-06-16)
+Installing package(s) 'peco'
+also installing the dependencies ‘mvtnorm’, ‘pracma’, ‘geigen’, ‘circular’, ‘conicfit’, ‘genlasso’
+
+trying URL 'https://cloud.r-project.org/src/contrib/mvtnorm_1.2-2.tar.gz'
+Content type 'application/x-gzip' length 662749 bytes (647 KB)
+==================================================
+downloaded 647 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pracma_2.4.2.tar.gz'
+Content type 'application/x-gzip' length 399611 bytes (390 KB)
+==================================================
+downloaded 390 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/geigen_2.3.tar.gz'
+Content type 'application/x-gzip' length 51550 bytes (50 KB)
+==================================================
+downloaded 50 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/circular_0.4-95.tar.gz'
+Content type 'application/x-gzip' length 182342 bytes (178 KB)
+==================================================
+downloaded 178 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/conicfit_1.0.4.tar.gz'
+Content type 'application/x-gzip' length 22258 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/genlasso_1.6.1.tar.gz'
+Content type 'application/x-gzip' length 46492 bytes (45 KB)
+==================================================
+downloaded 45 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/peco_1.13.0.tar.gz'
+Content type 'application/x-gzip' length 1107249 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+* installing *source* package ‘mvtnorm’ ...
+** package ‘mvtnorm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c C_FORTRAN_interface.c -o C_FORTRAN_interface.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lpmvnorm.c -o lpmvnorm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ltMatrices.c -o ltMatrices.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c miwa.c -o miwa.o
+gfortran  -fpic  -g -O2  -c mvt.f -o mvt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mvtnorm-init.c -o mvtnorm-init.o
+gfortran  -fpic  -g -O2  -c tvpack.f -o tvpack.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mvtnorm.so C_FORTRAN_interface.o lpmvnorm.o ltMatrices.o miwa.o mvt.o mvtnorm-init.o tvpack.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mvtnorm/00new/mvtnorm/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.2-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *source* package ‘pracma’ ...
+** package ‘pracma’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pracma’ as ‘pracma_2.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pracma)
+* installing *source* package ‘geigen’ ...
+** package ‘geigen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gfortran  -fpic  -g -O2  -c dggsvd3.f -o dggsvd3.o
+gfortran  -fpic  -g -O2  -c dggsvp3.f -o dggsvp3.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c xdgges.f -o xdgges.o
+gfortran  -fpic  -g -O2  -c xdggev.f -o xdggev.o
+gfortran  -fpic  -g -O2  -c xdggsvd.f -o xdggsvd.o
+gfortran  -fpic  -g -O2  -c xzgges.f -o xzgges.o
+gfortran  -fpic  -g -O2  -c xzggev.f -o xzggev.o
+gfortran  -fpic  -g -O2  -c xzggsvd.f -o xzggsvd.o
+gfortran  -fpic  -g -O2  -c zggsvdall.f -o zggsvdall.o
+gfortran  -fpic  -g -O2  -c zhegall.f -o zhegall.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o geigen.so dggsvd3.o dggsvp3.o init.o xdgges.o xdggev.o xdggsvd.o xzgges.o xzggev.o xzggsvd.o zggsvdall.o zhegall.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-geigen/00new/geigen/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘geigen’ as ‘geigen_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geigen)
+* installing *source* package ‘genlasso’ ...
+** package ‘genlasso’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matrixcomps.c -o matrixcomps.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o genlasso.so init.o matrixcomps.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-genlasso/00new/genlasso/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘genlasso’ as ‘genlasso_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genlasso)
+* installing *source* package ‘circular’ ...
+** package ‘circular’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gfortran  -fpic  -g -O2  -c dwrappednormal.f -o dwrappednormal.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mean.circular.c -o mean.circular.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c median.circular.c -o median.circular.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c medianHL.circular.c -o medianHL.circular.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minuspipluspi.c -o minuspipluspi.o
+gfortran  -fpic  -g -O2  -c mle.wrappednormal.f -o mle.wrappednormal.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rvonmises.c -o rvonmises.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c weighted.mean.circular.c -o weighted.mean.circular.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o circular.so distance.o dwrappednormal.o init.o mean.circular.o median.circular.o medianHL.circular.o minuspipluspi.o mle.wrappednormal.o rvonmises.o weighted.mean.circular.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-circular/00new/circular/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘circular’ as ‘circular_0.4-95_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (circular)
+* installing *source* package ‘conicfit’ ...
+** package ‘conicfit’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘conicfit’ as ‘conicfit_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (conicfit)
+* installing *source* package ‘peco’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘peco’ as ‘peco_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (peco)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQcUi59/downloaded_packages’
+Old packages: 'ggplot2', 'rtracklayer', 'curl', 'httr', 'Matrix', 'rmarkdown',
+  'shiny', 'KernSmooth', 'mgcv', 'nlme', 'spatial', 'survival'
+
+real	1m11.575s
+user	1m5.137s
+sys	0m6.004s
