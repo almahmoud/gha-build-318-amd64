@@ -80,7 +80,6 @@
     "airpart": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "apeglm",
@@ -215,7 +214,6 @@
         "BiocSingular",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -569,7 +567,6 @@
     "BASiCS": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -579,7 +576,6 @@
         "BASiCS",
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "glmGamPoi",
@@ -595,7 +591,6 @@
     "batchelor": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scuttle"
@@ -609,7 +604,6 @@
     "BayesSpace": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -668,7 +662,6 @@
         "GenomicRanges",
         "MAST",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -770,9 +763,7 @@
     "BiocSet": [
         "AnnotationDbi"
     ],
-    "BiocSingular": [
-        "ScaledMatrix"
-    ],
+    "BiocSingular": [],
     "BiocSklearn": [
         "GenomicRanges",
         "SummarizedExperiment"
@@ -1157,7 +1148,6 @@
     "CATALYST": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -1253,7 +1243,6 @@
     "celda": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -1286,7 +1275,6 @@
     "CelliD": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "fgsea",
@@ -1300,7 +1288,6 @@
     "CellMixS": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -1541,7 +1528,6 @@
         "GenomicAlignments",
         "GenomicRanges",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -1624,7 +1610,6 @@
     "CiteFuse": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -1680,7 +1665,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -1925,7 +1909,6 @@
     "condiments": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TrajectoryUtils",
@@ -1956,7 +1939,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -2307,7 +2289,6 @@
         "BiocSingular",
         "CATALYST",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -2485,8 +2466,7 @@
         "SummarizedExperiment"
     ],
     "DelayedTensor": [
-        "BiocSingular",
-        "ScaledMatrix"
+        "BiocSingular"
     ],
     "DELocal": [
         "DESeq2",
@@ -2637,7 +2617,6 @@
     "Dino": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -2650,7 +2629,6 @@
     "distinct": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -3130,7 +3108,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "UCell",
@@ -3370,7 +3347,6 @@
         "MultiAssayExperiment",
         "OrganismDbi",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4012,7 +3988,6 @@
         "BiocSingular",
         "GSEABase",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -4967,7 +4942,6 @@
     "MEB": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -5258,7 +5232,6 @@
         "BiocSingular",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5275,7 +5248,6 @@
         "BiocSingular",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5295,7 +5267,6 @@
         "DESeq2",
         "GenomicRanges",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5335,7 +5306,6 @@
     "miloR": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -5667,7 +5637,6 @@
     "msImpute": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -5778,7 +5747,6 @@
     "mumosa": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -5801,7 +5769,6 @@
         "BiocSingular",
         "DESeq2",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -5894,7 +5861,6 @@
         "GenomicAlignments",
         "GenomicRanges",
         "Rsamtools",
-        "ScaledMatrix",
         "SummarizedExperiment",
         "bsseq",
         "rtracklayer"
@@ -5967,7 +5933,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -6002,7 +5967,6 @@
     "NewWave": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -6071,7 +6035,6 @@
         "GenomicRanges",
         "RUVSeq",
         "Rsamtools",
-        "ScaledMatrix",
         "ShortRead",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -6169,7 +6132,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -6363,8 +6325,7 @@
         "topGO"
     ],
     "PCAtools": [
-        "BiocSingular",
-        "ScaledMatrix"
+        "BiocSingular"
     ],
     "PDATK": [
         "AnnotationDbi",
@@ -6392,7 +6353,6 @@
     "peco": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -6508,7 +6468,6 @@
     "pipeComp": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -7067,7 +7026,6 @@
         "BayesSpace",
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TOAST",
@@ -7721,7 +7679,6 @@
         "GenomicRanges",
         "SummarizedExperiment"
     ],
-    "ScaledMatrix": [],
     "SCAN.UPC": [
         "AnnotationDbi",
         "GenomicRanges",
@@ -7766,7 +7723,6 @@
     "SCArray": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -7774,14 +7730,12 @@
         "BiocSingular",
         "GenomicRanges",
         "SCArray",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "scater": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scuttle"
@@ -7827,7 +7781,6 @@
         "GenomicAlignments",
         "GenomicRanges",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "rtracklayer",
@@ -7838,7 +7791,6 @@
     "scDD": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -7866,7 +7818,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SingleCellSignalR",
         "SpatialExperiment",
@@ -7903,7 +7854,6 @@
     "scMerge": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -7978,9 +7928,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "scPCA": [
-        "ScaledMatrix"
-    ],
+    "scPCA": [],
     "scPipe": [
         "AnnotationDbi",
         "DropletUtils",
@@ -7997,7 +7945,6 @@
     "scran": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scuttle"
@@ -8048,7 +7995,6 @@
     "scry": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8092,7 +8038,6 @@
         "GenomicRanges",
         "OrganismDbi",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "biomaRt",
@@ -8113,7 +8058,6 @@
     "scviR": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -8378,7 +8322,6 @@
         "GenomicFeatures",
         "GenomicRanges",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -8445,7 +8388,6 @@
     "SingleCellSignalR": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -8466,7 +8408,6 @@
         "GenomicRanges",
         "MAST",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SingleR",
         "SummarizedExperiment",
@@ -8507,7 +8448,6 @@
     "SingleR": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SummarizedExperiment"
     ],
     "singscore": [
@@ -8644,7 +8584,6 @@
         "BiocSingular",
         "DropletUtils",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -8705,7 +8644,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -9097,7 +9035,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -9304,7 +9241,6 @@
         "GSEABase",
         "GSVA",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -9459,7 +9395,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -9598,7 +9533,6 @@
     "VAExprs": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -9695,7 +9629,6 @@
     "velociraptor": [
         "BiocSingular",
         "GenomicRanges",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scuttle",
