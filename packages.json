@@ -3028,8 +3028,7 @@
     ],
     "cyanoFilter": [
         "flowDensity",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "cydar": [
         "GenomeInfoDb",
@@ -3074,14 +3073,12 @@
     "CytoML": [
         "flowWorkspace",
         "ggcyto",
-        "ncdfFlow",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
         "flowWorkspace",
-        "ggcyto",
-        "ncdfFlow"
+        "ggcyto"
     ],
     "cytoviewer": [
         "DropletUtils",
@@ -3158,8 +3155,7 @@
     ],
     "ddPCRclust": [
         "flowDensity",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "debCAM": [
         "GenomeInfoDb",
@@ -4417,34 +4413,27 @@
     ],
     "flowCut": [
         "flowDensity",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowDensity": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowFP": [],
     "flowGate": [
         "flowWorkspace",
-        "ggcyto",
-        "ncdfFlow"
+        "ggcyto"
     ],
     "flowMerge": [],
     "FlowSOM": [],
     "flowStats": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowTrans": [],
     "flowVS": [
         "flowStats",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
-    "flowWorkspace": [
-        "ncdfFlow"
-    ],
+    "flowWorkspace": [],
     "fobitools": [
         "fgsea"
     ],
@@ -4956,8 +4945,7 @@
         "rtracklayer"
     ],
     "ggcyto": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "ggmanh": [
         "Biostrings",
@@ -5766,8 +5754,7 @@
         "GenomeInfoDb"
     ],
     "ImmuneSpaceR": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "iNETgrate": [
         "AnnotationDbi",
@@ -7927,7 +7914,6 @@
         "annotate",
         "genefilter"
     ],
-    "ncdfFlow": [],
     "ncGTW": [
         "AnnotationFilter",
         "GenomeInfoDb",
@@ -8249,8 +8235,7 @@
         "SummarizedExperiment"
     ],
     "openCyto": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "openPrimeR": [
         "Biostrings",
@@ -8568,8 +8553,7 @@
         "oligoClasses"
     ],
     "PeacoQC": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "peakPantheR": [
         "MSnbase",
