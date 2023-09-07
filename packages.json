@@ -51,8 +51,7 @@
         "IRanges",
         "QDNAseq",
         "Rsamtools",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "aCGH": [
         "multtest"
@@ -840,9 +839,7 @@
         "rtracklayer",
         "siggenes"
     ],
-    "arrayQuality": [
-        "marray"
-    ],
+    "arrayQuality": [],
     "arrayQualityMetrics": [
         "AnnotationDbi",
         "Biostrings",
@@ -866,8 +863,7 @@
         "IRanges",
         "KEGGREST",
         "MSstats",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "ASICS": [
         "BiocParallel",
@@ -1994,7 +1990,6 @@
         "bsseq",
         "bumphunter",
         "dmrseq",
-        "marray",
         "regioneR",
         "rhdf5",
         "rtracklayer"
@@ -3059,8 +3054,7 @@
         "IRanges",
         "QDNAseq",
         "Rsamtools",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "cfDNAPro": [
         "BSgenome",
@@ -3087,12 +3081,9 @@
         "XVector",
         "basilisk"
     ],
-    "CGHbase": [
-        "marray"
-    ],
+    "CGHbase": [],
     "CGHcall": [
-        "CGHbase",
-        "marray"
+        "CGHbase"
     ],
     "cghMCR": [
         "AnnotationDbi",
@@ -3107,12 +3098,10 @@
     ],
     "CGHnormaliter": [
         "CGHbase",
-        "CGHcall",
-        "marray"
+        "CGHcall"
     ],
     "CGHregions": [
-        "CGHbase",
-        "marray"
+        "CGHbase"
     ],
     "CHETAH": [
         "DelayedArray",
@@ -4213,7 +4202,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "marray",
         "methylPipe",
         "rtracklayer",
         "topGO"
@@ -4409,9 +4397,7 @@
         "rtracklayer",
         "siggenes"
     ],
-    "convert": [
-        "marray"
-    ],
+    "convert": [],
     "copa": [],
     "CopyNumberPlots": [
         "AnnotationDbi",
@@ -4463,7 +4449,6 @@
         "SummarizedExperiment",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "Cormotif": [
@@ -6129,9 +6114,7 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "dyebias": [
-        "marray"
-    ],
+    "dyebias": [],
     "easier": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -7705,7 +7688,6 @@
         "gDRcore",
         "gDRimport",
         "gDRutils",
-        "marray",
         "piano"
     ],
     "gDRcore": [
@@ -7738,7 +7720,6 @@
         "XVector",
         "fgsea",
         "gDRutils",
-        "marray",
         "piano"
     ],
     "gDRstyle": [
@@ -7810,8 +7791,7 @@
         "IRanges",
         "QDNAseq",
         "Rsamtools",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "geneClassifiers": [],
     "GeneExpressionSignature": [],
@@ -10633,7 +10613,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "marray": [],
     "martini": [],
     "maser": [
         "AnnotationDbi",
@@ -11468,7 +11447,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "marray",
         "rtracklayer"
     ],
     "methylscaper": [
@@ -11841,7 +11819,6 @@
         "bumphunter",
         "genefilter",
         "lumi",
-        "marray",
         "methylumi",
         "minfi",
         "multtest",
@@ -12687,9 +12664,7 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "MSstats": [
-        "marray"
-    ],
+    "MSstats": [],
     "MSstatsLiP": [
         "Biostrings",
         "GenomeInfoDb",
@@ -12697,8 +12672,7 @@
         "MSstats",
         "MSstatsPTM",
         "MSstatsTMT",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "MSstatsPTM": [
         "Biostrings",
@@ -12706,8 +12680,7 @@
         "IRanges",
         "MSstats",
         "MSstatsTMT",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "MSstatsQC": [
         "BiocParallel",
@@ -12739,12 +12712,10 @@
         "MSstats",
         "MSstatsPTM",
         "MSstatsTMT",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "MSstatsTMT": [
-        "MSstats",
-        "marray"
+        "MSstats"
     ],
     "MuData": [
         "DelayedArray",
@@ -13391,9 +13362,7 @@
         "IRanges",
         "XVector"
     ],
-    "nnNorm": [
-        "marray"
-    ],
+    "nnNorm": [],
     "nnSVG": [
         "BiocParallel",
         "DelayedArray",
@@ -13611,12 +13580,9 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "OLIN": [
-        "marray"
-    ],
+    "OLIN": [],
     "OLINgui": [
-        "OLIN",
-        "marray"
+        "OLIN"
     ],
     "omada": [],
     "OmaDB": [
@@ -14249,7 +14215,6 @@
         "biomaRt",
         "fgsea",
         "genefu",
-        "marray",
         "piano"
     ],
     "pdInfoBuilder": [
@@ -14377,7 +14342,6 @@
         "SummarizedExperiment",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "phemd": [
@@ -14490,8 +14454,7 @@
     ],
     "piano": [
         "BiocParallel",
-        "fgsea",
-        "marray"
+        "fgsea"
     ],
     "PICS": [
         "BiocParallel",
@@ -15224,8 +15187,7 @@
         "GenomicRanges",
         "IRanges",
         "Rsamtools",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "QFeatures": [
         "AnnotationFilter",
@@ -15514,7 +15476,6 @@
         "SummarizedExperiment",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "RaggedExperiment": [
@@ -15603,9 +15564,7 @@
     "RBGL": [],
     "RBioFormats": [],
     "RBioinf": [],
-    "RBM": [
-        "marray"
-    ],
+    "RBM": [],
     "Rbowtie2": [
         "BiocParallel",
         "Biostrings",
@@ -19763,9 +19722,7 @@
     "STdeconvolve": [
         "BiocParallel"
     ],
-    "stepNorm": [
-        "marray"
-    ],
+    "stepNorm": [],
     "stJoincount": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -20460,9 +20417,7 @@
         "genefilter",
         "vsn"
     ],
-    "timecourse": [
-        "marray"
-    ],
+    "timecourse": [],
     "TimiRGeN": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -20661,7 +20616,6 @@
         "SummarizedExperiment",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "TPP": [
@@ -21033,8 +20987,7 @@
     ],
     "TurboNorm": [
         "affy",
-        "convert",
-        "marray"
+        "convert"
     ],
     "tweeDEseq": [],
     "twilight": [],
@@ -21761,7 +21714,6 @@
         "SummarizedExperiment",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "XINA": [],
